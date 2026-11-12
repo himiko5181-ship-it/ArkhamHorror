@@ -2,6 +2,7 @@
 # PowerShell에서:  irm https://raw.githubusercontent.com/himiko5181-ship-it/ArkhamHorror/main/install-ko.ps1 | iex
 # 같은 명령을 다시 실행하면 최신 버전으로 업데이트됩니다. (DB와 config\ 는 그대로 유지)
 $ErrorActionPreference = 'Stop'
+$ProgressPreference = 'SilentlyContinue'  # PS 5.1 진행바는 Invoke-WebRequest 다운로드를 매우 느리게 함
 $Repo = 'himiko5181-ship-it/ArkhamHorror'
 $Dir = if ($env:ARKHAM_INSTALL_DIR) { $env:ARKHAM_INSTALL_DIR } else { Join-Path $HOME 'arkham-horror-ko' }
 function Say($m) { Write-Host "==> $m" -ForegroundColor Green }

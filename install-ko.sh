@@ -17,6 +17,40 @@ src="$(ls -d "$tmp"/*/)"
 # 기존 config/, 받아 둔 이미지(frontend/public/img)는 보존
 ( cd "$src" && tar -cf - --exclude='./frontend/public/img/arkham/*/cards' . ) | tar -xf -
 rm -rf "$tmp"
+
+# 한국어 카드 이미지 (GitHub 릴리스에서 받음; 이미 같은 버전이면 건너뜀)
+# ARKHAM_SKIP_KO_CARDS=1 이면 건너뜀 (그 경우 카드는 영어 이미지로 표시)
+KO_TAG="ko-cards-v1"
+KO_ROOT="frontend/public/img/arkham/ko"
+KO_MARK="$KO_ROOT/cards/.version"
+if [ "${ARKHAM_SKIP_KO_CARDS:-}" = "1" ]; then
+  say "한국어 카드 이미지 건너뜀 (ARKHAM_SKIP_KO_CARDS=1)"
+elif [ -f "$KO_MARK" ] && [ "$(tr -d ' \r\n' < "$KO_MARK")" = "$KO_TAG" ]; then
+  say "한국어 카드 이미지 최신 ($KO_TAG)"
+else
+  command -v unzip >/dev/null || die "unzip이 필요합니다. (예: sudo apt install unzip)"
+  say "한국어 카드 이미지 내려받는 중 ($KO_TAG, 약 540MB)"
+  mkdir -p "$KO_ROOT"
+  kt="$(mktemp -d)"
+  ok=1
+  for p in ko-cards-1.zip ko-cards-2.zip; do
+    echo "    $p"
+    # zip 안은 cards/xxxx.avif 구조
+    if ! { curl -fL --retry 3 -o "$kt/$p" "https://github.com/$REPO/releases/download/$KO_TAG/$p" && unzip -oq "$kt/$p" -d "$KO_ROOT"; }; then
+      ok=0; break
+    fi
+    rm -f "$kt/$p"
+  done
+  rm -rf "$kt"
+  if [ "$ok" = 1 ]; then
+    printf '%s' "$KO_TAG" > "$KO_MARK"
+    say "한국어 카드 이미지 $(ls "$KO_ROOT/cards" | grep -c '\.avif$') 장 설치됨"
+  else
+    # 이미지가 없어도 게임은 됨 (카드만 영어로 표시). 다음 실행 때 다시 시도.
+    printf '\033[0;33m경고: 한국어 카드 이미지를 받지 못했습니다. 카드는 영어로 표시됩니다. 다시 실행하면 재시도합니다.\033[0m\n' >&2
+  fi
+fi
+
 mkdir -p config
 [ -d config/postgres_password.txt ] && rmdir config/postgres_password.txt
 if [ ! -s config/postgres_password.txt ]; then

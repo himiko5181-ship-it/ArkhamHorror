@@ -6,7 +6,7 @@
 ### 추가된 것
 - 캠페인·단독 시나리오 이야기, 결말, 캠페인 기록, 화면 문구 한국어 번역
 - 한국어 타로 카드 이미지
-- 한국어 카드 이미지 표시 지원 (이미지 파일은 따로 설치)
+- 한국어 카드 이미지 (설치 스크립트가 GitHub 릴리스 `ko-cards-v1`에서 자동으로 받음, 약 540MB)
 - 메뉴에서 정보·후원 탭 숨김 (원작자 후원은 원본 사이트에서 해 주세요: https://arkhamhorror.app )
 
 ### 설치 (Docker Desktop 필요)
@@ -18,7 +18,7 @@ macOS / Linux:
 ```bash
 curl -fsSL https://raw.githubusercontent.com/himiko5181-ship-it/ArkhamHorror/main/install-ko.sh | bash
 ```
-원본 서버 이미지를 받은 뒤 한국어 프런트엔드만 내 컴퓨터에서 빌드합니다. 같은 명령을 다시 실행하면 업데이트됩니다.
+한국어 카드 이미지를 받고, 원본 서버 이미지를 받은 뒤 한국어 프런트엔드만 내 컴퓨터에서 빌드합니다. (카드 이미지를 건너뛰려면 환경 변수 `ARKHAM_SKIP_KO_CARDS=1`) 같은 명령을 다시 실행하면 업데이트됩니다.
 설치 후 http://localhost:3000 에 접속해 설정에서 언어를 한국어로 바꾸세요.
 
 ### 저작권

@@ -275,6 +275,7 @@
   "returnNameToHand": "{name}을(를) 손으로 되돌리기",
   "ready": "{name} 카드를 준비",
   "readyAsset": "준비",
+  "readyEnemy": "소진된 적 중 가장 가까운 적 하나를 준비시킵니다",
   "removeTokensFrom": "{name}에서 {token} 1개를 제거합니다. | {name}에서 {token} {count}개를 제거합니다.",
   "removeAgendaDoom": "현재 주요사건에서 파멸을 1개 제거합니다. | 현재 주요사건에서 파멸을 {count}개 제거합니다.",
   "removeDoom": "파멸을 1개 제거합니다. | 파멸을 {count}개 제거합니다.",

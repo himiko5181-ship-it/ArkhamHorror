@@ -14,7 +14,13 @@ $tmp = Join-Path ([IO.Path]::GetTempPath()) ("arkham-ko-" + [guid]::NewGuid())
 New-Item -ItemType Directory -Path $tmp | Out-Null
 $zip = Join-Path $tmp 'src.zip'
 Invoke-WebRequest -UseBasicParsing "https://codeload.github.com/$Repo/zip/refs/heads/main" -OutFile $zip
-Expand-Archive -Path $zip -DestinationPath $tmp -Force
+if (Get-Command tar.exe -ErrorAction SilentlyContinue) {
+  tar.exe -xf $zip -C $tmp   # Expand-Archive보다 훨씬 빠름 (Windows 10 1803+ 기본 포함)
+  if ($LASTEXITCODE -ne 0) { throw '소스 압축 풀기 실패' }
+} else {
+  Expand-Archive -Path $zip -DestinationPath $tmp -Force
+}
+Remove-Item $zip -Force
 $src = Get-ChildItem $tmp -Directory | Select-Object -First 1
 Copy-Item -Path (Join-Path $src.FullName '*') -Destination $Dir -Recurse -Force
 Remove-Item $tmp -Recurse -Force

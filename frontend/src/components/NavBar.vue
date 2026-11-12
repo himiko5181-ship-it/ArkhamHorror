@@ -74,8 +74,6 @@ async function logout() {
         class="nav-link"
         :class="{ 'router-link-active': inCustomCards }"
       >{{$t('nav.cardBuilder')}}</router-link>
-      <router-link v-if="currentUser" to="/about" class="nav-link">{{$t('nav.about')}}</router-link>
-      <router-link v-if="currentUser" to="/about?support" class="nav-link">{{$t('nav.support')}}</router-link>
       <router-link v-if="currentUser && currentUser.admin" to="/admin" class="nav-link">{{$t('nav.admin')}}</router-link>
     </nav>
 
@@ -88,12 +86,12 @@ async function logout() {
           </button>
           <div v-if="expanded" class="user-dropdown">
             <router-link @click="expanded = false" to="/settings">{{$t('settings')}}</router-link>
-            <a href="#" @click="logout">Logout</a>
+            <a href="#" @click="logout">{{$t('logout')}}</a>
           </div>
         </template>
         <template v-else>
-          <router-link to="/sign-in">Login</router-link>
-          <router-link to="/sign-up">Register</router-link>
+          <router-link to="/sign-in">{{$t('logIn')}}</router-link>
+          <router-link to="/sign-up">{{$t('register')}}</router-link>
         </template>
       </div>
     </OnClickOutside>
@@ -103,8 +101,6 @@ async function logout() {
       <router-link to="/cards">{{$t('nav.cards')}}</router-link>
       <router-link to="/achievements">{{$t('nav.achievements')}}</router-link>
       <router-link v-if="customCardsEnabled" to="/card-builder">{{$t('nav.cardBuilder')}}</router-link>
-      <router-link to="/about">{{$t('nav.about')}}</router-link>
-      <router-link to="/about?support">{{$t('nav.support')}}</router-link>
       <router-link v-if="currentUser && currentUser.admin" to="/admin">{{$t('nav.admin')}}</router-link>
     </div>
   </header>

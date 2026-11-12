@@ -68,6 +68,11 @@ const cardData = () => {
   }
 }
 
+// Where /api goes in dev. Default: the Docker backend (docker compose, nginx on
+// :3000 proxies /api to arkham-api). Set ARKHAM_API=http://127.0.0.1:3002 to
+// use a backend run directly (make api.watch).
+const apiTarget = process.env.ARKHAM_API || "http://127.0.0.1:3000"
+
 // https://vitejs.dev/config/
 export default defineConfig({
   plugins: [
@@ -83,15 +88,18 @@ export default defineConfig({
   },
   server: {
     port: 8080,
+    // 다른 컴퓨터(같은 공유기 또는 인터넷 터널)에서도 접속할 수 있게 모든 주소에서 받음
+    host: true,
+    allowedHosts: true,
     proxy: {
       "^/api": {
-        target: "http://127.0.0.1:3002",
+        target: apiTarget,
         changeOrigin: true,
         secure: false,
         ws: true
       },
       "^/health": {
-        target: "http://127.0.0.1:3002",
+        target: apiTarget,
         changeOrigin: true,
         secure: false,
         ws: false

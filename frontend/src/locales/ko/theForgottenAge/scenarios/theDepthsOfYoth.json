@@ -1,5 +1,15 @@
 {
   "heading": "시나리오 VII",
+  "specialRules": [
+    {
+      "title": "@:theForgottenAge.theDepthsOfYoth.depthLevel.title",
+      "body": "@:theForgottenAge.theDepthsOfYoth.depthLevel.body"
+    },
+    {
+      "title": "@:theForgottenAge.theDepthsOfYoth.pursuit.title",
+      "body": "@:theForgottenAge.theDepthsOfYoth.pursuit.body"
+    }
+  ],
   "tokens": {
     "easyStandard": {
       "skull": "-X. X는 현재 깊이입니다.",
@@ -61,7 +71,13 @@
     "explorationDeck": "다음과 같이 탐사 덱을 만듭니다. 치워 두었던 ‘요스의 계단’ 장소를 가져오고, 그 외의 치워 두었던 나머지 단면 장소 중에서 무작위로 4장을 더 선택하여, 총 5장을 함께 섞어 한 더미로 만듭니다.",
     "currentDepth": "시나리오 참조 카드의 “현재 깊이” 칸에 자원 토큰을 1개 올려놓습니다. 이번 시나리오가 끝날 때까지, “현재 깊이” 칸에 놓인 자원 개수를 현재 깊이라고 부릅니다(다음의 “깊이”를 참조합니다).",
     "setOutOfPlay": "‘시대의 유물(*과거를 되찾다*)’을 비플레이 상태로 치워 둡니다.",
-    "poisoned": "아직 아무 조사자의 덱에 포함되어 있지 않은 ‘중독’ 약점은 모두 비플레이 상태로 치워 둡니다."
+    "poisoned": "아직 아무 조사자의 덱에 포함되어 있지 않은 ‘중독’ 약점은 모두 비플레이 상태로 치워 둡니다.",
+    "returnTo": {
+      "gatherSets": "다음 조우 세트의 모든 카드도 모읍니다: *돌아온 요스 깊은 곳으로*, *맹독의 증오*, *비운의 탐사대*. 이 세트들은 다음 아이콘으로 표시됩니다:<section class='encounter-sets'><img src='{setImgPath}/return-to-the-depths-of-yoth.png' /><img src='{setImgPath}/venomous-hate.png' /><img src='{setImgPath}/doomed-expedition.png' /></section>*맹독의 증오*는 *이그의 맹독*을, *비운의 탐사대*는 *탐사대*를 대체합니다. 대체된 세트는 게임에서 제거합니다.",
+      "harbinger": "준비 후, 컬렉션에서 새 발루시아의 선봉장(*잠든 자 되돌아오다*)을 찾아 플레이 밖에 따로 둡니다. 이 시나리오 동안 발루시아의 선봉장이 플레이에 들어오게 된다면, 원래 버전 대신 이 버전을 사용합니다.",
+      "explorationDeck": "준비 중 탐사 덱을 만든 뒤, 요스에 도사린 위험 대응 카드를 탐사 덱에 섞어 넣습니다.",
+      "additionalRule": "이 시나리오 동안 다음 추가 규칙이 적용됩니다: _강제_ – 현재 사건 1b 동안 새 탐사 덱을 만든 후: 조우 덱, 버린 더미, 모든 플레이 밖 영역에서 요스에 도사린 위험을 찾아 탐사 덱에 섞어 넣습니다. 조우 덱을 찾았다면 섞습니다."
+    }
   },
   "depthLevel": {
     "title": "깊이",
@@ -75,6 +91,7 @@
     "collectedAStrangeLiquid": "기묘한 액체를 수통에 담았다"
   },
   "label": {
+    "chooseYigsFury": "조사자들은 “이그의 격노” 아래에 표시된 눈금 수를 고를 수 있습니다. 고른 숫자가 낮을수록 시나리오가 더 안전하고 쉬워집니다.",
     "perilsOfYoth": {
       "fail": "‘요스에 도사린 위험’을 비플레이 상태로 치워 둡니다. (*이번 탐사가 실패합니다.*)",
       "continue": "‘요스에 도사린 위험’을 비플레이 상태로 치워 둡니다. 현재 깊이만큼 공포 또는 피해를 받습니다. 그리고 ‘요스에 도사린 위험’을 뽑지 않았던 것처럼 탐사를 이어갑니다."

@@ -1,6 +1,9 @@
 import base from '@/locales/ko/base.json'
+import cardOption from '@/locales/ko/cardOption.json'
+import { homebrewMessages } from '@/locales/homebrew'
 import event from '@/locales/ko/event.json'
 import log from '@/locales/ko/log.json'
+import cards from '@/locales/ko/cards.json'
 import label from '@/locales/ko/label.json'
 import investigators from '@/locales/ko/investigators.json'
 import campaignLog from '@/locales/ko/campaignLog.json'
@@ -12,9 +15,43 @@ import theCircleUndone from '@/locales/ko/theCircleUndone'
 import theDreamEaters from '@/locales/ko/theDreamEaters'
 import theInnsmouthConspiracy from '@/locales/ko/theInnsmouthConspiracy'
 import edgeOfTheEarth from '@/locales/ko/edgeOfTheEarth'
-import theFeastOfHemlockVale from '@/locales/en/theFeastOfHemlockVale'
+// Not translated to Korean yet: these fall back to the English story text.
+import theScarletKeys from '@/locales/ko/theScarletKeys'
+import theFeastOfHemlockVale from '@/locales/ko/theFeastOfHemlockVale'
+import theDrownedCity from '@/locales/ko/theDrownedCity'
+import brethrenOfAsh from '@/locales/ko/brethrenOfAsh'
+import childrenOfBlood from '@/locales/ko/childrenOfBlood'
 import standalone from '@/locales/ko/standalone'
+import theLabyrinthsOfLunacyLog from '@/locales/ko/theLabyrinthsOfLunacy.json'
 import gameBoard from '@/locales/ko/gameBoard/gameBoard'
 import xp from '@/locales/ko/xp.json'
 
-export default {...base, ...event, ...campaignLog, ...gameBoard, label, xp, investigators, log, nightOfTheZealot, theDunwichLegacy, thePathToCarcosa, theForgottenAge, theCircleUndone, theDreamEaters, theInnsmouthConspiracy, edgeOfTheEarth, theFeastOfHemlockVale, standalone}
+export default
+  { ...base
+  , ...cardOption
+  , ...event
+  , ...campaignLog
+  , ...gameBoard
+  , cards
+  , investigators
+  , label: { ...label, cards: cards["label"] }
+  , log
+  , xp
+  , nightOfTheZealot
+  , theDunwichLegacy
+  , thePathToCarcosa
+  , theForgottenAge
+  , returnToTheForgottenAge: theForgottenAge
+  , theCircleUndone
+  , theDreamEaters
+  , theInnsmouthConspiracy
+  , edgeOfTheEarth
+  , theScarletKeys
+  , theFeastOfHemlockVale
+  , theDrownedCity
+  , brethrenOfAsh
+  , childrenOfBlood
+  , ...homebrewMessages()
+  , standalone
+  , theLabyrinthsOfLunacy: theLabyrinthsOfLunacyLog
+  }

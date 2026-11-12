@@ -1,0 +1,16 @@
+# 한국어판: 원본 공개 이미지(백엔드 포함)에 이 저장소의 프런트엔드(한국어 번역)만 새로 빌드해서 덮어씁니다.
+# 백엔드(Haskell)를 직접 컴파일하지 않으므로 몇 분이면 끝납니다.
+FROM node:24.7.0-alpine AS frontend
+ENV LC_ALL=C.UTF-8
+ARG ASSET_HOST=""
+WORKDIR /opt/arkham/src/frontend
+COPY ./frontend/package.json ./frontend/tsconfig.json ./frontend/vite.config.js ./frontend/eslint.config.js ./frontend/package-lock.json /opt/arkham/src/frontend/
+RUN --mount=type=cache,target=/root/.npm npm ci
+COPY ./frontend /opt/arkham/src/frontend
+ENV VITE_ASSET_HOST=${ASSET_HOST}
+RUN npm run build
+
+FROM halogenandtoast/arkham-horror:latest
+COPY --from=frontend /opt/arkham/src/frontend/dist /opt/arkham/src/frontend/dist
+# 번역 이미지(img/arkham/ko)만 있어도 영어 이미지는 CDN에서 받도록 판별 기준을 영어 카드 폴더로 바꾼 진입 스크립트
+COPY --chmod=755 ./web-entrypoint.sh /web-entrypoint.sh

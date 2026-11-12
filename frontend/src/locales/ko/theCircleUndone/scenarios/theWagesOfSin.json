@@ -1,16 +1,130 @@
 {
+  "heading": "시나리오 IV",
   "tokens": {
     "easyStandard": {
-      "skull": "-X. X is 1 higher than the number of copies of Unfinished Business in the victory display.",
-      "cultist": "-3. Until the end of the round, each Heretic enemy in play gets +1 fight and +1 evade.",
-      "tablet": "-3. If you fail, trigger the forced ability on a copy of Unfinished Business in yout threat area as if it were the end of the round.",
-      "elderThing": "-2. If you fail and this is an attack or evasion attempt, resolve each haunted ability on your location."
+      "skull": "-X. X는 승점 더미에 있는 ‘원혼의 미련’의 수보다 1 높습니다.",
+      "cultist": "-3. 라운드가 끝날 때까지, 플레이 중인 각 _이단자_ 적은 전투 +1, 회피 +1을 얻습니다.",
+      "tablet": "-3. 실패하면, 당신의 위협 영역에 있는 ‘원혼의 미련’ 1장의 강제 능력을 라운드 종료인 것처럼 발동합니다.",
+      "elderThing": "-2. 실패했고 이것이 공격 시도나 회피 시도라면, 당신의 장소에 있는 각 귀신 들림 능력을 해결합니다."
     },
     "hardExpert": {
-      "skull": "-X. X is the number of copies of Unfinished Business in the victory display. Reveal another token.",
-      "cultist": "-4. Until the end of the round, each Heretic enemy in play gets +1 fight and +1 evade.",
-      "tablet": "-4. If you fail, trigger the forced ability on a copy of Unfinished Business in your threat area as if it were the end of the round.",
-      "elderThing": "-2. If this is an attack or evasion attempt, resolve each haunted ability on your location."
+      "skull": "-X. X는 승점 더미에 있는 ‘원혼의 미련’의 수입니다. 토큰을 하나 더 공개합니다.",
+      "cultist": "-4. 라운드가 끝날 때까지, 플레이 중인 각 _이단자_ 적은 전투 +1, 회피 +1을 얻습니다.",
+      "tablet": "-4. 실패하면, 당신의 위협 영역에 있는 ‘원혼의 미련’ 1장의 강제 능력을 라운드 종료인 것처럼 발동합니다.",
+      "elderThing": "-2. 이것이 공격 시도나 회피 시도라면, 당신의 장소에 있는 각 귀신 들림 능력을 해결합니다."
+    }
+  },
+  "messages": {
+    "understandTheTragicLyrics": "\"마녀의 노래에 담긴 비극적인 가사를 이해합니다\"",
+    "banished": "{card}이(가) \"추방되었습니다\""
+  },
+  "tooltips": {
+    "hangmansBrook": {
+      "resign": "\"대체 누구 머리에서 나온 생각이야?\""
+    },
+    "hangmansBrookSpectral": {
+      "resign": "@:theCircleUndone.theWagesOfSin.tooltips.hangmansBrook.resign",
+      "haunted": "피해를 1 받습니다. 라운드가 끝날 때까지, 위의 기권 능력을 발동할 수 없습니다."
+    },
+    "returnToHangmansBrookSpectral": {
+      "resign": "@:theCircleUndone.theWagesOfSin.tooltips.hangmansBrook.resign",
+      "haunted": "공급처에서 단서 1개를 교수대 개울에 놓습니다."
+    },
+    "hauntedFieldsSpectral": {
+      "haunted": "가장 가까운 _혼령_ 적을 신들린 들판 쪽으로 한 번 이동시킵니다."
+    },
+    "abandonedChapelSpectral": {
+      "haunted": "라운드가 끝날 때까지, 당신은 각 기술에 -1을 받습니다."
+    },
+    "theGallowsSpectral_169": {
+      "haunted": "일반 조우 덱 맨 위 카드 3장을 버립니다. 이 효과로 _마녀_ 적이 버려지면, 그 카드를 뽑습니다."
+    },
+    "theGallowsSpectral_170": {
+      "haunted": "일반 조우 덱 맨 위 카드 3장을 버립니다. 이 효과로 _망령_ 적이 버려지면, 그 카드를 뽑습니다."
+    },
+    "hereticsGravesSpectral_171": {
+      "haunted": "당신의 다음 차례가 끝날 때까지 당신의 기본 {'{'}willpower{'}'}를 1로 줄입니다."
+    },
+    "hereticsGraves_172": {
+      "haunted": "플레이 중인 각 _이단자_ 적과 각 _마녀_ 적의 피해를 1 회복합니다."
+    },
+    "chapelCryptSpectral_173": {
+      "haunted": "당신의 덱 맨 위 카드를 뒷면으로 당신과 교전 상태로 출현시킵니다. 그 카드를 전투 1, 체력 1, 회피 1, 피해 1, _괴물_ 특성을 가진 ‘되살아난 망자’ 적으로 취급합니다."
+    },
+    "chapelCryptSpectral_174": {
+      "haunted": "일반 조우 버린 더미에서 가장 위에 있는 _저주_ 교활 카드를 찾아 당신의 위협 영역에 플레이합니다."
+    },
+    "chapelCryptSpectral_175": {
+      "haunted": "예배당 다락 아래에 있는 카드 1장을 무작위로 버립니다."
+    },
+    "chapelAtticSpectral_176": {
+      "haunted": "손에서 카드 1장을 무작위로 버립니다(손에 카드가 5장 이상이면 대신 2장)."
+    }
+  },
+  "label": {
+    "ominousPortents": {
+      "spectral": "혼령 조우 덱 맨 위 카드를 뽑습니다. 그 카드는 위험을 얻으며, 그 효과는 취소될 수 없습니다.",
+      "test": "{'{'}willpower{'}'} (3) 판정. 실패하면 공포를 2 받습니다."
+    },
+    "baneOfTheLiving": {
+      "unfinishedBusiness": "플레이 중인 ‘원혼의 미련’ 카드 1장을 골라 _이단자_ 면으로 뒤집고, 그 체력의 절반만큼 피해를 놓습니다.",
+      "geist": "_망령_ 적이 버려질 때까지 혼령 조우 덱 맨 위에서 카드를 버립니다. 그 적을 당신과 교전 상태로 출현시킵니다."
+    },
+    "witchweed": {
+      "surge": "마녀풀에 쇄도를 부여해 일반 조우 버린 더미에 놓습니다.",
+      "otherwise": "혼령 조우 버린 더미에 놓습니다."
+    }
+  },
+  "intro": {
+    "title": "시나리오 IV: 죄악의 응보",
+    "body": "<p>마녀집에서 유령과 마주친 이후, 삶과 죽음에 대해 알고 있던 모든 것을 다시 생각할 수밖에 없게 되었다. 케지아 메이슨은 이백여 년 전에 죽었지만, 그녀의 영혼은 혼령 안개 속에 남아 있다—요제프 마이거의 저택에서 마주친 바로 그 안개. 지금까지 벌어진 일들을 곱씹을수록 한 가지 의문이 머릿속을 떠나지 않는다. 케지아의 영혼이 안개 때문에 남아 있는 걸까, 아니면 그녀의 존재가 안개를 일으키는 걸까? 어느 쪽이 병이고, 어느 쪽이 증상일까?</p><p>아컴의 마녀술과 박해의 역사를 파고들수록 불안은 깊어진다. 밤마다 끔찍한 꿈이 당신을 덮친다—죽음과 부패, 죄책감과 죄악의 꿈. 이 도시에는 악이 깃들어 있다. 아컴 과거의 어둠 속에 오래도록 숨어 있던 악이. 더 나쁜 건, 조사가 막다른 길에 이르렀다는 것이다. 그 운명의 밤 숲에서 본 마녀단을 찾을 수만 있다면, 케지아 메이슨이나 이 말할 수 없는 악에 대해 더 알아낼 수 있을 거라고 믿는다.</p><p>아침 일과를 보내던 중, 오늘 신문의 작은 헤드라인 하나가 눈에 들어온다. “교수대 언덕에 유령 출몰? 아컴 외곽 주민들, 교수대 개울에서 피어오르는 짙은 안개 속에서 사람 형상을 목격했다고 주장…” 설마 우연은 아니겠지?</p><p>그러다 깨달음이 찾아온다—찾는 것이 마녀라면, 확실히 찾을 수 있는 곳은 단 하나, 오래전 마녀로 지목된 자들이 처형된 그곳의 땅속 여섯 자 아래뿐이다. 묘지에서 망령을 찾는 게 가장 안전한 방법은 아니겠지만, 이 도시에서 더는 안전하게 지낼 수 있을지도 모르겠다.</p>"
+  },
+  "setup": {
+    "gatherSets": "다음 조우 세트의 모든 카드를 모읍니다: *죄악의 응보*, *애닛의 마녀단*, *죄악의 도시*, *피할 수 없는 운명*, *죽음의 영역*, *붙잡힌 영혼*, *마녀술*. 이 세트들은 다음 아이콘으로 표시됩니다:<section class='encounter-sets'><img src='{setImgPath}/the-wages-of-sin.png' /><img src='{setImgPath}/anettes-coven.png' /><img src='{setImgPath}/city-of-sins.png' /><img src='{setImgPath}/inexorable-fate.png' /><img src='{setImgPath}/realm-of-death.png' /><img src='{setImgPath}/trapped-spirits.png' /><img src='{setImgPath}/witchcraft.png' /></section>",
+    "theWatcherSet": "*감시자* 조우 세트를 플레이 밖에 따로 둡니다. 이 조우 세트는 다음 아이콘으로 표시됩니다:<section class='encounter-sets'><img src='{setImgPath}/the-watcher.png' /></section>",
+    "placeLocations": "교수대 장소 2장 중 1장, 이단자의 무덤 장소 2장 중 1장, 예배당 다락 장소 2장 중 1장, 예배당 지하무덤 장소 2장 중 1장을 무작위로 골라 플레이에 놓습니다. 나머지 교수대, 이단자의 무덤, 예배당 다락, 예배당 지하무덤은 게임에서 제거합니다. 그다음 신들린 들판, 버려진 예배당, 교수대 개울을 플레이에 놓습니다(*아래의 권장 장소 배치 참고*).",
+    "spectral": "이 장소들은 양면 모두 공개된 면입니다. 한쪽 면은 _혼령_ 특성을 가지고, 다른 쪽 면은 가지지 않습니다. 이 장소들을 플레이에 놓을 때는 _혼령_ 특성이 없는 공개된 면을 사용합니다.",
+    "startAt": "각 조사자는 교수대 개울에서 게임을 시작합니다.",
+    "setAside": "혼령 그물 자산 4장을 플레이 밖에 따로 둡니다.",
+    "heretics": "_이단자_ 적 6장을 섞어 그중 4장을 무작위로 따로 둡니다. 나머지 2장은 게임에서 제거합니다. 이 카드들은 양면이며 뒷면에 스토리 카드가 있습니다. 최상의 경험을 위해 다른 면의 스토리 카드는 보지 마십시오.",
+    "encounterDecks": "이 시나리오는 별도의 조우 덱 2개를 사용합니다.",
+    "spectralDeck": "남은 카드 중 _혼령_ 특성을 가진 카드를 모두 분리해 함께 섞어 혼령 조우 덱을 만듭니다(*아래의 “혼령 조우 덱” 참고*).",
+    "standardDeck": "남은 비_혼령_ 카드를 모두 함께 섞어 일반 조우 덱을 만듭니다.",
+    "returnTo": {
+      "gatherSets": "다음 조우 세트의 모든 카드도 모읍니다: *돌아온 죄악의 응보*, *저주받은 자들의 도시*, *형언할 수 없는 운명*, *불안정한 영역*, *피에 주린 영혼*, *주술 공예*. 이 세트들은 다음 아이콘으로 표시됩니다:<section class='encounter-sets'><img src='{setImgPath}/return-to-the-wages-of-sin.png' /><img src='{setImgPath}/city-of-the-damned.png' /><img src='{setImgPath}/unspeakable-fate.png' /><img src='{setImgPath}/unstable-realm.png' /><img src='{setImgPath}/bloodthirsty-spirits.png' /><img src='{setImgPath}/hexcraft.png' /></section>*저주받은 자들의 도시*는 *죄악의 도시*를, *형언할 수 없는 운명*은 *피할 수 없는 운명*을, *불안정한 영역*은 *죽음의 영역*을, *피에 주린 영혼*은 *붙잡힌 영혼*을, *주술 공예*는 *마녀술*을 대체합니다. 대체된 세트는 게임에서 제거합니다.",
+      "setAside": "에린 맥케이 스토리 자산도 플레이 밖에 따로 둡니다.",
+      "actDeck": "캠페인 기록지를 확인합니다. *에린이 만나고 싶어 한다*면: 주요목적 덱을 만들 때 원래 주요목적 1 대신 새 주요목적 1a—*답을 쫓아서*를 사용하고, 주요목적 2의 두 버전을 모두 포함합니다. 주요목적 2a로 진행할 때 두 주요목적 카드를 모두 플레이에 놓습니다. 두 카드의 텍스트가 모두 활성화됩니다.",
+      "placeLocations": "이 시나리오 준비 중에 사용할 교수대 개울 장소 2장 중 1장을 무작위로 고릅니다. 나머지 버전은 게임에서 제거합니다.",
+      "heretics": "_이단자_ 적 4장을 무작위로 골라 따로 둘 때, 새 _이단자_ 적 2장을 원래 6장과 함께 섞어 총 8장 중에서 고릅니다.",
+      "additionalRule": "이 시나리오 동안 다음 추가 규칙이 적용됩니다: ‘감시자의 손아귀’ 교활을 해결하는 동안, 혼령 감시자는 공격한 뒤 소진되지 않습니다."
+    }
+  },
+  "specialRules": [
+    {
+      "title": "@:theCircleUndone.theWagesOfSin.theSpectralEncounterDeck.title",
+      "body": "@:theCircleUndone.theWagesOfSin.theSpectralEncounterDeck.body"
+    }
+  ],
+  "theSpectralEncounterDeck": {
+    "title": "혼령 조우 덱",
+    "body": "<p class='basic'>이 시나리오 준비 중에 조우 덱 2개를 만듭니다. “일반” 조우 덱과 “혼령” 조우 덱입니다. 일반적으로 조사자가 조우 덱과 상호 작용할 때는 일반 조우 덱을 사용합니다.</p><p class='basic'>하지만 이 시나리오 중 특정 시점부터 장소가 _혼령_ 면으로 뒤집힐 수 있습니다. 조사자가 _혼령_ 특성을 가진 장소에 있는 동안, 따로 명시되지 않는 한 그 조사자는 모든 목적에서 일반 조우 덱 대신 혼령 조우 덱을 사용합니다. 여기에는 조우 덱에서 카드를 뽑는 것뿐 아니라, 조우 덱(또는 조우 버린 더미)을 검색하거나, 보거나, 공개하거나, 그 밖의 어떤 방식으로든 상호 작용하는 것이 포함됩니다. 조우 덱의 카드가 다 떨어졌을 때 발동하는 능력도 포함됩니다. 효과가 일반 조우 덱이나 혼령 조우 덱을 특정해서 지칭한다면, 조사자의 장소와 관계없이 지정된 덱과 상호 작용합니다.</p><p class='basic'>두 조우 덱은 각각 별도의 버린 더미를 가집니다. _혼령_ 특성을 가진 카드가 버려질 때는 혼령 조우 덱의 버린 더미에 놓습니다. 그 밖의 모든 조우 카드는 일반 조우 덱의 버린 더미에 버립니다.</p><p class='basic'>*참고: 이 시나리오 중 장소를 한 면에서 다른 면으로 뒤집는 것은 새 장소를 “공개”하는 것이 아닙니다.*</p>"
+  },
+  "resolutions": {
+    "noResolution": {
+      "title": "결말 없음",
+      "body": "<p class='basic'>_각 조사자가 기권해서 결말에 도달하지 못했다면_: _결말 1_로 진행합니다.</p><p class='basic'>_각 조사자가 패배해서 결말에 도달하지 못했다면_: _결말 2_로 진행합니다.</p>"
+    },
+    "resolution1": {
+      "title": "결말 1",
+      "body": "<p>_결말 1_: 희미한 햇살이 연무 사이로 쏟아지고, 부자연스러운 안개가 마침내 물러간다. 그와 함께 교수대 언덕이 원래 모습으로 돌아온다. 더 이상 악의에 찬 유령이 나타나 당신을 괴롭히지 않고, 그들을 소환한 마녀들도 다시 그림자 속으로 물러났다. 아컴의 나머지 지역이 이 공포에 굴복하지 않도록 막을 만큼 충분히 했기를 바란다.</p><ul><li>캠페인 기록지에 *이단자 X명이 아컴에 풀려났다*라고 기록합니다. X는 플레이 중인 _이단자_ 적의 수입니다. (주요목적 1이라면, 대신 *이단자 4명이 아컴에 풀려났다*라고 기록합니다.)<ul><li>X가 3 이하라면, “발견한 기념품” 아래에 *혼령 안개 한 줄기*를 기록합니다.</li></ul></li><li>각 조사자는 승점 더미에 있는 각 카드의 승점 X 값만큼 경험치를 얻습니다.</li></ul>"
+    },
+    "resolution2": {
+      "title": "결말 2",
+      "body": "<p>_결말 2_: 운명을 받아들이고 무릎을 꿇는다. 안개가 갈라진다. 감시자가 모습을 드러내자 시간이 기어가듯 느려진다. 혼령 같은 형체가 땅 위를 미끄러지며, 째깍거리는 시계처럼 느리고 확실하게 다가온다. 당신을 죽일 자를 보고 싶지 않아 눈을 감는다. 손톱이 손바닥을 파고들고, 마음의 준비를 한다.</p><p>그 순간이 지나간다.</p><p>다시 눈을 떴을 때, 그 존재는 혼령 안개와 함께 사라지고 없다.</p><p>…살려 준 걸까?</p><ul><li>캠페인 기록지에 *조사자들이 감시자의 포옹에서 살아남았다*라고 기록합니다.</li><li>캠페인 기록지에 *이단자 X명이 아컴에 풀려났다*라고 기록합니다. X는 플레이 중인 _이단자_ 적의 수입니다. (주요목적 1이라면, 대신 *이단자 4명이 아컴에 풀려났다*라고 기록합니다.)<ul><li>X가 3 이하라면, “발견한 기념품” 아래에 *혼령 안개 한 줄기*를 기록합니다.</li></ul></li><li>각 조사자는 승점 더미에 있는 각 카드의 승점 X 값만큼 경험치를 얻습니다.</li></ul>"
+    },
+    "resolution3": {
+      "title": "결말 3",
+      "body": "<p>_결말 3_: 교수대 언덕을 떠나는 동안, 부자연스러운 안개가 뒤에 남아 있다—당신이 도시의 안전보다 정보와 힘을 택했다는 증거다. 개울을 건너며 마지막으로 보는 것은 다리 양옆에 선 나무껍질을 타고 흘러내리는 피다. 역겨운 광경이지만… 어쩌면 여기서도 얻을 정보가 있을지 모른다. 옳은 일을 했기를 바라며, 다음 목적지로 향하기 전에 잠시 그 기묘한 조각을 살핀다.</p><ul><li>캠페인 기록지에 *이단자 1명이 아컴에 풀려났다*라고 기록합니다.</li><li>캠페인 기록지의 “발견한 기념품” 아래에 *피투성이 나무 조각*을 기록합니다.</li><li>캠페인 기록지에 *에린이 조사자들과 합류했다*라고 기록합니다. 조사자 중 한 명은 에린 맥케이 스토리 자산을 자신의 덱에 추가할 수 있습니다. 이 카드는 해당 조사자의 덱 크기에 포함되지 않습니다.</li><li>각 조사자는 승점 더미에 있는 각 카드의 승점 X 값만큼 경험치를 얻습니다.</li></ul>"
     }
   }
 }

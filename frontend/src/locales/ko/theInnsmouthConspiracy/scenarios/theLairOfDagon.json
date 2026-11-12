@@ -1,63 +1,127 @@
 {
+  "heading": "시나리오 VII",
+  "setup": {
+    "gatherSets": "다음 조우 세트의 카드를 모두 모읍니다: *데이곤의 침소*, *데이곤의 하수인*, *물에 잠긴 동굴*, *천체 정렬*, *어둠의 교단*, *잠긴 문*. 이 세트들은 다음 아이콘으로 표시됩니다:<section class='encounter-sets'><img src='{setImgPath}/lair-of-dagon.png' /><img src='{setImgPath}/agents-of-dagon.png' /><img src='{setImgPath}/flooded-caves.png' /><img src='{setImgPath}/syzygy.png' /><img src='{setImgPath}/dark-cult.png' /><img src='{setImgPath}/locked-doors.png' /></section>",
+    "placeKeys": "각 열쇠를 다음과 같이 놓습니다:",
+    "faceupKeys": "검은색, 파란색, 초록색, 보라색, 빨간색 열쇠를 앞면이 보이게 따로 치워 둡니다.",
+    "facedownKeys": "흰색과 노란색 열쇠를 뒷면으로 따로 치워 둡니다. 어느 것이 어느 것인지 모르게 섞습니다.",
+    "placeLocations": "다음 장소를 플레이 상태로 놓습니다: 웅장한 현관, 악취 나는 복도, 1층 복도 2장, 2층 복도 2장, 3층 복도.",
+    "startAt": "각 조사자는 웅장한 현관에서 게임을 시작합니다.",
+    "setAsideOtherLocations": "다른 각 장소는 비플레이 상태로 치워 둡니다.",
+    "setAsideCards": "다음 카드를 비플레이 상태로 치워 둡니다: ‘천체 정렬’ 위기 카드 2장, ‘조석파’ 위기 카드 2장, 양면 ‘이하 느틀레이 조각상’ 이야기 자산, ‘데이곤의 사도’ 적, 양면 ‘데이곤’ 적.",
+    "checkMemories": "캠페인 기록지의 “되찾은 기억” 칸을 확인합니다. 기록된 기억이…",
+    "fourOrFewer": "…4개 이하라면, 혼돈 주머니에 {'{'}bless{'}'} 토큰 5개를 추가합니다.",
+    "fiveToSeven": "…5~7개라면, 혼돈 주머니에 {'{'}curse{'}'} 토큰 2개를 추가합니다.",
+    "eightOrMore": "…8개 이상이라면, 혼돈 주머니에 {'{'}curse{'}'} 토큰 5개를 추가합니다.",
+    "jailbreak": "캠페인 기록지의 “되찾은 기억” 칸을 확인합니다. “되찾은 기억” 아래에 _탈옥_이 기록되어 있다면, 수집품에서 “용의자 후보” 아래 동그라미 친 _용의자_ 적을 찾아 비플레이 상태로 치워 둡니다.",
+    "checkSecretCult": "캠페인 기록지의 “되찾은 기억” 칸을 확인합니다.",
+    "theInitiationV1": "“되찾은 기억” 아래에 _비밀 교단과의 조우_가 기록되어 있다면, 주요사건 덱을 만들 때 주요사건 1a—“입회 (v. I)”을 사용하고 주요사건 1a—“입회 (v. II)”는 게임에서 제거합니다.",
+    "theInitiationV2": "그렇지 않다면, 주요사건 덱을 만들 때 주요사건 1a—“입회 (v. II)”를 사용하고 주요사건 1a—“입회 (v. I)”은 게임에서 제거합니다.",
+    "checkStickTogether": "캠페인 기록지의 “되찾은 기억” 칸을 확인합니다.",
+    "whatLurksBelowV1": "“되찾은 기억” 아래에 _함께하기로 한 결정_이 기록되어 있다면, 수집품에서 토머스 도슨을 찾아 아무 조사자의 통제하에 플레이 상태로 놓습니다. 주요사건 덱을 만들 때 주요사건 2a—“밀교회당 아래에 도사린 존재 (v. I)”을 사용하고 주요사건 2a—“밀교회당 아래에 도사린 존재 (v. II)”는 게임에서 제거합니다.",
+    "whatLurksBelowV2": "그렇지 않다면, 토머스 도슨을 비플레이 상태로 치워 둡니다. 주요사건 덱을 만들 때 주요사건 2a—“밀교회당 아래에 도사린 존재 (v. II)”를 사용하고 주요사건 2a—“밀교회당 아래에 도사린 존재 (v. I)”은 게임에서 제거합니다.",
+    "floodTokens": "침수 토큰을 토큰 풀에 추가합니다."
+  },
+  "specialRules": [
+    {
+      "title": "열쇠 소비",
+      "body": "<p class='basic'>이 시나리오 동안 조사자들은 열쇠를 1개 이상 소비하라는 지시를 받을 수 있습니다. 열쇠를 통제하는 조사자만 그 열쇠를 소비할 수 있습니다. 소비한 열쇠는 시나리오 참조 카드 위에 놓습니다.</p>"
+    },
+    {
+      "title": "열쇠",
+      "body": "<div class='red bordered'><p class='basic'>이 시나리오 동안 열쇠는 다음을 나타냅니다:</p><ul><li>빨간색: 위대한 희생을 묘사한 상형문자가 새겨진 문장.</li><li>파란색: 밀교회당의 활동과 비밀 일부가 상세히 적힌 두루마리.</li><li>초록색: 크게 뜨인 물고기 눈을 묘사한 문장.</li><li>보라색: 당신이 이해하지 못하는 문자로 된 단어들이 원형으로 새겨진 문장.</li><li>검은색: 비전의 인장이 새겨진 문장.</li><li>흰색/노란색: 천체의 정렬을 묘사한 상형문자가 새겨진 문장. 흰색 열쇠는 달이 해를 가린 모습이고, 노란색 열쇠는 해가 달을 가린 모습이다.</li></ul></div>"
+    }
+  ],
+  "label": {
+    "discardTwoCards": "손에서 카드 2장을 버립니다",
+    "discardAsset": "당신이 통제하는 자산 1장을 버립니다",
+    "takeControlOfThomasDawson": "토머스 도슨을 통제할 조사자를 선택합니다",
+    "tellOceirosNothing": "오세이로스에게 아무것도 말하지 않습니다",
+    "lieToOceiros": "오세이로스에게 거짓말을 합니다",
+    "tellOceirosEverything": "오세이로스에게 모든 것을 말합니다"
+  },
   "intro1": {
-    "title": "Scenario VII: The Lair of Dagon",
-    "body": "<header><p>THURSDAY, SEPTEMBER 15, 1927</p><p>ONE WEEK EARLIER</p></header><p><b>Intro 1:</b> You stand outside the cracked marble steps leading up to the masonic hall of the Esoteric Order of Dagon. All of your evidence has lead you here. Whatever is going on in this town, this Order is behind it. You’re sure of it… though their ultimate goal remains a mystery.</p><p>The town is eerily quiet as you stand before the building’s entrance. Once, this place might have been impressive and opulent. Years of disrepair and flood damage have reduced it to to near-ruin. Its once-white paint is gray and peeling, and many of the pillars outside the entryway are beginning to crumble. Still, it is one of the more intimidating places in Innsmouth, projecting authority despite its decrepitude. No, not authority—something darker. A looming, unspoken threat.</p><p>“Are you ready?” Agent Dawson asks. His usually calm demeanor has vanished, replaced with a humorless gravity that throws you off guard. “This is it. This is where we’ll find answers.”</p><p>You’re not so sure. Every other lead you’ve followed has led to only more questions.</p>"
+    "title": "시나리오 VII: 데이곤의 침소",
+    "body": "<header><p>1927년 9월 15일 목요일</p><p>일주일 전</p></header><p><b>도입 1:</b> 데이곤 밀교회당의 회관으로 올라가는 금 간 대리석 계단 앞에 서 있다. 모든 증거가 당신을 이곳으로 이끌었다. 이 마을에서 무슨 일이 벌어지든, 그 배후엔 이 밀교회당이 있다. 확신한다… 그들의 궁극적인 목표는 여전히 수수께끼지만.</p><p>건물 입구 앞에 서 있는 동안 마을은 섬뜩할 만큼 조용하다. 한때 이곳은 웅장하고 호화로웠을지도 모른다. 수년간 방치되고 홍수 피해를 입어 거의 폐허가 되었다. 한때 흰색이던 페인트는 잿빛으로 벗겨지고, 입구 밖의 많은 기둥이 허물어지기 시작했다. 그래도 인스머스에서 가장 위압적인 곳 중 하나로, 낡았음에도 권위를 풍긴다. 아니, 권위가 아니다—더 어두운 무언가. 드리운, 말 없는 위협.</p><p>“준비됐습니까?” 도슨 요원이 묻는다. 평소의 침착한 태도는 사라지고, 당신을 당황하게 만드는 무거운 진지함만 남아 있다. “여기입니다. 여기서 답을 찾을 겁니다.”</p><p>당신은 그렇게 확신하지 못한다. 지금까지 쫓은 모든 단서는 더 많은 의문으로 이어졌을 뿐이다.</p>"
   },
   "intro2": {
-    "title": "Scenario VII: The Lair of Dagon",
-    "body": "<p><b>Intro 2:</b> Agent Harper was kidnapped when she got too close to the Order, but interrogating her kidnapper didn’t exactly yield the answers you needed. What you know now is that the Order’s influence pervades Innsmouth, from important civic figures to everyday citizens. Finances, religion, politics…everything is wrapped up in this cult’s business in some way or another. What’s worse, many of the town’s inhabitants seem to follow the Order with blind, fanatical devotion. So many that you’re not sure this is even a functioning town anymore. It’s no wonder the people are so hostile toward outsiders.</p><p>It wasn’t until your investigation of Devil Reef that you truly began to peel away the outer layers of Innsmouth and reveal the rot beneath. There, you found what the Order was hiding: the monstrous creatures that emerged from the depths and prowled the tidal islands, congregating in prayers to some horrific deity. Perhaps it is even the same “Dagon” worshipped by the Order.</p>"
+    "title": "시나리오 VII: 데이곤의 침소",
+    "body": "<p><b>도입 2:</b> 하퍼 요원은 밀교회당에 너무 가까이 다가갔다가 납치되었지만, 그녀의 납치범을 심문해도 필요한 답을 얻지는 못했다. 지금 아는 건 밀교회당의 영향력이 주요 공직자부터 평범한 시민까지 인스머스 전체에 퍼져 있다는 것이다. 재정, 종교, 정치… 모든 것이 어떤 식으로든 이 교단의 일과 얽혀 있다. 더 나쁜 건, 마을 주민 상당수가 맹목적이고 광신적으로 밀교회당을 따르는 것 같다는 점이다. 너무 많아서 이곳이 아직 제대로 돌아가는 마을인지조차 의심스럽다. 사람들이 외부인에게 그토록 적대적인 것도 당연하다.</p><p>악마의 암초를 조사하고 나서야 비로소 인스머스의 겉껍질을 벗겨 내고 그 아래 썩은 부분을 드러내기 시작했다. 그곳에서 밀교회당이 숨기던 것을 발견했다. 심연에서 올라와 조수 섬들을 배회하며 어떤 끔찍한 신에게 기도하러 모여드는 괴물 같은 생물들. 어쩌면 밀교회당이 숭배하는 바로 그 “데이곤”일지도 모른다.</p>"
   },
   "intro3": {
-    "title": "Scenario VII: The Lair of Dagon",
-    "body": "<p><b>Intro 3:</b> You are sure that Agent Harper was kidnapped after she began investigating the Order. Your own investigation might have ended the same way had you not laid low for a week after the townsfolk got riled up. It seems that the Order’s influence pervades Innsmouth, from important civic figures to everyday citizens. Finances, religion, politics…everything is wrapped up in this cult’s business in some way or another. But why?</p><p>It wasn’t until your investigation of Devil Reef that you truly began to peel away the outer layers of Innsmouth and reveal the rot beneath. There, you found what the Order was hiding: the monstrous creatures that emerged from the depths and prowled the tidal islands, congregating in prayers to some horrific deity. Perhaps it is even the same “Dagon” worshipped by the Order.</p>"
+    "title": "시나리오 VII: 데이곤의 침소",
+    "body": "<p><b>도입 3:</b> 하퍼 요원이 밀교회당을 조사하기 시작한 뒤 납치되었다는 건 확실하다. 마을 사람들이 들고일어난 뒤 일주일 동안 몸을 숨기지 않았다면, 당신의 조사도 같은 식으로 끝났을지 모른다. 밀교회당의 영향력은 주요 공직자부터 평범한 시민까지 인스머스 전체에 퍼져 있는 것 같다. 재정, 종교, 정치… 모든 것이 어떤 식으로든 이 교단의 일과 얽혀 있다. 그런데 왜?</p><p>악마의 암초를 조사하고 나서야 비로소 인스머스의 겉껍질을 벗겨 내고 그 아래 썩은 부분을 드러내기 시작했다. 그곳에서 밀교회당이 숨기던 것을 발견했다. 심연에서 올라와 조수 섬들을 배회하며 어떤 끔찍한 신에게 기도하러 모여드는 괴물 같은 생물들. 어쩌면 밀교회당이 숭배하는 바로 그 “데이곤”일지도 모른다.</p>"
   },
   "intro4": {
-    "title": "Scenario VII: The Lair of Dagon",
-    "body": "<p><b>Intro 4:</b> Creeeak. Agent Dawson opens the large doors serving as the entrance to the building, and you follow close behind. Inside, the halls are dark and eerily still. Only the faint sound of trickling water lingers in the air. “I don’t like this one bit,” Dawson says as the front door closes behind you. He unholsters his gun, turns on his flashlight, and scans the room. “We should stay together. Safety in numbers.” You nod in agreement. The Order has proven to be very dangerous, and they surely don’t want you poking around in their headquarters…</p>"
+    "title": "시나리오 VII: 데이곤의 침소",
+    "body": "<p><b>도입 4:</b> 끼이익. 도슨 요원이 건물 입구인 커다란 문을 열고, 당신은 바짝 뒤따른다. 안의 복도는 어둡고 섬뜩할 만큼 고요하다. 희미하게 졸졸 흐르는 물소리만 공기 중에 맴돈다. “영 마음에 안 드는군요.” 뒤에서 정문이 닫히자 도슨이 말한다. 그가 권총을 뽑고 손전등을 켜 방 안을 훑는다. “같이 다닙시다. 뭉쳐야 안전해요.” 동의하며 고개를 끄덕인다. 밀교회당은 매우 위험하다는 것이 증명되었고, 그들은 분명 당신이 본부를 들쑤시고 다니는 걸 원치 않을 것이다…</p>"
   },
   "intro5": {
-    "title": "Scenario VII: The Lair of Dagon",
-    "body": "<p><b>Intro 5:</b> Creeeak. Agent Dawson creaks open the large doors serving as the entrance to the building, and you follow close behind. Inside, the halls are dark and eerily still. Only the faint sound of trickling water lingers in the air. “It’s quiet. I guess there are no ceremonies going on tonight. That’s good,” Dawson says as the front door closes behind you. He turns on his flashlight and illuminates a nearby doorway. “We should split up. We’ll be able to cover more ground that way. See if you can figure out what they’re hiding here. I’ll meet up with you later.” You nod and head in the opposite direction…</p>"
+    "title": "시나리오 VII: 데이곤의 침소",
+    "body": "<p><b>도입 5:</b> 끼이익. 도슨 요원이 건물 입구인 커다란 문을 삐걱 열고, 당신은 바짝 뒤따른다. 안의 복도는 어둡고 섬뜩할 만큼 고요하다. 희미하게 졸졸 흐르는 물소리만 공기 중에 맴돈다. “조용하군요. 오늘 밤엔 의식이 없나 봅니다. 다행이에요.” 뒤에서 정문이 닫히자 도슨이 말한다. 그가 손전등을 켜 근처 문간을 비춘다. “흩어집시다. 그래야 더 넓게 살필 수 있어요. 그들이 여기 뭘 숨기는지 알아낼 수 있는지 보세요. 나중에 만납시다.” 고개를 끄덕이고 반대 방향으로 향한다…</p>"
   },
   "resolutions": {
     "noResolution": {
-      "title": "결말에 도달하지 못함",
-      "body": "<p><b>아무 결말에도 도달하지 못했다면(모든 조사자가 후퇴하거나 쓰러졌다면):</b> This place is more dangerous than you could have possibly imagined. You stumble as you flee through the dark, flooded corridors, retracing your steps as quickly as you can to reach the entrance. Your heart races in your chest as you see the exit at last. You gasp in relief as you crash through the doors, to safety—</p><p>—Only you are not safe. Standing at the bottom of the steps is an angry throng of citizens, far too many for you to fight your way through. “There! Get ‘em!” a wrinkled woman at the head of the mob shouts. You are surrounded and grabbed within moments. You struggle and fight for your life, but it’s no use. The last thing you remember is being dragged back through the halls of the Order to some unknown fate…</p>"
+      "title": "결말 없음",
+      "body": "<p>_어떤 결말에도 도달하지 못했다면(모든 조사자가 기권하거나 패배)_: 이곳은 상상할 수 있는 것보다 훨씬 더 위험하다. 어둡고 물에 잠긴 복도를 비틀거리며 달아나며, 입구에 닿기 위해 최대한 빨리 왔던 길을 되짚는다. 마침내 출구가 보이자 가슴속 심장이 미친 듯이 뛴다. 안도의 숨을 헐떡이며 문을 박차고 안전한 곳으로—</p><p>—하지만 안전하지 않다. 계단 아래에 성난 시민 무리가 서 있다. 뚫고 지나가기엔 너무 많다. “저기다! 잡아!” 무리 맨 앞의 주름진 여자가 소리친다. 순식간에 포위당해 붙잡힌다. 목숨을 걸고 몸부림치며 싸우지만, 소용없다. 마지막으로 기억나는 것은 밀교회당의 복도를 지나 알 수 없는 운명으로 끌려가던 것이다…</p>"
     },
     "resolution1": {
       "title": "결말 1",
-      "body": "<p><b>Resolution 1:</b> You’re somewhere else now, lying on your stomach on cold, damp stone. Your arms are held tight behind your back. You have no idea how you got here. As consciousness returns, your vision comes into focus. You crane your neck up to view your surroundings, but it’s too dark to see anything inside your stone cell.</p><p>“I’ll ask you one last time. Who sent you here?” a voice asks. It is deep and husky, like the croaking of a frog.</p><p>You hear the familiar, cool baritone of Agent Dawson reply: “Your breath smells awful. Ever heard of brushing your teeth?” Despite the sarcasm dripping from his words, his voice wavers ever so slightly.</p><p>“Your mockery only masks the fear that hides within,” the voice replies. “Very well. If you are of no use to us, you will be the first to be sacrificed.”</p><p>Your vision continues to adjust. You can just barely make out Dawson’s silhouette on the other side of the cell. He is kneeling before a metal hatch in the stone floor. An elderly robed figure presses a curved knife against Dawson’s throat. Someone lifts the hatch, and Dawson’s eyes go wide. He gives you one last despairing look, shakes his head slowly and deliberately, and quietly slides something across the stone floor. Then the hooded figure pushes him in. In the scuffle and the low light, nobody notices the car key that skitters to a halt directly next to you.</p><p>You grab the key and stuff it into your pocket just before you are shoved forward. Two more sets of cold, clammy hands grab your shoulders, and the hooded figure slides his knife up to your neck. All you can see of his face are his wide, unblinking eyes.</p><p>“Oceiros, these ones were found in Dagon’s lair as well,” another voice explains to the elderly figure in the robes. “We believe they were the ones snooping around Devil Reef.”</p><p>The man with the knife to your throat nods. “Your turn,” he declares. “Tell us why you have come and perhaps we will let you go. Who sent you? What have you seen?”</p>"
+      "body": "<p>_결말 1_: 당신은 이제 다른 곳에 있다. 차갑고 축축한 돌바닥에 엎드려 있다. 두 팔은 등 뒤로 꽉 붙잡혀 있다. 어떻게 여기 왔는지 전혀 모르겠다. 의식이 돌아오자 시야가 또렷해진다. 목을 빼고 주위를 살피지만, 돌 감방 안은 너무 어두워 아무것도 보이지 않는다.</p><p>“마지막으로 묻겠다. 누가 너희를 여기 보냈지?” 목소리가 묻는다. 개구리 울음처럼 낮고 쉰 목소리다.</p><p>도슨 요원의 익숙하고 차분한 바리톤이 대답한다. “입 냄새가 지독하군. 양치질이라고 들어 본 적 있나?” 말에는 빈정거림이 뚝뚝 묻어나지만, 목소리가 아주 살짝 떨린다.</p><p>“네 조롱은 안에 숨은 두려움을 가릴 뿐이다.” 목소리가 대답한다. “좋다. 쓸모가 없다면, 네가 첫 번째 제물이 될 것이다.”</p><p>시야가 계속 적응한다. 감방 반대편에 도슨의 실루엣이 간신히 보인다. 그는 돌바닥의 금속 해치 앞에 무릎을 꿇고 있다. 로브를 입은 늙은 형체가 굽은 칼을 도슨의 목에 대고 있다. 누군가 해치를 들어 올리자, 도슨의 눈이 휘둥그레진다. 그가 마지막으로 절망 어린 눈빛을 보내며 천천히, 의도적으로 고개를 젓고, 조용히 돌바닥 위로 무언가를 밀어 보낸다. 그러고는 두건 쓴 형체가 그를 밀어 넣는다. 몸싸움과 어둠 속에서, 당신 바로 옆에 미끄러져 멈춘 자동차 열쇠를 아무도 알아채지 못한다.</p><p>앞으로 떠밀리기 직전, 열쇠를 집어 주머니에 쑤셔 넣는다. 차갑고 끈적한 손 두 쌍이 더 당신의 어깨를 움켜쥐고, 두건 쓴 형체가 칼을 당신의 목에 갖다 댄다. 그의 얼굴에서 보이는 건 크고 깜빡이지 않는 두 눈뿐이다.</p><p>“오세이로스, 이자들도 데이곤의 침소에서 발견됐습니다.” 다른 목소리가 로브를 입은 늙은 형체에게 설명한다. “악마의 암초 주변을 기웃거린 게 이자들인 것 같습니다.”</p><p>당신 목에 칼을 댄 남자가 고개를 끄덕인다. “네 차례다.” 그가 선언한다. “왜 왔는지 말하면 풀어 줄지도 모르지. 누가 너를 보냈나? 무엇을 보았나?”</p>"
     },
     "resolution2": {
       "title": "결말 2",
-      "body": "<p><b>Resolution 2:</b> You remember the slow, gentle shaking of Agent Dawson’s head and know what he meant by the gesture. You look up into the man’s unblinking eyes, set your jaw, and say nothing. A moment of silent understanding passes between you and your interrogator. “Very well. Your defiance has earned you naught but a slow, agonizing death.” The metal hatch opens again. Inside, you see nothing but darkness. You glare long and hard at your captor.</p><p>“Take what they have stolen to the lighthouse at once,” Oceiros commands one of the other robed figures. “It is time to begin our great work. None will disrupt the Order’s business ever again. Soon, all will understand the natural order of life.” Then he nods to your captors, and you are shoved forward. The clammy hands release you and suddenly you are tumbling into darkness. The last thing you feel is your head striking cold stone, and then—</p>"
+      "body": "<p>_결말 2_: 천천히, 부드럽게 고개를 젓던 도슨 요원이 떠오르고, 그 몸짓의 뜻을 안다. 남자의 깜빡이지 않는 눈을 올려다보며, 턱을 굳게 다물고, 아무 말도 하지 않는다. 당신과 심문자 사이에 말 없는 이해의 순간이 흐른다. “좋다. 네 반항이 네게 가져다준 것은 느리고 고통스러운 죽음뿐이다.” 금속 해치가 다시 열린다. 안에는 어둠밖에 보이지 않는다. 당신을 붙잡은 자를 오랫동안 노려본다.</p><p>“이자들이 훔친 것을 당장 등대로 가져가라.” 오세이로스가 로브를 입은 다른 형체에게 명령한다. “우리의 위대한 과업을 시작할 때다. 다시는 누구도 교단의 일을 방해하지 못할 것이다. 곧 모두가 생명의 자연스러운 질서를 이해하게 될 것이다.” 그러고는 당신을 붙잡은 자들에게 고개를 끄덕이고, 당신은 앞으로 떠밀린다. 끈적한 손들이 당신을 놓자 갑자기 어둠 속으로 굴러떨어진다. 마지막으로 느끼는 것은 머리가 차가운 돌에 부딪히는 감각, 그리고—</p>"
     },
     "resolution3": {
       "title": "결말 3",
-      "body": "<p><b>Resolution 3:</b> You can think of only one way out of this situation. The Order believes that you are poking around their business, so you will have to convince them that you don’t know or care what they are up to. You lie as best you can, spinning a story that might convince them you were simply in the wrong place at the wrong time. “And what of your unfortunate friend?” your interrogator asks. You tell him that you have never met that man in your life. “Perhaps you speak the truth,” the man says, and you breathe a short-lived sigh of relief before he dashes your hopes: “…but it matters not. You have seen too much, and for that, you must be silenced. Worry not. You will be joining our kindred soon.” The metal hatch opens again. Inside, you see nothing but darkness.</p><p>“Take what they have stolen to the lighthouse at once,” Oceiros commands one of the other robed figures. “It is time to begin our great work. None will disrupt the Order’s business ever again. Soon, all will understand the natural order of life.” Then he nods to your captors, and you are shoved forward. The clammy hands release you and suddenly you are tumbling into darkness. The last thing you feel is your head striking cold stone, and then—</p>"
+      "body": "<p>_결말 3_: 이 상황에서 빠져나갈 방법은 하나밖에 떠오르지 않는다. 밀교회당은 당신이 그들의 일을 캐고 다닌다고 믿고 있으니, 그들이 무엇을 하든 모르고 관심도 없다고 설득해야 한다. 그저 엉뚱한 때 엉뚱한 곳에 있었을 뿐이라고 믿게 할 이야기를 지어내며 최선을 다해 거짓말한다. “그럼 불운한 네 친구는?” 심문자가 묻는다. 그 남자는 평생 본 적도 없다고 말한다. “어쩌면 진실을 말하는지도 모르지.” 남자가 말하자 잠깐 안도의 한숨을 내쉬지만, 그는 곧 희망을 꺾는다. “…하지만 상관없다. 너는 너무 많은 것을 보았고, 그러니 입을 막아야 한다. 걱정 마라. 곧 우리 동족과 함께하게 될 테니.” 금속 해치가 다시 열린다. 안에는 어둠밖에 보이지 않는다.</p><p>“이자들이 훔친 것을 당장 등대로 가져가라.” 오세이로스가 로브를 입은 다른 형체에게 명령한다. “우리의 위대한 과업을 시작할 때다. 다시는 누구도 교단의 일을 방해하지 못할 것이다. 곧 모두가 생명의 자연스러운 질서를 이해하게 될 것이다.” 그러고는 당신을 붙잡은 자들에게 고개를 끄덕이고, 당신은 앞으로 떠밀린다. 끈적한 손들이 당신을 놓자 갑자기 어둠 속으로 굴러떨어진다. 마지막으로 느끼는 것은 머리가 차가운 돌에 부딪히는 감각, 그리고—</p>"
     },
     "resolution4": {
       "title": "결말 4",
-      "body": "<p><b>Resolution 4:</b> None of this is what you signed up for. Hoping to avoid Dawson’s fate, you have no choice but to tell your interrogator everything. You explain you were hired by Dawson to find his missing agent, and go on to describe the events that followed over the past few weeks, including your exploration of Devil Reef and your investigation into the Order. A slow smile crawls across the man’s face as you divulge everything you know. “I thank you for your candor. Sadly, there is only one way I can repay you. You have seen too much, and for that, you must be silenced.” Your heart goes cold as you realize what he means. The metal hatch opens again. Inside, you see nothing but darkness.</p><p>“Take what they have stolen to the lighthouse at once,” Oceiros commands one of the other robed figures. “It is time to begin our great work. None will disrupt the Order’s business ever again. Soon, all will understand the natural order of life.” Then he nods to your captors, and you are shoved forward. The clammy hands release you and suddenly you are tumbling into darkness. The last thing you feel is your head striking cold stone, and then—</p>"
+      "body": "<p>_결말 4_: 이런 일을 하려고 계약한 게 아니다. 도슨의 운명을 피하고 싶어, 심문자에게 모든 것을 말할 수밖에 없다. 실종된 요원을 찾으라고 도슨에게 고용되었다고 설명하고, 악마의 암초 탐사와 밀교회당 조사를 포함해 지난 몇 주간 벌어진 일을 이야기한다. 아는 것을 모두 털어놓는 동안 남자의 얼굴에 천천히 미소가 번진다. “솔직하게 말해 줘서 고맙군. 안타깝게도, 보답할 방법은 하나뿐이다. 너는 너무 많은 것을 보았고, 그러니 입을 막아야 한다.” 그 뜻을 깨닫자 심장이 차갑게 식는다. 금속 해치가 다시 열린다. 안에는 어둠밖에 보이지 않는다.</p><p>“이자들이 훔친 것을 당장 등대로 가져가라.” 오세이로스가 로브를 입은 다른 형체에게 명령한다. “우리의 위대한 과업을 시작할 때다. 다시는 누구도 교단의 일을 방해하지 못할 것이다. 곧 모두가 생명의 자연스러운 질서를 이해하게 될 것이다.” 그러고는 당신을 붙잡은 자들에게 고개를 끄덕이고, 당신은 앞으로 떠밀린다. 끈적한 손들이 당신을 놓자 갑자기 어둠 속으로 굴러떨어진다. 마지막으로 느끼는 것은 머리가 차가운 돌에 부딪히는 감각, 그리고—</p>"
     }
   },
   "tokens": {
     "easyStandard": {
-      "skull": "-1 for each key on this card.",
-      "cultist": "0. Reveal an additional chaos token. If you reveal 1 or more {'{'}curse{'}'} tokens during this test, you automatically fail.",
-      "tablet": "-3. If you fail, place each key you control on your location.",
-      "elderThing": "-4. If you fail, add 1 {'{'}curse{'}'} token to the chaos bag."
+      "skull": "이 카드 위의 열쇠 1개마다 -1.",
+      "cultist": "0. 혼돈 토큰을 하나 더 공개합니다. 이 테스트 중 {'{'}curse{'}'} 토큰을 1개 이상 공개하면, 자동으로 실패합니다.",
+      "tablet": "-3. 실패하면, 당신이 통제하는 각 열쇠를 당신의 장소에 놓습니다.",
+      "elderThing": "-4. 실패하면, 혼돈 주머니에 {'{'}curse{'}'} 토큰 1개를 추가합니다."
     },
     "hardExpert": {
-      "skull": "-2 for each key on this card.",
-      "cultist": "-2. Reveal an additional chaos token. If you reveal 1 or more {'{'}curse{'}'} tokens during this test, you automatically fail.",
-      "tablet": "-3. Place each key you control on your location and take 1 damage.",
-      "elderThing": "-4. Add 2 {'{'}curse{'}'} tokens to the chaos bag."
+      "skull": "이 카드 위의 열쇠 1개마다 -2.",
+      "cultist": "-2. 혼돈 토큰을 하나 더 공개합니다. 이 테스트 중 {'{'}curse{'}'} 토큰을 1개 이상 공개하면, 자동으로 실패합니다.",
+      "tablet": "-3. 당신이 통제하는 각 열쇠를 당신의 장소에 놓고 피해를 1 받습니다.",
+      "elderThing": "-4. 혼돈 주머니에 {'{'}curse{'}'} 토큰 2개를 추가합니다."
     }
   },
   "remembered": {
-    "unlockedTheEntranceToTheCaves": "Unlocked the entrance to the caves",
-    "unlockedTheThirdFloor": "Unlocked the third floor",
-    "unlockedTheFinalDepths": "Unlocked the final depths"
+    "unlockedTheEntranceToTheCaves": "동굴 입구의 잠금을 풀었다",
+    "unlockedTheThirdFloor": "3층의 잠금을 풀었다",
+    "unlockedTheFinalDepths": "마지막 심연의 잠금을 풀었다"
+  },
+  "hallOfLoyalty": {
+    "label": {
+      "addBlessTokens": "{'{'}bless{'}'} 토큰 4개를 추가합니다",
+      "addBlessTokensPartial": "{'{'}bless{'}'} 토큰 4개를 추가합니다(실제 {actual}개)"
+    }
+  },
+  "lairOfDagon": {
+    "label": {
+      "doNotSpendKey": "열쇠를 소비하지 않습니다",
+      "spendKey": "{key} 소비"
+    }
+  },
+  "whatLurksBelow": {
+    "label": {
+      "doNotTakeKey": "열쇠를 가져가지 않습니다",
+      "takeKey": "{key} 열쇠를 가져갑니다"
+    }
+  },
+  "tooltips": {
+    "grandEntryway": {
+      "resign": "이곳은 더는 못 참겠다."
+    }
   }
 }

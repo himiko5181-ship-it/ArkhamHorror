@@ -1,0 +1,19 @@
+{
+  "prologue": "<h1>영광스러운 재탄생</h1><p>아컴은 늘 조금 이상한 곳이었다. 신문을 펼칠 때마다 끔찍한 살인이나 갑작스러운 실종에 관한 새 소식이 실리는 것 같다. 강변 지구에서 발견된 훼손된 시신. 프랑스 언덕에서 실종된 경찰관. 벨마네 식당 뒷골목에 피로 그려진 인장. 물론 이 도시에도 괴짜와 음모론자는 있지만, 아무리 냉철한 관찰자라도 사실을 외면할 수는 없다. 이 도시에는 무언가 잘못된 것이 있다.</p><p>하지만 아컴 사람들 대부분은 나쁜 일을 곱씹고 싶어 하지 않는다. 여섯 달 전의 홍수 이후, 외부 투자자들의 새 돈이 쏟아져 들어오며 도시는 그 어느 때보다 튼튼하게 재건되고 있다. 다들 모든 게 떳떳하다고 말하고, 실제로도 그렇게 보인다. 하지만 당신은 언제나 이야기에는 뒷면이 있다는 걸 안다.</p><p>앞에 무엇이 기다리든, 혼자 맞설 필요는 없다. 비슷한 공포를 겪었고, 손쉬운 설명이나 위안이 되는 딴청에 만족하지 않는 이들이 당신 말고도 있다. 그들 역시 이 도시의 오래된 저주와 마녀 전설에 무언가가 있다는 것을 안다. 인간의 이해를 넘어 도사린 악에 맞서 그들과 함께하겠는가? 아니면 그토록 많은 이들이 그랬듯, 신화의 공포에 굴복하겠는가?</p>",
+  "key": {
+    "investigatorsDefeatedTheirMaskedPursuer": "조사자들이 가면을 쓴 추격자를 쓰러뜨렸다.",
+    "investigatorsSavedMiskatonicUniversity": "조사자들이 미스캐토닉 대학교를 구했다.",
+    "miskatonicUniversityBurned": "미스캐토닉 대학교가 불탔다.",
+    "servantOfElokoss": "엘로코스의 종",
+    "investigatorsDiscoveredTheCultsWhereabouts": "조사자들이 교단의 행방을 알아냈다.",
+    "investigatorsFailedInTheirSearch": "조사자들이 수색에 실패했다.",
+    "investigatorsKilledTheServantOfFlame": "조사자들이 화염의 종복을 죽였다.",
+    "investigatorsScouredArkhamForAnswers": "조사자들이 아컴을 샅샅이 뒤져 답을 찾았다.",
+    "investigatorsStirredUpTrouble": "조사자들이 소란을 일으켰다.",
+    "theServantOfFlameEscaped": "화염의 종복이 달아났다.",
+    "elokossWasReborn": "엘로코스가 재탄생했다.",
+    "investigatorsDefeatedElokossAndTheBrethrenOfAsh": "조사자들이 엘로코스와 재의 형제단을 물리쳤다.",
+    "investigatorsStoppedElokosssGloriousRebirth": "조사자들이 엘로코스의 영광스러운 재탄생을 막았다.",
+    "investigatorsFloodedTheBrethrenOfAshsSummoningRitual": "조사자들이 재의 형제단의 소환 의식을 물에 잠기게 했다."
+  }
+}

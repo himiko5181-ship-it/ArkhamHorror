@@ -1,46 +1,94 @@
 {
+  "heading": "시나리오 IV",
+  "setup": {
+    "gatherSets": "다음 조우 세트의 카드를 모두 모읍니다: *악마의 암초*, *하이드라의 하수인*, *심해의 생물*, *물에 잠긴 동굴*, *고장*, *밀물*. 이 세트들은 다음 아이콘으로 표시됩니다:<section class='encounter-sets'><img src='{setImgPath}/devil-reef.png' /><img src='{setImgPath}/agents-of-hydra.png' /><img src='{setImgPath}/undersea-creatures.png' /><img src='{setImgPath}/flooded-caves.png' /><img src='{setImgPath}/malfunction.png' /><img src='{setImgPath}/rising-tide.png' /></section>",
+    "placeKeys": "각 열쇠를 다음과 같이 따로 치워 둡니다:",
+    "faceupKeys": "보라색, 흰색, 검은색 열쇠를 앞면이 보이게 따로 치워 둡니다.",
+    "facedownKeys": "노란색, 초록색, 빨간색, 파란색 열쇠를 뒷면으로 따로 치워 둡니다. 어느 것이 어느 것인지 모르게 섞습니다.",
+    "churningWaters": "휘몰아치는 해역 장소를 플레이 상태로 놓습니다. (완전히 침수된 상태로 플레이 상태가 됩니다.)",
+    "fishingVessel": "‘어선’ 이야기 자산을 휘몰아치는 해역에 플레이 상태로 놓습니다.",
+    "startInVessel": "각 조사자는 어선에 탄 상태로 게임을 시작합니다.",
+    "setAsideRelics": "다음 이야기 자산을 비플레이 상태로 치워 둡니다: 깨어난 망토, 이하 느틀레이의 머리관, 파도에 닳은 우상.",
+    "devilReefLocations": "악마의 암초 장소 5장을 섞고 각각 공개되지 않은 면이 위로 오게 하여 플레이 상태로 놓습니다.",
+    "notAdjacent": "휘몰아치는 해역에 인접하게 놓지 마십시오—이 장소들은 인접이 아니라 연결 기호로 연결됩니다.",
+    "unfathomableDepths": "다음 단계를 수행하여 헤아릴 수 없는 심연을 준비합니다:",
+    "removeThree": "먼저, 다음 장소를 각각 1장씩 보지 않고 게임에서 제거합니다: 거석 유적, 심해인 암굴, 결합의 신전. 이 장소들은 각각 헤아릴 수 없는 심연 장소의 공개된 면입니다.",
+    "setAsideThree": "남은 헤아릴 수 없는 심연 장소 3장을 비플레이 상태로 치워 둡니다.",
+    "tidalTunnelsDeck": "조수 터널 장소 8장을 섞어 조수 터널 덱을 만듭니다.",
+    "unrevealedSide": "조수 터널 덱의 각 카드는 “조수 터널” 면만 보이도록 공개되지 않은 면이 위로 오게 놓아야 합니다.",
+    "placeNearEncounterDeck": "이 덱을 조우 덱 근처에 놓습니다.",
+    "checkCampaignLog": "캠페인 기록지의 “되찾은 기억” 칸을 확인합니다. 다음 상황에 따라 이 시나리오에서 다른 버전의 주요사건 1을 사용합니다. 주요사건 1의 다른 버전은 게임에서 제거합니다.",
+    "secretsOfTheSeaV1": "되찾은 기억 아래에 _끔찍한 악마와의 싸움_이 기록되어 있다면, 주요사건 1a—바다의 비밀 (v. I)을 사용합니다.",
+    "secretsOfTheSeaV2": "그렇지 않다면, 주요사건 1a—바다의 비밀 (v. II)를 사용합니다.",
+    "floodTokens": "침수 토큰을 토큰 풀에 추가합니다."
+  },
+  "specialRules": [
+    {
+      "title": "탈것",
+      "body": "<p class='basic'>탈것 키워드가 있는 자산은 조사자가 타거나 내릴 수 있는 탈것을 나타냅니다. 이 키워드가 있는 자산을 탈것이라고 부르며, 다음 규칙을 따릅니다:</p><ul><li>조사자의 미니 카드가 탈것에 겹쳐 놓여 있는 동안, 그 조사자는 그 탈것 안에 있습니다. 조사자의 미니 카드가 자신의 장소에 겹쳐 놓여 있는 동안, 그 조사자는 (탈것과 같은 장소에 있더라도) 탈것 안에 있지 않습니다.<ul><li>{'{'}action{'}'} 능력으로, 조사자는 자신의 장소에 있는 탈것에 타거나 내릴 수 있습니다. 그 조사자의 미니 카드를 탈것 위로, 또는 탈것에서 내려 자신의 장소 위로 옮겨 새 위치를 표시합니다. 각 조사자는 라운드마다 이 능력을 한 번만 수행할 수 있습니다.</li><li>탈것 안에 있는 조사자는 그 탈것의 장소에도 있습니다.</li><li>조사자가 탈것 안에 있는 동안에는 탈것과 별개로 이동할 수 없습니다.</li></ul></li><li>탈것은 대개 연결된 장소로 이동할 수 있게 해 주는 능력을 하나 이상 가지고 있습니다. 탈것이 한 장소에서 다른 장소로 이동하면, 탈것 안의 모든 조사자도 함께 이동합니다.</li><li>달리 명시되지 않는 한, 탈것은 적의 이동이나 교전에 어떤 영향도 주지 않습니다.</li></ul>"
+    },
+    {
+      "title": "열쇠",
+      "body": "<div class='red bordered'><p class='basic'>이 시나리오 동안 열쇠는 다음을 나타냅니다:</p><ul><li>빨간색 / 파란색 / 초록색 / 노란색: 악마의 암초 더 깊은 곳으로 들어가는 데 쓰이는 다양한 장치.</li><li>보라색: 기묘한 우상.</li><li>검은색: 신비로운 머리관.</li><li>흰색: 부정한 망토.</li></ul></div>"
+    }
+  ],
+  "deepOnePredator": {
+    "label": {
+      "moveKey": "{key} 열쇠를 심해인 포식자에게 옮깁니다",
+      "moveClue": "당신의 단서 1개를 심해인 포식자에게 옮깁니다"
+    }
+  },
+  "deepOneHatchling": {
+    "label": {
+      "attacksYou": "새끼 심해인이 당신을 공격합니다"
+    }
+  },
   "intro1": {
-    "title": "Scenario IV: Devil Reef",
-    "body": "<header><p>FRIDAY, SEPTEMBER 2, 1927</p><p>THREE WEEKS EARLIER</p></header><p><b>Intro 1:</b> The rumbling of the boat’s engine startles you from your thoughts. “Yeh all right there?” the ship’s captain growls. “Yeh look like ye’ve seen a ghost. Pale as a sheet, yeh are.”</p><p>You turn and face the grizzled old man. Mr. Moore was the only ship captain you could find in Innsmouth who was unafflicted by whatever curse or deformity has gripped most of the town. His apparent humanity, however, has done nothing to spare his broken teeth, crooked jaw, or the massive scar torn down his right cheek. Still, he is a welcome sight, considering the way the rest of your investigation has gone.</p><p>“Can’t believe you want to head to that accurs’d Devil Reef,” he exclaims, shaking his head. “It’s a fool’s errand.”</p><p>You point out that the sailor was happy enough to provide passage after you showed him his payment, earning a raspy chuckle out of him.</p><p>“Yeh got me there,” he admits. “Now get ready. We set off in ten.” He stumbles from the main deck into the bridge to chart a course while you prepare for the journey ahead.</p>"
+    "title": "시나리오 IV: 악마의 암초",
+    "body": "<header><p>1927년 9월 2일 금요일</p><p>3주 전</p></header><p><b>도입 1:</b> 배의 엔진이 덜컹거리는 소리에 생각에서 깨어난다. “괜찮소?” 선장이 으르렁거린다. “귀신이라도 본 얼굴이구먼. 백지장처럼 하얗소.”</p><p>돌아서서 백발이 성성한 노인을 마주한다. 무어 씨는 마을 대부분을 사로잡은 저주인지 기형인지 모를 것에 걸리지 않은, 인스머스에서 찾을 수 있었던 유일한 선장이다. 하지만 보기엔 인간답다 해도, 부러진 이와 비뚤어진 턱, 오른쪽 뺨을 타고 길게 찢어진 커다란 흉터를 피하지는 못했다. 그래도 지금까지의 조사가 흘러온 걸 생각하면 반가운 얼굴이다.</p><p>“그 저주받은 악마의 암초에 가고 싶다니 믿을 수가 없구먼.” 그가 고개를 저으며 외친다. “바보짓이오.”</p><p>보수를 보여 주자 기꺼이 태워 주겠다고 하지 않았느냐고 지적하자, 그가 쉰 목소리로 껄껄 웃는다.</p><p>“거기선 내가 졌소.” 그가 인정한다. “자, 준비하쇼. 10분 뒤에 출발이오.” 그가 비틀거리며 주갑판에서 조타실로 가 항로를 짜는 동안, 당신은 앞으로의 여정을 준비한다.</p>"
   },
   "intro2": {
-    "title": "Scenario IV: Devil Reef",
-    "body": "<p><b>Intro 2:</b> Agent Dawson boards the ship at last. He sports a heavy overcoat and carries a shotgun slugged over his shoulder. “Agent Harper had a cache with some extra firepower,” he explains. “I figured, given the rumors, it couldn’t hurt.”</p><p>You know what rumors Dawson refers to: Devil Reef is supposedly haunted, or perhaps infested, with some manner of devilish sea creature. The sailors of Innsmouth speak of silhouettes crawling in and out of caves along the reef ’s many islands, of strangely misshapen fins sighted along the surface of the sea, and of entire boats crashing against the jagged rocks and vanishing beneath the waves.</p><p>“All of our research has led to this. Whatever is going on in this town, the Esoteric Order of Dagon and this ‘Devil Reef ’ are at the heart of it. Agent Harper suspects these rumors were spread by the Order to keep sailors away from the reef. If that’s true, there must be something the Order is hiding.”</p><p>You ask where Harper is, and Dawson shoots you a hard glance. “She has her mission. We have ours.” You remind Dawson that you’ve already accomplished the mission you were hired to perform, which yields a smirk from the hardened vet. “True. And yet here you are.”</p><p>He has a point. You could have left right after Harper was rescued, but you stayed to assist with their investigation. Perhaps out of a sense of duty, or perhaps curiosity. Whatever it was, you’re here now, and there’s no going back.</p>"
+    "title": "시나리오 IV: 악마의 암초",
+    "body": "<p><b>도입 2:</b> 마침내 도슨 요원이 배에 오른다. 두꺼운 외투를 입고 산탄총을 어깨에 메고 있다. “하퍼 요원이 화기를 좀 숨겨 둔 데가 있더군요.” 그가 설명한다. “소문을 생각하면 나쁠 건 없겠다 싶었습니다.”</p><p>도슨이 말하는 소문이 무엇인지 안다. 악마의 암초에는 귀신이 나온다고, 아니면 어떤 악마 같은 바다 생물이 들끓는다고 한다. 인스머스의 선원들은 암초의 여러 섬을 따라 동굴을 드나드는 실루엣, 바다 표면에서 목격된 기묘하게 일그러진 지느러미, 들쭉날쭉한 바위에 부딪혀 파도 아래로 사라진 배들에 대해 이야기한다.</p><p>“우리 조사는 모두 이곳을 가리켰습니다. 이 마을에서 무슨 일이 벌어지든, 그 중심엔 데이곤 밀교회당과 이 ‘악마의 암초’가 있어요. 하퍼 요원은 선원들을 암초에서 떼어 놓으려고 밀교회당이 이런 소문을 퍼뜨렸다고 의심합니다. 그게 사실이라면, 밀교회당이 숨기는 뭔가가 있는 게 틀림없습니다.”</p><p>하퍼는 어디 있느냐고 묻자, 도슨이 날카로운 눈빛을 보낸다. “그녀에겐 그녀의 임무가 있습니다. 우리에겐 우리 임무가 있고요.” 당신은 이미 고용된 임무를 완수했다고 도슨에게 상기시키자, 노련한 퇴역 군인이 씩 웃는다. “맞습니다. 그런데도 여기 계시는군요.”</p><p>일리가 있다. 하퍼를 구출한 직후 떠날 수도 있었지만, 그들의 조사를 돕기 위해 남았다. 의무감 때문일 수도, 호기심 때문일 수도 있다. 무엇이었든, 당신은 지금 여기 있고, 돌아갈 길은 없다.</p>"
   },
   "intro3": {
-    "title": "Scenario IV: Devil Reef",
-    "body": "<p><b>Intro 3:</b> Agent Dawson boards the ship at last. Heavy bags hang under his weary eyes. “All of our leads are cold,” he says with resignation. “Wherever Agent Harper is now, she’s beyond our reach.”</p><p>You attempt to console Dawson by reminding him why you’ve chosen to investigate Devil Reef. The rumors say it is haunted, or perhaps infested, with some manner of devilish sea creature. The sailors of Innsmouth speak of silhouettes crawling in and out of caves along the reef ’s many islands, of strangely misshapen fins sighted along the surface of the sea, and of entire boats crashing against the jagged rocks and vanishing beneath the waves.</p><p>“You’re right,” Dawson admits with a sigh. “Whatever happened to Agent Harper, it has something to do with the Esoteric Order of Dagon. That book that was slipped under your hotel room door is evidence enough of that. And if my hypothesis is right, the ones who have been spreading these rumors about Devil Reef are none other than the Order themselves. If that’s true, there must be something they’re hiding.”</p><p>You nod and begin preparing for the mission. Agent Dawson gazes at you inquisitively the entire time. “Why did you stay?” he finally asks. “You could have left Innsmouth after we failed to rescue Agent Harper, but you chose to stick around. Why?”</p><p>Truth be told, you aren’t sure. Perhaps it was a sense of duty. Perhaps it was curiosity. You shrug and tell him that it doesn’t matter. You’re here now, and there’s no going back. Your admission earns you a smile from the hardened vet.</p><p>“Right. Let’s go find what they’re hiding,” he says.</p>"
+    "title": "시나리오 IV: 악마의 암초",
+    "body": "<p><b>도입 3:</b> 마침내 도슨 요원이 배에 오른다. 지친 눈 밑에 짙은 그늘이 졌다. “모든 단서가 끊겼습니다.” 그가 체념한 듯 말한다. “하퍼 요원이 지금 어디 있든, 우리 손이 닿지 않는 곳에 있어요.”</p><p>악마의 암초를 조사하기로 한 이유를 상기시키며 도슨을 위로하려 한다. 소문에 따르면 그곳에는 귀신이 나온다고, 아니면 어떤 악마 같은 바다 생물이 들끓는다고 한다. 인스머스의 선원들은 암초의 여러 섬을 따라 동굴을 드나드는 실루엣, 바다 표면에서 목격된 기묘하게 일그러진 지느러미, 들쭉날쭉한 바위에 부딪혀 파도 아래로 사라진 배들에 대해 이야기한다.</p><p>“맞습니다.” 도슨이 한숨을 쉬며 인정한다. “하퍼 요원에게 무슨 일이 있었든, 데이곤 밀교회당과 관련이 있어요. 당신 호텔 방문 아래로 밀어 넣어진 그 책만 봐도 충분한 증거죠. 그리고 제 가설이 맞다면, 악마의 암초에 대한 이 소문을 퍼뜨린 건 다름 아닌 밀교회당 자신입니다. 그게 사실이라면, 그들이 숨기는 뭔가가 있는 게 틀림없어요.”</p><p>고개를 끄덕이고 임무 준비를 시작한다. 도슨 요원이 내내 궁금하다는 듯 당신을 바라본다. “왜 남은 겁니까?” 마침내 그가 묻는다. “하퍼 요원 구출에 실패한 뒤 인스머스를 떠날 수도 있었는데, 남기로 했잖아요. 왜죠?”</p><p>사실, 당신도 잘 모르겠다. 의무감이었을 수도 있고, 호기심이었을 수도 있다. 어깨를 으쓱하며 그건 중요하지 않다고 말한다. 당신은 지금 여기 있고, 돌아갈 길은 없다. 그 대답에 노련한 퇴역 군인이 미소 짓는다.</p><p>“좋습니다. 그들이 숨기는 걸 찾으러 갑시다.” 그가 말한다.</p>"
   },
   "flashback9": {
-    "title": "Flashback IX",
-    "body": "<p>As you wade through the flooded cavern, your foot strikes something hard and metallic. The water is too dark and murky for you to see what lies beneath the surface. Holding your breath, you dive into the water and grope around for the object. Eventually, your hands wrap around something smooth and heavy. You drag it up to the surface and heave it onto an outcropping of rock.</p><p>It is a statue depicting some kind of entity—or perhaps a deity—although it is unlike any religious figure you have ever seen. The sight of its uncanny spined tendrils and its sole glaring eye of translucent crystal makes your skin crawl. And yet, it also calls to you, like the sound of ocean waves crashing on the shore on a foggy, overcast day…</p>"
+    "title": "회상 IX",
+    "body": "<div class='blue'><h1>회상 IX</h1><p>물에 잠긴 동굴을 헤치며 걷던 중, 발에 단단한 금속성의 무언가가 걸린다. 물이 너무 어둡고 탁해 수면 아래에 무엇이 있는지 보이지 않는다. 숨을 참고 물속으로 잠수해 그 물체를 더듬어 찾는다. 마침내 매끄럽고 무거운 무언가가 손에 잡힌다. 그것을 수면 위로 끌어올려 튀어나온 바위 위로 들어 올린다.</p><p>그것은 어떤 존재—어쩌면 신—를 묘사한 조각상이지만, 지금까지 본 어떤 종교적 형상과도 다르다. 기묘하게 가시 돋친 촉수와 반투명한 수정으로 된 노려보는 외눈을 보자 소름이 돋는다. 그런데도 그것은 당신을 부른다. 안개 낀 흐린 날 해안에 부서지는 파도 소리처럼…</p><hr /><p class='basic'>캠페인 기록지의 “되찾은 기억” 아래에 *기묘한 우상의 발견*이라고 기록합니다.</p><p class='basic'>보라색 열쇠와 따로 치워 둔 <span data-image-id='07179'>파도에 닳은 우상</span> 이야기 자산을 모두 통제합니다. 보라색 열쇠를 <span data-image-id='07179'>파도에 닳은 우상</span> 위에 놓습니다. *(여전히 그 조사자의 통제하에 있습니다.)* 게임의 남은 기간 동안, 보라색 열쇠를 통제하게 되는 사람은 <span data-image-id='07179'>파도에 닳은 우상</span>도 통제합니다. 보라색 열쇠가 다른 카드 위에 놓이면, <span data-image-id='07179'>파도에 닳은 우상</span>을 통제되지 않은 상태로 그 카드 근처에 놓습니다. 보라색 열쇠가 플레이 영역을 떠나면, <span data-image-id='07179'>파도에 닳은 우상</span>을 게임에서 제거합니다.</p></div>"
   },
   "flashback10": {
-    "title": "Flashback X",
-    "body": "<p>You swim through an array of vast undersea halls until at last you come to a circle of pillars. Inside this submerged henge stands an altar covered in an ornate cloth. It is embroidered with rich threads of gold and inlaid with cerulean opals. Despite being immersed in water, the fabric appears perfectly preserved. Wondering what such an object is doing deep in this underwater cavern, you decide to take it with you.</p><p>The moment you emerge from the depths and onto dry stone, you realize with amazement that the cloth is perfectly dry. Turning it over in your hands, you find a clasp of gold and realize it is not simply shapeless cloth, but a mantle—perhaps even part of a greater outfit. When you don the strange cloak, its gemstones pulse with arcane power.</p>"
+    "title": "회상 X",
+    "body": "<div class='blue'><h1>회상 X</h1><p>거대한 해저 전당들을 헤엄쳐 지나 마침내 기둥들이 원을 이룬 곳에 이른다. 이 물에 잠긴 환상열석 안에는 화려한 천으로 덮인 제단이 서 있다. 천에는 화려한 금실로 수가 놓여 있고 하늘색 오팔이 박혀 있다. 물속에 잠겨 있었는데도 천은 완벽하게 보존된 것처럼 보인다. 이런 물건이 왜 이 해저 동굴 깊은 곳에 있는지 궁금해하며, 가져가기로 한다.</p><p>심연에서 나와 마른 돌 위에 올라선 순간, 천이 완전히 말라 있다는 것을 깨닫고 놀란다. 손안에서 뒤집어 보니 금 걸쇠가 있다. 그저 형체 없는 천이 아니라 망토다—어쩌면 더 큰 의복의 일부일지도 모른다. 그 기묘한 망토를 걸치자, 보석들이 비전의 힘으로 맥동한다.</p><hr /><p class='basic'>캠페인 기록지의 “되찾은 기억” 아래에 *부정한 망토의 발견*이라고 기록합니다.</p><p class='basic'>흰색 열쇠와 따로 치워 둔 <span data-image-id='07180'>깨어난 망토</span> 이야기 자산을 모두 통제합니다. 흰색 열쇠를 <span data-image-id='07180'>깨어난 망토</span> 위에 놓습니다. *(여전히 그 조사자의 통제하에 있습니다.)* 게임의 남은 기간 동안, 흰색 열쇠를 통제하게 되는 사람은 <span data-image-id='07180'>깨어난 망토</span>도 통제합니다. 흰색 열쇠가 다른 카드 위에 놓이면, <span data-image-id='07180'>깨어난 망토</span>를 통제되지 않은 상태로 그 카드 근처에 놓습니다. 흰색 열쇠가 플레이 영역을 떠나면, <span data-image-id='07180'>깨어난 망토</span>를 게임에서 제거합니다.</p></div>"
   },
   "flashback11": {
-    "title": "Flashback XI",
-    "body": "<p>You reach an outcropping of rock overlooking a ceremony of sorts. Horrifying fish-like creatures prostrate themselves in front of two enormous statues: one of onyx, another of white marble. At the precipice of this ridge sits a golden crown sporting a shell-like pattern and three distinct horns. Whatever this artifact is, it is clearly important to these creatures. Summoning your courage, you snatch the artifact and escape while you still can. The relic thrums with power in your hands as you flee.</p>"
+    "title": "회상 XI",
+    "body": "<div class='blue'><h1>회상 XI</h1><p>일종의 의식이 내려다보이는 튀어나온 바위에 이른다. 끔찍한 물고기 같은 생물들이 두 거대한 조각상 앞에 엎드려 있다. 하나는 오닉스, 다른 하나는 흰 대리석이다. 이 능선 벼랑 끝에 조개껍데기 무늬와 뚜렷한 뿔 세 개가 달린 황금 왕관이 놓여 있다. 이 유물이 무엇이든, 이 생물들에게 중요한 것이 분명하다. 용기를 그러모아 유물을 낚아채고 아직 할 수 있을 때 달아난다. 달아나는 동안 유물이 손안에서 힘으로 웅웅거린다.</p><hr /><p class='basic'>캠페인 기록지의 “되찾은 기억” 아래에 *신비로운 유물의 발견*이라고 기록합니다.</p><p class='basic'>검은색 열쇠와 따로 치워 둔 <span data-image-id='07181'>이하 느틀레이의 머리관</span> 이야기 자산을 모두 통제합니다. 검은색 열쇠를 <span data-image-id='07181'>이하 느틀레이의 머리관</span> 위에 놓습니다. *(여전히 그 조사자의 통제하에 있습니다.)* 게임의 남은 기간 동안, 검은색 열쇠를 통제하게 되는 사람은 <span data-image-id='07181'>이하 느틀레이의 머리관</span>도 통제합니다. 검은색 열쇠가 다른 카드 위에 놓이면, <span data-image-id='07181'>이하 느틀레이의 머리관</span>을 통제되지 않은 상태로 그 카드 근처에 놓습니다. 검은색 열쇠가 플레이 영역을 떠나면, <span data-image-id='07181'>이하 느틀레이의 머리관</span>을 게임에서 제거합니다.</p></div>"
   },
   "resolutions": {
     "resolution1": {
       "title": "결말 1",
-      "body": "<p><b>Resolution 1:</b> With daylight fading and the tide rising to swallow the various islands off the coast of Innsmouth, you decide to make your way back to the harbor with your discoveries. “Found what yer lookin’ for?” Mr. Moore asks once you’ve made it to the coast safely.</p><p>Truth be told, you’re not completely sure. What you found was startling. The coves and tidal caverns of Devil Reef were home not just to relics of the Esoteric Order of Dagon, but also to a horde of strange creatures: hybrids between fish, man, and monster. You might have escaped with your life, but the horrors you saw in those caves will stay with you forever. Sharp, jagged teeth—blood-stained altars—unholy prayers—signs of a coming catastrophe—it still haunts you even after your escape.</p><p>But is Innsmouth truly safe? Is any land at all?</p>"
+      "body": "<p>_결말 1_: 해가 저물고 차오르는 조수가 인스머스 앞바다의 여러 섬을 삼키자, 발견한 것들을 가지고 항구로 돌아가기로 한다. “찾던 건 찾았소?” 무사히 해안에 도착하자 무어 씨가 묻는다.</p><p>사실, 확신이 서지 않는다. 발견한 것은 충격적이었다. 악마의 암초의 작은 만과 조수 동굴에는 데이곤 밀교회당의 유물만 있는 게 아니라, 물고기와 인간과 괴물이 뒤섞인 기묘한 생물 무리도 살고 있었다. 목숨은 건져 탈출했을지 몰라도, 그 동굴에서 본 공포는 영원히 당신을 따라다닐 것이다. 날카롭고 들쭉날쭉한 이빨—피로 얼룩진 제단—부정한 기도—다가오는 재앙의 징조—탈출한 뒤에도 여전히 당신을 괴롭힌다.</p><p>하지만 인스머스는 정말 안전할까? 아니, 안전한 땅이 있기나 할까?</p>"
     }
   },
   "tokens": {
     "easyStandard": {
-      "skull": "-X. X is the number of keys the investigators control.",
-      "cultist": "-2. If you fail and this is an attack or evasion attempt against a _Deep One_ enemy, it engages you. (If it is already engaged with you, it disengages first, then re-engages you.)",
-      "tablet": "-3. If you fail and you are not in a vehicle, take 1 damage.",
-      "elderThing": "-4. If you fail and your location has a key on it, take 1 horror."
+      "skull": "-X. X는 조사자들이 통제하는 열쇠의 수입니다.",
+      "cultist": "-2. 실패했고 이것이 _심해인_ 적에 대한 공격이나 회피 시도라면, 그 적이 당신과 교전합니다. (이미 당신과 교전 중이라면, 먼저 교전을 해제한 뒤 다시 당신과 교전합니다.)",
+      "tablet": "-3. 실패했고 당신이 탈것 안에 있지 않다면, 피해를 1 받습니다.",
+      "elderThing": "-4. 실패했고 당신의 장소에 열쇠가 있다면, 공포를 1 받습니다."
     },
     "hardExpert": {
-      "skull": "-X. X is 1 more than the number of keys the investigators control.",
-      "cultist": "-3. If this is an attack or evasion attempt against a _Deep One_ enemy, it engages you. (If it is already engaged with you, it disengages first, then re-engages you.)",
-      "tablet": "-4. If you are not in a vehicle, take 1 damage.",
-      "elderThing": "-5. If your location has a key on it, take 1 horror."
+      "skull": "-X. X는 조사자들이 통제하는 열쇠 수보다 1 많은 값입니다.",
+      "cultist": "-3. 이것이 _심해인_ 적에 대한 공격이나 회피 시도라면, 그 적이 당신과 교전합니다. (이미 당신과 교전 중이라면, 먼저 교전을 해제한 뒤 다시 당신과 교전합니다.)",
+      "tablet": "-4. 당신이 탈것 안에 있지 않다면, 피해를 1 받습니다.",
+      "elderThing": "-5. 당신의 장소에 열쇠가 있다면, 공포를 1 받습니다."
     }
+  },
+  "label": {
+    "shuffleThomasDawsonInto": "토머스 도슨을 덱에 섞어 넣을 조사자를 선택합니다",
+    "addThomasDawsonToHand": "토머스 도슨을 손에 추가할 조사자를 선택합니다"
   }
 }

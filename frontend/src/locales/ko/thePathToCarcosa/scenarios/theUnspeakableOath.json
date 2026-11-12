@@ -1,5 +1,33 @@
 {
   "heading": "시나리오 IV",
+  "label": {
+    "remembered": {
+      "setAFireInTheKitchen": "주방에 불을 질렀다",
+      "incitedAFightAmongstThePatients": "환자들끼리 싸움을 붙였다",
+      "distractedTheGuards": "경비원들의 주의를 돌렸다",
+      "releasedADangerousPatient": "위험한 환자를 풀어 주었다",
+      "knowTheGuardsPatrols": "경비원들의 순찰 경로를 안다",
+      "recalledTheWayOut": "나가는 길을 기억해 냈다",
+      "youTookTheKeysByForce": "힘으로 열쇠를 빼앗았다"
+    },
+    "cloudedMemory": {
+      "forget": "장소의 기능으로 “기억”했던 일 중 하나를 잊어버립니다. *(해당 일을 수행하지 않은 것으로 간주합니다.)*",
+      "chooseForget": "장소의 기능으로 “기억”했던 일 중 하나를 잊어버립니다. *(해당 일을 수행하지 않은 것으로 간주합니다.)*",
+      "horror": "공포를 1 받고 ‘흐릿한 기억’은 ‘급증’ 키워드를 획득합니다."
+    },
+    "placeMonsterUnderActDeck": "따로 둔 _괴물_ 적 중 하나를 무작위로 골라 보지 않고 현재 사건 덱 아래에 놓습니다",
+    "thisTestAutomaticallyFails": "이 판정은 자동으로 실패합니다",
+    "infirmary": {
+      "healDamage": "피해를 1 회복하고 직접적인 공포를 1 받습니다",
+      "healHorror": "공포를 1 회복하고 직접적인 피해를 1 받습니다"
+    },
+    "wallsClosingIn": {
+      "chooseEnemy": "치워두었던 _괴물_ 적 중에서 하나를 무작위로 선택하여 (확인해보지 않고) 주요목적 덱 밑에 놓습니다."
+    },
+    "arkhamAsylum": {
+      "youKnockHerOverAndGrabTheKeys": "당신은 간호사를 쓰러뜨리고 열쇠를 가로챕니다."
+    }
+  },
   "tokens": {
     "easyStandard": {
       "skull": "-1. 실패하면, 치워 두었던 _괴물_ 적 중에서 무작위로 1장을 선택하여 앞면을 보지 않고 주요목적 덱 밑에 놓습니다.",
@@ -46,28 +74,16 @@
       "instructions": "캠페인 기록지를 확인합니다. 이번 시나리오에서는 다음 상황에 따라서 어떤 _주요목적 2_카드를 사용할지 정합니다. 사용하지 않는 _주요목적 2_ 카드는 모두 게임에서 제거합니다.",
       "v1": "*오닉스 장식 고리를 챙겼다*면, 주요목적 2 - “중증 환자”(v.I)를 사용합니다.",
       "v2": "그렇지 않으면, 주요목적 2 - “중증 환자”(v.II)를 사용합니다."
+    },
+    "returnTo": {
+      "gatherSets": "다음 조우 세트의 모든 카드도 모읍니다: *돌아온 입에 담아선 안 될 맹세*, *광기를 부르는 망상*, *썩어 가는 현실*, *하스터의 사절*. 이 세트들은 다음 아이콘으로 표시됩니다:<section class='encounter-sets'><img src='{setImgPath}/return-to-the-unspeakable-oath.png' /><img src='{setImgPath}/maddening-delusions.png' /><img src='{setImgPath}/decaying-reality.png' /><img src='{setImgPath}/hasturs-envoys.png' /></section>*광기를 부르는 망상*은 *망상*을, *썩어 가는 현실*은 *부패와 오물*을, *하스터의 사절*은 *하스터의 하수인*을 대체합니다. 대체된 세트들은 게임에서 제거합니다.",
+      "setAside": "광기의 숙주 적과 급진적인 치료법 대응 카드도 플레이 밖에 따로 둡니다.",
+      "act2": "현재 사건 2의 어느 버전을 사용할지 정할 때, 원래 준비 지시를 따르지 않습니다. 대신, 원래 버전의 현재 사건 2를 게임에서 제거하고 캠페인 기록지를 확인합니다. _확신_이 _의심_보다 많거나 같다면, 새 현재 사건 2—*정말 질 나쁜 놈들 (v. III)*을 사용합니다. _의심_이 _확신_보다 많다면, 새 현재 사건 2—*정말 질 나쁜 놈들 (v. IV)*를 사용합니다."
     }
   },
   "tooltips": {
     "noAsylum": {
       "resign": "드디어 탈출이다!"
-    }
-  },
-  "label": {
-    "cloudedMemory": {
-      "forget": "장소의 기능으로 “기억”했던 일 중 하나를 잊어버립니다. *(해당 일을 수행하지 않은 것으로 간주합니다.)*",
-      "chooseForget": "장소의 기능으로 “기억”했던 일 중 하나를 잊어버립니다. *(해당 일을 수행하지 않은 것으로 간주합니다.)*",
-      "horror": "공포를 1 받고 ‘흐릿한 기억’은 ‘급증’ 키워드를 획득합니다."
-    },
-    "infirmary": {
-      "healDamage": "피해를 1 회복하고 직접적인 공포를 1 받습니다",
-      "healHorror": "공포를 1 회복하고 직접적인 피해를 1 받습니다"
-    },
-    "wallsClosingIn": {
-      "chooseEnemy": "치워두었던 _괴물_ 적 중에서 하나를 무작위로 선택하여 (확인해보지 않고) 주요목적 덱 밑에 놓습니다."
-    },
-    "arkhamAsylum": {
-      "youKnockHerOverAndGrabTheKeys": "당신은 간호사를 쓰러뜨리고 열쇠를 가로챕니다."
     }
   },
   "resolutions": {

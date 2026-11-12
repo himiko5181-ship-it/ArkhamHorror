@@ -1,20 +1,54 @@
 {
   "tokens": {
     "easyStandard": {
-      "skull": "-2 (-4 instead if you are at a _Bayou_ location).",
-      "cultist": "-2. If the Rougarou is in your location, reveal another token.",
-      "tablet": "Reveal another token. If you fail, until the end of the round, you cannot move.",
-      "elderThing": "-4. If the Rougarou is at your location, it attacks you."
+      "skull": "-2(_늪지_ 장소에 있다면 대신 -4).",
+      "cultist": "-2. 루가루가 당신의 장소에 있다면, 토큰을 하나 더 공개합니다.",
+      "tablet": "토큰을 하나 더 공개합니다. 실패하면, 라운드가 끝날 때까지 이동할 수 없습니다.",
+      "elderThing": "-4. 루가루가 당신의 장소에 있다면, 그것이 당신을 공격합니다."
     },
     "hardExpert": {
-      "skull": "-3 (-6 instead if you are at a _Bayou_ location).",
-      "cultist": "-3. If the Rougarou is in your location, reveal another token.",
-      "tablet": "Reveal another token. If you fail, until the end of the round, you cannot move.",
-      "elderThing": "-4. If the Rougarou is at your location or a connecting location, it attacks you."
+      "skull": "-3(_늪지_ 장소에 있다면 대신 -6).",
+      "cultist": "-3. 루가루가 당신의 장소에 있다면, 토큰을 하나 더 공개합니다.",
+      "tablet": "토큰을 하나 더 공개합니다. 실패하면, 라운드가 끝날 때까지 이동할 수 없습니다.",
+      "elderThing": "-4. 루가루가 당신의 장소나 연결된 장소에 있다면, 그것이 당신을 공격합니다."
     }
   },
   "remembered": {
-    "foundAnAncientBindingStone": "Found an ancient binding stone",
-    "foundAStrangeDoll": "Found a strange doll"
+    "foundAnAncientBindingStone": "고대의 속박석을 발견했다",
+    "foundAStrangeDoll": "기묘한 인형을 발견했다"
+  },
+  "intro": {
+    "title": "공포에 사로잡힌 뉴올리언스!",
+    "body": "<p>아컴 애드버타이저의 정보원 미니 클라인이 벨마네 식당에서 커피를 마시며 기사 초안을 슬쩍 건네주었다. 편집장 도일 제프리스가 코웃음 치지 않았다면 인쇄되었을 기사다. “정확히 이렇게 말했던 것 같아요. ‘부두교 미치광이의 헛소리를 뉴스라고 찍어 낼 순 없지.’” 그녀가 설명했다. 얼굴에 번지는 능청스러운 미소를 보니, 그녀는 특종 냄새를 맡은 게 분명했다.</p><p>헤드라인은 선정적이었다. 아흐레 동안 세 건의 살인이면 마을 하나를 겁먹게 하기엔 충분하겠지. 하지만 뉴올리언스 전체가 공포에 사로잡혔다거나, 살인에 대해 알기라도 한다는 건 의심스럽다. 그래도 무언가가 흥미를 자극했다. 기사에 나온 부두교 여사제 “에스프리 여사”는 늪지에 사악한 저주가 뿌리내렸다고 주장했다.</p><p>“여기 뭔가 있죠? 그 표정 알아요.” 미니가 말했다. 확신이 서지 않았다. 에스프리 여사의 말이 맞다면, 이 “루-가-루”는 분명 세 건에서 멈추지 않을 것이다. 하지만 저주? 늑대 인간? 그런 게 어떻게 실재할 수 있단 말인가? 알아낼 방법은 하나뿐이다. 외투를 걸치고 아컴 북부 역으로 향한다…</p>"
+  },
+  "setup": {
+    "gatherSets": "다음 조우 세트의 모든 카드를 모읍니다: *루가루의 저주*, *늪지*. 이 세트들은 각각 다음 아이콘으로 표시됩니다: <section class='encounter-sets'><img src='{setImgPath}/curse-of-the-rougarou.png' /><img src='{setImgPath}/the-bayou.png' /></section>",
+    "setAsideEncounterSets": "*루가루의 저주* 조우 세트를 플레이 밖에 따로 둡니다.",
+    "placeLocations": "각 장소를 특성(_뉴올리언스_, _강변_, _황야_, _부정한_)에 따라 4개의 더미로 나눕니다. 이 더미 중 1개를 무작위로 골라 그 장소들을 게임에서 제거합니다. 다른 더미 1개를 무작위로 골라 그 장소들을 플레이에 놓습니다. 나머지 2개 더미의 각 장소는 플레이 밖에 따로 둡니다. 각 조사자는 플레이 중인 _늪지_ 장소에서 게임을 시작합니다.",
+    "setAside": "다음 카드들을 플레이 밖에 따로 둡니다: 에스프리 여사, 곰 덫, 어망."
+  },
+  "resolutions": {
+    "noResolution": {
+      "title": "결말 없음",
+      "body": "<p class='basic'>_결말에 도달하지 못했다면(각 조사자가 기권했거나 패배했다면)_: _결말 1_로 갑니다.</p>"
+    },
+    "resolution1": {
+      "title": "결말 1",
+      "body": "<p>_결말 1_: 어찌어찌 동이 트기 전에 안전한 곳으로 돌아와 늦은 오후까지 쉰다. 다음 날 에스프리 여사를 찾아가고 나서야 지난밤의 희생자가 누구였는지 깨닫는다. 무거운 마음과 떨칠 수 없는 두려움 속에서, 당국에 연락하는 대신 그녀의 시신을 묻기로 한다—늪지 이렇게 깊이 들어오는 사람은 적을수록 좋다.</p><ul><li>캠페인 기록지에 *루가루가 계속 늪지를 떠돈다*라고 기록합니다.</li><li>각 조사자는 승점 더미에 있는 각 카드의 승점 X 값만큼 경험치를 얻습니다.</li></ul>"
+    },
+    "resolution2": {
+      "title": "결말 2",
+      "body": "<p>_결말 2_: 그 존재가 처량하게 울부짖으며 상처에서 검고 질척한 피를 흘린다. 몸이 진흙 속으로 쓰러질 무렵, 그것은 원래 모습으로 돌아와 있다—고통으로 일그러진 표정의 젊은 흑인 남자의 모습으로. 그의 시신을 에스프리 여사에게 데려가자, 그녀가 기묘한 마법을 부려 땅에서 저주의 얼룩을 지운다. “도움이 필요하면 언제든 날 불러요.” 수수께끼의 여인이 말한다.</p><ul><li>캠페인 기록지에 *루가루가 파괴되었다*라고 기록하며, 저주가 풀립니다. 루가루의 저주 약점을 그 소유자의 덱에서 제거합니다. 조사자 중 한 명은 에스프리 여사를 자신의 덱에 추가할 수 있습니다. 이 카드는 해당 조사자의 덱 크기에 포함되지 않습니다.</li><li>각 조사자는 승점 더미에 있는 각 카드의 승점 X 값만큼 경험치를 얻습니다.</li></ul>"
+    },
+    "resolution3": {
+      "title": "결말 3",
+      "body": "<p>_결말 3_: 어찌어찌 그 존재 안에 깃든 저주의 분노와 피의 갈망을 가라앉혔고, 순식간에 숨을 헐떡이며 땀에 젖은 젊은 흑인 남자의 모습이 눈앞에 선다. 그는 이제야 자신이 한 모든 일을 깨달은 듯하며, 아무도 해칠 수 없는 세상의 외딴 구석으로 달아나기로 한다. 하지만 저주는 계속된다. 그가 당신의 눈에서 그것을 보고 팔을 꽉 붙잡는다. “그게 당신을 지배하게 두지 마세요.” 그가 경고한다. “난 약했지만, 당신은—강하다는 걸 알 수 있어요. 내가 못 했던 것처럼 저주를 다스리세요.”</p><ul><li>캠페인 기록지에 *루가루는 탈출했고, 당신은 저주를 받아들였다*라고 기록합니다. 루가루의 저주 약점의 소유자는 괴물로의 변신을 자신의 덱에 추가해야 합니다. 이 카드는 해당 조사자의 덱 크기에 포함되지 않습니다.</li><li>각 조사자는 승점 더미에 있는 각 카드의 승점 X 값만큼 경험치를 얻습니다.</li></ul>"
+    }
+  },
+  "huntingTheRougarou": {
+    "label": {
+      "resolution3": "결말 3",
+      "flipBack": "한쪽 면으로 다시 뒤집습니다"
+    }
   }
 }

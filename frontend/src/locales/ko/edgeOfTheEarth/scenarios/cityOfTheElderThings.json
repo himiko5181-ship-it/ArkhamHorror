@@ -1,85 +1,158 @@
 {
+  "heading": "시나리오 III",
+  "specialRules": [
+    {
+      "title": "열쇠",
+      "body": "<p class='basic'>이 시나리오의 준비에서 플레이어들은 도시 풍경 장소 16장 각각에 무작위 혼돈 토큰을 열쇠로 놓습니다. 이 열쇠들은 절대 혼돈 주머니에 넣지 않으며 일반적인 혼돈 토큰으로 작동하지 않습니다. 대신 조사자들이 시나리오 내내 회수해 사용할 수 있는 열쇠를 나타냅니다.</p><p class='basic'>열쇠는 두 가지 방법 중 하나로 얻을 수 있습니다:</p><ul><li>열쇠가 놓인 장소에 단서가 없다면, 조사자는 {'{'}fast{'}'} 능력으로 그 열쇠의 통제권을 가져올 수 있습니다.</li><li>일부 카드 효과로 조사자가 다른 방법으로 열쇠의 통제권을 가져올 수도 있습니다.</li></ul><p class='basic'>조사자가 열쇠의 통제권을 가져오면, 그 열쇠를 자신의 조사자 카드 위에 놓습니다. 열쇠를 하나 이상 통제하는 조사자가 탈락하면, 그 열쇠들을 각각 그 조사자의 장소에 놓습니다. {'{'}action{'}'} 능력으로, 조사자는 원하는 수의 열쇠를 같은 장소에 있는 다른 조사자에게 줄 수 있습니다.</p>"
+    }
+  ],
+  "label": {
+    "placeKey": "{key} 열쇠를 놓습니다",
+    "moveKey": "{key} 열쇠를 이동시킵니다",
+    "v1": "_준비(v. I)_로 진행합니다",
+    "v2": "_준비(v. II)_로 진행합니다",
+    "v3": "_준비(v. III)_로 진행합니다"
+  },
+  "tooltips": {
+    "cityLandscape": {
+      "look": "당신의 차례 동안, 단서 1개 소모: 당신의 열이나 행에 있는 도시 풍경 1장의 공개된 면을 봅니다. (라운드당 1회 제한.)",
+      "move": "당신의 차례 동안, 단서 3개 소모: 당신의 열이나 행에 있는 아무 장소로 이동합니다. (라운드당 1회 제한.)"
+    }
+  },
   "intro": {
-    "title": "Scenario III: City of the Elder Things",
-    "body": "<p>_도입부_: Even with the knowledge afforded to you by Dyer’s report, you find yourself wholly unprepared for the terrible vastness of the blasphemous city at the heart of Antarctica, and its alien inscrutability. Massive towers, temples, bridges, and pyramids dot the broad landscape. In the ineluctable light of dawn, the nameless maze of cyclopean structures and angular blocks extends for miles in every direction, unmistakably real and yet impossible to believe. It is truly a wonder of the world.</p>"
+    "title": "시나리오 III: 옛것의 도시",
+    "body": "<p>_도입_: 다이어의 보고서로 얻은 지식이 있었는데도, 남극 한가운데 있는 이 불경한 도시의 끔찍한 광대함과 이질적인 불가해함 앞에서 전혀 준비되지 않았음을 깨닫는다. 거대한 탑, 신전, 다리, 피라미드가 드넓은 풍경 곳곳에 흩어져 있다. 피할 수 없는 새벽빛 속에서, 거석 구조물과 각진 블록으로 이루어진 이름 없는 미로가 사방으로 몇 킬로미터나 뻗어 있다. 의심할 여지 없이 실재하지만 믿을 수 없는 광경이다. 진정한 세계의 불가사의다.</p>"
   },
   "sinha": {
-    "alive": "<p>_If Dr. Mala Sinha is alive:_</p><p>“Remember, stay covered at all times. Where we are headed, the wind can flash freeze your skin almost instantly. And stay hydrated,” Dr. Sinha reminds you. “The air here is dryer than you think.” The remainder of the party nods in understanding. None of you have come this far just to catch hypothermia…but it’s almost as likely as death by anything else in this damnable place.<p class='basic'>The investigators suffer no ill effects.</p>",
-    "otherwise": "<p>_Otherwise:_</p><p>You were briefed many times on the dangers of the Antarctic environment, but without Dr. Sinha, you’re at a disadvantage braving the harsh weather. What she lacked in bedside manner, she made up in expertise. Wishing you could have saved her, you grit your teeth and trudge on, watching your companions for any sign of hypothermia.</p><p class='basic'>Each investigator adds a Frostbitten weakness to their deck. It does not count toward that investigator’s deck size."
+    "alive": "<p>_말라 신하 박사가 살아 있다면:_</p><p>“기억해요, 항상 몸을 가리고 있어야 해요. 우리가 가는 곳에선 바람이 피부를 거의 순식간에 얼려 버릴 수 있어요. 그리고 물을 꼭 마셔요.” 신하 박사가 상기시킨다. “여기 공기는 생각보다 건조해요.” 나머지 일행이 알겠다고 고개를 끄덕인다. 여기까지 와서 저체온증에 걸리려고 온 사람은 아무도 없다… 하지만 이 저주받은 곳에서는 그것도 다른 어떤 죽음만큼이나 흔한 일이다.<p class='basic'>조사자들은 아무런 불이익도 받지 않습니다.</p>",
+    "otherwise": "<p>_그렇지 않다면:_</p><p>남극 환경의 위험에 대해 여러 번 브리핑을 받았지만, 신하 박사가 없으니 혹독한 날씨에 맞서기가 불리하다. 환자를 대하는 태도는 부족했어도, 그녀에겐 그걸 메우고도 남는 전문성이 있었다. 그녀를 구할 수 있었다면 좋았을 거라고 생각하며, 이를 악물고 동료들에게 저체온증 징후가 없는지 살피며 터벅터벅 나아간다.</p><p class='basic'>각 조사자는 동상 약점을 자신의 덱에 추가합니다. 이 카드는 해당 조사자의 덱 크기에 포함되지 않습니다."
   },
-  "descend": "As you descend the peaks surrounding the city, trespassing furtively over its walls, the slopes give way to gradual, shallower foothills peppered with structures of black, primordial stone. Towers or outposts, perhaps, linking the natural outer walls of the city to its outskirts. “We should search one of those watchtowers,” one of the team members suggests, pointing to the closest structure. You nod in agreement. Dyer’s report had observed a wealth of information carved into the walls of several structures within the city, after all—perhaps you’ll stumble upon a map or diagram of the city to aid in your exploration.",
+  "descend": "도시를 둘러싼 봉우리를 내려가 성벽을 몰래 넘어가자, 비탈이 점점 완만하고 낮은 구릉으로 바뀌며 원시의 검은 돌로 된 구조물들이 점점이 흩어져 있다. 아마 도시의 자연 외벽과 외곽을 잇는 탑이나 전초 기지일 것이다. “저 감시탑 중 하나를 조사해 봐야겠어요.” 대원 하나가 가장 가까운 구조물을 가리키며 제안한다. 동의하며 고개를 끄덕인다. 어쨌든 다이어의 보고서에 따르면 도시 안 여러 구조물의 벽에 풍부한 정보가 새겨져 있었다—어쩌면 탐험에 도움이 될 도시의 지도나 도해를 우연히 발견할지도 모른다.",
   "scoutedTheCityOutskirts": {
-    "yes": "<p>_If the investigators scouted the city outskirts:_</p><p>Instead of heading to the watchtower, you call out to the others to follow you. Recalling the route you and Ellsworth had scouted out the night before, you lead the group toward the half-buried structure you spotted. It takes a bit longer to get there than the watchtower, but provides an easy shortcut into the city proper.</p><p class='basic'>During setup, after you reveal the starting location, the lead investigator discovers clues from that location equal to half its clue value (rounded up).</p>",
-    "no": "<p>_Otherwise:_</p><p class='basic'>The investigators suffer no ill effects.</p>"
+    "yes": "<p>_조사자들이 도시 외곽을 정찰했다면:_</p><p>감시탑으로 가는 대신, 다른 이들에게 따라오라고 외친다. 지난밤 엘스워스와 정찰했던 길을 떠올리며, 일행을 당신이 발견한 반쯤 묻힌 구조물로 이끈다. 감시탑보다 가는 데 조금 더 걸리지만, 도시 중심부로 들어가는 쉬운 지름길이다.</p><p class='basic'>준비 중에 시작 장소를 공개한 뒤, 대표 조사자는 그 장소에서 단서 수치의 절반(올림)만큼 단서를 발견합니다.</p>",
+    "no": "<p>_그렇지 않다면:_</p><p class='basic'>조사자들은 아무런 불이익도 받지 않습니다.</p>"
   },
   "dyer": {
-    "alive": "<p>_If Professor William Dyer is alive:_</p><p>“Be careful,” the professor warns. You are keen to heed his wisdom, earned as it is through hard experience. “The glyphs inscribed here depict much about the history of this place. It is ancient. Far more ancient than anything our species has built.”</p><p>“What is your point?” someone chimes in.</p><p>“Do you know the old phrase, ‘the walls have ears and the doors have eyes?’” Dyer replies. “We have no idea what could be hiding within these walls. What dwells under the ice and stone. Be on alert…and do not let any voices but our own rattle in your skull. Do you understand?”</p><p>You nod in agreement, gulping down a wave of nausea. You cannot help but take the meaning of Dyer’s idiom literally.</p><p class='basic'>The investigators suffer no ill effects.</p>",
-    "otherwise": "<p>_Otherwise:_</p><p>As you enter the tower, the cold dwindles, but the sense of unease you felt observing the city from a distance only grows. Without Dyer’s wisdom to guide you through this place, you feel completely unprepared. Every drop of water, every shifting pebble, every hushed breath causes your throat to clench and your heart to race. It’s not long before you hear whispering in the walls—voices that don’t belong to you, or anyone in your party. The more you try to deny it, the stronger the voices become. A choir in your mind. A warning?</p><p class='basic'>Each investigator adds a Possessed weakness to their deck. It does not count toward that investigator’s deck size.</p>"
+    "alive": "<p>_윌리엄 다이어 교수가 살아 있다면:_</p><p>“조심하시오.” 교수가 경고한다. 쓰라린 경험으로 얻은 그의 지혜에 귀 기울이려 한다. “여기 새겨진 문양들은 이곳의 역사를 많이 보여 주오. 이곳은 고대의 것이오. 우리 종이 지은 어떤 것보다도 훨씬 오래된.”</p><p>“그래서 하고 싶은 말이 뭔데요?” 누군가 끼어든다.</p><p>“‘벽에도 귀가 있고 문에도 눈이 있다’는 옛말을 아시오?” 다이어가 대답한다. “이 벽 안에 무엇이 숨어 있을지 우린 전혀 모르오. 얼음과 돌 아래 무엇이 사는지도. 경계를 늦추지 마시오… 그리고 우리 목소리 말고는 어떤 목소리도 머릿속에서 울리게 두지 마시오. 알겠소?”</p><p>구역질을 꿀꺽 삼키며 동의의 뜻으로 고개를 끄덕인다. 다이어의 관용구를 문자 그대로 받아들이지 않을 수가 없다.</p><p class='basic'>조사자들은 아무런 불이익도 받지 않습니다.</p>",
+    "otherwise": "<p>_그렇지 않다면:_</p><p>탑에 들어서자 추위는 줄어들지만, 멀리서 도시를 바라볼 때 느꼈던 불안감은 커지기만 한다. 이곳을 안내해 줄 다이어의 지혜가 없으니 전혀 준비되지 않은 기분이다. 물방울 하나, 구르는 자갈 하나, 숨죽인 숨소리 하나에도 목이 조이고 심장이 뛴다. 머지않아 벽 속에서 속삭임이 들린다—당신의 것도, 일행 누구의 것도 아닌 목소리들. 부정하려 할수록 목소리는 더 커진다. 머릿속의 합창. 경고일까?</p><p class='basic'>각 조사자는 홀림 약점을 자신의 덱에 추가합니다. 이 카드는 해당 조사자의 덱 크기에 포함되지 않습니다.</p>"
   },
   "cookie": {
-    "alive": "<p>_If James “Cookie” Fredericks is alive and Dynamite is listed under “Supplies Recovered:”_</p><p>Unfortunately, as you attempt to leave the structure, you find the passage blocked by ice and rubble. Just as you are considering how to dig your way through, Cookie approachs with a few sticks of dynamite bundled together. “Oh, fer Chrissake. Move out of the way,” he grumbles, setting the sticks up and lighting the fuse without another warning. You and the others run around the corner, covering your ears and cursing under your breath. Seconds later, a tremendous explosion shakes the building to its foundations. When the dust settles, Cookie has made an easy exit for the party. “Sometimes, Cookie, I swear…” someone remarks.</p><p class='basic'>The investigators suffer no ill effects.</p>",
-    "otherwise": "<p>_Otherwise:_</p><p>Unfortunately, as you attempt to leave the structure, you find the passage blocked by ice and rubble.It takes much longer than you expected to find another way out, and when you finally escape, you’ve already been exposed to the elements for some time.</p><p class='basic'>Add 1 {'{'}frost{'}'} token to the chaos bag.</p>"
+    "alive": "<p>_제임스 “쿠키” 프레드릭스가 살아 있고 “회수한 보급품” 아래에 다이너마이트가 있다면:_</p><p>안타깝게도 구조물을 떠나려는데 얼음과 잔해에 통로가 막혀 있다. 어떻게 파고 나갈지 고민하던 참에, 쿠키가 다이너마이트 몇 개를 묶어서 들고 다가온다. “아이고, 맙소사. 비켜.” 그가 투덜대며 다이너마이트를 설치하고는 더 이상 경고도 없이 도화선에 불을 붙인다. 당신과 다른 이들은 귀를 막고 낮게 욕을 내뱉으며 모퉁이 뒤로 달려간다. 몇 초 뒤, 엄청난 폭발이 건물을 기초까지 뒤흔든다. 먼지가 가라앉자, 쿠키가 일행을 위한 쉬운 출구를 만들어 놓았다. “쿠키, 가끔은 정말이지…” 누군가 말한다.</p><p class='basic'>조사자들은 아무런 불이익도 받지 않습니다.</p>",
+    "otherwise": "<p>_그렇지 않다면:_</p><p>안타깝게도 구조물을 떠나려는데 얼음과 잔해에 통로가 막혀 있다. 다른 출구를 찾는 데 예상보다 훨씬 오래 걸리고, 마침내 빠져나왔을 땐 이미 한동안 혹독한 날씨에 노출된 뒤다.</p><p class='basic'>혼돈 주머니에 {'{'}frost{'}'} 토큰 1개를 추가합니다.</p>"
   },
-  "entrance": "<p>The open entrance to the obsidian structure greets you like the maw of a ferocious predator. As your eyes adjust to the darkness, your curiosity gives way to deep, profound dread. The structure’s sharp, angular main hall is the site of an absolute massacre. Mangled Elder Thing corpses litter the floor—piles of leathery gray flesh and sticky, misshapen organs, coated in thick, dark-green fluid. You reel at the awful stench of death. These dead are not ancient. This slaughter must have been recent.</p><p>“What could have done this?” One of your party breaks the immense silence. Murals on the walls draw your attention, depicting what you have come to know as the race of Elder Things embroiled in battle with some ancient, terrifying foe—no, not one. Many. Your party dares not dwell in this slaughterhouse long. Covering your noses to block the awful stench, you take your leave.</p>",
-  "trail": "<p>The trail of sickly green blood leads out and dribbles down a smooth path sculpted, as if by an acidic substance, out of the mountainside. In the opposite direction, the mountain ridge continues along the perimeter of the city. In the distance, you can just make out a darkened, half-buried section of the city, the layout of its structures completely unfamiliar to you, even after going through Dyer’s notes extensively. Finally, in the heart of the city, a great pyramid and many prominent temples lie scattered, rising to amazing heights despite the weathering of many eons.</p>",
-  "group1": "<h3>Group 1</h3>",
-  "group2": "<h3>Group 2</h3>",
-  "group3": "<h3>Group 3</h3>",
-  "votes": "The expedition team casts votes on which direction they wish to go. Compare the following three columns to see which column has the most team members still alive.",
+  "entrance": "<p>흑요석 구조물의 열린 입구가 사나운 포식자의 아가리처럼 당신을 맞는다. 어둠에 눈이 익숙해지자, 호기심은 깊고 심오한 두려움으로 바뀐다. 구조물의 날카롭고 각진 중앙 홀은 완전한 학살의 현장이다. 훼손된 옛것들의 시체가 바닥에 널려 있다—짙은 초록색 체액에 뒤덮인 질긴 잿빛 살덩어리와 끈적하고 일그러진 장기 더미. 끔찍한 죽음의 악취에 비틀거린다. 이 시체들은 오래된 것이 아니다. 이 학살은 최근에 일어난 게 틀림없다.</p><p>“뭐가 이런 짓을 한 거죠?” 일행 하나가 거대한 정적을 깬다. 벽의 벽화가 주의를 끈다. 이제 옛것이라는 종족으로 알게 된 존재들이 어떤 고대의 무시무시한 적—아니, 하나가 아니다. 여럿—과 전투에 휘말린 모습이 그려져 있다. 일행은 이 도살장에 오래 머물 엄두가 나지 않는다. 끔찍한 악취를 막으려 코를 가리고 자리를 뜬다.</p>",
+  "trail": "<p>역겨운 초록 피의 흔적이 밖으로 이어져, 마치 산성 물질로 깎아 낸 듯한 산비탈의 매끄러운 길을 따라 흘러내린다. 반대 방향으로는 산등성이가 도시의 외곽을 따라 이어진다. 멀리, 다이어의 노트를 샅샅이 훑어봤는데도 구조물의 배치가 전혀 낯선, 어둡고 반쯤 묻힌 도시의 한 구역이 간신히 보인다. 마지막으로 도시 한가운데에는 거대한 피라미드와 여러 웅장한 신전들이 흩어져, 영겁의 풍화에도 불구하고 놀라운 높이로 솟아 있다.</p>",
+  "group1": "<h3>그룹 1</h3>",
+  "group2": "<h3>그룹 2</h3>",
+  "group3": "<h3>그룹 3</h3>",
+  "votes": "원정대가 어느 방향으로 갈지 투표합니다. 아래 세 열을 비교해 어느 열에 살아 있는 대원이 가장 많은지 확인합니다.",
   "vote": {
-    "kensler": "Dr. Amy Kensler",
-    "sinha": "Dr. Mala Sinha",
-    "hiroko": "Takada Hiroko",
-    "claypool": "Avery Claypool",
-    "cookie": "James “Cookie” Fredericks",
-    "danforth": "Danforth",
-    "eliyah": "Eliyah Ashevak",
-    "ellsworth": "Roald Ellsworth",
-    "dyer": "William Dyer",
-    "group1": "If the left column (Group One) has the most team members still alive, the group votes to venture into the heart of the city where lie its greatest structures. Each partner from this group chosen to accompany an investigator enters play with one additional use. Proceed to _Setup (v. I)_.",
-    "group2": "If the middle column (Group Two) has the most team members still alive, the group votes to travel along the mountain ridge, toward the region Dyer and Danforth never explored. Each partner from this group chosen to accompany an investigator enters play with one additional use. Proceed to _Setup (v. II)_.",
-    "group3": "If the right column (Group Three) has the most team members still alive, the group votes to follow the trail left behind by whatever creatures massacred the Elder Things. Each partner from this group chosen to accompany an investigator enters play with one additional use. Proceed to _Setup (v. III)_.",
-    "tied": "If two or more columns are tied for the most, the lead investigator casts the tiebreaking vote and may decide between the tied options. (*Resolve the above bullet as if that chosen group had the most team members still alive.*)"
+    "kensler": "에이미 켄슬러 박사",
+    "sinha": "말라 신하 박사",
+    "hiroko": "타카다 히로코",
+    "claypool": "에이버리 클레이풀",
+    "cookie": "제임스 “쿠키” 프레드릭스",
+    "danforth": "댄포스",
+    "eliyah": "엘리야 애쉬버크",
+    "ellsworth": "로얼드 엘스워스",
+    "dyer": "윌리엄 다이어",
+    "group1": "왼쪽 열(그룹 1)에 살아 있는 대원이 가장 많다면, 그룹은 가장 위대한 구조물들이 있는 도시의 중심부로 가기로 투표합니다. 조사자와 함께하도록 선택된 이 그룹의 각 동료는 사용 횟수를 1 추가로 가지고 플레이에 들어옵니다. _준비(v. I)_로 진행합니다.",
+    "group2": "가운데 열(그룹 2)에 살아 있는 대원이 가장 많다면, 그룹은 산등성이를 따라 다이어와 댄포스가 탐험하지 못한 지역으로 가기로 투표합니다. 조사자와 함께하도록 선택된 이 그룹의 각 동료는 사용 횟수를 1 추가로 가지고 플레이에 들어옵니다. _준비(v. II)_로 진행합니다.",
+    "group3": "오른쪽 열(그룹 3)에 살아 있는 대원이 가장 많다면, 그룹은 옛것들을 학살한 존재들이 남긴 흔적을 따라가기로 투표합니다. 조사자와 함께하도록 선택된 이 그룹의 각 동료는 사용 횟수를 1 추가로 가지고 플레이에 들어옵니다. _준비(v. III)_로 진행합니다.",
+    "tied": "두 개 이상의 열이 가장 많은 수로 동률이라면, 대표 조사자가 결정 투표를 하여 동률인 선택지 중 하나를 고를 수 있습니다. (*고른 그룹에 살아 있는 대원이 가장 많은 것처럼 위의 항목을 해결합니다.*)"
   },
   "interlude": {
-    "instructions": "Find each surviving expedition member (including those currently under an investigator’s control) who do not have a checkmark drawn next to their name in the “Expedition Team” section of the Campaign Log, and choose one of them at random. If there are no such expedition members, skip the rest of this interlude.",
-    "part1": "<p>You don’t notice the effect the whispers have on your party until it’s too late. Your companion is not just studying the wall, they are leaning against it, placing their ear upon it, their eyes glazed over with rapturous stupor. When they reach the door, they either do not notice—or choose to pointedly ignore—the dribble of hideous miasma that seeps between its cracks; the thick, gray mist that threatens to engulf them whole. You shout a warning just as the door opens, and know enough to look away at just the moment the miasma reaches out. What it is that your teammate sees, you will never truly know. You catch only a glimpse of the unspeakable, bottomless misery that dwells on the other side.</p>",
-    "danforth": "<p>_If the victim is Danforth:_</p><p> The student opens his eyes wide, letting in every inch of the nightmarish sight. Every insidiuous whisper. Every shred of madness. The ice pick in his hand drops to the floor. “It is…beautiful,” he proclaims at last. “The black pit…the carven rim…the moon-ladder…” His words grow more and more feverish. “The original—the eternal—the undying!” A terrible smile spreads across his lips.</p><p class='basic'>The investigator who controls Danforth discovers one clue from the nearest location with one or more clues. (If no investigator controls Danforth, the lead investigator discovers it instead.)</p>",
-    "part2": "<p>Your companion stands petrified in the doorway, whether by sheer terror or compelled by some unknown force, you cannot tell. You and the others work your way toward the door, averting your gaze to ensure you do not suffer the same fate. You slide the stone door shut with a heavy crash, trapping the remainder of the churning miasma within. The moment the horror within is obscured, your companion’s eyes roll back in their head and they collapse to the floor.</p><p>Their heart continues to beat…but their eyes never open again.</p><p class='basic'>In the “Expedition Team” section of the Campaign Log, cross off the chosen character’s name. If they were in play, they are defeated and removed from the game.</p>"
+    "instructions": "캠페인 기록지의 “원정대” 항목에서 이름 옆에 체크 표시가 없는 생존한 각 원정대원(현재 조사자가 통제 중인 대원 포함)을 찾아, 그중 하나를 무작위로 고릅니다. 그런 원정대원이 없다면, 이 막간의 나머지는 건너뜁니다.",
+    "part1": "<p>속삭임이 일행에게 미치는 영향을 너무 늦게서야 알아챈다. 동료는 그냥 벽을 살피는 게 아니라, 벽에 기대 귀를 대고 있다. 그의 눈은 황홀한 혼미함으로 흐려져 있다. 문에 다다랐을 때, 그는 문틈으로 스며 나오는 흉측한 독기, 그를 통째로 삼킬 듯한 짙은 잿빛 안개를 알아채지 못하거나—일부러 무시한다. 문이 열리는 순간 경고를 외치고, 독기가 손을 뻗는 바로 그 순간 눈을 돌릴 만큼의 분별은 있다. 동료가 무엇을 보는지 당신은 결코 진정으로 알지 못할 것이다. 저편에 깃든 형언할 수 없는 바닥없는 비참함을 아주 잠깐 엿볼 뿐이다.</p>",
+    "danforth": "<p>_희생자가 댄포스라면:_</p><p>학생이 눈을 크게 뜨고, 그 악몽 같은 광경을 남김없이 받아들인다. 모든 음험한 속삭임을. 모든 광기의 조각을. 그의 손에서 얼음 곡괭이가 바닥으로 떨어진다. “아름다워…” 그가 마침내 선언한다. “검은 구덩이… 조각된 가장자리… 달의 사다리…” 그의 말이 점점 더 열에 들뜬다. “근원—영원—불멸!” 그의 입술에 끔찍한 미소가 번진다.</p><p class='basic'>댄포스를 통제하는 조사자는 단서가 하나 이상 있는 가장 가까운 장소에서 단서를 1개 발견합니다. (댄포스를 통제하는 조사자가 없다면, 대신 대표 조사자가 발견합니다.)</p>",
+    "part2": "<p>동료가 문간에 굳어 선다. 순전한 공포 때문인지 알 수 없는 힘에 사로잡혀서인지는 알 수 없다. 당신과 다른 이들은 같은 운명을 맞지 않도록 시선을 돌린 채 문 쪽으로 다가간다. 돌문을 육중한 굉음과 함께 밀어 닫아, 남은 소용돌이치는 독기를 안에 가둔다. 안의 공포가 가려지는 순간, 동료의 눈이 뒤집히며 바닥에 쓰러진다.</p><p>심장은 계속 뛰지만… 눈은 다시는 뜨지 않는다.</p><p class='basic'>캠페인 기록지의 “원정대” 항목에서 고른 인물의 이름에 줄을 긋습니다. 그 인물이 플레이 중이었다면, 패배하고 게임에서 제거됩니다.</p>"
   },
   "resolutions": {
     "noResolution": {
-      "title": "결말에 도달하지 못함",
-      "body": "<div class='resolution'><p>_아무 결말에도 도달하지 못했다면(모든 조사자가 쓰러졌다면)_: Injured and weary, you hole up in the relative safety of one of the city’s towering structures. Your only hope is to take shelter within the alien city and hope your presence goes unnoticed by the denizens that still prowl its streets and ancient halls.</p><ul><li>Proceed to Resolution 2.</li></ul></div>"
+      "title": "결말 없음",
+      "body": "<div class='resolution'><p>_결말에 도달하지 못했다면(각 조사자가 패배했다면)_: 다치고 지친 채, 도시의 우뚝 솟은 구조물 하나의 그나마 안전한 곳에 틀어박힌다. 유일한 희망은 이질적인 도시 안에 숨어, 아직도 거리와 고대의 전당을 배회하는 거주자들에게 들키지 않기를 바라는 것뿐이다.</p><ul><li>결말 2로 진행합니다.</li></ul></div>"
     },
     "resolution1": {
       "title": "결말 1",
-      "body": "<div class='resolution'><p>_결말 1_: A quiet, unearthly stillness welcomes you as your party delves into the secret passageway. You expected to be greeted by sound and fury, but this eerie silence is almost worse. Not a word is spoken as you slink deeper and deeper into the secret shaft, making note of the peculiar smoothness of the walls, the bizarre markings along the floor, the muted drip, drip, drip of water in the distance.</p><p>For hours you continue into the deep dark, questioning your judgment with each step. What kind of people walk willingly into the jaws of such horror? You risked your reputation going on this expedition to begin with. Then you risked your life not turning back the moment things turned dire. Now you risk your very sanity unearthing secrets no human was ever meant to find.</p><p>Is this bravery? Or the final mistake of a herd of fools, too stubborn to see that their own deaths lie at the end of this road? It matters not. You’ve come too far to turn back now. One way or another, you will get the answers you seek. The only question is whether you’ll live to tell the world what you found.</p><ul><li>In your Campaign Log, record *the team found the hidden tunnel.*</li><li>각 조사자는 승점 더미에 있는 카드의 승점값만큼 경험치를 얻습니다. Each investigator also earns 1 additional experience for each pair of chaos tokens spent during this scenario.<ul><li>_경험치_: {xp}</li></ul></li><li>In the “Expedition Team” section of the Campaign Log, record the amount of damage and horror on each partner asset in play.</li><li>Proceed to _Interlude III: Final Night._</li></ul></div>"
+      "body": "<div class='resolution'><p>_결말 1_: 일행이 비밀 통로로 파고들자 고요하고 이 세상의 것이 아닌 정적이 맞이한다. 소란과 분노가 기다릴 줄 알았지만, 이 섬뜩한 정적이 거의 더 나쁘다. 비밀 갱도 깊이 더 깊이 살금살금 내려가는 동안 아무도 말 한마디 하지 않는다. 기묘하게 매끄러운 벽, 바닥을 따라 난 기이한 표식, 멀리서 들려오는 똑, 똑, 똑 하는 낮은 물소리를 눈여겨본다.</p><p>몇 시간이고 깊은 어둠 속으로 나아가며, 한 걸음마다 자신의 판단을 의심한다. 어떤 사람들이 그런 공포의 아가리 속으로 제 발로 걸어 들어갈까? 애초에 이 원정에 나선 것부터 명성을 건 도박이었다. 그다음엔 상황이 끔찍해진 순간 돌아서지 않아 목숨을 걸었다. 이제는 어떤 인간도 찾아선 안 될 비밀을 파헤치며 정신 그 자체를 걸고 있다.</p><p>이것은 용기일까? 아니면 이 길 끝에 자신들의 죽음이 있다는 걸 보지 못할 만큼 고집 센 바보 무리의 마지막 실수일까? 상관없다. 돌아서기엔 너무 멀리 왔다. 어떻게든 원하는 답을 얻을 것이다. 유일한 의문은 당신이 살아서 찾은 것을 세상에 알릴 수 있느냐다.</p><ul><li>캠페인 기록지에 *대원들이 숨겨진 터널을 찾았다*라고 기록합니다.</li><li>각 조사자는 승점 더미에 있는 각 카드의 승점 X 값만큼 경험치를 얻습니다. 각 조사자는 이번 시나리오 동안 소모한 혼돈 토큰 한 쌍마다 경험치를 1 추가로 얻습니다.<ul><li>_경험치_: {xp}</li></ul></li><li>캠페인 기록지의 “원정대” 항목에 플레이 중인 각 동료 자산의 피해와 공포 수를 기록합니다.</li><li>_막간 III: 마지막 밤_으로 진행합니다.</li></ul></div>"
     },
     "resolution2": {
       "title": "결말 2",
-      "body": "<div class='resolution'><p>_결말 2_: Hours pass. You dare not venture outside, but you explore every crevice of your sanctuary, hoping to find something to make this endeavor worthwhile. What you find instead is even harder to believe. In the icy sub-level of the structure, a sacred chamber houses a churning pool of kaleidoscopic miasma. Gray, swirling mist evaporates from its surface, familiar shapes and strange hallucinations materializing and vanishing within.</p><p>As if sensing your approach, the pool stops whirling and rises on its own, almost as if in greeting. Then, it coalesces into a shimmering glob of prismatic color and crawls along the floor, stopping when you stop, continuing along as you follow. It beckons you closer, guiding you. You glance at one another with trepidation. Is it trying to show you something? To take you somewhere? And if so…is it truly wise to follow?</p><p>Eventually, you come to an agreement. There is no use dawdling here, and the weather grows fouler with each passing minute. You decide to follow with caution, hoping perhaps it will lead you to answers. For hours you continue into the deep dark, questioning your judgment with each step. The ancient structure gives way to icy tunnels, walls smooth and slick with dark ichor, floor covered in bizarre markings of unknowable origin. Finally, the glob of miasma seeps back into the walls and disappears, leaving you alone with your doubts, your fears, and the impossibly long shaft breaching through the icy heart of Antarctica and into the depths beyond…</p><ul><li>In your Campaign Log, record the team was guided to the hidden tunnel.</li><li>각 조사자는 승점 더미에 있는 카드의 승점값만큼 경험치를 얻습니다. Each investigator also earns 1 additional experience for each pair of chaos tokens that were spent during this scenario.<ul><li>_경험치_: {xp}</li></ul></li><li>In the “Expedition Team” section of the Campaign Log, record the amount of damage and horror on each partner asset in play.</li><li>Proceed to _Interlude III: Final Night_.</li></ul></div>"
+      "body": "<div class='resolution'><p>_결말 2_: 몇 시간이 흐른다. 감히 밖으로 나갈 엄두는 나지 않지만, 이 일을 가치 있게 만들 무언가를 찾기를 바라며 피난처의 구석구석을 탐험한다. 대신 발견한 건 훨씬 더 믿기 어려운 것이다. 구조물의 얼어붙은 지하층, 신성한 방 안에 만화경 같은 독기가 소용돌이치는 웅덩이가 있다. 그 표면에서 잿빛 안개가 소용돌이치며 증발하고, 그 안에서 낯익은 형체와 기묘한 환각이 나타났다 사라진다.</p><p>마치 당신이 다가오는 걸 느낀 듯, 웅덩이가 소용돌이를 멈추고 저절로 솟아오른다. 마치 인사하는 것처럼. 그러더니 반짝이는 무지갯빛 덩어리로 뭉쳐 바닥을 기어간다. 당신이 멈추면 멈추고, 따라가면 계속 나아간다. 그것이 당신을 가까이 부르며 이끈다. 다들 불안하게 서로를 흘끗 본다. 무언가를 보여 주려는 걸까? 어딘가로 데려가려는 걸까? 그렇다면… 따라가는 게 정말 현명할까?</p><p>마침내 합의에 이른다. 여기서 꾸물거려 봐야 소용없고, 날씨는 분마다 더 나빠진다. 답으로 이끌어 주기를 바라며 조심스럽게 따라가기로 한다. 몇 시간이고 깊은 어둠 속으로 나아가며, 한 걸음마다 자신의 판단을 의심한다. 고대 구조물은 얼음 터널로 바뀌고, 벽은 검은 체액으로 매끄럽고 미끌거리며, 바닥은 알 수 없는 기원의 기이한 표식으로 뒤덮여 있다. 마침내 독기 덩어리가 벽 속으로 다시 스며들어 사라지고, 당신은 의심과 두려움, 그리고 남극의 얼음 심장을 뚫고 저 너머의 심연으로 이어지는 믿을 수 없이 긴 갱도와 함께 홀로 남는다…</p><ul><li>캠페인 기록지에 대원들이 숨겨진 터널로 안내받았다라고 기록합니다.</li><li>각 조사자는 승점 더미에 있는 각 카드의 승점 X 값만큼 경험치를 얻습니다. 각 조사자는 이번 시나리오 동안 소모한 혼돈 토큰 한 쌍마다 경험치를 1 추가로 얻습니다.<ul><li>_경험치_: {xp}</li></ul></li><li>캠페인 기록지의 “원정대” 항목에 플레이 중인 각 동료 자산의 피해와 공포 수를 기록합니다.</li><li>_막간 III: 마지막 밤_으로 진행합니다.</li></ul></div>"
     },
     "xp": {
-      "bonus": "Each pair of chaos tokens spent during this scenario"
+      "bonus": "이번 시나리오 동안 소모한 혼돈 토큰 한 쌍마다"
     }
   },
   "remembered": {
-    "theTeamStudiedTheHistoryOfTheElderThings": "The team studied the history of the Elder Things.",
-    "theTeamDiscernedTheOriginOfTheShoggoths": "The team discerned the origin of the Shoggoths."
+    "theTeamStudiedTheHistoryOfTheElderThings": "대원들이 옛것의 역사를 연구했다.",
+    "theTeamDiscernedTheOriginOfTheShoggoths": "대원들이 쇼고스의 기원을 알아냈다."
   },
   "tokens": {
     "easyStandard": {
-      "skull": "–X. X is the number of keys you control.",
-      "cultist": "–2. If you fail, place a key you control on your location.",
-      "tablet": "–3. If a {'{'}frost{'}'} token was revealed during this test, you automatically fail, instead.",
-      "elderThing": "–4. If you fail, the nearest enemy moves once toward you. If it is engaged with you, it attacks."
+      "skull": "–X. X는 당신이 통제하는 열쇠의 수입니다.",
+      "cultist": "–2. 실패하면, 당신이 통제하는 열쇠 1개를 당신의 장소에 놓습니다.",
+      "tablet": "–3. 이 판정 중에 {'{'}frost{'}'} 토큰이 공개되었다면, 대신 자동으로 실패합니다.",
+      "elderThing": "–4. 실패하면, 가장 가까운 적이 당신 쪽으로 한 번 이동합니다. 그 적이 당신과 교전 중이라면, 공격합니다."
     },
     "hardExpert": {
-      "skull": "–X. X is 2 plus the number of keys you control.",
-      "cultist": "–2. Place a key you control on your location.",
-      "tablet": "–4. If a {'{'}frost{'}'} token was revealed during this test, take 1 damage and you automatically fail, instead.",
-      "elderThing": "–5. If you fail, the nearest enemy moves once toward you. If it is engaged with you, it attacks."
+      "skull": "–X. X는 2에 당신이 통제하는 열쇠의 수를 더한 값입니다.",
+      "cultist": "–2. 당신이 통제하는 열쇠 1개를 당신의 장소에 놓습니다.",
+      "tablet": "–4. 이 판정 중에 {'{'}frost{'}'} 토큰이 공개되었다면, 피해를 1 받고 대신 자동으로 실패합니다.",
+      "elderThing": "–5. 실패하면, 가장 가까운 적이 당신 쪽으로 한 번 이동합니다. 그 적이 당신과 교전 중이라면, 공격합니다."
+    }
+  },
+  "setup": {
+    "v1": {
+      "gatherSets": "다음 조우 세트의 모든 카드를 모읍니다: *옛것의 도시*, *옛것*, *독기*, *이름 없는 공포*, *펭귄*, *쇼고스*, *테켈리 리*, *잠긴 문*. 이 세트들은 다음 아이콘으로 표시됩니다:<section class='encounter-sets'><img src='{setImgPath}/city-of-the-elder-things.png' /><img src='{setImgPath}/elder-things.png' /><img src='{setImgPath}/miasma.png' /><img src='{setImgPath}/nameless-horrors.png' /><img src='{setImgPath}/penguins.png' /><img src='{setImgPath}/shoggoths.png' /><img src='{setImgPath}/tekeli-li.png' /><img src='{setImgPath}/locked-doors.png' /></section>",
+      "setAside": "*쇼고스* 조우 세트를 따로 둡니다.",
+      "createActDeck": "광대하게 뻗어나간 도시(v. I)와 미지의 세계를 쫓아서(v. I)만 사용해 주요목적 덱을 만듭니다. 나머지 주요목적 카드는 모두 게임에서 제거합니다.",
+      "placeLocations": "도시 풍경 장소 16장을 섞어, 지도에 따라 비밀 통로와 함께 플레이에 놓습니다.",
+      "startAt": "대표 조사자가 가장 바깥쪽 장소 8개 중 하나를 고릅니다. 각 조사자는 고른 장소에서 게임을 시작합니다.",
+      "adjacency": "이 시나리오의 장소는 인접한 각 장소와 연결됩니다.",
+      "keys": "소장품에서(*혼돈 주머니가 아니라*) 다음 토큰을 각각 2개씩 모읍니다: {'{'}skull{'}'}, {'{'}cultist{'}'}, {'{'}tablet{'}'}, {'{'}elderThing{'}'}, 0, –1, –2, –3. 이 토큰 16개를 무작위로 각 도시 풍경 장소에 하나씩 놓습니다. 이것들이 “열쇠”입니다.",
+      "addElderThingToken": "혼돈 주머니에 {'{'}elderThing{'}'} 토큰 1개를 추가합니다.",
+      "removals": "유순한 옛것 적 3장을 모두 게임에서 제거합니다. 별들의 공포 적을 플레이 밖에 따로 둡니다."
+    },
+    "v2": {
+      "gatherSets": "다음 조우 세트의 모든 카드를 모읍니다: *옛것의 도시*, *얼음 속의 존재*, *옛것*, *이름 없는 공포*, *펭귄*, *침묵과 수수께끼*, *테켈리 리*, *냉기*. 이 세트들은 다음 아이콘으로 표시됩니다:<section class='encounter-sets'><img src='{setImgPath}/city-of-the-elder-things.png' /><img src='{setImgPath}/creatures-in-the-ice.png' /><img src='{setImgPath}/elder-things.png' /><img src='{setImgPath}/nameless-horrors.png' /><img src='{setImgPath}/penguins.png' /><img src='{setImgPath}/silence-and-mystery.png' /><img src='{setImgPath}/tekeli-li.png' /><img src='{setImgPath}/chilling-cold.png' /></section>",
+      "setAside": "*얼음 속의 존재* 조우 세트를 따로 둡니다.",
+      "createActDeck": "광대하게 뻗어나간 도시(v. II)와 미지의 세계를 쫓아서(v. II)만 사용해 주요목적 덱을 만듭니다. 나머지 주요목적 카드는 모두 게임에서 제거합니다.",
+      "placeLocations": "도시 풍경 장소 16장을 섞어, 지도에 따라 비밀 통로와 함께 플레이에 놓습니다.",
+      "startAt": "각 조사자는 오른쪽 아래 장소에서 게임을 시작합니다.",
+      "adjacency": "이 시나리오의 장소는 인접한 각 장소와 연결됩니다.",
+      "keys": "소장품에서(*혼돈 주머니가 아니라*) 다음 토큰을 각각 2개씩 모읍니다: {'{'}skull{'}'}, {'{'}cultist{'}'}, {'{'}tablet{'}'}, {'{'}elderThing{'}'}, 0, –1, –2, –3. 이 토큰 16개를 무작위로 각 도시 풍경 장소에 하나씩 놓습니다. 이것들이 “열쇠”입니다.",
+      "addElderThingToken": "혼돈 주머니에 {'{'}elderThing{'}'} 토큰 1개를 추가합니다.",
+      "removals": "별들의 공포 적과 유순한 옛것 적 3장을 모두 게임에서 제거합니다."
+    },
+    "v3": {
+      "gatherSets": "다음 조우 세트의 모든 카드를 모읍니다: *옛것의 도시*, *얼음 속의 존재*, *독기*, *펭귄*, *쇼고스*, *테켈리 리*, *냉기*, *잠긴 문*. 이 세트들은 다음 아이콘으로 표시됩니다:<section class='encounter-sets'><img src='{setImgPath}/city-of-the-elder-things.png' /><img src='{setImgPath}/creatures-in-the-ice.png' /><img src='{setImgPath}/miasma.png' /><img src='{setImgPath}/penguins.png' /><img src='{setImgPath}/shoggoths.png' /><img src='{setImgPath}/tekeli-li.png' /><img src='{setImgPath}/chilling-cold.png' /><img src='{setImgPath}/locked-doors.png' /></section>",
+      "setAside": "*쇼고스* 조우 세트를 따로 둡니다.",
+      "createActDeck": "광대하게 뻗어나간 도시(v. III)와 미지의 세계를 쫓아서(v. III)만 사용해 주요목적 덱을 만듭니다. 나머지 주요목적 카드는 모두 게임에서 제거합니다.",
+      "placeLocations": "도시 풍경 장소 16장을 섞어, 지도에 따라 비밀 통로와 함께 플레이에 놓습니다.",
+      "startAt": "각 조사자는 왼쪽 위 장소에서 게임을 시작합니다.",
+      "adjacency": "이 시나리오의 장소는 인접한 각 장소와 연결됩니다.",
+      "keys": "소장품에서(*혼돈 주머니가 아니라*) 다음 토큰을 각각 2개씩 모읍니다: {'{'}skull{'}'}, {'{'}cultist{'}'}, {'{'}tablet{'}'}, {'{'}elderThing{'}'}, 0, –1, –2, –3. 이 토큰 16개를 무작위로 각 도시 풍경 장소에 하나씩 놓습니다. 이것들이 “열쇠”입니다.",
+      "removals": "별들의 공포 적과 다시 깨어난 옛것 적 3장을 모두 게임에서 제거합니다."
+    },
+    "removeUnearnedWeaknesses": "도입에서 획득하지 않은 동상과 홀림 약점은 모두 게임에서 제거합니다.",
+    "checkDifficulty": "난이도를 확인합니다.",
+    "hard": "어려움 난이도로 플레이한다면, 현재 사건 1a에 파멸을 1개 추가합니다.",
+    "expert": "전문가 난이도로 플레이한다면, 현재 사건 1a에 파멸을 2개 추가합니다.",
+    "tekelili": "조사자의 덱에 이미 포함되지 않은 테켈리 리! 약점 카드를 모두 함께 섞어 테켈리 리 덱을 만듭니다. 이 덱을 현재 사건 덱 근처에 놓습니다."
+  },
+  "hiddenTunnelEntranceToTheDepths": {
+    "label": {
+      "spendSkullKey": "해골 열쇠를 소모합니다",
+      "doNotSpendSkullKey": "해골 열쇠를 소모하지 않습니다"
+    }
+  },
+  "pursuitOfTheUnknown": {
+    "label": {
+      "doNotTakeHealing": "회복하지 않습니다",
+      "healAll": "피해 1, 공포 1, 트라우마 1을 회복합니다",
+      "healPhysicalTrauma": "육체적 트라우마 1을 회복합니다",
+      "healMentalTrauma": "정신적 트라우마 1을 회복합니다"
     }
   }
 }

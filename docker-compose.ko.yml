@@ -1,0 +1,8 @@
+# 한국어판 오버레이: docker compose -f docker-compose.yml -f docker-compose.ko.yml up -d --build
+services:
+  web:
+    image: "arkham-horror-ko:latest"
+    build:
+      context: .
+      dockerfile: Dockerfile.ko
+    pull_policy: build

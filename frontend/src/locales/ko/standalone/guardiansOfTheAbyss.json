@@ -1,0 +1,100 @@
+{
+  "label": {
+    "lookAtExplorationDeck": "탐사 덱의 맨 위 카드들을 봅니다",
+    "lookAtEncounterDeck": "조우 덱의 맨 위 카드들을 봅니다",
+    "farid": {
+      "resourcesToSpend": "소비할 자원의 양"
+    },
+    "nadiaNimr": {
+      "horrorToTake": "받을 공포의 양"
+    },
+    "nassor": {
+      "addStrength": "심연에 힘 1을 추가합니다",
+      "extraDamage": "이 공격에서 나소르가 피해 +{count}와 공포 +{count}를 줍니다"
+    },
+    "theBlackWind": {
+      "addStrength": "심연에 힘 1을 추가하고 검은 바람을 승점 더미에 추가합니다.",
+      "discard": "검은 바람을 버리고 조우 덱 맨 위 카드를 뽑아 대체합니다. 이번 라운드가 끝날 때까지 모든 능력치에 -1을 받습니다."
+    },
+    "fateOfTheDreamers": {
+      "removeStrength": "심연에서 힘 2를 제거합니다.",
+      "addStrength": "심연에 힘 2를 추가합니다."
+    },
+    "prisonersOfConquest": {
+      "freeTheCreatures": "생물들을 풀어 주기 위해 {agility} (4) 판정을 합니다.",
+      "slayTheCreatures": "생물들을 죽이기 위해 {combat} (4) 판정을 합니다."
+    },
+    "ruinsOfSarkomand": {
+      "speakToTheDenizens": "이 폐허에 사는 인간에 가까운 생물들에게 말을 걸기 위해 {intellect} (3) 판정을 합니다.",
+      "blockTheTrapdoor": "뚜껑문을 막기 위해 {combat} (3) 판정을 합니다."
+    },
+    "effigyOfNodens": {
+      "entreatForAid": "이 조각상이 묘사하는 존재에게 도움을 간청하기 위해 {willpower} (2) 판정을 합니다.",
+      "overthrowTheStatue": "조각상을 넘어뜨리기 위해 {combat} (2) 판정을 합니다."
+    },
+    "usurpTheNight": {
+      "proceed": "결말 3으로 진행합니다",
+      "flipBack": "이 카드를 적 면으로 다시 뒤집습니다",
+      "acceptMercy": "짜라의 자비를 받아들이고 즉시 기권합니다",
+      "refuse": "거절합니다"
+    },
+    "theHourOfJudgment": {
+      "destroyNeith": "네이트를 영원히 파괴합니다. 이 선택지를 고르면, 영원한 잠의 저주에 아직 걸려 있는 이들이 풀려날 거라고 믿게 됩니다.",
+      "spareNeith": "네이트를 살려 주고 그녀의 말을 듣습니다. 이 선택지를 고르면, 네이트가 짜라라고 부르는 자에 대해 더 알아낼 수 있다고 믿게 됩니다."
+    },
+    "defeatingXzharah": {
+      "proceed": "결말 2로 진행합니다",
+      "flipBack": "이 현재 사건을 \"a\" 면으로 다시 뒤집습니다"
+    }
+  },
+  "intoTheGate": {
+    "ankh": "<p>*앙크 부적이 눈부신 빛을 내뿜자, 짜라가 움찔하며 물러선다. \"그래, 네이트가 우리를 버렸구나!\" 짜라가 쉿 소리를 낸다.*</p>"
+  },
+  "removeStrengthFromTheAbyss": "심연에서 힘 1을 제거합니다.",
+  "theTranslatorsEvidence": {
+    "benefit": "<p>*석판을 엘 마스리 박사에게 가져가자, 그녀가 할 수 있는 한 최선을 다해 번역한다. \"선택이 이루어질 때, 그는 성스러운 땅에서 바친 천 명의 제물로 힘을 얻으리라.\" 그녀는 그게 무슨 뜻인지 이해하려고 몇 번 눈을 깜빡인다. \"지금 혼수상태 환자가 몇 명이나 되죠?\" 그녀가 눈을 크게 뜨고 묻는다.*</p>"
+  },
+  "theSupplicantsEvidence": {
+    "benefit": "<p>*무어 박사가 걸어서 도시를 빠져나가려 할 때 그를 궁지에 모는 데 성공한다. \"아주 영리하군.\" 그가 인정한다. \"하지만 당신들은 이미 시간이 없어. 날 가둬도 상관없어. 꿈꾸는 자들은 제물로 바쳐질 것이고, 우리의 선택받은 자가 우리를 새 시대로 이끌 테니까.\" 하지만 몇 시간 뒤, 그는 도시에서 내보내 달라고 애원한다. \"제발, 사신이 오고 있어! 네이트가 우리 모두를 데리러 오고 있다고. 우리 모두 제물이 될 거야, 모르겠어? 당신도 나도! 아직 할 수 있을 때 다 같이 도시를 떠나야 해!\"*</p>"
+  },
+  "thePriestesssEvidence": {
+    "benefit": "<p>*나디아가 준 열쇠로 표시된 거처에 들어간다. 놀랍게도 안에는 아무도 없고, 썩은 냄새와 오래된 가죽 냄새만 희미하게 풍긴다. 거처의 지하실에는 형제단과 그 수많은 요원이 남긴 오래된 책과 기록이 어지럽게 흩어져 있다. 다 훑어보려면 시간이 걸리겠지만, 단서는 단서다.*</p>"
+  },
+  "theSalesmansEvidence": {
+    "benefit": "<p>*파리드가 황금 우상들을 배낭에 퍼 담으며 활짝 웃는다. 그가 너무 들뜨기 전에 정보를 내놓으라고 다그친다. \"이봐요, 그들은 상상도 못 할 부를 약속했어요. 나도 값이 있다고요, 알잖아요?\" 그가 체념한 듯 두 손을 든다. \"내 기록을 보여 줄게요. 지난 몇 달 동안 '장사'를 꽤 했거든요. 그걸 보면 방향이 잡힐 거예요.\"*</p>"
+  },
+  "theAssassinsEvidence": {
+    "benefit": "<p>*치명상을 입었는데도 암살자는 사악하게 웃는다. \"그날이 오고 있다.\" 그가 기침을 하며 말한다. \"날 죽이면 그걸 막을 수 있을 것 같나? 바보들! 야수가 너희 모두를 집어삼킬 것이다!\" 그는 마지막 숨을 내쉬며 낄낄거리다가 조용해진다.*</p><p>*구경꾼이 시체를 발견하기 전에 재빨리 그의 소지품을 뒤진다. 그가 지닌 수많은 기묘한 물건 중에서, 수수께끼 같은 문구가 적힌 작은 가죽 장정 일기를 찾는다:*</p><p class='center'><span class='wolgast' style='line-height:1em;'>*우리의 공물이 심연의 칼날을 적시니<br>천 개의 영혼은 결코 깨어나지 않으리<br>이로써 우리의 선택받은 자가 일어나리니<br>그날은 언제나 가까우리라!*</span></p>"
+  },
+  "theProfessorsEvidence": {
+    "benefit": "<p>*교수의 책상 위에 장신구를 내려놓는다. 그는 외알 안경을 끼고 꼼꼼히 살펴본다. \"흥미롭군!\" 그가 외친다. \"이건 왕실 지하묘지의 특정한 무덤에서만 나올 수 있는 물건이오. 대부분의 학자는 그 무덤이 존재한다고 믿지도 않지.\" 그가 일어나 당신과 악수한다. \"이걸 더 연구할 시간을 좀 주시오. 우리 둘 다 살아서 빠져나간다면, 논문을 다시 제출할 수 있을지도 모르겠군.\" 그가 섬뜩하게 껄껄 웃으며 말한다.*</p>"
+  },
+  "rules": {
+    "storyCards": {
+      "title": "이야기 카드",
+      "body": "<p class='basic'>이야기 카드는 이 시나리오의 새로운 카드 종류입니다. 이 카드들은 추가 이야기를 전달하는 수단이며, 보통 다른 시나리오 카드의 뒷면에 있습니다. 이야기 카드를 해결하라는 지시를 받으면, 이야기 텍스트를 읽고 게임 텍스트가 있다면 해결하기만 하면 됩니다.</p><p class='basic'>(참고: 플레이 중인 장소나 적이 뒷면의 이야기 카드로 뒤집히면, 그 이야기 카드를 해결하는 동안 그 장소나 적은 여전히 플레이 중인 것으로 간주합니다.)</p>"
+    },
+    "strengthOfTheAbyss": {
+      "title": "심연의 힘",
+      "body": "<p class='basic'>이 시나리오 동안, 시나리오 참조 카드 위의 자원은 현재 심연의 힘을 나타냅니다. 심연에 힘을 추가하거나 심연에서 힘을 제거하라는 지시를 받으면, 시나리오 참조 카드 위의 자원 토큰 수를 그에 맞게 조정합니다. 심연의 힘 자체에는 게임 효과가 없지만, 일부 조우 카드 효과는 현재 심연의 힘에 따라 강해지거나 바뀔 수 있습니다. 조심하십시오. 심연의 힘이 커질수록 당신에게 맞서는 세력도 강해집니다. 심연이 너무 강해지면, 당신은 분명 심연의 수호자로서 실패할 것입니다.</p>"
+    },
+    "takenByTheAbyss": {
+      "title": "\"심연에 사로잡힘\"",
+      "body": "<p class='basic'>패배한 조사자나 _동료_ 자산이 \"심연에 사로잡혔다\"고 효과가 명시하면, 그 캐릭터는 혼수상태에 빠지는 저주에 걸린 것입니다. 조사자나 _동료_ 자산이 심연에 사로잡히면, 먼저 심연에 힘 1을 추가합니다. 그다음 그 카드가 고유 카드라면, 캠페인 기록지에 \"(카드 이름)은(는) 심연에 사로잡혔다\"라고 기록합니다. 심연에 사로잡힌 조사자는 사망하거나 미친 것처럼 취급합니다. 또한 캠페인이 끝날 때까지, 플레이어들은 심연에 사로잡힌 고유 _동료_ 자산의 사본을 플레이할 수 없습니다.</p>"
+    }
+  },
+  "specialRules": [
+    {
+      "title": "@:standalone.guardiansOfTheAbyss.rules.storyCards.title",
+      "body": "@:standalone.guardiansOfTheAbyss.rules.storyCards.body"
+    },
+    {
+      "title": "@:standalone.guardiansOfTheAbyss.rules.strengthOfTheAbyss.title",
+      "body": "@:standalone.guardiansOfTheAbyss.rules.strengthOfTheAbyss.body"
+    },
+    {
+      "title": "@:standalone.guardiansOfTheAbyss.rules.takenByTheAbyss.title",
+      "body": "@:standalone.guardiansOfTheAbyss.rules.takenByTheAbyss.body"
+    }
+  ]
+}

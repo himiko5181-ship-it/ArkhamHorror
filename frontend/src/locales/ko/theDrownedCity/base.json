@@ -1,0 +1,158 @@
+{
+  "difficulty": {
+    "Easy": "표류하고 싶어",
+    "Standard": "꿈꾸고 싶어",
+    "Hard": "잠수하고 싶어",
+    "Expert": "르리에를 원해"
+  },
+  "specialRules": [
+    {
+      "title": "홍수 토큰",
+      "body": "@:theDrownedCity.additionalRulesAndClarifications.floodTokens"
+    },
+    {
+      "title": "유물",
+      "body": "@:theDrownedCity.additionalRulesAndClarifications.artifacts"
+    },
+    {
+      "title": "외계 상형문자",
+      "body": "@:theDrownedCity.additionalRulesAndClarifications.alienGlyphs"
+    },
+    {
+      "title": "새로운 키워드",
+      "body": "@:theDrownedCity.newKeywords.body"
+    }
+  ],
+  "label": {
+    "noAir": "공기를 찾지 못했습니다. 직접 피해를 5 받습니다.",
+    "walkInFaith": {
+      "drawFromDeck": "대신 당신의 덱에서 카드를 1장 뽑습니다",
+      "drawEncounter": "평소대로 조우 덱에서 뽑습니다"
+    },
+    "naomiOBannion": {
+      "preventReadying": "나오미 오베니언이 준비하지 못하게 피해를 1 받습니다",
+      "doNotTakeDamage": "피해를 1 받지 않습니다"
+    },
+    "dreamingMigration": {
+      "moveNearestEnemy": "가장 가까운 적을 당신의 장소로 이동시키고 그 적이 당신을 공격합니다",
+      "drawTopmostEnemy": "조우 버린 더미에서 가장 위에 있는 적을 뽑습니다"
+    },
+    "horrorInClay": {
+      "blankPrintedText": "라운드가 끝날 때까지 이 자산의 인쇄된 텍스트 상자가 비어 있는 것처럼 취급합니다",
+      "moveStarSpawn": "_별의 자손_ 적 하나를 아무 방향으로 한 번 이동시킵니다"
+    }
+  },
+  "intro": {
+    "title": "떠오른 심연",
+    "body": "<p class='indent'>“…악몽 같은 시체 도시 르리에. 역사 이전의 헤아릴 수 없는 영겁 전, 어두운 별들에서 스며 내려온 거대하고 혐오스러운 형체들이 세운 도시. 그곳에 위대한 크툴루와 그 무리가 끈적한 초록빛 지하실에 숨어 누워 있었고, 셀 수 없는 주기가 지난 끝에 마침내 생각을 내보내, 예민한 이들의 꿈에 공포를 퍼뜨리고 신도들에게 해방과 복원의 순례를 떠나라고 위압적으로 부르고 있었다.”</p><p class='basic right'>– H. P. 러브크래프트, 「크툴루의 부름」</p>"
+  },
+  "prologue": {
+    "title": "프롤로그",
+    "body": "<p><span class='wolgast'>4월 15일</span></p><p>한동안 뭔가 이상했다. 유난히 추운 해였다. 폭설과 비와 안개가 뉴잉글랜드 하늘을 끝없는 우울 속에 가둬 두었다. 불안한 초조함이 일상의 모든 구석으로 스며든 듯하다. 길모퉁이의 사소한 말다툼이 주먹다짐으로 번진다. 닫힌 문 뒤에서 억눌린 고함과 비명이 울린다. 미스캐토닉 대학에서는 적지 않은 수의 학생이 그냥 수업에 나오지 않게 되었다. 아컴 사람들은 뼛속 깊이 느끼고 있다. 뭔가 달라졌다. 뭔가 잘못됐다.</p><p class='basic right'>_마지막 의뢰_로 진행합니다.</p>"
+  },
+  "additionalRulesAndClarifications": {
+    "title": "추가 규칙 및 설명",
+    "floodTokens": "<h3>홍수 토큰</h3><p class='basic'>이 캠페인 내내 시나리오 카드 효과로 장소가 침수될 수 있습니다. 각 장소는 세 가지 침수 단계 중 하나에 있습니다. 침수되지 않음, 일부 침수, 완전 침수. 장소의 침수 단계는 이 캠페인 상자에 포함된 양면 홍수 토큰으로 추적할 수 있습니다. _장소의 침수 단계 자체에는 게임상 효과가 없습니다_. 하지만 일부 카드 효과는 침수된 장소에 있을 때, 특히 그 장소가 완전 침수되었을 때 바뀌거나 강해질 수 있습니다.</p><ul><li>홍수 토큰이 없는 장소는 침수되지 않은 것입니다.</li><li>장소가 일부 침수되면, 이를 표시하기 위해 일부 침수 면이 위로 오게 하여 그 장소에 홍수 토큰을 놓습니다.</li><li>장소가 완전 침수되면, 이를 표시하기 위해 완전 침수 면이 위로 오게 하여 그 장소에 홍수 토큰을 놓습니다(이미 일부 침수되어 있다면, 홍수 토큰을 뒤집습니다).<br><div style='display:flex;flex-direction:row;gap:1em;justify-content: center; align-items: center; align-self: center;'><div class='center'><img width='70' src='{setImgPath}/../tokens/partially-flooded.png' /><br><p>일부 침수</div><div class='center'><img width='70' src='{setImgPath}/../tokens/fully-flooded.png' /><br><p>완전 침수</p></div></div></li><li>장소의 침수 단계가 “높아지면”, 침수되지 않음에서 일부 침수로, 또는 일부 침수에서 완전 침수로 바뀝니다. 완전 침수된 장소는 침수 단계를 높일 수 없습니다.</li><li>장소의 침수 단계가 “낮아지면”, 완전 침수에서 일부 침수로, 또는 일부 침수에서 침수되지 않음으로 바뀝니다. 장소가 침수되지 않게 되면, 홍수 토큰을 제거합니다. 침수되지 않은 장소는 침수 단계를 낮출 수 없습니다.</li><li>카드 효과상, 일부 침수된 장소와 완전 침수된 장소는 모두 “침수된” 것으로 간주됩니다.</li></ul>",
+    "artifacts": "<h3>유물</h3><p class='basic'>조사자들은 *수몰된 도시* 캠페인 동안 특정 _유물_ 이야기 자산(간단히 “유물”이라고도 함)을 얻을 수 있습니다. 유물은 다음을 제외하면 다른 자산과 똑같이 작동합니다:</p><ul><li class='basic'>유물은 절대 조사자 덱에 추가되지 않습니다. 시나리오의 결말을 해결한 후, 플레이 상태인 유물은 상자에 되돌립니다.</li><li class='basic'>시나리오를 준비할 때, 조사자들은 얻은 _유물_ 이야기 자산을 가지고 게임을 시작하라는 지시를 받을 수 있습니다. 이 과정에서는 캠페인 기록지의 “얻은 유물” 칸에 체크된 유물만 선택할 수 있습니다.</li><li class='basic'>유물은 고유한 뒷면을 가지며, 비용이 없고, 플레이 영역을 떠날 수 없으며, 시나리오 효과로 버릴 카드로 선택될 수 없습니다.</li><li class='basic'>일부 유물에는 외계 상형문자가 있습니다. 조사자들이 그 유물의 외계 상형문자를 모두 해독하지 않았다면, 그 상형문자 아래의 텍스트는 비어 있는 것으로 간주됩니다.</li><li class='basic'>유물을 통제하는 조사자가 패배하면, 그 유물을 게임에서 제거하는 대신 _가장 가까운 살아남은 조사자에게 통제권을 넘깁니다_.</li></ul>",
+    "alienGlyphs": "<h3>외계 상형문자</h3><p class='basic'>캠페인 내내 조사자들은 캠페인 기록지 두 번째 페이지의 상형문자를 해독하라는 지시를 받을 수 있습니다. 그렇게 하려면, 게임의 지시에 따라 그 상형문자 바로 아래 칸에 해독한 텍스트를 적습니다.</p><ul><li class='basic'>상형문자의 의미 자체에는 게임상 효과가 없습니다.</li><li class='basic'>일부 유물에는 외계 상형문자가 있습니다. 조사자들이 그 유물의 외계 상형문자를 모두 해독하지 않았다면, 그 상형문자 아래의 텍스트는 비어 있는 것으로 간주됩니다.</li><li class='basic'>*수몰된 도시* 캠페인의 대부분의 시나리오는 상형문자 카드를 비플레이 상태로 치워 두라고 지시합니다.</li></ul>"
+  },
+  "newKeywords": {
+    "title": "새로운 키워드",
+    "body": "<h3>경계</h3><p class='basic'>이 캠페인의 일부 적은 경계 키워드를 가집니다. 조사자가 경계 키워드를 가진 적을 회피하려다 능력 테스트에 실패할 때마다, 그 능력 테스트의 모든 결과를 적용한 후, 그 적은 회피하려던 조사자를 공격합니다. 적은 경계 공격을 한 후 소진되지 않습니다. 이 공격은 그 적이 회피하려던 조사자와 교전 중이든 아니든 일어납니다.</p><h3>순찰</h3><p class='basic'>이 캠페인의 일부 적은 순찰 키워드를 가집니다. 적 단계 동안(진행 단계 3.2에서), 순찰 키워드를 가진 준비된, 교전하지 않은 각 적은 지정된 목표(순찰이라는 단어 옆 괄호에 설명됨)를 향해 최단 경로를 따라 연결된 장소로 이동합니다.</p><h3>끈질김</h3><p class='basic'>이 캠페인의 일부 적은 끈질김 키워드를 가집니다. 적 단계 동안(진행 단계 3.3 이후), 이번 단계에 공격한(그 공격이 취소되었더라도) 끈질김 키워드를 가진 각 적은 준비하고 교전 중인 조사자(들)를 한 번 더 공격합니다.</p><h3>봉인</h3><p class='basic'>봉인 키워드를 가진 카드가 플레이 상태가 되기 위한 추가 비용으로, 그 카드의 통제자는 혼돈 주머니에서 지정된 혼돈 토큰을 찾아 카드 위에 놓아 그 토큰을 봉인해야 합니다. 봉인된 혼돈 토큰은 혼돈 주머니에 있는 것으로 간주되지 않으므로, 능력 테스트나 능력의 일부로 혼돈 주머니에서 공개될 수 없습니다.</p>"
+  },
+  "glyphs": {
+    "title": "외계 상형문자",
+    "runes": {
+      "a": "심연",
+      "b": "식물",
+      "c": "고대의 존재",
+      "d": "파도",
+      "e": "어둠",
+      "f": "별",
+      "g": "생명",
+      "h": "이흐레흐트",
+      "i": "크툴루",
+      "j": "잠",
+      "k": "꿈",
+      "l": "팔",
+      "m": "대지",
+      "n": "파멸",
+      "o": "힘",
+      "p": "날씨",
+      "q": "손",
+      "r": "시간",
+      "s": "기계",
+      "t": "공기",
+      "u": "딸들",
+      "v": "이방인",
+      "w": "기생체",
+      "x": "총합",
+      "y": "지식",
+      "z": "도시"
+    }
+  },
+  "rlyehMap": {
+    "rlyehWesternWall": "서부 장벽",
+    "rlyehDrownedQuarter": "수몰지",
+    "rlyehApiary": "양육장",
+    "rlyehGrandVault": "심부 제어구",
+    "rlyehCourtOfTheAncients": "고대 존재의 전당",
+    "rlyehObsidianCanyons": "흑요석 협곡",
+    "rlyehSepulchreOfTheSleeper": "잠든 자의 묘소"
+  },
+  "artifactsEarned": {
+    "title": "얻은 유물"
+  },
+  "key": {
+    "rubyWonTheBet": "루비가 내기에서 이겼다.",
+    "rubyLostTheBet": "루비가 내기에서 졌다.",
+    "theInvestigatorsDiscoveredAnAlienLanguage": "조사자들이 외계 언어를 발견했다.",
+    "walkInFaith": "믿음의 길을 걸어라",
+    "toeTheLine": "선을 지켜라",
+    "noPlaceLikeHome": "집만 한 곳도 없지",
+    "goodMoney": "짭짤한 보수",
+    "doNoHarm": "해를 끼치지 마라",
+    "proveYourWorth": "가치를 증명하라",
+    "dreamsOfDestruction": "파멸의 꿈",
+    "plumbTheDepths": "심연을 파헤쳐라",
+    "theExpeditionHeadedWest": "탐사대가 서쪽으로 향했다.",
+    "theExpeditionHeadedEast": "탐사대가 동쪽으로 향했다.",
+    "theExpeditionHelpedThePilgrim": "탐사대가 순례자를 도왔다.",
+    "theExpeditionLeftThePilgrim": "탐사대가 순례자를 두고 떠났다.",
+    "theCreatureWasDefeated": "그 생물이 쓰러졌다.",
+    "barrierNode": "방벽 동력원",
+    "obsidianClaw": "흑요석 갈퀴",
+    "shardOfYchlecht": "이흐레흐트의 파편",
+    "tidalTablet": "조수의 서판",
+    "grislyMask": "소름 끼치는 \"가면\"",
+    "horrorInClay": "점토로 빚은 공포",
+    "discoveredGlyphs": "외계 상형문자",
+    "rlyehMap": "르리에 지도",
+    "thePilgrimsWereSaved": "순례자들이 구조되었다.",
+    "thePilgrimsWereDevoured": "순례자들이 잡아먹혔다.",
+    "theInvestigatorsExterminatedTheAlienParasites": "조사자들이 외계 기생체를 박멸했다.",
+    "thePowerWasDiverted": "동력이 우회되었다.",
+    "theInnerSanctumWasUnsealed": "내부 성소의 봉인이 풀렸다.",
+    "helpedWithTheRopes": "밧줄 다루는 걸 도왔다",
+    "wasHelpedWithTheRopes": "밧줄 다루는 걸 도움받았다",
+    "yourAlliesHaveAPlan": "동료들에게 계획이 있다.",
+    "theInvestigatorsStoodTogether": "조사자들이 함께 맞섰다.",
+    "isStrongInTheirFaith": "믿음이 굳건하다.",
+    "madeBank": "큰돈을 벌었다.",
+    "understandsTheFuture": "미래를 이해한다.",
+    "foundTheirTrueHome": "진정한 집을 찾았다.",
+    "sworeAnOathToProtectOthers": "다른 이들을 지키겠다고 맹세했다.",
+    "foundNewWork": "새 일자리를 찾았다.",
+    "pulledTheirWeight": "제 몫을 해냈다.",
+    "learnedTheSecretTruth": "숨겨진 진실을 알았다.",
+    "lostTheirFaith": "믿음을 잃었다.",
+    "theInvestigatorsDidNotConfrontTheNightmare": "조사자들이 악몽과 맞서지 않았다.",
+    "theInvestigatorsHaltedCthulhusAwakening": "조사자들이 크툴루의 각성을 막았다.",
+    "floodedNeighborhoods": "침수된 구역",
+    "cthulhuWasDrivenAway": "크툴루를 쫓아냈다.",
+    "cthulhuAnnihilatedTheExpedition": "크툴루가 탐사대를 몰살시켰다.",
+    "cthulhuAnnihilatedTheCityOfArkham": "크툴루가 아컴을 초토화했다.",
+    "cthulhuWasBanished": "크툴루를 추방했다.",
+    "arkhamWasDestroyed": "아컴이 파괴되었다."
+  }
+}

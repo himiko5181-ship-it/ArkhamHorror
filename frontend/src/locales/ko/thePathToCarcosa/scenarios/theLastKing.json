@@ -29,6 +29,13 @@
     "sickeningReality": {
       "instructions": "‘소름끼치는 현실’ 이야기 카드 5장을 시나리오 참조 카드 밑에 놓습니다.",
       "note": "*주의: 이러한 ‘소름끼치는 현실’ 카드는 양면 카드로, 반대면은 조우 카드 양식을 취하고 있습니다. 가급적이면, 반대면을 보라는 지시를 받기 전에는 반대면을 보지 마세요.*"
+    },
+    "returnTo": {
+      "gatherSets": "다음 조우 세트의 모든 카드도 모읍니다: *돌아온 마지막 왕*, *썩어 가는 현실*, *망상 속의 악*. 이 세트들은 다음 아이콘으로 표시됩니다:<section class='encounter-sets'><img src='{setImgPath}/return-to-the-last-king.png' /><img src='{setImgPath}/decaying-reality.png' /><img src='{setImgPath}/delusory-evils.png' /></section>*썩어 가는 현실*은 *부패와 오물*을, *망상 속의 악*은 *고대의 악*을 대체합니다. 대체된 세트들은 게임에서 제거합니다.",
+      "agendaDeck": "주요목적 1a—*느지막한 도착*을 게임에서 제거하고 새 주요목적 1a—*늦을 바엔 안 가는 게 낫다*로 교체합니다.",
+      "dianneDevine": "원래 다이안 드바인(*변덕스럽고 짓궂다*)을 게임에서 제거하고 새 버전의 다이안 드바인(*입에 담지 않은 맹세를 숨기고서*)으로 교체합니다.",
+      "sickeningReality": "새 소름끼치는 현실 카드 3장을 원래 카드 5장과 함께 시나리오 참조 카드 아래에 놓아, 총 8장이 되게 합니다.",
+      "setAside": "충격적인 광경 대응 카드도 플레이 밖에 따로 둡니다."
     }
   },
   "resolutions": {

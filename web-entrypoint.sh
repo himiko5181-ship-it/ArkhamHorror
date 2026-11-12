@@ -9,7 +9,9 @@ set -e
 #   ASSET_HOST=https://assets.arkhamhorror.app   # force CDN
 if [ -z "${ASSET_HOST+x}" ]; then
   img_dir="/opt/arkham/src/frontend/dist/img"
-  if [ -n "$(ls -A "$img_dir" 2>/dev/null)" ]; then
+  # Look at the English card images specifically: a translation pack (e.g.
+  # img/arkham/ko) on its own must not switch the whole site to local images.
+  if [ -n "$(ls -A "$img_dir/arkham/cards" 2>/dev/null)" ]; then
     export ASSET_HOST=""
   else
     export ASSET_HOST="https://assets.arkhamhorror.app"

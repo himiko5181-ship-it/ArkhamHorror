@@ -1,0 +1,29 @@
+{
+  "cardOption": {
+    "title": "카드 옵션",
+    "configure": "카드 옵션",
+    "filterPlaceholder": "옵션이 있는 카드 거르기…",
+    "clear": "지우기",
+    "c11582": {
+      "abilities": {
+        "1": "{'{'}fast{'}'} 섬뜩한 \"가면\" 소진: 모든 적과 교전을 해제합니다. 당신의 다음 차례가 시작될 때까지, 당신은 이동할 수 없고 적에게 피해를 주거나 교전할 수 없습니다."
+      },
+      "onlyWhenEngaged": {
+        "label": "교전 중일 때만 제시"
+      }
+    },
+    "c11756a": {
+      "abilities": {
+        "1": "{'{'}reaction{'}'} 자원을 1개 이상 얻을 때: 그 자원 중 1개를 좋은 돈 위에 놓습니다."
+      },
+      "stopAtFiveResources": {
+        "label": "자원 5개가 되면 제시 중지"
+      }
+    },
+    "c11764": {
+      "treatAsPartiallyFlooded": {
+        "label": "완전 침수를 부분 침수로 취급"
+      }
+    }
+  }
+}

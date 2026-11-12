@@ -1,0 +1,1681 @@
+{
+  "label": {
+    "abyssalTome2": {
+      "placeDoom": "심연의 서에 파멸 1 놓기",
+      "doNotPlaceDoom": "심연의 서에 파멸을 놓지 않음"
+    },
+    "acridMiasma": {
+      "hunter": "플레이 중인 모든 적의 사냥꾼 키워드 해결"
+    },
+    "aethericCurrentYuggoth": {
+      "exhaustEnemyAndMove": "적을 소진하고 이동시키기",
+      "doNotExhaustEnemy": "적을 소진하지 않음"
+    },
+    "agathaCrane": {
+      "cancel": "이 토큰을 취소하고 하나 더 뽑습니다. 그렇게 하면 카드 1장을 뽑습니다",
+      "skip": "이 토큰을 취소하지 않음"
+    },
+    "agnesBakerParallel": {
+      "shuffle": "이벤트를 버리는 대신 다시 섞어 넣을까요?"
+    },
+    "ajax": {
+      "moveTwice": "두 번 이동",
+      "moveToField": "아무 _들판_ 장소로 이동"
+    },
+    "alchemicalDistillation": {
+      "doNotEmpower": "강화하지 않음",
+      "doNotResolveASecondOption": "두 번째 선택지를 해결하지 않음",
+      "doneMoving": "이동 완료",
+      "empowerIncreaseDifficultyBy2": "강화 (난이도 2 증가)",
+      "resolveASecondOption": "두 번째 선택지 해결",
+      "placeChargeOrSecret": "당신이 조종하는 자산에 충전 또는 비밀 {count}개 놓기 | 당신이 조종하는 자산에 충전 또는 비밀 {count}개 놓기",
+      "moveUpTo": "최대 {count}번 이동"
+    },
+    "alienWhispers": {
+      "damageAsset": "당신이 조종하는 자산에 피해 1 받기",
+      "horrorAsset": "당신이 조종하는 자산에 공포 1 받기"
+    },
+    "alyssaGraham": {
+      "addDoom": "앨리사에게 파멸 1을 추가해 카드를 맨 아래로 옮기기",
+      "add1DoomToAlyssaToMoveCardToBottom": "앨리사에게 파멸 1을 추가해 카드를 맨 아래로 옮기기",
+      "leaveCardOnTop": "카드를 맨 위에 그대로 두기"
+    },
+    "amandaSharpe": {
+      "double": "능력 아이콘 두 배",
+      "skip": "능력 아이콘을 두 배로 하지 않음"
+    },
+    "anchorChain": {
+      "discardPrompt": "손에서 카드 1장을 버려 그 적이 다음 정리 단계에 준비하지 못하게 할까요?"
+    },
+    "antediluvianHymn": {
+      "doNotAddCurseToken": "{'{'}curse{'}'} 토큰 1개를 추가해 카드를 조우 덱 맨 아래에 놓지 않음"
+    },
+    "anyuFaithfulCompanion": {
+      "attemptToEvadeWithABaseAgilitySkillOf4": "_회피_. 기본 {'{'}agility{'}'} 능력치 4로 회피를 시도합니다",
+      "discardAnyuToChooseUpToThreeInAnyOrder": "안유를 버리고 최대 세 개를 원하는 순서로 고르기",
+      "gain2SkillValue": "이번 라운드에 당신의 다음 능력 테스트에서 능력치 +2를 얻습니다",
+      "doneChoosingOptions": "옵션 선택 완료"
+    },
+    "arcaneInitiate3": {
+      "place1Doom": "파멸 1 놓기",
+      "place2Horror": "공포 2 놓기"
+    },
+    "archaicGlyphsMarkingsOfIsis3": {
+      "doNotPlayAsset": "자산을 플레이하지 않음"
+    },
+    "ariadnesTwine3": {
+      "moveSecretToResource": "당신이 조종하는 자산의 비밀 1개를 자원으로 당신의 자원 풀로 옮기기",
+      "moveResourceToSecret": "당신의 자원 풀의 자원 1개를 비밀로 당신이 조종하는 자산으로 옮기기",
+      "moveResourceToSecret2": "당신의 자원 풀의 자원 1개를 비밀로 당신이 조종하는 자산으로 옮기기",
+      "moveSecretToResource2": "당신이 조종하는 자산의 비밀 1개를 자원으로 당신의 자원 풀로 옮기기"
+    },
+    "armageddon": {
+      "placeCharge": "아마겟돈에 충전 1개 놓기",
+      "dealDamageToEnemy": "당신의 장소에 있는 적에게 피해 1 주기",
+      "deal1DamageToAnEnemyAtYourLocation": "당신의 장소에 있는 적에게 피해 1 주기",
+      "place1ChargeOnArmageddon": "아마겟돈에 충전 1개 놓기"
+    },
+    "armageddon4": {
+      "placeCharge": "아마겟돈(4)에 충전 1개 놓기",
+      "dealDamageToEnemy": "당신의 장소에 있는 적에게 피해 1 주기",
+      "deal1DamageToAnEnemyAtYourLocation": "당신의 장소에 있는 적에게 피해 1 주기",
+      "place1ChargeOnArmageddon4": "아마겟돈(4)에 충전 1개 놓기"
+    },
+    "artisticInspiration": {
+      "getPlus1": "+1 얻기",
+      "getMinus1": "-1 얻기"
+    },
+    "ashcanPeteParallel": {
+      "skip": "카드를 되돌리지 않음"
+    },
+    "atACrossroads": {
+      "act": "선택한 조사자는 즉시 자신의 차례인 것처럼 행동 하나를 한 뒤, 손에서 무작위로 카드 1장을 버립니다.",
+      "draw": "선택한 조사자는 다음 차례에 행동 1개를 잃은 뒤, 카드 3장을 뽑습니다."
+    },
+    "augur": {
+      "putIntoPlayFromDiscard": "버림 더미에서 플레이에 놓기"
+    },
+    "averyClaypoolAntarcticGuideResolute": {
+      "revealANewChaosToken": "새 혼돈 토큰 공개",
+      "spend1Supply": "보급 1개 소비"
+    },
+    "backInjury": {
+      "putBackInjuryIntoPlayInYourThreatArea": "등 부상을 당신의 위협 영역에 놓기",
+      "take1DamageAndShuffleItIntoYourDeck": "피해 1을 받고 이 카드를 덱에 섞어 넣기"
+    },
+    "baitAndSwitch": {
+      "evadeAndMove": "회피. 성공했고 적이 _정예_가 아니라면, 그 적을 회피하고 연결된 장소로 이동시킵니다.",
+      "evadeAndSwitch": "회피. 연결된 장소에 있는 _정예_가 아닌 적에게만 사용합니다. 성공하면 그 적을 회피하고 그 적과 장소를 맞바꿉니다."
+    },
+    "baseballBat2": {
+      "returnToHand": "이 공격 뒤에 야구 방망이를 손으로 되돌리기",
+      "extraDamage": "이 공격은 피해를 +1 더 줍니다. 이 공격 뒤에 야구 방망이를 버립니다"
+    },
+    "beguile": {
+      "moveAttachedEnemy": "부착된 적을 공개된 연결된 장소로 이동",
+      "basicInvestigate": "그 장소에서 기본 조사 행동 수행",
+      "basicEvade": "그 장소에서 기본 회피 행동 수행"
+    },
+    "beloved": {
+      "removeForAutoSuccess": "사랑의 힘으로를 게임에서 제거해 그 토큰의 효과를 다음으로 대체합니다: \"당신은 자동으로 성공합니다. (토큰을 더 공개하지 않습니다. 이 테스트가 끝나면 이 토큰을 혼돈 주머니로 되돌립니다.)\"",
+      "remove": "사랑의 힘으로를 게임에서 제거해 그 토큰의 효과를 다음으로 대체합니다: \"당신은 자동으로 성공합니다. (토큰을 더 공개하지 않습니다. 이 테스트가 끝나면 이 토큰을 혼돈 주머니로 되돌립니다.)\"",
+      "skip": "제거하지 않음"
+    },
+    "berettaM19184": {
+      "dealAnAdditional1Damage": "피해 +1 추가로 주기",
+      "readyBerettaM1918": "베레타 M1918 준비"
+    },
+    "bewitching3": {
+      "draw1AttachedCard": "부착된 카드 1장 뽑기",
+      "searchTopOfDeck": "덱 맨 위 카드 9장에서 부착된 카드의 사본을 찾아 뽑고, 덱을 섞기",
+      "chooseNoMoreTrickCards": "_속임수_ 카드를 더 고르지 않음"
+    },
+    "blackMarket": {
+      "missingOwner": "비플레이 상태로 치워 둔 카드에 소유자가 없습니다. 올바른 소유자를 고르세요"
+    },
+    "blessedBlade": {
+      "exhaustToAddBless": "축복받은 검을 소진해 {'{'}bless{'}'} 토큰 1개 추가",
+      "exhaustForBless": "축복받은 검을 소진해 {'{'}bless{'}'} 토큰 1개 추가",
+      "exhaust": "축복받은 검(4)을 소진해 {'{'}bless{'}'} 토큰 1개 추가 | 축복받은 검(4)을 소진해 {'{'}bless{'}'} 토큰 {count}개 추가"
+    },
+    "blessedBlade4": {
+      "exhaustForBless": "축복받은 검(4)을 소진해 {'{'}bless{'}'} 토큰 1개 추가 | 축복받은 검(4)을 소진해 {'{'}bless{'}'} 토큰 {count}개 추가"
+    },
+    "bloodRite": {
+      "gainResource": "자원 얻기",
+      "spendDealDamage": "자원을 소비해 당신의 장소에 있는 적에게 피해 1 주기",
+      "continueDiscarded": "카드 {count}장을 버린 상태로 계속",
+      "spendDamage": "자원을 소비해 당신의 장소에 있는 적에게 피해 1 주기"
+    },
+    "blur1": {
+      "useAgility": "민첩 사용",
+      "useWillpower": "의지 사용"
+    },
+    "blur4": {
+      "useAgility": "민첩 사용",
+      "useWillpower": "의지 사용"
+    },
+    "bonesaw": {
+      "doNotTakeDamage": "피해를 받지 않음",
+      "take1DamageToDo1Damage": "피해 1을 받고 피해 +1 주기"
+    },
+    "bookOfLivingMythsChronicleOfWonders": {
+      "resolveBlessToken": "{'{'}bless{'}'} 토큰 해결",
+      "resolveCurseToken": "{'{'}curse{'}'} 토큰 해결"
+    },
+    "brokenBottle": {
+      "discardForDamage": "버리고 피해 +1 주기"
+    },
+    "buriedSecrets": {
+      "takeHorror": "공포 2를 받고 덱에 섞어 넣기"
+    },
+    "butterflySwords2": {
+      "doNotFightAgain": "다시 싸우지 않음",
+      "fightAgain": "다시 싸우기"
+    },
+    "butterflySwords5": {
+      "doNotFightAgain": "다시 싸우지 않음",
+      "exhaustToDo1Damage": "소진해 피해 +1 주기",
+      "fightAgain": "다시 싸우기",
+      "doNotExhaust": "소진하지 않음",
+      "exhaustForDamage": "소진해 피해 +1 주기"
+    },
+    "callForBackup": {
+      "rogue": "{'{'}rogue{'}'} 카드: 연결된 장소로 이동할 수 있습니다",
+      "guardian": "{'{'}guardian{'}'} 카드: 당신의 장소에 있는 적에게 피해 1을 줍니다",
+      "seeker": "{'{'}seeker{'}'} 카드: 당신의 장소에서 단서 1개를 발견합니다",
+      "mystic": "{'{'}mystic{'}'} 카드: 아무 카드에서 공포 1을 회복합니다",
+      "survivor": "{'{'}survivor{'}'} 카드: 아무 카드에서 피해 1을 회복합니다"
+    },
+    "callForBackup2": {
+      "rogueOption": "{'{'}rogue{'}'} 카드: 연결된 장소로 이동할 수 있습니다",
+      "guardianOption": "{'{'}guardian{'}'} 카드: 당신의 장소에 있는 적에게 피해 1을 줍니다",
+      "seekerOption": "{'{'}seeker{'}'} 카드: 당신의 장소에서 단서 1개를 발견합니다",
+      "mysticOption": "{'{'}mystic{'}'} 카드: 아무 카드에서 공포 1을 회복합니다",
+      "survivorOption": "{'{'}survivor{'}'} 카드: 아무 카드에서 피해 1을 회복합니다"
+    },
+    "callOfMadness": {
+      "shuffleTekelili": "테켈리 리 덱 맨 위 카드 3장을 당신의 덱에 섞어 넣기"
+    },
+    "carolynFern": {
+      "doNotHeal": "아무것도 회복하지 않음"
+    },
+    "ceremonialSickle": {
+      "exhaustForBoost": "의례용 낫을 소진하고 그 위에 파멸 1을 놓아, 이 공격에서 능력치 +1을 얻고 피해를 +1 더 줍니다.",
+      "onDefeatEnemy": "이 공격으로 적을 처치하면, 의례용 낫에서 파멸 1을 제거합니다"
+    },
+    "ceremonialSickle4": {
+      "exhaustForBoost": "의례용 낫을 소진하고 그 위에 파멸 1을 놓아, 이 공격에서 능력치 +3을 얻고 피해를 +1 더 줍니다.",
+      "onDefeatEnemy": "이 공격으로 적을 처치하면, 의례용 낫을 준비하고 그 위의 파멸을 모두 제거합니다."
+    },
+    "chainsaw4": {
+      "deal1DamageToTheAttackedEnemy": "공격한 적에게 피해 1 주기",
+      "place1SupplyOnChainsaw": "전기톱에 보급 1개 놓기"
+    },
+    "chuckFergus2": {
+      "thatEventCosts2FewerResourcesToPlay": "그 이벤트를 플레이하는 비용이 자원 2만큼 감소합니다.",
+      "thatEventGainsFast": "그 이벤트가 신속을 얻습니다",
+      "gain2SkillValue": "그 이벤트를 해결하는 동안 능력 테스트를 수행할 때 능력치 +2를 얻습니다."
+    },
+    "chuckFergus5": {
+      "thatEventCosts2FewerResourcesToPlay": "그 이벤트를 플레이하는 비용이 자원 2만큼 감소합니다.",
+      "thatEventGainsFast": "그 이벤트가 신속을 얻습니다",
+      "gain2SkillValue": "그 이벤트를 해결하는 동안 능력 테스트를 수행할 때 능력치 +2를 얻습니다."
+    },
+    "cleanSneak": {
+      "damage": "그 적에게 피해 2 주기"
+    },
+    "cookiesCustom32": {
+      "fightWithABaseCombatSkillOf5": "기본 {'{'}combat{'}'} 능력치 5로 전투",
+      "get2CombatForThisAttack": "이 공격에서 {'{'}combat{'}'} +2 얻기"
+    },
+    "corrosiveSlime": {
+      "devourResource": "실험체 8L-08이 당신의 자원 하나를 집어삼킵니다",
+      "devourRandomCardFromHand": "실험체 8L-08이 당신의 손에서 무작위 카드 1장을 집어삼킵니다"
+    },
+    "cosmicFlame": {
+      "spendChargeForDamage": "충전 1개를 소비해 피해 +1 주기"
+    },
+    "cosmicFlame5": {
+      "spendChargeForDamage": "충전 1개를 소비해 당신의 장소에 있는 적에게 피해 1 주기"
+    },
+    "cosmicRevelation": {
+      "draw": "카드 1장 뽑기",
+      "play": "공개된 카드 1장 플레이"
+    },
+    "cosmicRevelation1": {
+      "even": "짝수",
+      "odd": "홀수",
+      "playRevealed": "공개된 카드 1장 플레이"
+    },
+    "crisisOfFaith": {
+      "replaceBlessWithCurse": "축복 토큰을 저주로 교체",
+      "swap": "축복 토큰을 저주로 교체"
+    },
+    "customGrip": {
+      "doNotPlayFirearm": "_총기_를 플레이하지 않음"
+    },
+    "cyclopeanHammer5": {
+      "doNotMoveEnemy": "적을 이동시키지 않음",
+      "exhaustForExtraDamage": "거석 망치를 소진해 대신 피해를 +2 더 주고, 적을 당신에게서 최대 두 장소 떨어진 곳으로 이동시킵니다.",
+      "moveEnemy": "적 이동",
+      "moveEnemyAway": "적을 멀리 이동"
+    },
+    "daisyWalkerParallel": {
+      "skip": "데이지의 능력을 사용하지 않음"
+    },
+    "damningTestimony": {
+      "doNotSpendEvidence": "증거를 소비하지 않음",
+      "investigateTheEnemysLocation": "적의 장소 조사",
+      "investigateYourLocation": "당신의 장소 조사",
+      "spendEvidence": "증거 1개를 소비해 선택한 적을 자동으로 회피합니다.",
+      "spendForClue": "증거 1개를 소비해 선택한 적의 장소에서 단서 1개를 추가로 발견합니다."
+    },
+    "darkRitual": {
+      "discardDarkRitual": "어둠의 의식 버리기",
+      "spend1Resource": "자원 1개 소비"
+    },
+    "davidRenfield": {
+      "doNotPlaceDoomOnDavidRenfield": "데이비드 렌필드에 파멸을 놓지 않음",
+      "placeDoomOnDavidRenfield": "데이비드 렌필드에 파멸 놓기"
+    },
+    "decoy": {
+      "evadeOne": "적 1명 회피",
+      "evadeTwo": "적 2명 회피"
+    },
+    "decoyTrap": {
+      "discardMove": "유인용 덫을 버리고 그 장소로 이동"
+    },
+    "defiance": {
+      "skull": "{'{'}skull{'}'} 선택",
+      "cultist": "{'{'}cultist{'}'} 선택",
+      "tablet": "{'{'}tablet{'}'} 선택",
+      "elderThing": "{'{'}elderThing{'}'} 선택"
+    },
+    "delayTheInevitable": {
+      "discard": "불가피한 숙명을 늦추다 버리기"
+    },
+    "denyExistence": {
+      "cancelDiscardFromHand": "손에서 카드를 버리는 것을 취소",
+      "cancelLoseResources": "자원 1개를 잃는 것을 취소 | 자원 {count}개를 잃는 것을 취소",
+      "cancelLoseActions": "행동 1개를 잃는 것을 취소 | 행동 {count}개를 잃는 것을 취소"
+    },
+    "denyExistence5": {
+      "drawInstead": "버리는 대신 그만큼 카드 뽑기",
+      "gainResourcesInstead": "대신 자원 1개 얻기 | 대신 자원 {count}개 얻기",
+      "gainActionsInstead": "대신 행동 1개 얻기 | 대신 행동 {count}개 얻기",
+      "healDamageInstead": "대신 피해 1 회복 | 대신 피해 {count} 회복",
+      "healHorrorInstead": "대신 공포 1 회복 | 대신 공포 {count} 회복"
+    },
+    "detectivesColt1911s": {
+      "doNotMoveAnInsight": "통찰을 옮기지 않음"
+    },
+    "devilFriendOrFoe2": {
+      "damageConcealed": "은신 카드에 피해 주기",
+      "doNotDamageConcealed": "은신 카드에 피해를 주지 않음"
+    },
+    "dexterDrake": {
+      "skip": "자산을 되돌리지 않음"
+    },
+    "dialOfAncientsSignsOfCataclysm4": {
+      "spend1Charge": "충전 1개 소비",
+      "spend1ChargeOrReleaseThisToken": "충전 1개를 소비하거나 이 토큰 풀기"
+    },
+    "dianaStanley": {
+      "doNotAdd": "손에 카드를 추가하지 않음"
+    },
+    "disciplineAlignmentOfSpirit": {
+      "take1DirectDamageToHeal3Horror": "직접 피해 1을 받고 공포 3 회복",
+      "take1DirectHorrorToHeal3Damage": "직접 공포 1을 받고 피해 3 회복"
+    },
+    "divination1": {
+      "useIntellect": "{'{'}intellect{'}'} 사용",
+      "useWillpowerInsteadOfIntellect": "{'{'}intellect{'}'} 대신 {'{'}willpower{'}'} 사용"
+    },
+    "divination4": {
+      "useIntellect": "{'{'}intellect{'}'} 사용",
+      "useWillpowerInsteadOfIntellect": "{'{'}intellect{'}'} 대신 {'{'}willpower{'}'} 사용"
+    },
+    "doppelganger": {
+      "moveToDoppelganger": "도플갱어의 장소로 이동",
+      "evadeEnemy": "적 회피"
+    },
+    "doppelganger1": {
+      "moveToLocationOfDoppelganger": "도플갱어의 장소로 이동",
+      "evadeEnemy": "적 회피"
+    },
+    "doubleDown2": {
+      "spendResources": "두 배로 걸기에 자원 소비"
+    },
+    "dowsingRod": {
+      "exhaustForBoost": "다우징 로드를 소진하고 그 위에 파멸 1을 놓아 연결된 장소로 이동합니다.",
+      "onLastClue": "이 조사로 장소의 마지막 단서를 발견하면, 다우징 로드에서 파멸 1을 제거합니다."
+    },
+    "dowsingRod4": {
+      "exhaustForBoost": "다우징 로드를 소진하고 그 위에 파멸 1을 놓아 연결된 장소로 이동하고, 이번 조사에서 능력치 +2를 얻습니다.",
+      "onLastClue": "이 조사로 장소의 마지막 단서를 발견하면, 다우징 로드를 준비하고 그 위의 파멸을 모두 제거합니다."
+    },
+    "drWilliamTMaleson2": {
+      "chooseCardToResolve": "해결할 카드 선택"
+    },
+    "drawingThin": {
+      "draw1Card": "카드 1장 뽑기",
+      "take2Resources": "자원 2개 받기"
+    },
+    "dreamersChronicle": {
+      "takeHorror": "공포 1을 받고 당신의 장소에서 단서 1개를 추가로 발견"
+    },
+    "earthlySerenity1": {
+      "doNotSpendAChargeToHeal": "충전을 소비해 회복하지 않음",
+      "spendAChargeToHeal": "충전을 소비해 회복"
+    },
+    "earthlySerenity4": {
+      "doNotSpendAChargeToHeal": "충전을 소비해 회복하지 않음",
+      "spendAChargeToHeal": "충전을 소비해 회복"
+    },
+    "elaborateDistraction": {
+      "evadeNonElite": "그 적이 _정예_가 아니라면 자동으로 회피",
+      "dealDamage": "그 적에게 피해 1 주기",
+      "evade": "그 적이 _정예_가 아니라면 자동으로 회피"
+    },
+    "eldritchBrand5": {
+      "chooseCard": "섬뜩한 낙인(5)에 쓸 카드 선택"
+    },
+    "eldritchSophist": {
+      "moveCharge": "충전 옮기기",
+      "moveSecret": "비밀 옮기기"
+    },
+    "elleRubashPurifyingPurpose2": {
+      "attachWithoutSwapping": "교체하지 않고 부착"
+    },
+    "emergencyCache": {
+      "takeResource": "자원 받기",
+      "addSupply": "보급 추가"
+    },
+    "empiricalHypothesis": {
+      "failBy2": "테스트에서 2 이상 차이로 실패합니다.",
+      "succeedBy3": "테스트에서 3 이상 차이로 성공합니다.",
+      "runOutOfCards": "손에 카드가 다 떨어집니다.",
+      "dealtDamageOrHorror": "피해나 공포를 받습니다.",
+      "discardTreacheryOrEnemy": "플레이에서 음모나 적을 버립니다.",
+      "enterLocationWithShroud3": "장막값이 3 이상인 장소에 들어갑니다."
+    },
+    "encephalonSignal": {
+      "damage": "당신의 장소에 있는 조사자나 _인간형_ 적에게 피해 2 주기"
+    },
+    "enchantedBladeGuardian3": {
+      "doNotSpendUse": "사용 횟수를 소비하지 않음",
+      "spend1UseToEmpower": "사용 횟수 1을 소비해 강화"
+    },
+    "enervation": {
+      "discardHighestCost": "손에서 인쇄된 비용이 가장 높은 카드를 골라 버리기"
+    },
+    "eonChart4": {
+      "move": "이동"
+    },
+    "everVigilant1": {
+      "doNotPlayAsset": "자산을 플레이하지 않음"
+    },
+    "extraRations1": {
+      "heal1DamageFromYourself": "자신에게서 피해 1 회복"
+    },
+    "eyeOfChaos": {
+      "placeCharge": "혼돈의 눈에 충전 1개 놓기",
+      "discover1CluesAtAConnectingLocation": "연결된 장소에서 단서 1개 발견",
+      "place1ChargeOnEyeOfChaos": "혼돈의 눈에 충전 1개 놓기"
+    },
+    "eyeOfChaos4": {
+      "placeCharge": "혼돈의 눈(4)에 충전 1개 놓기",
+      "discover1CluesAtAConnectingLocation": "연결된 장소에서 단서 1개 발견",
+      "place1ChargeOnEyeOfChaos4": "혼돈의 눈(4)에 충전 1개 놓기"
+    },
+    "eyeOfTheDjinnVesselOfGoodAndEvil2": {
+      "gainedAction": "진의 눈에서 행동 1개를 얻었습니다"
+    },
+    "fakeCredentials": {
+      "discardFakeCredentials": "위조 신분증 버리기",
+      "theChosenEnemyAttacksYou": "선택한 적이 당신을 공격합니다"
+    },
+    "falseSurrender": {
+      "fightAgainstEnemy": "그 적에게 전투 행동하기",
+      "doNotFight": "전투 행동을 하지 않음"
+    },
+    "fangOfTyrthrha": {
+      "moveToEnemy": "적의 장소로 이동"
+    },
+    "fatherMateo": {
+      "drawAndGain": "카드 1장을 뽑고 자원 1개 얻기"
+    },
+    "fey": {
+      "return": "요정을 손으로 되돌리기"
+    },
+    "fickleFortune": {
+      "place": "현재 주요사건에 파멸 1을 놓습니다. 모든 조사자는 피해 3과 공포 3을 회복합니다.",
+      "remove": "현재 주요사건에서 파멸 1을 제거합니다. 모든 조사자는 직접 피해 1과 직접 공포 1을 받습니다. 운명의 장난을 게임에서 제거합니다."
+    },
+    "finnEdwards": {
+      "skip": "단서를 발견하지 않음"
+    },
+    "flamethrower5": {
+      "standardDamage": "일반 피해 주기",
+      "assignAmongEngaged": "당신과 교전 중인 적들에게 피해를 최대 4 나눠 배정",
+      "assignUpTo4": "당신과 교전 중인 적들에게 피해를 최대 4 나눠 배정",
+      "doStandardDamage": "일반 피해 주기"
+    },
+    "flare": {
+      "searchAlly": "_협력자_ 탐색"
+    },
+    "flare1": {
+      "searchForAlly": "_협력자_ 탐색"
+    },
+    "fleshWard": {
+      "cancel1Damage": "피해 1 취소",
+      "cancel1Horror": "공포 1 취소"
+    },
+    "flurryOfBlows": {
+      "repeat": "이 효과 반복 (일진광풍)"
+    },
+    "flurryOfBlows5": {
+      "repeatEffect": "이 효과 반복 (일진광풍)"
+    },
+    "forbiddenTome": {
+      "discardForbiddenTome": "금단의 서적 버리기",
+      "doNotDiscardForbiddenTome": "금단의 서적을 버리지 않음"
+    },
+    "fortyFiveThompsonRogue3": {
+      "doNotDamageAnyEnemies": "어떤 적에게도 피해를 주지 않음"
+    },
+    "friendsInLowPlaces": {
+      "doNotSpend": "자원 1개를 소비해 손에 카드를 추가하지 않음",
+      "swiftSkip": "카드를 플레이하지 않음 (재빠른)",
+      "versatileSkip": "무료로 손에 카드를 추가하지 않음 (다재다능)"
+    },
+    "geas2": {
+      "drawPromise": "나는 내 차례마다 카드를 뽑지 않겠다",
+      "playPromise": "나는 내 차례마다 카드를 플레이하지 않겠다",
+      "commitPromise": "나는 내 차례마다 카드를 투입하지 않겠다",
+      "iShallNot": "나는 내 차례마다 카드를 투입하지 않겠다",
+      "iShallNotDrawAnyCardsDuringEachOfMyTurns": "나는 내 차례마다 카드를 뽑지 않겠다",
+      "iShallNotPlayAnyCardsDuringEachOfMyTurns": "나는 내 차례마다 카드를 플레이하지 않겠다",
+      "broken": "금기를 어겼습니다!"
+    },
+    "geneBeauregard3": {
+      "move1ClueFrom": "연결된 장소에서 당신의 장소로 단서 1개 옮기기",
+      "move1ClueFrom2": "당신의 장소에서 연결된 장소로 단서 1개 옮기기",
+      "moveAnEnemy": "연결된 장소의 적을 당신의 장소로 이동",
+      "moveAnEnemy2": "당신의 장소의 적을 연결된 장소로 이동"
+    },
+    "georgeBarnaby": {
+      "donePlacingCards": "조지 바너비 아래에 카드 놓기 완료"
+    },
+    "ghastlyPossession": {
+      "placeDoom": "그 자산에 파멸 1을 놓습니다. 섬뜩한 빙의가 {'{'}wild{'}'}{'{'}wild{'}'}를 얻습니다",
+      "ifSuccess": "이 테스트에 성공하면, 그 자산에서 파멸 1을 제거하거나 사용 횟수의 절반(내림)을 다시 채웁니다",
+      "removeDoom": "그 자산에서 파멸 1 제거",
+      "replenish": "사용 횟수의 절반(내림)을 다시 채우기"
+    },
+    "ghastlyPossession1": {
+      "placeDoomGainIcons": "그 자산에 파멸 1을 놓습니다. 섬뜩한 빙의가 {'{'}wild{'}'}{'{'}wild{'}'}를 얻습니다",
+      "removeDoomOrReplenish": "이 테스트에 성공하면, 그 자산에서 파멸 1을 제거하거나 사용 횟수의 절반(내림)을 다시 채웁니다",
+      "removeDoomFromAsset": "그 자산에서 파멸 1 제거",
+      "replenishUses": "사용 횟수의 절반(내림)을 다시 채우기"
+    },
+    "ghastlyRevelation": {
+      "giveClues": "당신의 단서를 원하는 만큼 다른 조사자에게 주기",
+      "placeClues": "당신의 단서를 원하는 만큼 아무 장소에 놓기"
+    },
+    "glassing": {
+      "discard": "글래싱을 버리고 단서 1개를 추가로 발견",
+      "doNotDiscard": "버리지 않음"
+    },
+    "gloriaGoldberg": {
+      "discard": "버리기",
+      "putOnTop": "조우 덱 맨 위에 놓기",
+      "placeBeneath": "글로리아 골드버그 아래에 놓기 (최대 3장)",
+      "chooseDrawer": "조우 카드를 뽑을 조사자 선택"
+    },
+    "grannyOrne": {
+      "failBy1Less": "1 적은 차이로 실패",
+      "failBy1More": "1 더 큰 차이로 실패"
+    },
+    "grannyOrne3": {
+      "getPlus1SkillValue": "능력치 +1 얻기",
+      "getMinus1SkillValue": "능력치 -1 얻기"
+    },
+    "graysAnatomyTheDoctorsBible5": {
+      "damagePlus": "이번 라운드에 그 카드가 다음에 피해를 받을 때, 피해/공포를 +1 더 줍니다 (최대 +3",
+      "healPlus": "이번 라운드에 그 카드가 다음에 회복될 때, 피해/공포를 +1 더 회복합니다 (최대 +3"
+    },
+    "grimMemoir": {
+      "doNotDrawCard": "카드를 뽑지 않음",
+      "draw1Card": "카드 1장 뽑기"
+    },
+    "grimResolve": {
+      "doneSwapping": "교체 완료",
+      "chooseHandToSwap": "교체할 손의 카드 선택",
+      "chooseUnderneathToSwap": "교체할 아래 카드 선택",
+      "chooseHandCard": "교체할 손의 카드 선택",
+      "chooseUnderCard": "교체할 아래 카드 선택"
+    },
+    "grizzled": {
+      "attachToEnemy": "적에게 부착 (숙적)",
+      "doNotAttachToEnemy": "적에게 부착하지 않음",
+      "addToVictory": "그 음모와 백전노장을 둘 다 승점 더미에 추가 (신화에 단련된)",
+      "doNotAddToVictory": "승점 더미에 추가하지 않음",
+      "attach": "적에게 부착 (숙적)",
+      "doNotAttach": "적에게 부착하지 않음",
+      "addVictory": "그 음모와 백전노장을 둘 다 승점 더미에 추가 (신화에 단련된)",
+      "skipVictory": "승점 더미에 추가하지 않음"
+    },
+    "guerrillaTactics": {
+      "fight": "전투 ({'{'}combat{'}'})",
+      "evade": "회피 ({'{'}agility{'}'})"
+    },
+    "guidedByTheUnseen3": {
+      "doNotCommitAnyCards": "카드를 투입하지 않음"
+    },
+    "hallowedChalice": {
+      "exhaustForBoost": "축성된 성배를 소진하고 그 위에 파멸 1을 놓아, 그 조사자에게서 피해 2 또는 공포 2를 회복합니다.",
+      "heal1Damage": "피해 1 회복",
+      "healFromThatInvestigator": "그 조사자에게서 피해 1 또는 공포 1을 회복합니다. 그 조사자의 마지막 피해나 공포를 회복하면, 축성된 성배에서 파멸 1을 제거합니다.",
+      "heal1Horror": "공포 1 회복",
+      "heal2Damage": "피해 2 회복",
+      "heal2Horror": "공포 2 회복"
+    },
+    "hallowedMirror3": {
+      "changeEach": "모든 \"2\"를 \"3\"으로 바꾸기",
+      "shuffleItInto": "버리는 대신 덱에 섞어 넣기"
+    },
+    "handCrankFlashlight": {
+      "discardForShroud": "버리고 라운드 종료까지 당신의 장소의 장막값 -1"
+    },
+    "handHook": {
+      "discardForDamage": "손에서 카드 1장을 버리고 피해 +1 주기"
+    },
+    "henryWan": {
+      "drawAnother": "하나 더 뽑기",
+      "gain1Resources": "자원 1개 얻기",
+      "stop": "멈추기"
+    },
+    "hiredMuscle1": {
+      "discardHiredMuscle": "용역 깡패 버리기",
+      "pay1ResourceToHiredMuscle": "용역 깡패에 자원 1개 지불"
+    },
+    "holySpear5": {
+      "releaseBless": "{'{'}bless{'}'} 토큰 풀기",
+      "doNotReleaseBless": "{'{'}bless{'}'} 토큰을 풀지 않음",
+      "doNotReleaseABlessToken": "{'{'}bless{'}'} 토큰을 풀지 않음",
+      "releaseABlessToken": "{'{'}bless{'}'} 토큰 풀기"
+    },
+    "honedInstinct": {
+      "another": "다른 행동을 하고 이 카드를 게임에서 제거 (습관의 힘)",
+      "skip": "다른 행동을 하지 않음"
+    },
+    "hope": {
+      "putIntoPlayFromDiscard": "버림 더미에서 플레이에 놓기"
+    },
+    "huntersArmor": {
+      "doNoExhaust": "소진하지 않음",
+      "exhaustHuntersArmorToDraw1Card": "사냥꾼의 갑옷을 소진해 카드 1장 뽑기"
+    },
+    "hyperphysicalShotcasterTheoreticalDevice": {
+      "matterweaver": "물질 직조기",
+      "moveNothingAfter": "아무것도 옮기지 않음 (후)",
+      "moveNothingBefore": "아무것도 옮기지 않음 (전)",
+      "railshooter": "레일 사격기",
+      "realitycollapser": "현실 붕괴기",
+      "telescanner": "원격 탐지기",
+      "translocator": "전위 장치"
+    },
+    "hypnoticGaze": {
+      "health": "체력 피해 주기",
+      "sanity": "정신력 피해 주기"
+    },
+    "icePick3": {
+      "discardIcePick3": "얼음송곳(3)을 버리고 당신의 장소에서 단서 1개를 추가로 발견",
+      "discardIcePick3ToDo1Damage": "얼음송곳(3)을 버리고 피해 +1 주기"
+    },
+    "icebreakerLanding": {
+      "removeFrost": "혼돈 주머니에서 {'{'}frost{'}'} 토큰 1개 제거",
+      "recordSmallRadio": "캠페인 기록지의 \"회수한 보급품\" 칸에 소형 무선 통신장치를 기록"
+    },
+    "idolOfXanatosWatcherBeyondTime": {
+      "cancel1Damage": "피해 1 취소",
+      "cancel1Horror": "공포 1 취소"
+    },
+    "imDoneRunnin": {
+      "skip": "적에게 피해를 주지 않음",
+      "damage": "적에게 피해 주기"
+    },
+    "impromptuBarrier": {
+      "evadeAnother": "다른 적 회피",
+      "skip": "다른 적을 회피하지 않음"
+    },
+    "inquisitive": {
+      "passByTwoMore": "2 더 큰 차이로 성공",
+      "passByOneMore": "1 더 큰 차이로 성공",
+      "doNotModify": "수정하지 않음",
+      "passByOneLess": "1 적은 차이로 성공",
+      "passByTwoLess": "2 적은 차이로 성공"
+    },
+    "isamaraOrdonezTheTorchSinger": {
+      "ready": "준비"
+    },
+    "jewelOfAureolus3": {
+      "draw1Card": "카드 1장 뽑기",
+      "take2Resources": "자원 2개 받기"
+    },
+    "joeDiamond": {
+      "chooseHunchCards": "_통찰_ 이벤트 11장을 비플레이 상태로 치워 두어 직감 덱을 만듭니다. _미제 사건_은 이미 들어 있습니다.",
+      "chooseHunch": "_통찰_ 이벤트 11장을 비플레이 상태로 치워 두어 직감 덱을 만듭니다. _미제 사건_은 이미 들어 있습니다.",
+      "doNotMove": "통찰을 옮기지 않음"
+    },
+    "katana": {
+      "exhaustKatanaToDeal2DamageForThisAttack": "카타나를 소진해 이 공격에서 피해 +2 주기"
+    },
+    "kateWinthrop": {
+      "doNotMove": "단서를 되돌려 옮기지 않음"
+    },
+    "kenslersLog": {
+      "get2IntellectForThisInvestigation": "이번 조사에서 {'{'}intellect{'}'} +2 얻기",
+      "investigateWithABaseIntellectSkillOf5": "기본 {'{'}intellect{'}'} 능력치 5로 조사"
+    },
+    "knightOfSwords3": {
+      "discardKnightOfSwordsToGet3Instead": "검 기사를 버리고 대신 +3 얻기"
+    },
+    "knowledgeIsPower": {
+      "discardToDraw": "버리고 카드 1장 뽑기",
+      "discard": "버리고 카드 1장 뽑기"
+    },
+    "kohakuNarukami": {
+      "addBless": "{'{'}bless{'}'} 토큰 1개 추가",
+      "addCurse": "{'{'}curse{'}'} 토큰 1개 추가",
+      "removeAction": "<span>혼돈 주머니에서 {'{'}bless{'}'} 토큰 2개와 {'{'}curse{'}'} 토큰 2개를 제거해 이번 차례에 추가 행동하기</span>"
+    },
+    "kukri": {
+      "spendActionForDamage": "행동 1개를 소비해 피해 +1 주기",
+      "skipAdditionalKukriDamage": "쿠크리의 추가 피해 건너뛰기",
+      "spend1ActionToDeal1Damage": "행동 1개를 소비해 피해 +1 주기"
+    },
+    "leadingLadyEnchantress": {
+      "removeDoom": "당신의 장소에 있는 플레이어 카드에서 파멸 1 제거"
+    },
+    "libraryPass5": {
+      "pay1Resources": "자원 1개 지불",
+      "putOnBottomOfDeck": "덱 맨 아래에 놓기"
+    },
+    "lieInWait": {
+      "skip": "매복을 버리지 않음",
+      "discard": "매복을 버리고 피해 +1 주기"
+    },
+    "livingInk": {
+      "doNotCharge": "살아있는 잉크에서 충전하지 않고 라운드 종료까지 그 능력을 무시 (은은한 묘사)",
+      "remove1Charge": "충전 1개 제거"
+    },
+    "localMap": {
+      "exhaustAndMove": "지역 지도를 소진하고 조사한 장소로 이동"
+    },
+    "logicalReasoning": {
+      "discardTerror": "_공포증_ 하나 버리기"
+    },
+    "ltWilsonStewart": {
+      "healDamage": "윌슨 스튜어트 중위에게서 피해 1 회복",
+      "healHorror": "윌슨 스튜어트 중위에게서 공포 1 회복",
+      "plus1SkillValue": "다음 능력 테스트에서 능력치 +1을 얻습니다",
+      "drawCard": "카드 1장 뽑기",
+      "gainResource": "자원 1개 얻기"
+    },
+    "luckyCharm": {
+      "move1Damage": "피해 1 옮기기",
+      "move1Horror": "공포 1 옮기기"
+    },
+    "lukeRobinson": {
+      "currentLocation": "현재 장소에서 플레이",
+      "connectingLocation": "연결된 장소에서 플레이"
+    },
+    "machete": {
+      "doNotExhaustMachete": "마체테를 소진하지 않음",
+      "exhaustMachete": "마체테 소진"
+    },
+    "maimedHand": {
+      "putMaimedHandIntoPlayInYourThreatArea": "불구가 된 손을 당신의 위협 영역에 놓기",
+      "take1DamageAndShuffleItIntoYourDeck": "피해 1을 받고 이 카드를 덱에 섞어 넣기"
+    },
+    "mandyThompson": {
+      "additionalCards": "카드 3장 더 탐색",
+      "additionalTargets": "탐색 대상 1개를 추가로 해결"
+    },
+    "manifestationsOfEvil": {
+      "addFrost": "혼돈 주머니에 {'{'}frost{'}'} 토큰 1개 추가",
+      "shuffleTekelili": "플레이어 순서대로, 모든 조사자는 테켈리 리 덱 맨 위 카드 2장을 자신의 덱에 섞어 넣습니다"
+    },
+    "manipulateDestiny": {
+      "damage": "당신의 장소에 있는 적에게 피해 2 주기",
+      "heal": "당신의 장소에 있는 조사자나 _협력자_ 자산에게서 피해 2 회복"
+    },
+    "manipulateDestiny2": {
+      "dealDamageToEnemy": "당신의 장소에 있는 적에게 피해 2 주기",
+      "healDamageFromInvestigatorOrAlly": "당신의 장소에 있는 조사자나 _협력자_ 자산에게서 피해 2 회복"
+    },
+    "mapTheArea": {
+      "willpower": "당신의 {'{'}willpower{'}'} 더하기",
+      "agility": "당신의 {'{'}agility{'}'} 더하기"
+    },
+    "marieLambeau": {
+      "addDoom": "파멸 1 추가"
+    },
+    "mauserC96": {
+      "readyMauserC96": "마우저 C96 준비",
+      "take1Resource": "자원 1개 받기"
+    },
+    "mauserC962": {
+      "readyMauserC962": "마우저 C96(2) 준비",
+      "take1Resource": "자원 1개 받기"
+    },
+    "medicalTexts2": {
+      "exhaust": "의학 서적 소진",
+      "dealDamage": "그 조사자에게 피해 1 주기",
+      "deal1DamageToThatInvestigator": "그 조사자에게 피해 1 주기",
+      "exhaustMedicalTexts": "의학 서적 소진"
+    },
+    "medicoDellaPeste": {
+      "heal1Damage": "피해 1 회복",
+      "heal1Horror": "공포 1 회복"
+    },
+    "memoriesOfAnotherLife": {
+      "remove": "다른 삶의 기억을 게임에서 제거",
+      "skip": "다른 삶의 기억을 제거하지 않음"
+    },
+    "memoriesOfAnotherLife5": {
+      "removeFromGame": "다른 삶의 기억을 게임에서 제거",
+      "doNotRemove": "다른 삶의 기억을 제거하지 않음"
+    },
+    "miasmaticTorment": {
+      "damage": "부착된 자산이 피해 1을 받습니다",
+      "horror": "부착된 자산이 공포 1을 받습니다"
+    },
+    "michaelMcGlen": {
+      "doNotAdd": "탄약을 추가하지 않음"
+    },
+    "miguelsKnapsack": {
+      "playThatEventAtAConnectingLocation": "그 이벤트를 연결된 장소에서 플레이"
+    },
+    "minhThiPhan": {
+      "doNotReturnSkill": "손으로 되돌릴 능력 카드를 고르지 않음",
+      "skip": "손으로 되돌릴 능력 카드를 고르지 않음"
+    },
+    "mk1Grenades4": {
+      "applyToConcealed": "은신 카드에 피해 주기",
+      "applyDamageToConcealed": "은신 카드에 피해 주기",
+      "doNotApplyDamageToConcealed": "은신 카드에 피해를 주지 않음"
+    },
+    "mrRook": {
+      "top": "맨 위 {count}장"
+    },
+    "mysteriesRemain": {
+      "placeClue": "당신의 장소에 단서 1개를 놓기 *(토큰 풀에서)*"
+    },
+    "nathanielCho": {
+      "elderSign": "{'{'}elderSign{'}'}: 버림 더미의 이벤트 1장을 손으로 되돌립니다."
+    },
+    "nauticalCharts": {
+      "discard1CardFrom": "손에서 카드 1장을 버리고 단서 1개를 추가로 발견"
+    },
+    "nauticalProwess": {
+      "gainsWildIcons": "선원의 용맹함이 {'{'}wild{'}'}{'{'}wild{'}'}를 얻습니다",
+      "wild": "선원의 용맹함이 {'{'}wild{'}'}{'{'}wild{'}'}를 얻습니다"
+    },
+    "nephthysHuntressOfBast4": {
+      "releaseBlessTokens": "{'{'}bless{'}'} 토큰 3개 풀기",
+      "returnBlessForDamage": "{'{'}bless{'}'} 토큰 3개를 풀로 되돌려 당신의 장소에 있는 적에게 피해 2 주기",
+      "release3BlessTokens": "{'{'}bless{'}'} 토큰 3개 풀기",
+      "returnBlessForDamage2": "{'{'}bless{'}'} 토큰 3개를 풀로 되돌려 당신의 장소에 있는 적에게 피해 2 주기"
+    },
+    "noseToTheGrindstone": {
+      "replenishSupply": "그 자산의 보급 1개 다시 채우기"
+    },
+    "occultLexicon3": {
+      "changeEach": "모든 \"2\"를 \"3\"으로 바꾸기",
+      "shuffleItInto": "버리는 대신 덱에 섞어 넣기"
+    },
+    "occultReliquary": {
+      "choose": "비술품 소장고의 처음 슬롯 종류 선택"
+    },
+    "oldBookOfLore3": {
+      "doNotSpendSecrets": "비밀을 소비해 카드를 플레이하지 않음",
+      "doNotSpendAnySecretsToPlayAnyCards": "비밀을 소비해 카드를 플레이하지 않음"
+    },
+    "oldCompass": {
+      "exhaustToRepeat": "낡은 나침반을 소진해 이 테스트 반복"
+    },
+    "onTheTrail": {
+      "moveTowards": "적을 향해 두 번 이동",
+      "discoverBetween": "당신과 선택한 적 사이의 빈 장소에서 단서 1개 발견"
+    },
+    "onTheTrail1": {
+      "moveTwiceTowardsEnemy": "적을 향해 두 번 이동",
+      "discoverClueBetween": "당신과 선택한 적 사이의 빈 장소에서 단서 1개 발견"
+    },
+    "onTheirHeels5": {
+      "discoverAClueAtYourLocation": "당신의 장소에서 단서 1개 발견"
+    },
+    "oneTwoPunch": {
+      "again": "그 적과 다시 싸우기",
+      "skip": "그 적과 다시 싸우지 않음"
+    },
+    "onyxPentacle": {
+      "exhaustToTarget": "오닉스 오망성을 소진하고 그 위에 파멸 1을 놓아, 당신의 장소나 연결된 장소의 아무 적을 대상으로 정하고 이번 회피 시도에서 능력치 +1을 얻습니다.",
+      "succeedBy2": "2 이상 차이로 성공하면, 오닉스 오망성에서 파멸 1을 제거합니다."
+    },
+    "onyxPentacle4": {
+      "exhaustToTarget": "오닉스 오망성(4)을 소진하고 그 위에 파멸 1을 놓아, 당신의 장소나 연결된 장소의 아무 적을 대상으로 정하고 이번 회피 시도에서 능력치 +3을 얻습니다.",
+      "succeedBy2": "2 이상 차이로 성공하면, 오닉스 오망성을 준비하고 그 위의 파멸을 모두 제거합니다."
+    },
+    "outOfSight": {
+      "disengageAndMove": "모든 적과 교전을 해제하고 연결된 장소로 이동합니다.",
+      "disengage": "모든 적과 교전을 해제하고 최대 2칸 떨어진 공개된 장소로 이동합니다."
+    },
+    "outOfSight3": {
+      "disengageAndMove2": "모든 적과 교전을 해제하고 최대 2칸 떨어진 공개된 장소로 이동합니다."
+    },
+    "outerFieldsDesolateHills": {
+      "doneDiscarding": "버리기 완료"
+    },
+    "parlorHemlockHouse": {
+      "testForAdditionalDamage": "{'{'}intellect{'}'} (4) 테스트로 피해 1 추가"
+    },
+    "patriceHathaway": {
+      "shuffleDiscardKeepOne": "버림 더미에서 1장만 남기고 모두 덱에 섞어 넣기",
+      "chooseOneCardToLeave": "버림 더미에 남길 카드 1장 선택",
+      "shuffle": "버림 더미에서 1장만 남기고 모두 덱에 섞어 넣기",
+      "leaveInDiscard": "버림 더미에 남길 카드 1장 선택"
+    },
+    "patricesViolin": {
+      "drawCard": "카드 뽑기",
+      "gainResource": "자원 얻기"
+    },
+    "pendantOfTheQueen": {
+      "discoverAClueAtThisLocation": "이 장소에서 단서 1개 발견",
+      "evadeAnEnemyAtThisLocation": "이 장소의 적 하나 회피",
+      "moveToThisLocation": "이 장소로 이동"
+    },
+    "petesGuitar": {
+      "heal1Horror": "공포 1 회복"
+    },
+    "pocketknife": {
+      "exhaustPocketknifeGain1Resource": "주머니칼 소진: 자원 1개 얻기"
+    },
+    "polishedCane": {
+      "doNotEvade": "회피하지 않음",
+      "exhaust": "윤나는 지팡이를 소진해 이 적을 자동으로 회피"
+    },
+    "powerWord": {
+      "go": "가라",
+      "cower": "움츠러들어라",
+      "betray": "배신",
+      "mercy": "자비",
+      "confess": "자백",
+      "distract": "주의 분산",
+      "tonguetwisterSkip": "두 번째 명령을 사용하지 않음 (꼬이는 혀)"
+    },
+    "predatorOrPrey": {
+      "enemiesMove": "교전하지 않은 _정예_가 아닌 모든 적은 가장 가까운 조사자를 향해 한 번 이동합니다.",
+      "investigatorsMove": "모든 조사자는 자신과 교전 중인 모든 적과 교전을 해제하고, 가장 가까운 적에게서 멀어지는 방향으로 한 번 이동합니다."
+    },
+    "prescient": {
+      "even": "짝수",
+      "odd": "홀수",
+      "symbol": "기호",
+      "doNotReturn": "주문 카드를 되돌리지 않음"
+    },
+    "priestOfTwoFaiths1": {
+      "discardName": "{name} 버리기",
+      "add1CurseTokenToTheChaosBag": "혼돈 주머니에 {'{'}curse{'}'} 토큰 1개 추가",
+      "discardPriestOfTwoFaiths": "두 가지 신앙을 섬기는 사제 버리기"
+    },
+    "prismaticSpectaclesLensToTheOtherworld2": {
+      "doNotExaust": "소진하지 않음",
+      "exhaustForClue": "오색찬란한 안경을 소진해 당신의 장소에서 단서 1개를 추가로 발견"
+    },
+    "professorWilliamWebbFinderOfHiddenConnections": {
+      "discoverAClueAtAConnectingLocation": "연결된 장소에서 단서 1개 발견",
+      "returnItemToYourHand": "물품을 손으로 되돌리기"
+    },
+    "professorWilliamWebbFinderOfHiddenConnections2": {
+      "discoverAClueAtAConnectingLocation": "연결된 장소에서 단서 1개 발견",
+      "discoverClueAtYourLocation": "당신의 장소에서 단서 발견"
+    },
+    "protectingTheAnirniq": {
+      "return": "그 자산을 소유자의 손으로 되돌리기",
+      "draw": "그 소유자가 카드 3장을 뽑습니다"
+    },
+    "protectingTheAnirniq2": {
+      "returnAssetToOwner": "그 자산을 소유자의 손으로 되돌리기",
+      "ownerDraws3": "그 소유자가 카드 3장을 뽑습니다"
+    },
+    "protectiveIncantation1": {
+      "discardProtectiveIncantation": "수호의 주문 버리기",
+      "spend1Resource": "자원 1개 소비"
+    },
+    "prudenceDouglas": {
+      "doneDiscarding": "버리기 완료"
+    },
+    "psychoanalysis": {
+      "draw": "공개된 카드 1장을 뽑고 나머지는 덱에 섞어 넣기",
+      "heal": "공포 2를 회복하고 공개된 카드를 원하는 순서로 맨 위에 되돌려 놓기"
+    },
+    "purifyingCorruption4": {
+      "removeCorruption": "이 카드에서 타락 1 제거",
+      "heal1DamageAnd1Horror": "피해 1과 공포 1 회복",
+      "remove1CorruptionFromThisCard": "이 카드에서 타락 1 제거"
+    },
+    "quickWitted": {
+      "shuffle": "버림 더미의 다른 재치 있는 판단을 모두 덱에 섞어 넣기",
+      "skip": "아무것도 섞지 않음"
+    },
+    "quickWitted1": {
+      "shuffleOthers": "버림 더미의 다른 재치 있는 판단을 모두 덱에 섞어 넣기",
+      "doNotShuffleAny": "아무것도 섞지 않음"
+    },
+    "randallCho": {
+      "heal3Damage": "피해 3 회복",
+      "searchDeck": "덱과 버림 더미에서 _무기_ 자산을 찾아 플레이하고(비용 지불), 덱을 섞기"
+    },
+    "ravenousMyconidNurturingStrain4": {
+      "heal": "게걸스러운 균사체에서 그만큼의 피해/공포 회복",
+      "moveThatMuch": "당신의 장소에 있는 조사자나 _협력자_ 자산의 피해/공포를 그만큼 게걸스러운 균사체로 옮기기",
+      "healFromMyconid": "게걸스러운 균사체에서 그만큼의 피해/공포 회복",
+      "moveDamageToMyconid": "당신의 장소에 있는 조사자나 _협력자_ 자산의 피해/공포를 그만큼 게걸스러운 균사체로 옮기기"
+    },
+    "rexMurphy": {
+      "fail": "3장 뽑기 자동 실패"
+    },
+    "rexMurphyParallel": {
+      "conversion": "렉스의 전환을 사용할 횟수"
+    },
+    "rightUnderTheirNoses": {
+      "discover": "연결된 장소에서 발견",
+      "skip": "연결된 장소에서 발견하지 않음"
+    },
+    "ritaYoung": {
+      "damage": "적에게 피해 주기"
+    },
+    "riteOfEquilibrium": {
+      "add": "혼돈 주머니에 {'{'}curse{'}'} 토큰 X개를 추가해 {'{'}bless{'}'} 토큰 X개를 혼돈 주머니에 추가합니다.",
+      "remove": "혼돈 주머니에서 {'{'}curse{'}'} 토큰 X개와 {'{'}bless{'}'} 토큰 X개를 제거해 당신의 장소에 있는 카드들에서 공포를 총 X만큼 회복합니다."
+    },
+    "riteOfEquilibrium5": {
+      "addCurseToAddBless": "혼돈 주머니에 {'{'}curse{'}'} 토큰 X개를 추가해 {'{'}bless{'}'} 토큰 X개를 혼돈 주머니에 추가합니다.",
+      "removeBlessAndCurseToHeal": "혼돈 주머니에서 {'{'}curse{'}'} 토큰 X개와 {'{'}bless{'}'} 토큰 X개를 제거해 당신의 장소에 있는 카드들에서 공포를 총 X만큼 회복합니다."
+    },
+    "robertCastaigneStillHasYourBack4": {
+      "discardTheRevealedAssetToDraw1Card": "공개된 자산을 버리고 카드 1장 뽑기",
+      "playCardPayingCost": "비용을 지불하고 카드 플레이"
+    },
+    "rodOfCarnamagosScepterOfTheMadSeer2": {
+      "doneAttachingRots": "부패 부착 완료"
+    },
+    "runicAxe": {
+      "doNotSpendCharges": "충전을 소비하지 않음",
+      "doNotUseAdditionalImbueFromScriptweaver": "글귀 직조의 추가 주입을 사용하지 않음",
+      "draw1Card": "카드 1장 뽑기",
+      "heal1Damage": "피해 1 회복",
+      "heal1Horror": "공포 1 회복",
+      "inscription": {
+        "Accuracy": "정확성",
+        "Power": "힘",
+        "Glory": "영광",
+        "Elders": "옛 존재",
+        "Hunt": "사냥",
+        "Fury": "분노"
+      },
+      "doNotUseAdditionalImbue": "글귀 직조의 추가 주입을 사용하지 않음"
+    },
+    "salvage": {
+      "remove": "그 자산을 게임에서 제거하고 그 비용만큼 자원을 얻습니다.",
+      "play": "그 자산을 플레이합니다 (비용 지불)."
+    },
+    "scavenging2": {
+      "addToHand": "손에 추가",
+      "play": "플레이"
+    },
+    "scrollOfSecretsMystic3": {
+      "lookAtBottom": "맨 아래 보기",
+      "lookAtTop": "맨 위 보기"
+    },
+    "scrollOfSecretsSeeker3": {
+      "add1CardToHand": "손에 카드 1장을 추가할까요?",
+      "discard1Card": "카드 1장을 버릴까요?",
+      "doNotAddToHand": "손에 추가하지 않음"
+    },
+    "seaChangeHarpoon": {
+      "returnToHand": "시 체인지 호의 작살을 손으로 되돌려, 투입한 능력 카드를 버리는 대신 모두 손으로 되돌리기"
+    },
+    "searchForTheTruthAdvanced": {
+      "placeClueAndReturnCard": "그 단서를 당신의 장소에 놓고 버림 더미의 아무 카드나 손으로 되돌리기",
+      "doNothingFinish": "아무것도 하지 않음 (이 카드 종료)"
+    },
+    "secondSight": {
+      "spendChargeForClue": "충전 1개를 소비해 단서 1개를 추가로 발견"
+    },
+    "secondSight5": {
+      "doNotSpendCharge": "충전을 소비하지 않음",
+      "spendChargeForClue": "충전 1개를 소비해 단서 1개를 추가로 발견"
+    },
+    "sefinaRousseau": {
+      "doneChoosingEvents": "이벤트 선택 완료"
+    },
+    "sergeantMonroe": {
+      "dealDamage": "받은 피해만큼 피해 주기 ({count})",
+      "dealHorror": "받은 공포만큼 공포 주기 ({count})"
+    },
+    "sharpshooter3": {
+      "doBoth": "둘 다 하기",
+      "attackUsesAlt": "이 공격은 {'{'}combat{'}'} 대신 {'{'}agility{'}'}를 사용합니다. 이 공격에서 {'{'}combat{'}'}에 적용되는 모든 수정치는 대신 그 능력치에 적용됩니다.",
+      "useEnemyEvadeForAttack": "이 공격에서는 공격한 적의 전투값 대신 회피값을 사용합니다."
+    },
+    "shrineOfTheMoirai3": {
+      "doneChoosingCards": "카드 선택 완료"
+    },
+    "shroudOfShadows": {
+      "placeCharge": "그림자 수의에 충전 1개 놓기",
+      "place1ChargeOnShroudOfShadows": "그림자 수의에 충전 1개 놓기"
+    },
+    "shroudOfShadows4": {
+      "placeCharge": "그림자 수의(4)에 충전 1개 놓기",
+      "place1ChargeOnShroudOfShadows4": "그림자 수의(4)에 충전 1개 놓기"
+    },
+    "signOfXelotaphSymbolOfProtection": {
+      "discardSignOfXelotaph": "젤로타프의 표식 버리기",
+      "spend1Charge": "충전 1개 소비"
+    },
+    "silasMarsh": {
+      "doNotCommit": "능력 카드를 투입하지 않음"
+    },
+    "silassNet": {
+      "returnNetWithSkills": "사일러스의 그물을 손으로 되돌려, 투입한 능력 카드를 버리는 대신 모두 손으로 되돌리기",
+      "automaticallyEvadeAnotherEnemy": "다른 적을 자동으로 회피",
+      "doNotEvadeAnotherEnemy": "다른 적을 회피하지 않음",
+      "returnNet": "사일러스의 그물을 손으로 되돌려, 투입한 능력 카드를 버리는 대신 모두 손으로 되돌리기"
+    },
+    "sinEater3": {
+      "addCharge": "충전 추가",
+      "readyAsset": "자산 준비"
+    },
+    "sixthSense": {
+      "doNotChooseOtherLocation": "다른 장소를 고르지 않음",
+      "useNewLocationsShroud": "새 장소의 장막값 사용",
+      "useOriginalLocationsShroud": "원래 장소의 장막값 사용"
+    },
+    "sixthSense4": {
+      "doNotChooseOtherLocation": "다른 장소를 고르지 않음",
+      "useNewLocationsShroud": "새 장소의 장막값 사용",
+      "useOriginalLocationsShroud": "원래 장소의 장막값 사용"
+    },
+    "sledgehammer3": {
+      "exhaustForDamage": "대형 망치 소진"
+    },
+    "smuggledGoods": {
+      "deck": "덱 탐색",
+      "discard": "버림 더미 탐색"
+    },
+    "songOfTheMagahBird": {
+      "resistTheCall": "부름에 저항하기",
+      "driveAwayTheBirds": "새들을 쫓아내기"
+    },
+    "spiritSpeaker": {
+      "moveChargesToResources": "충전을 모두 당신의 자원 풀로 옮기기",
+      "moveAllChargesToYourResourcePool": "충전을 모두 당신의 자원 풀로 옮기기",
+      "returnToHand": "손으로 되돌리기"
+    },
+    "stalkPrey": {
+      "moveToward": "그 장소를 향해 한 번 이동"
+    },
+    "steadyHanded1": {
+      "succeedBy1Less": "1 적은 차이로 성공",
+      "succeedBy1More": "1 더 큰 차이로 성공"
+    },
+    "stellaClark": {
+      "resolve": "고대 표식으로 해결",
+      "fail": "이 능력 테스트를 자동으로 실패하고 피해 1과 공포 1 회복"
+    },
+    "stickToThePlan3": {
+      "chooseCards": "덱에서 _전술_ 또는 _보급_ 이벤트를 최대 3장까지 비플레이 상태로 치워 둡니다.",
+      "chooseNoMoreEvents": "이벤트를 더 고르지 않음"
+    },
+    "stormRuler": {
+      "exhaust": "스톰 룰러를 소진해 당신의 장소에 있는 적에게 피해 {count} 주기"
+    },
+    "stouthearted": {
+      "done": "피해/공포 옮기기 완료",
+      "doneMovingDamageHorror": "피해/공포 옮기기 완료"
+    },
+    "stringOfCurses": {
+      "evadeAndPlaceDoom": "그 적을 자동으로 회피하고 그 위에 파멸 1을 놓습니다. 라운드 종료까지 그 적은 피해를 받을 수 없습니다. 당신의 장소에서 단서 1개를 발견합니다.",
+      "defeatForResources": "그 적에게 파멸이 1 이상 있으면 처치합니다. 그 위에 있던 파멸 1개마다 자원 1개를 얻습니다."
+    },
+    "strokeOfLuck": {
+      "exile": "의외의 행운을 추방해 자동 성공",
+      "skip": "추방하지 않음"
+    },
+    "subject5U21": {
+      "doNotReturnDevoured": "삼킨 카드를 되돌리지 않음",
+      "doNotRegurgitateAnyMoreCards": "카드를 더 토해내지 않음"
+    },
+    "summonedServitor": {
+      "moveToLocation": "소환된 시종이 있는 장소로 이동 (밤의 날개)"
+    },
+    "surgicalKit3": {
+      "draw1CardAndHeal1Horror": "카드 1장을 뽑고 공포 1 회복",
+      "thatEffectHeals1AdditionalDamage": "그 효과가 피해를 1 더 회복합니다"
+    },
+    "survivalInstinct": {
+      "disengage": "다른 모든 적과 교전 해제",
+      "evadeOther": "다른 모든 적 회피"
+    },
+    "swordCaneDesignedByTheCouncilOfPolls2": {
+      "doNotDealDamage": "피해를 주지 않음"
+    },
+    "talismanOfProtection": {
+      "doneCanceling": "취소 완료"
+    },
+    "taskForce": {
+      "resolveAbilityNoCost": "...자신이 조종하는 자산의 {'{'}action{'}'} 능력을 {'{'}action{'}'} 비용을 지불하지 않고 해결합니다.",
+      "moveToConnecting": "...연결된 장소로 이동합니다.",
+      "discoverClueAtTheirLocation": "...자신의 장소에서 단서 1개를 발견합니다"
+    },
+    "teachingsOfTheOrder": {
+      "defeatANon_elite_EnemyAtYourLocation": "당신의 장소에 있는 _정예_가 아닌 적 하나를 처치합니다.",
+      "removeAFlood": "_성소_가 아닌 장소에서 침수 토큰 1개를 제거합니다.",
+      "removeAllCurseTokensFromTheChaosBag": "혼돈 주머니에서 {'{'}curse{'}'} 토큰을 모두 제거합니다."
+    },
+    "terribleSecret": {
+      "keepRemainingCards": "남은 카드 갖기"
+    },
+    "tetsuoMori": {
+      "searchDeck": "덱 탐색",
+      "searchDiscard": "버림 더미 탐색"
+    },
+    "theBeyondBleakNetherworld": {
+      "attachTheTop": "영혼 덱 맨 위 카드를 영혼으로서 저편에 부착하기",
+      "attachSpirit": "영혼 덱 맨 위 카드를 영혼으로서 저편에 부착하기",
+      "discardThisSpirit": "이 영혼 버리기",
+      "discardSpirit": "이 영혼 버리기",
+      "take1DirectDamage": "직접 피해 1 받기",
+      "takeDirectDamage": "직접 피해 1 받기",
+      "take1DirectHorror": "직접 공포 1 받기",
+      "takeDirectHorror": "직접 공포 1 받기",
+      "elderSignHealHorror": "고대 표식: 공포 1 회복",
+      "elderSignAttachSpirit": "고대 표식: 영혼 덱 맨 위 카드를 영혼으로서 저편에 부착",
+      "elderSignDoNothing": "고대 표식: 공포를 회복하지도, 영혼을 부착하지도 않음",
+      "autoFailTakeDirectDamage": "자동 실패: 이 영혼을 버리고 직접 피해 1 받기",
+      "autoFailTakeDirectHorror": "자동 실패: 이 영혼을 버리고 직접 공포 1 받기",
+      "skullDiscardSpiritHealHorror": "해골: 이 영혼을 버리고 공포 1 회복",
+      "skullDiscardSpirit": "해골: 이 영혼 버리기",
+      "symbolDiscardSpirit": "기호 토큰: 이 영혼 버리기",
+      "symbolTakeDirectDamage": "기호 토큰: 직접 피해 1 받기",
+      "otherDiscardSpirit": "기타 토큰: 이 영혼 버리기"
+    },
+    "theCouncilsCoffer2": {
+      "searchDeck": "덱 탐색",
+      "searchDiscard": "버림 더미 탐색"
+    },
+    "theKeyOfSolomonSecretsOfTheUnknown4": {
+      "doneHealing": "회복 완료",
+      "healDamage": "피해 회복",
+      "healHorror": "공포 회복"
+    },
+    "theRavenQuill": {
+      "search": "덱, 버림 더미, 손에서 지정한 자산의 사본을 찾아 플레이합니다(비용 지불). 그런 다음 까마귀 깃펜을 거기에 부착합니다.",
+      "doNotSearch": "탐색하지 않음",
+      "deckbuilding": "까마귀 깃펜의 업그레이드 시트에 체크 칸 하나를 표시하거나, 다음 시나리오 전에 부착된 자산을 업그레이드하는 경험치 비용을 1 줄입니다. (참고: ArkhamDB로 덱을 업그레이드할 때는 직접 반영해야 합니다)",
+      "moveSecret": "비밀 옮기기",
+      "moveCharge": "충전 옮기기",
+      "doNotReady": "자산을 준비하지 않음"
+    },
+    "theRedClockBrokenButReliable2": {
+      "place1ChargeHere": "여기에 충전 1개 놓기",
+      "takeAllChargesHereAsResources": "여기 있는 충전을 모두 자원으로 가져가기"
+    },
+    "theRedClockBrokenButReliable5": {
+      "leaveCharges": "충전 남겨 두기",
+      "takeAllChargesHereAsResources": "여기 있는 충전을 모두 자원으로 가져가기"
+    },
+    "theSilverMoth": {
+      "putTheSilverMothIntoPlayInYourThreatArea": "은빛 나방을 당신의 위협 영역에 놓기",
+      "take1HorrorAndShuffleItIntoYourDeck": "공포 1을 받고 이 카드를 덱에 섞어 넣기"
+    },
+    "thievesKit": {
+      "useAgility": "{'{'}agility{'}'} 사용",
+      "useIntellect": "{'{'}intellect{'}'} 사용"
+    },
+    "thievesKit3": {
+      "useAgility": "{'{'}agility{'}'} 사용",
+      "useIntellect": "{'{'}intellect{'}'} 사용"
+    },
+    "throughTheCracks": {
+      "disengage": "당신과 교전 중인 모든 적과 교전을 해제합니다.",
+      "move": "공개된 연결된 장소로 이동합니다.",
+      "disengageAndMove": "당신과 교전 중인 모든 적과 교전을 해제하고 공개된 연결된 장소로 이동합니다."
+    },
+    "throughTheCracks2": {
+      "disengage": "당신과 교전 중인 모든 적과 교전을 해제합니다.",
+      "move": "공개된 연결된 장소로 이동합니다.",
+      "disengageAndMove": "당신과 교전 중인 모든 적과 교전을 해제하고 공개된 연결된 장소로 이동합니다."
+    },
+    "throwTheBookAtThem": {
+      "automaticallyEvade": "공격한 적을 자동으로 회피",
+      "resolveAbilityOnTome": "공격이 끝난 뒤, 선택한 자산의 {'{'}action{'}'} 또는 {'{'}fast{'}'} 능력을 해결할 수 있습니다 ({'{'}action{'}'} 비용이 있다면 무시)"
+    },
+    "tinker": {
+      "hand": "손",
+      "accessory": "장신구"
+    },
+    "tokenOfFaith3": {
+      "attemptThatSkillTestAgain": "그 능력 테스트를 다시 시도",
+      "doNotAttemptAgain": "다시 시도하지 않음"
+    },
+    "tommyMuldoon": {
+      "moveFromTommyToAsset": "토미 멀둔의 피해 및/또는 공포를 최대 2만큼 당신이 조종하는 자산으로 옮기기",
+      "moveFromAssetToTommy": "당신이 조종하는 자산의 피해 및/또는 공포를 최대 2만큼 토미 멀둔에게 옮기기",
+      "moveToAsset": "토미 멀둔의 피해 및/또는 공포를 최대 2만큼 당신이 조종하는 자산으로 옮기기",
+      "moveToTommy": "당신이 조종하는 자산의 피해 및/또는 공포를 최대 2만큼 토미 멀둔에게 옮기기",
+      "doNotMove": "피해나 공포를 옮기지 않음",
+      "done": "피해/공포 옮기기 완료"
+    },
+    "toolBelt": {
+      "attachAToolAssetInYourPlayAreaToToolBelt": "당신의 플레이 영역에 있는 _도구_ 자산 하나를 작업용 허리띠에 부착",
+      "detachAnAttachedAsset": "부착된 자산 하나를 떼어 냅니다.",
+      "switchATool": "당신의 플레이 영역에 있는 _도구_ 자산 하나와 부착된 자산 하나를 맞바꾸기"
+    },
+    "treasureHunter1": {
+      "discardTreasureHunter": "보물 사냥꾼 버리기",
+      "pay1ResourceToTreasureHunter": "보물 사냥꾼에 자원 1개 지불"
+    },
+    "trialByFire": {
+      "all": "당신의 모든 능력치의 기본값을 5로 설정",
+      "one": "당신의 능력치 하나의 기본값을 7로 설정"
+    },
+    "trishScarborough": {
+      "discover": "그 장소에서 단서 1개를 추가로 발견",
+      "evade": "그 적을 자동으로 회피",
+      "doNotChooseLocation": "다른 장소를 고르지 않음"
+    },
+    "trustyBullwhipAdvanced": {
+      "dealDamageAndEvade": "이 공격에서 피해 +1을 주고 그 적을 자동으로 회피"
+    },
+    "twentyOneOrBust": {
+      "stopWith": "{total}에서 멈추기",
+      "continue": "계속"
+    },
+    "underworldMarket2": {
+      "chooseMarketDeck": "덱에서 _불법_ 카드 10장을 비플레이 상태로 치워 두어 시장 덱을 만듭니다.",
+      "placeTheRestOnTheBottomInAnyOrder": "나머지는 원하는 순서로 맨 아래에 놓기",
+      "spend1ResourceToDraw1OfThem": "자원 1개를 소비해 그중 1장 뽑기"
+    },
+    "unrelenting1": {
+      "doneSealingTokens": "토큰 봉인 완료"
+    },
+    "untimelyTransaction1": {
+      "noOnePays": "아무도 지불하지 않음",
+      "playCard": "카드 플레이"
+    },
+    "virgilGray": {
+      "heal1HorrorFromVirgilGray": "버질 그레이에게서 공포 1 회복"
+    },
+    "virgilGrayTrulyInspired": {
+      "heal1HorrorFromVirgilGray": "버질 그레이에게서 공포 1 회복"
+    },
+    "vowOfDrzytelech": {
+      "putIntoPlay": "지텔레크의 맹서를 당신의 위협 영역에 놓기",
+      "take1HorrorAndShuffleItIntoYourDeck": "공포 1을 받고 이 카드를 덱에 섞어 넣기"
+    },
+    "wendyAdamsParallel": {
+      "sealOne": "혼돈 주머니에서 {'{'}bless{'}'} 또는 {'{'}curse{'}'} 토큰 1개 봉인",
+      "sealAny": "이 테스트 중 혼돈 주머니에서 공개된 {'{'}bless{'}'} 또는 {'{'}curse{'}'} 토큰을 모두 봉인",
+      "doneSealingTokens": "토큰 봉인 완료",
+      "doNotChooseAnyMoreTokens": "토큰을 더 고르지 않음"
+    },
+    "woodenSledge": {
+      "donePlacingCards": "나무 썰매 아래에 카드 놓기 완료"
+    },
+    "wordOfWeal": {
+      "shuffle": "비통의 언령을 덱에 섞어 넣기"
+    },
+    "wordOfWoe": {
+      "shuffle": "희락의 언령을 덱에 섞어 넣기"
+    },
+    "wrongPlaceRightTime": {
+      "done": "피해/공포 옮기기 완료"
+    },
+    "zeal": {
+      "putIntoPlayFromDiscard": "버림 더미에서 플레이에 놓기"
+    }
+  },
+  "title": {
+    "joeDiamond": {
+      "chooseHunchCards": "직감 덱",
+      "chooseHunch": "직감 덱"
+    },
+    "stickToThePlan3": {
+      "chooseCards": "계획 엄수"
+    },
+    "underworldMarket2": {
+      "chooseMarketDeck": "시장 덱"
+    }
+  },
+  "tooltips": {
+    "agencyBackup5": {
+      "fastExhaustAgency": "{'{'}fast{'}'} 연방 요원 파견을 소진하고 그 위에 피해 1을 줍니다: 당신의 장소에 있는 적에게 피해 1을 줍니다.",
+      "fastExhaustAgency2": "{'{'}fast{'}'} 연방 요원 파견을 소진하고 그 위에 공포 1을 줍니다: 당신의 장소에서 단서 1개를 발견합니다."
+    },
+    "arcaneStudies": {
+      "fastSpend1Resource": "{'{'}fast{'}'} 자원 1개 소비: 이번 능력 테스트에서 {'{'}intellect{'}'} +1을 얻습니다.",
+      "fastSpend1Resource2": "{'{'}fast{'}'} 자원 1개 소비: 이번 능력 테스트에서 {'{'}willpower{'}'} +1을 얻습니다."
+    },
+    "arcaneStudies2": {
+      "fastSpend1Resource": "{'{'}fast{'}'} 자원 1개 소비: 이번 능력 테스트에서 {'{'}intellect{'}'} +1을 얻습니다.",
+      "fastSpend1Resource2": "{'{'}fast{'}'} 자원 1개 소비: 이번 능력 테스트에서 {'{'}willpower{'}'} +1을 얻습니다."
+    },
+    "beguile": {
+      "moveAttachedEnemy": "부착된 적을 공개된 연결된 장소로 이동",
+      "basicInvestigate": "그 장소에서 기본 조사 행동 수행",
+      "basicEvade": "그 장소에서 기본 회피 행동 수행"
+    },
+    "bloodPact": {
+      "fastAdd1Doom": "{'{'}fast{'}'} 피의 계약에 파멸 1 추가: 이번 능력 테스트에서 {'{'}combat{'}'} +2를 얻습니다. (테스트당 1회 제한.)",
+      "fastAdd1Doom2": "{'{'}fast{'}'} 피의 계약에 파멸 1 추가: 이번 능력 테스트에서 {'{'}willpower{'}'} +2를 얻습니다. (테스트당 1회 제한.)"
+    },
+    "bloodPact3": {
+      "fastAdd1Doom": "{'{'}fast{'}'} 피의 계약에 파멸 1 추가: 이번 능력 테스트에서 {'{'}combat{'}'} +3을 얻습니다. (테스트당 1회 제한.)",
+      "fastAdd1Doom2": "{'{'}fast{'}'} 피의 계약에 파멸 1 추가: 이번 능력 테스트에서 {'{'}willpower{'}'} +3을 얻습니다. (테스트당 1회 제한.)"
+    },
+    "combatTraining1": {
+      "spendForCombat": "{'{'}fast{'}'} 자원 1개 소비: 이번 능력 테스트에서 {'{'}combat{'}'} +1을 얻습니다.",
+      "spendForAgility": "{'{'}fast{'}'} 자원 1개 소비: 이번 능력 테스트에서 {'{'}agility{'}'} +1을 얻습니다.",
+      "fastSpend1Resource": "{'{'}fast{'}'} 자원 1개 소비: 이번 능력 테스트에서 {'{'}agility{'}'} +1을 얻습니다.",
+      "fastSpend1Resource2": "{'{'}fast{'}'} 자원 1개 소비: 이번 능력 테스트에서 {'{'}combat{'}'} +1을 얻습니다."
+    },
+    "cosmicFlame": {
+      "spendChargeForDamage": "충전 1개를 소비해 피해 +1 주기"
+    },
+    "cosmicFlame5": {
+      "spendChargeForDamage": "충전 1개를 소비해 당신의 장소에 있는 적에게 피해 1 주기"
+    },
+    "cosmicRevelation1": {
+      "even": "짝수",
+      "odd": "홀수",
+      "playRevealed": "공개된 카드 1장 플레이"
+    },
+    "cryptographicCipher": {
+      "exhaust": "암호 해독판을 소진하고 비밀 1개 소비: 조사. 이번 조사에서 당신의 장소는 장막값 +1을 얻습니다.",
+      "exhaust2": "암호 해독판을 소진하고 비밀 1개 소비: 조사. 이번 조사에서 당신의 장소는 장막값 -2를 얻습니다."
+    },
+    "decoy": {
+      "twoEnemies": "{'{'}reaction{'}'} 유인을 플레이할 때, 비용을 2 늘림: \"_정예_가 아닌 적 하나\"를 \"_정예_가 아닌 적 최대 2명\"으로 바꿉니다.",
+      "twoConnections": "{'{'}reaction{'}'} 유인을 플레이할 때, 비용을 2 늘림: \"당신의 장소에\"를 \"최대 2칸 떨어진 장소에\"로 바꿉니다."
+    },
+    "digDeep": {
+      "fastSpend1Resource": "{'{'}fast{'}'} 자원 1개 소비: 이번 능력 테스트에서 {'{'}agility{'}'} +1을 얻습니다.",
+      "fastSpend1Resource2": "{'{'}fast{'}'} 자원 1개 소비: 이번 능력 테스트에서 {'{'}willpower{'}'} +1을 얻습니다."
+    },
+    "digDeep2": {
+      "fastSpend1Resource": "{'{'}fast{'}'} 자원 1개 소비: 이번 능력 테스트에서 {'{'}agility{'}'} +1을 얻습니다.",
+      "fastSpend1Resource2": "{'{'}fast{'}'} 자원 1개 소비: 이번 능력 테스트에서 {'{'}willpower{'}'} +1을 얻습니다."
+    },
+    "elinaHarpersCarRunning": {
+      "ifYouAre": "당신이 이 탈것의 운전자라면: 조우 덱 맨 위 카드를 뽑습니다. 그런 다음 이 탈것을 연결된 _도로_ 장소로 이동시킵니다. (라운드당 최대 1회.)",
+      "ifYouAre2": "당신이 이 탈것의 운전자라면: 차를 세웁니다. 이 탈것을 뒤집습니다."
+    },
+    "empiricalHypothesis": {
+      "dynamicTrigger": "{trigger} 때, 실험적 가설을 소진하고 그 위에 증거 1개를 추가할 수 있습니다.",
+      "fastSpend1EvidenceDraw1Card": "{'{'}fast{'}'} 증거 1개 소비: 카드 1장을 뽑습니다.",
+      "fastSpend2Evidence": "{'{'}fast{'}'} 증거 2개 소비: 다음에 플레이하는 카드의 비용이 3 감소합니다.",
+      "fastSpend3Evidence": "{'{'}fast{'}'} 증거 3개 소비: 당신의 장소에서 단서 1개를 발견합니다.",
+      "alternativeHypothesis": "그 강제 효과를 해결할 수 있으며, 이번 라운드에 고르지 않은 조건을 고릅니다. 그런 다음 준비합니다."
+    },
+    "endurance": {
+      "fastSpend1Resource": "{'{'}fast{'}'} 자원 1개 소비: 이번 능력 테스트에서 {'{'}agility{'}'} +1을 얻습니다. (공격이나 회피라면 대신 {'{'}agility{'}'} +2).",
+      "fastSpend1Resource2": "{'{'}fast{'}'} 자원 1개 소비: 이번 능력 테스트에서 {'{'}combat{'}'} +1을 얻습니다. (공격이나 회피라면 대신 {'{'}combat{'}'} +2)."
+    },
+    "endurance3": {
+      "fastSpend1Resource": "{'{'}fast{'}'} 자원 1개 소비: 이번 능력 테스트에서 {'{'}agility{'}'} +1을 얻습니다. (공격이나 회피라면 대신 {'{'}agility{'}'} +2).",
+      "fastSpend1Resource2": "{'{'}fast{'}'} 자원 1개 소비: 이번 능력 테스트에서 {'{'}combat{'}'} +1을 얻습니다. (공격이나 회피라면 대신 {'{'}combat{'}'} +2)."
+    },
+    "hardKnocks": {
+      "fastSpend1Resource": "{'{'}fast{'}'} 자원 1개 소비: 이번 능력 테스트에서 {'{'}agility{'}'} +1을 얻습니다.",
+      "fastSpend1Resource2": "{'{'}fast{'}'} 자원 1개 소비: 이번 능력 테스트에서 {'{'}combat{'}'} +1을 얻습니다."
+    },
+    "hardKnocks2": {
+      "fastSpend1Resource": "{'{'}fast{'}'} 자원 1개 소비: 이번 능력 테스트에서 {'{'}agility{'}'} +1을 얻습니다.",
+      "fastSpend1Resource2": "{'{'}fast{'}'} 자원 1개 소비: 이번 능력 테스트에서 {'{'}combat{'}'} +1을 얻습니다."
+    },
+    "hatchet1": {
+      "takeControlOfHatchet": "손도끼의 조종권 가져오기"
+    },
+    "higherEducation": {
+      "fastSpend1Resource": "{'{'}fast{'}'} 자원 1개 소비: 이번 능력 테스트에서 {'{'}intellect{'}'} +1을 얻습니다.",
+      "fastSpend1Resource2": "{'{'}fast{'}'} 자원 1개 소비: 이번 능력 테스트에서 {'{'}willpower{'}'} +1을 얻습니다."
+    },
+    "higherEducation3": {
+      "fastSpend1Resource": "{'{'}fast{'}'} 자원 1개 소비: 이번 능력 테스트에서 {'{'}intellect{'}'} +2를 얻습니다.",
+      "fastSpend1Resource2": "{'{'}fast{'}'} 자원 1개 소비: 이번 능력 테스트에서 {'{'}willpower{'}'} +2를 얻습니다."
+    },
+    "holySpear5": {
+      "fightWithReleaseBless": "{'{'}action{'}'}: _전투_. 이 공격에서 {'{'}willpower{'}'} +2를 얻고 피해를 +1 더 줍니다. 이 능력을 시작할 때, 성스러운 창에 봉인된 {'{'}bless{'}'} 토큰 1개를 풀 수 있습니다.",
+      "fightWithSealBless": "{'{'}action{'}'} 혼돈 주머니에서 {'{'}bless{'}'} 토큰 2개를 찾아 성스러운 창에 봉인: _전투_. 이 공격에서 {'{'}combat{'}'} +4를 얻고 피해를 +2 더 줍니다.",
+      "actionSearchThe": "{'{'}action{'}'} 혼돈 주머니에서 {'{'}bless{'}'} 토큰 2개를 찾아 성스러운 창에 봉인: _전투_. 이 공격에서 {'{'}combat{'}'} +4를 얻고 피해를 +2 더 줍니다.",
+      "actionYouGet2": "{'{'}action{'}'}: _전투_. 이 공격에서 {'{'}willpower{'}'} +2를 얻고 피해를 +1 더 줍니다. 이 능력을 시작할 때, 성스러운 창에 봉인된 {'{'}bless{'}'} 토큰 1개를 풀 수 있습니다."
+    },
+    "hyperawareness": {
+      "fastSpend1Resource": "{'{'}fast{'}'} 자원 1개 소비: 이번 능력 테스트에서 {'{'}agility{'}'} +1을 얻습니다.",
+      "fastSpend1Resource2": "{'{'}fast{'}'} 자원 1개 소비: 이번 능력 테스트에서 {'{'}intellect{'}'} +1을 얻습니다."
+    },
+    "hyperawareness2": {
+      "fastSpend1Resource": "{'{'}fast{'}'} 자원 1개 소비: 이번 능력 테스트에서 {'{'}agility{'}'} +1을 얻습니다.",
+      "fastSpend1Resource2": "{'{'}fast{'}'} 자원 1개 소비: 이번 능력 테스트에서 {'{'}intellect{'}'} +1을 얻습니다."
+    },
+    "joeyTheRatVigil3": {
+      "spendForItem": "자원 1개 소비: 손에서 _물품_ 자산 1장을 골라 플레이합니다 (비용 지불).",
+      "discardForResources": "플레이에서 _물품_ 자산 1장 버리기: 자원 2개를 얻습니다.",
+      "discardAnAsset": "플레이에서 _물품_ 자산 1장 버리기: 자원 2개를 얻습니다.",
+      "spend": "자원 1개 소비: 손에서 _물품_ 자산 1장을 골라 플레이합니다 (비용 지불)."
+    },
+    "keenEye": {
+      "fastSpend2Resources": "{'{'}fast{'}'} 자원 2개 소비: 단계 종료까지 {'{'}combat{'}'} +1을 얻습니다",
+      "fastSpend2Resources2": "{'{'}fast{'}'} 자원 2개 소비: 단계 종료까지 {'{'}intellect{'}'} +1을 얻습니다"
+    },
+    "keenEye3": {
+      "fastSpend2Resources": "{'{'}fast{'}'} 자원 2개 소비: 단계 종료까지 {'{'}combat{'}'} +1을 얻습니다.",
+      "fastSpend2Resources2": "{'{'}fast{'}'} 자원 2개 소비: 단계 종료까지 {'{'}intellect{'}'} +1을 얻습니다."
+    },
+    "levelheaded": {
+      "fastSpend1Resource": "{'{'}fast{'}'} 자원 1개 소비: 이번 능력 테스트에서 {'{'}agility{'}'} +1을 얻습니다. (시나리오 카드에 대한 테스트라면 대신 {'{'}agility{'}'} +2).",
+      "fastSpend1Resource2": "{'{'}fast{'}'} 자원 1개 소비: 이번 능력 테스트에서 {'{'}willpower{'}'} +1을 얻습니다. (시나리오 카드에 대한 테스트라면 대신 {'{'}willpower{'}'} +2)."
+    },
+    "levelheaded3": {
+      "fastSpend1Resource": "{'{'}fast{'}'} 자원 1개 소비: 이번 능력 테스트에서 {'{'}agility{'}'} +1을 얻습니다. (시나리오 카드에 대한 테스트라면 대신 {'{'}agility{'}'} +2).",
+      "fastSpend1Resource2": "{'{'}fast{'}'} 자원 1개 소비: 이번 능력 테스트에서 {'{'}willpower{'}'} +1을 얻습니다. (시나리오 카드에 대한 테스트라면 대신 {'{'}willpower{'}'} +2)."
+    },
+    "livreDeibon": {
+      "fastExhaustLivre": "{'{'}fast{'}'} 리브르 디봉 소진: 당신의 덱 맨 위 카드를 당신의 장소에 있는 조사자가 수행하는 투입 가능한 능력 테스트에 투입합니다.",
+      "fastExhaustLivre2": "{'{'}fast{'}'} 리브르 디봉 소진: 당신의 덱 맨 위 카드와 손의 카드 1장을 맞바꿉니다."
+    },
+    "longbow3": {
+      "youNockAnotherArrow": "화살을 하나 더 시위에 겁니다"
+    },
+    "madameLabranche": {
+      "fastIfYou": "{'{'}fast{'}'} 손에 카드가 없다면, 마담 라브랑슈를 소진: 카드 1장을 뽑습니다.",
+      "fastIfYou2": "{'{'}fast{'}'} 자원이 없다면, 마담 라브랑슈를 소진: 자원 1개를 얻습니다."
+    },
+    "moxie1": {
+      "spendForWillpower": "{'{'}fast{'}'} 자원 1개 소비: 이번 능력 테스트에서 {'{'}willpower{'}'} +1을 얻습니다.",
+      "spendForAgility": "{'{'}fast{'}'} 자원 1개 소비: 이번 능력 테스트에서 {'{'}agility{'}'} +1을 얻습니다.",
+      "fastSpend1Resource": "{'{'}fast{'}'} 자원 1개 소비: 이번 능력 테스트에서 {'{'}agility{'}'} +1을 얻습니다.",
+      "fastSpend1Resource2": "{'{'}fast{'}'} 자원 1개 소비: 이번 능력 테스트에서 {'{'}willpower{'}'} +1을 얻습니다."
+    },
+    "obsidianClaw": {
+      "move": "{'{'}fast{'}'} 당신의 차례 동안, 이 카드를 소진하고 최대 2칸 떨어진 장소 하나를 고름: 고른 장소로 이동합니다.",
+      "flip": "{'{'}fast{'}'} 이 카드를 뒤집습니다. (라운드당 최대 1회.)"
+    },
+    "oldCompass": {
+      "exhaustToRepeat": "낡은 나침반 소진"
+    },
+    "oldHuntingRifle3": {
+      "clearJam": "걸린 탄을 빼냅니다.",
+      "youClearTheJam": "걸린 탄을 빼냅니다."
+    },
+    "ornateBow3": {
+      "nockArrow": "화살을 하나 더 시위에 겁니다",
+      "youNockAnotherArrow": "화살을 하나 더 시위에 겁니다"
+    },
+    "physicalTraining": {
+      "fastSpend1Resource": "{'{'}fast{'}'} 자원 1개 소비: 이번 능력 테스트에서 {'{'}combat{'}'} +1을 얻습니다.",
+      "fastSpend1Resource2": "{'{'}fast{'}'} 자원 1개 소비: 이번 능력 테스트에서 {'{'}willpower{'}'} +1을 얻습니다."
+    },
+    "physicalTraining2": {
+      "fastSpend1Resource": "{'{'}fast{'}'} 자원 1개 소비: 이번 능력 테스트에서 {'{'}combat{'}'} +1을 얻습니다.",
+      "fastSpend1Resource2": "{'{'}fast{'}'} 자원 1개 소비: 이번 능력 테스트에서 {'{'}willpower{'}'} +1을 얻습니다."
+    },
+    "pitchfork": {
+      "takeControlOfPitchfork": "쇠스랑의 조종권 가져오기"
+    },
+    "plucky1": {
+      "fastSpend1Resource": "{'{'}fast{'}'} 자원 1개 소비: 이번 능력 테스트에서 {'{'}intellect{'}'} +1을 얻습니다.",
+      "fastSpend1Resource2": "{'{'}fast{'}'} 자원 1개 소비: 이번 능력 테스트에서 {'{'}willpower{'}'} +1을 얻습니다."
+    },
+    "quickdrawHolster4": {
+      "fastChooseA": "{'{'}fast{'}'}: 당신의 플레이 영역에서 손 슬롯을 1개만 차지하는 _총기_ 자산 하나를 고릅니다. 그것을 속사용 권총집에 부착하거나, 부착된 자산과 맞바꿉니다. 부착된 자산은 손 슬롯을 차지하지 않습니다. (부착 자산 1개 제한.)",
+      "fastExhaustQuickdraw": "{'{'}fast{'}'} 속사용 권총집 소진: 부착된 자산으로 {'{'}action{'}'} 비용을 지불하지 않고 전투 행동을 수행합니다."
+    },
+    "ravenousMyconidNurturingStrain4": {
+      "searchForUncannyGrowth": "결속 카드에서 기괴한 생장을 찾아 손에 추가합니다.",
+      "healOrMoveDamageHorror": "게걸스러운 균사체에서 그만큼의 피해/공포를 회복하거나, 당신의 장소에 있는 조사자나 _협력자_ 자산의 피해/공포를 그만큼 게걸스러운 균사체로 옮깁니다",
+      "eitherHealThat": "게걸스러운 균사체에서 그만큼의 피해/공포를 회복하거나, 당신의 장소에 있는 조사자나 _협력자_ 자산의 피해/공포를 그만큼 게걸스러운 균사체로 옮깁니다",
+      "search": "결속 카드에서 기괴한 생장을 찾아 손에 추가합니다."
+    },
+    "ravenousMyconidUnidentified": {
+      "searchForUncannyGrowth": "결속 카드에서 기괴한 생장을 찾아 손에 추가합니다.",
+      "classifyNewSpecies": "모든 생장을 자원으로 당신의 자원 풀로 옮깁니다. 캠페인 기록지에 \"새로운 종을 분류했다\"고 기록합니다",
+      "moveEachGrowth": "모든 생장을 자원으로 당신의 자원 풀로 옮깁니다. 캠페인 기록지에 \"새로운 종을 분류했다\"고 기록합니다",
+      "search": "결속 카드에서 기괴한 생장을 찾아 손에 추가합니다."
+    },
+    "scientificTheory1": {
+      "spendForIntellect": "{'{'}fast{'}'} 자원 1개 소비: 이번 능력 테스트에서 {'{'}intellect{'}'} +1을 얻습니다.",
+      "spendForCombat": "{'{'}fast{'}'} 자원 1개 소비: 이번 능력 테스트에서 {'{'}combat{'}'} +1을 얻습니다.",
+      "fastSpend1Resource": "{'{'}fast{'}'} 자원 1개 소비: 이번 능력 테스트에서 {'{'}combat{'}'} +1을 얻습니다.",
+      "fastSpend1Resource2": "{'{'}fast{'}'} 자원 1개 소비: 이번 능력 테스트에서 {'{'}intellect{'}'} +1을 얻습니다."
+    },
+    "scrapper": {
+      "fastSpend1Resource": "{'{'}fast{'}'} 자원 1개 소비: 이번 능력 테스트에서 {'{'}agility{'}'} +1을 얻습니다.",
+      "fastSpend1Resource2": "{'{'}fast{'}'} 자원 1개 소비: 이번 능력 테스트에서 {'{'}combat{'}'} +1을 얻습니다."
+    },
+    "scrapper3": {
+      "fastSpend1Resource": "{'{'}fast{'}'} 자원 1개 소비: 이번 능력 테스트에서 {'{'}agility{'}'} +1을 얻습니다.",
+      "fastSpend1Resource2": "{'{'}fast{'}'} 자원 1개 소비: 이번 능력 테스트에서 {'{'}combat{'}'} +1을 얻습니다."
+    },
+    "secondSight": {
+      "spendChargeForClue": "충전 1개를 소비해 단서 1개를 추가로 발견"
+    },
+    "secondSight5": {
+      "spendChargeForClue": "충전 1개를 소비해 단서 1개를 추가로 발견",
+      "doNotSpendCharge": "충전을 소비하지 않음"
+    },
+    "sharpRhetoric": {
+      "fastSpend1Resource": "{'{'}fast{'}'} 자원 1개 소비: 이번 능력 테스트에서 {'{'}intellect{'}'} +1을 얻습니다. (조사나 협상이라면 대신 {'{'}intellect{'}'} +2).",
+      "fastSpend1Resource2": "{'{'}fast{'}'} 자원 1개 소비: 이번 능력 테스트에서 {'{'}willpower{'}'} +1을 얻습니다. (조사나 협상이라면 대신 {'{'}willpower{'}'} +2)."
+    },
+    "shortcut": {
+      "ability": "{'{'}fast{'}'} 지름길 소진: _이동_ (연결된 장소로). 이 장소에 있는 조사자라면 누구나 이 능력을 발동할 수 있습니다."
+    },
+    "silverTongue": {
+      "fastSpend1Resource": "{'{'}fast{'}'} 자원 1개 소비: 이번 능력 테스트에서 {'{'}agility{'}'} +1을 얻습니다. (회피나 협상이라면 대신 {'{'}agility{'}'} +2).",
+      "fastSpend1Resource2": "{'{'}fast{'}'} 자원 1개 소비: 이번 능력 테스트에서 {'{'}intellect{'}'} +1을 얻습니다. (회피나 협상이라면 대신 {'{'}intellect{'}'} +2)."
+    },
+    "silverTongue3": {
+      "fastSpend1Resource": "{'{'}fast{'}'} 자원 1개 소비: 이번 능력 테스트에서 {'{'}agility{'}'} +1을 얻습니다. (회피나 협상이라면 대신 {'{'}agility{'}'} +2).",
+      "fastSpend1Resource2": "{'{'}fast{'}'} 자원 1개 소비: 이번 능력 테스트에서 {'{'}intellect{'}'} +1을 얻습니다. (회피나 협상이라면 대신 {'{'}intellect{'}'} +2)."
+    },
+    "smallRadio": {
+      "partner": "{name}"
+    },
+    "spectralRazor2": {
+      "engageFirst": "먼저 적과 교전",
+      "doNotEngage": "적과 교전하지 않음"
+    },
+    "spiritualIntuition": {
+      "fastSpend1Resource": "{'{'}fast{'}'} 자원 1개 소비: 이번 능력 테스트에서 {'{'}combat{'}'} +1을 얻습니다. (_주문_ 또는 _의식_ 카드에 대한 테스트라면 대신 {'{'}combat{'}'} +2).",
+      "fastSpend1Resource2": "{'{'}fast{'}'} 자원 1개 소비: 이번 능력 테스트에서 {'{'}willpower{'}'} +1을 얻습니다. (_주문_ 또는 _의식_ 카드에 대한 테스트라면 대신 {'{'}willpower{'}'} +2)."
+    },
+    "spiritualIntuition3": {
+      "fastSpend1Resource": "{'{'}fast{'}'} 자원 1개 소비: 이번 능력 테스트에서 {'{'}combat{'}'} +1을 얻습니다. (_주문_ 또는 _의식_ 카드에 대한 테스트라면 대신 {'{'}combat{'}'} +2).",
+      "fastSpend1Resource2": "{'{'}fast{'}'} 자원 1개 소비: 이번 능력 테스트에서 {'{'}willpower{'}'} +1을 얻습니다. (_주문_ 또는 _의식_ 카드에 대한 테스트라면 대신 {'{'}willpower{'}'} +2)."
+    },
+    "stouthearted": {
+      "doneMovingDamageHorror": "피해/공포 옮기기 완료"
+    },
+    "streetwise": {
+      "fastSpend2Resources": "{'{'}fast{'}'} 자원 2개 소비: 이번 능력 테스트에서 {'{'}agility{'}'} +2를 얻습니다.",
+      "fastSpend2Resources2": "{'{'}fast{'}'} 자원 2개 소비: 이번 능력 테스트에서 {'{'}intellect{'}'} +2를 얻습니다."
+    },
+    "streetwise3": {
+      "fastSpend2Resources": "{'{'}fast{'}'} 자원 2개 소비: 이번 능력 테스트에서 {'{'}agility{'}'} +3을 얻습니다.",
+      "fastSpend2Resources2": "{'{'}fast{'}'} 자원 2개 소비: 이번 능력 테스트에서 {'{'}intellect{'}'} +3을 얻습니다."
+    },
+    "theKeyOfSolomonSecretsOfTheUnknown4": {
+      "ifThereAre": "혼돈 주머니에 {'{'}bless{'}'} 토큰이 {'{'}curse{'}'} 토큰보다 많다면, 혼돈 주머니에서 {'{'}bless{'}'} 토큰 1개를 제거하고 솔로몬의 열쇠를 소진: 당신의 장소에 있는 조사자나 _협력자_ 자산에게서 피해 및/또는 공포를 최대 2 회복합니다.",
+      "ifThereAre2": " 혼돈 주머니에 {'{'}curse{'}'} 토큰이 {'{'}bless{'}'} 토큰보다 많다면, 혼돈 주머니에서 {'{'}curse{'}'} 토큰 1개를 제거하고 솔로몬의 열쇠를 소진: 자원 2개를 얻습니다."
+    },
+    "theNecronomiconPetrusDeDaciaTranslation5": {
+      "fastSpend1Secret": "{'{'}fast{'}'} 비밀 1개 소비: 이번 능력 테스트에서 능력치 +2를 얻습니다.",
+      "fastSpend2SecretsDraw2Cards": "{'{'}fast{'}'} 비밀 2개 소비: 카드 2장을 뽑습니다.",
+      "fastSpend3Secrets": "{'{'}fast{'}'} 비밀 3개 소비: 아무 장소에서 단서 1개를 발견합니다.",
+      "fastSpend4Secrets": "{'{'}fast{'}'} 비밀 4개 소비: 당신과 교전 중인 적에게 피해 3을 줍니다."
+    },
+    "theRedClockBrokenButReliable2": {
+      "placeChargeHere": "여기에 충전 1개 놓기",
+      "takeChargesAsResources": "여기 있는 충전을 모두 자원으로 가져가기"
+    },
+    "theRedClockBrokenButReliable5": {
+      "takeChargesAsResources": "여기 있는 충전을 모두 자원으로 가져가기",
+      "leaveCharges": "충전 남겨 두기"
+    },
+    "thermos": {
+      "heal": "당신의 장소에 있는 조사자에게서 피해 1을 회복합니다 (그 조사자에게 육체적 트라우마가 2 이상 있으면 대신 피해 2).",
+      "heal2": "당신의 장소에 있는 조사자에게서 공포 1을 회복합니다 (그 조사자에게 정신적 트라우마가 2 이상 있으면 대신 공포 2)."
+    },
+    "thirdTimesACharm": {
+      "cancel": "그 토큰을 취소하고 혼돈 주머니로 되돌린 뒤, 새 혼돈 토큰을 공개"
+    },
+    "thirdTimesACharm2": {
+      "cancelAndReveal": "그 토큰을 취소하고 혼돈 주머니로 되돌린 뒤, 새 혼돈 토큰을 공개"
+    },
+    "thomasDawsonsCarRunning": {
+      "ifYouAre": "당신이 이 탈것의 운전자라면: 조우 덱 맨 위 카드를 뽑습니다. 그런 다음 이 탈것을 연결된 _도로_ 장소로 이동시킵니다. (라운드당 최대 1회.)",
+      "ifYouAre2": "당신이 이 탈것의 운전자라면: 차를 세웁니다. 이 탈것을 뒤집습니다."
+    },
+    "timewornBrand5": {
+      "actionExhaustTimeworn": "{'{'}action{'}'} 고대 흑요석 검 소진: _전투_. 이 공격에서 당신의 {'{'}willpower{'}'}를 능력치에 더합니다. 이 공격은 피해를 +3 더 줍니다. 이 공격으로 _정예_ 적을 처치하면, 카드 3장을 뽑습니다. (게임당 최대 1회.)",
+      "actionIfTimeworn": "{'{'}action{'}'} 고대 흑요석 검이 준비 상태라면: _전투_. 이 공격에서 {'{'}combat{'}'} +2를 얻고 피해를 +1 더 줍니다."
+    },
+    "tinker": {
+      "hand": "손",
+      "accessory": "장신구"
+    },
+    "transmogrify": {
+      "discoverClue": "그 장소에서 단서 1개 발견 (변이화)",
+      "discover": "그 장소에서 단서 1개 발견 (변이화)"
+    },
+    "trueMagickReworkingReality5": {
+      "useTrueMagick": "진정한 마법 사용"
+    },
+    "winchesterModel522": {
+      "actionDiscardWinchester": "{'{'}action{'}'}: 윈체스터 모델 52 버리기: _전투 ({'{'}combat{'}'})_. 이 공격에서 {'{'}combat{'}'} +3을 얻습니다. 성공하면 대상 적을 자동으로 회피합니다.",
+      "actionSpend1Ammo": "{'{'}action{'}'}: 탄약 1개 소비: _전투 ({'{'}combat{'}'})_. 이 공격에서 {'{'}combat{'}'} +3을 얻고 피해를 +1 더 줍니다."
+    },
+    "yaotl1": {
+      "fastDiscardThe": "{'{'}fast{'}'}: 당신의 덱 맨 위 카드를 버립니다. (단계당 1회 제한.)",
+      "fastExhaustYaotl": "{'{'}fast{'}'} 야오틀 소진: 이번 능력 테스트 동안, 버림 더미 맨 위 카드에 있는 일치하는 능력 아이콘 수만큼 각 능력치에 보너스를 얻습니다 ({'{'}wild{'}'} 아이콘 제외)."
+    }
+  }
+}

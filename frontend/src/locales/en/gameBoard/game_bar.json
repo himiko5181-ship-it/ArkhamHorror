@@ -58,6 +58,9 @@
             "everyone": "everyone"
         },
         "default": "Default",
+        "cardScaleTitle": "Card size",
+        "cardScaleDesc": "Size of cards on the game board.",
+        "cardScale": {"1": "Normal", "1_2": "Slightly large", "1_4": "Large", "1_6": "Extra large", "1_8": "Maximum"},
         "hideInertCardsTitle": "Hide Cards With No Ongoing Effect",
         "hideInertCards": "Once setup is over, tuck permanents whose text only applied at deck creation or setup — In the Thick of It, Adaptable, Observed — into a stack beside the play area.",
         "keybindingsTitle": "Keyboard Shortcuts",

@@ -1,0 +1,1043 @@
+{
+  "toastTitle": "업적 달성!",
+  "tabTitle": "업적",
+  "tabs": {
+    "official": "공식",
+    "homebrew": "팬 제작"
+  },
+  "pageTitle": "업적",
+  "gameDeleted": "(삭제된 게임)",
+  "viewGame": "게임 보기",
+  "settingsToggleTitle": "업적 추적",
+  "settingsToggleDescription": "플레이하면서 이 캠페인의 공식 업적을 추적합니다. 달성한 업적은 계정에 기록되고 캠페인 기록지에 표시됩니다.",
+  "noneEarnedYet": "아직 달성한 업적이 없습니다.",
+  "progressLabel": "업적 {total}개 중 {earned}개 달성",
+  "campaigns": {
+    "06": "꿈을 먹는 자",
+    "07": "인스머스에 드리운 음모",
+    "08": "지구의 끝자락",
+    "09": "진홍색 열쇠",
+    "10": "햄록 베일의 축일",
+    "11": "수몰된 도시",
+    "50": "돌아온 광신도의 밤",
+    "51": "돌아온 던위치의 유산",
+    "52": "돌아온 카르코사로 가는 길",
+    "53": "돌아온 잊힌 시대",
+    "54": "돌아온 끝맺지 못한 의식",
+    "13": "피의 자손들"
+  },
+  "entries": {
+    "TheZealotsRevenge": {
+      "name": "광신도의 복수",
+      "text": "리타 챈들러의 반응 능력으로 구울 사제에게 마지막 일격을 가하세요."
+    },
+    "IDontTrustHer": {
+      "name": "그 여자는 못 믿겠어",
+      "text": "리타 챈들러를 덱에 추가할 기회가 주어졌을 때 거절하세요."
+    },
+    "InsuranceDoesntCoverGhouls": {
+      "name": "구울은 보험 처리가 안 됩니다",
+      "text": "회합에서 당신의 집을 불태워 무너뜨리세요."
+    },
+    "ButDoIHaveTo": {
+      "name": "…꼭 그래야 해?",
+      "text": "한밤의 가면에서 처음 세 라운드 동안 모든 조사자가 당신의 집에 머무르세요."
+    },
+    "ConspiracyOfSilence": {
+      "name": "침묵의 음모",
+      "text": "한밤의 가면에서 고유 광신도 여섯 명을 모두 찾아내 심문하세요."
+    },
+    "TourOfArkham": {
+      "name": "아컴 관광",
+      "text": "한밤의 가면에서 플레이 중인 모든 장소의 \"게임당 1회\" 능력을 하나씩 발동하세요."
+    },
+    "DoYouGetItNow": {
+      "name": "이제 알겠어?",
+      "text": "빌리 쿠퍼의 장소에서 구울 사제를 처치해 빌리 쿠퍼의 강제 능력을 발동시키세요."
+    },
+    "PinchHitter": {
+      "name": "대타",
+      "text": "야구 방망이가 부서지지 않은 상태로 _구울_ 적 세 명을 처치하세요."
+    },
+    "EvenDeathMayDie": {
+      "name": "죽음조차 죽을 수 있으니",
+      "text": "별세한 이들의 묘소가 부착된 상태로 우몰도스를 처치하세요."
+    },
+    "BreakTheCircle": {
+      "name": "원을 깨뜨려라",
+      "text": "우몰도스가 출현하지 않은 채 지하 세계의 포식자를 마치세요."
+    },
+    "TheyreJustMisunderstood": {
+      "name": "그냥 오해받는 것뿐이야",
+      "text": "고유 _광신도_ 적을 하나도 처치하지 않고 광신도의 밤 캠페인에서 승리하세요."
+    },
+    "UmordhothsFavor": {
+      "name": "우몰도스의 총애",
+      "text": "_구울_ 적을 하나도 처치하지 않고 광신도의 밤 캠페인에서 승리하세요."
+    },
+    "ZealotLineInTheSand": {
+      "name": "최후의 선",
+      "text": "최후통첩을 셋 이상 활성화한 채 광신도의 밤 캠페인에서 승리하세요."
+    },
+    "ArkhamExpertise": {
+      "name": "아컴 전문가",
+      "text": "전문가 난이도로 광신도의 밤 캠페인에서 승리하세요."
+    },
+    "WhatIsThisStuffAnyway": {
+      "name": "대체 이건 뭐지?",
+      "text": "특별 활동에서 연금술 혼합물로 실험체를 처치하세요."
+    },
+    "NoVoidForYou": {
+      "name": "공허는 안 돼",
+      "text": "공포의 추격자를 한 번도 처치하지 않고 미스캐토닉 박물관을 마치세요."
+    },
+    "FirstRuleOfArkham": {
+      "name": "아컴의 첫 번째 규칙",
+      "text": "미스캐토닉 박물관에서 네크로노미콘을 불태우세요."
+    },
+    "AllAboard": {
+      "name": "모두 탑승",
+      "text": "_무력한 승객_이 하나도 플레이에서 떠나지 않게 하면서 에식스 카운티 특급열차를 마치세요."
+    },
+    "TheGangsAllHere": {
+      "name": "다 모였군",
+      "text": "생존자 목록에서 다음 인물들이 던위치의 유산에서 살아남게 하세요:",
+      "items": {
+        "DrHenryArmitage": "헨리 아미티지 박사",
+        "ZebulonWhateley": "지블런 웨이틀리",
+        "DrFrancisMorgan": "프랜시스 모건 박사",
+        "EarlSawyer": "얼 소여",
+        "ProfessorWarrenRice": "워렌 라이스 교수"
+      }
+    },
+    "NoBroodLeftBehind": {
+      "name": "새끼 하나도 놓치지 않는다",
+      "text": "차원 너머의 보이지 않는 존재에서 요그 소토스의 새끼가 하나도 들판으로 달아나지 않게 하세요."
+    },
+    "RemindMeNotToPissHerOff": {
+      "name": "저 여자 화나게 하지 말라고 일러 줘",
+      "text": "나오미 오베니언을 조종하는 동안 세스 비숍(어느 버전이든)을 처치하세요."
+    },
+    "Eureka": {
+      "name": "유레카!",
+      "text": "기이한 용액의 정체를 밝혀내세요."
+    },
+    "BeyondWhatVeil": {
+      "name": "어떤 장막 너머?",
+      "text": "장막 너머에서 피해 10을 받고도 쓰러지지 마세요."
+    },
+    "HereWeGoAgain": {
+      "name": "또 시작이군",
+      "text": "헨리 아미티지 박사, 프랜시스 모건 박사, 워렌 라이스 교수를 동시에 플레이에 두세요."
+    },
+    "BirdHunting": {
+      "name": "새 사냥",
+      "text": "한 차례에 쏙독새 3마리를 처치하세요."
+    },
+    "TheyArentGettingAwayWithThis": {
+      "name": "이대로 넘어가게 둘 순 없어",
+      "text": "\"요그 소토스에게 희생된 자\" 목록에 듀크를 올린 채 “재떨이” 피트로 던위치의 유산 캠페인에서 승리하세요."
+    },
+    "TabulaRasa": {
+      "name": "타불라 라사",
+      "text": "혼돈 주머니에 석판이나 옛것 토큰이 하나도 없는 상태로 던위치의 유산 캠페인에서 승리하세요."
+    },
+    "DunwichLineInTheSand": {
+      "name": "최후의 선",
+      "text": "최후통첩을 셋 이상 활성화한 채 던위치의 유산 캠페인에서 승리하세요."
+    },
+    "DunwichExpertise": {
+      "name": "던위치 전문가",
+      "text": "전문가 난이도로 던위치의 유산 캠페인에서 승리하세요."
+    },
+    "FairWarning": {
+      "name": "경고는 했다",
+      "text": "커튼콜 한 번의 플레이 동안 왕실의 특사를 세 번 처치하세요."
+    },
+    "FirstSteps": {
+      "name": "첫걸음",
+      "text": "마지막 왕에서 다음 귀빈들을 면담하세요:",
+      "items": {
+        "ConstanceDumaine": "콘스탄스 듀메인",
+        "SebastienMoreau": "세바스티앙 모로",
+        "JordanPerry": "조던 페리",
+        "AshleighClarke": "애쉴레이 클라크",
+        "IshimaruHaruko": "이시마루 하루코"
+      }
+    },
+    "CrashingTheParty": {
+      "name": "파티 난입",
+      "text": "마지막 왕에서 미치광이 버전의 다이안 드바인을 처치하세요."
+    },
+    "ForPryingEyes": {
+      "name": "엿보는 눈을 위해",
+      "text": "과거로부터의 메아리에서 비밀 서재를 승점 더미에 추가하세요."
+    },
+    "TheCuckoosNest": {
+      "name": "뻐꾸기 둥지",
+      "text": "입에 담아선 안 될 맹세에서 대니얼 체스터필드를 조사자가 조종하는 상태로 후퇴하세요."
+    },
+    "TakeALookAtThis": {
+      "name": "이것 좀 봐!",
+      "text": "입에 담아선 안 될 맹세에서 광기의 숙주와 협상하세요."
+    },
+    "ThePathOfDeath": {
+      "name": "죽음의 길",
+      "text": "창백한 가면에서 검은 오닉스 장식 고리로 지름길을 찾으세요."
+    },
+    "GuessingGame": {
+      "name": "추측 게임",
+      "text": "검은 별이 떠오르다에서 한 주요사건 덱의 첫 주요사건을 진행하기 전에 다른 주요사건 덱의 마지막 주요사건까지 진행하세요."
+    },
+    "HasturMadeMeDoIt": {
+      "name": "하스터가 시켰어",
+      "text": "꼭두각시로 전락하다 음모를 손에 든 채 어스레한 카르코사에서 하스터를 처치하세요."
+    },
+    "SayMyName": {
+      "name": "내 이름을 불러",
+      "text": "대니얼의 경고에 귀를 기울인 뒤, 한 시나리오(또는 그 게임 준비) 동안 하스터의 이름을 소리 내어 일곱 번 이상 말하세요."
+    },
+    "GetBackHere": {
+      "name": "이리 돌아와",
+      "text": "창백한 가면을 쓴 남자가 플레이에 있는 채로 시나리오를 끝낸 적 없이 카르코사로 가는 길 캠페인에서 승리하세요."
+    },
+    "ThePathIsFalse": {
+      "name": "길은 거짓이다",
+      "text": "의심 8로 카르코사로 가는 길 캠페인에서 승리하세요."
+    },
+    "ThePathIsReal": {
+      "name": "길은 진짜다",
+      "text": "확신 8로 카르코사로 가는 길 캠페인에서 승리하세요."
+    },
+    "ThePathIsMine": {
+      "name": "길은 나의 것",
+      "text": "의심과 확신의 합이 2 미만인 채로 카르코사로 가는 길 캠페인에서 승리하세요."
+    },
+    "CarcosaLineInTheSand": {
+      "name": "최후의 선",
+      "text": "최후통첩을 셋 이상 활성화한 채 카르코사로 가는 길 캠페인에서 승리하세요."
+    },
+    "CarcosaExpertise": {
+      "name": "카르코사 전문가",
+      "text": "전문가 난이도로 카르코사로 가는 길 캠페인에서 승리하세요."
+    },
+    "WhyDidItHaveToBeSnakes": {
+      "name": "하필 뱀이냐?",
+      "text": "잊힌 시대 캠페인 전체에서 _뱀_ 적을 스무 명 처치하세요."
+    },
+    "WatchThemUnravel": {
+      "name": "풀려 나가는 실",
+      "text": "운명의 실 가닥 한 번의 플레이 동안 주요목적 덱 네 개를 모두 완료하세요."
+    },
+    "HopeForHumanity": {
+      "name": "인류를 향한 희망",
+      "text": "경계 너머에서 인류에 대한 이츠타카의 믿음을 되살리세요."
+    },
+    "Scenario5What": {
+      "name": "시나리오 5-뭐라고?",
+      "text": "고대 문명의 심장부 1부를 건너뛰세요."
+    },
+    "BeyondPerfection": {
+      "name": "완벽 그 너머",
+      "text": "기록물의 도시 한 번의 플레이 동안 주요목적 2의 과제 여덟 개를 모두 완료하세요."
+    },
+    "IRememberEverything": {
+      "name": "다 기억났어!",
+      "text": "기록물의 도시에서 알레한드로의 기억을 되살리세요."
+    },
+    "Patricide": {
+      "name": "존속 살해",
+      "text": "요스 깊은 곳으로에서 이그를 처치하세요."
+    },
+    "HesGotAPoint": {
+      "name": "그 말도 일리가 있어",
+      "text": "산산조각난 영겁에서 알레한드로의 편에 서세요."
+    },
+    "ValusiaSoundsGreat": {
+      "name": "발루시아도 괜찮겠는데",
+      "text": "산산조각난 영겁에서 이츠타카의 편에 서세요."
+    },
+    "IveBuiltUpAnImmunity": {
+      "name": "면역이 생겼어",
+      "text": "한 번도 _중독_되지 않고 잊힌 시대 캠페인에서 승리하세요."
+    },
+    "WeHaveAnUnderstanding": {
+      "name": "우린 서로 통하는 사이야",
+      "text": "발루시아의 선봉장에게 피해를 한 번도 주지 않고 잊힌 시대 캠페인에서 승리하세요."
+    },
+    "WhoNeedsAnyOfThisJunk": {
+      "name": "이런 잡동사니가 누구한테 필요해?",
+      "text": "보급품을 하나도 사지 않고 잊힌 시대 캠페인에서 승리하세요."
+    },
+    "DontTreadOnMe": {
+      "name": "나를 밟지 마",
+      "text": "캠페인 기록지의 이그의 분노 칸에 표시가 하나도 없는 채로 잊힌 시대 캠페인에서 승리하세요."
+    },
+    "BaneOfYig": {
+      "name": "이그의 재앙",
+      "text": "캠페인 기록지의 이그의 분노 칸에 표시를 25개 이상 남긴 채 잊힌 시대 캠페인에서 승리하세요."
+    },
+    "IfICouldTurnBackTime": {
+      "name": "시간을 되돌릴 수 있다면",
+      "text": "스스로 길을 개척해 시나리오 IX를 열고 잊힌 시대 캠페인에서 승리하세요."
+    },
+    "YothExpertise": {
+      "name": "요스 전문가",
+      "text": "전문가 난이도로 잊힌 시대 캠페인에서 승리하세요."
+    },
+    "WhoYouGonnaCall": {
+      "name": "누굴 부를 거야?",
+      "text": "캠페인 전체에서 _원령_ 또는 _유령_ 적을 13명 처치하세요. 버려지거나 승점 더미에 추가되지 않은 적은 세지 않습니다."
+    },
+    "SaviorOfHumanity": {
+      "name": "인류의 구원자",
+      "text": "죽음의 문턱에서에 등장하는 은빛 황혼회 적을 모두 구출하세요."
+    },
+    "TenOutOfTenWouldReadAgain": {
+      "name": "10점 만점에 10점, 또 읽을래요",
+      "text": "검은 서책을 사용해, 캠페인 동안 그 능력으로 공포를 총 10 받으세요."
+    },
+    "CarlShmarl": {
+      "name": "칼이고 뭐고",
+      "text": "은빛 황혼회 집회소의 내부 서클에 들어간 뒤, 합일과 환멸에서 그들을 배신하세요."
+    },
+    "TheThreefoldRule": {
+      "name": "세 배의 법칙",
+      "text": "합일과 환멸에서 에린과 손잡고 그녀의 집회에 등을 돌리세요."
+    },
+    "NewWorldOrder": {
+      "name": "신세계 질서",
+      "text": "은빛 황혼회 집회소가 끝맺지 못한 의식 캠페인에서 승리하도록 도우세요."
+    },
+    "ImmortalitySoundsNice": {
+      "name": "불멸도 괜찮겠는데",
+      "text": "아네트의 집회가 끝맺지 못한 의식 캠페인에서 승리하도록 도우세요."
+    },
+    "MoreLikeExcursion": {
+      "name": "침입이라기보단 소풍",
+      "text": "침입이 한 번도 일어나지 않게 하면서 혼돈의 손아귀에서를 마치세요."
+    },
+    "MemberThese": {
+      "name": "이거 기억나?",
+      "text": "다음 기념품을 발견하세요:",
+      "items": {
+        "MesmerizingFlute": "홀리는 피리",
+        "KeziahsFormulae": "케지아의 공식",
+        "RitualComponents": "의식 재료",
+        "WornCrucifix": "닳은 십자가",
+        "ScrapOfTornShadow": "찢어진 그림자 조각",
+        "WispOfSpectralMist": "유령 안개 한 줄기",
+        "StrangeIncantation": "기묘한 주문",
+        "CornHuskDoll": "옥수수 겉껍질 인형",
+        "GilmansJournal": "길먼의 일지",
+        "BloodyTreeCarvings": "피 묻은 나무 조각"
+      }
+    },
+    "CaseClosed": {
+      "name": "사건 종결",
+      "text": "다음 인물들을 끔찍한 운명에서 구하세요:",
+      "items": {
+        "ValentinoRivas": "발렌티노 리바스",
+        "GavriellaMizrah": "가브리엘라 미즈라",
+        "PennyWhite": "페니 화이트",
+        "JeromeDavids": "제롬 데이비드"
+      }
+    },
+    "MusicOfTheOuterGods": {
+      "name": "외신의 음악",
+      "text": "운명을 받아들이고 아자토스의 피리 연주자들에 합류해 끝맺지 못한 의식 캠페인에서 승리하세요."
+    },
+    "WeaverOfShadowAndMist": {
+      "name": "그림자와 안개를 엮는 자",
+      "text": "운명을 거부하고 아자토스를 가둘 주문을 만들어 끝맺지 못한 의식 캠페인에서 승리하세요."
+    },
+    "FinePrint": {
+      "name": "불합리한 조항",
+      "text": "아자토스의 검은 서책에 이름을 적어 끝맺지 못한 의식 캠페인에서 승리하세요."
+    },
+    "SpeakTheWordsAloud": {
+      "name": "다르하 로리소 를말",
+      "text": "고대의 주문을 찾아내 거꾸로 외워 끝맺지 못한 의식 캠페인에서 승리하세요."
+    },
+    "CircleExpertise": {
+      "name": "의식 전문가",
+      "text": "전문가 난이도로 끝맺지 못한 의식 캠페인에서 승리하세요."
+    },
+    "OneFirstLastJob": {
+      "name": "처음이자 마지막 한탕",
+      "text": "아무 난이도로 수몰된 도시 캠페인을 한 번 마치세요."
+    },
+    "SeasonTwo": {
+      "name": "시즌 2",
+      "text": "서로 다른 이전 캠페인 4개의 조사자 4명으로 어려움 또는 전문가 난이도의 캠페인을 플레이하세요. 현재는 달성할 수 없습니다: 아직 구현되지 않은 대규모 캠페인 모드가 필요합니다."
+    },
+    "CliffDiver": {
+      "name": "절벽 다이버",
+      "text": "잠수복을 한 번도 가져가지 않고 캠페인을 마치세요."
+    },
+    "ThisIsACoup": {
+      "name": "이건 쿠데타야",
+      "text": "마지막 한탕에서 주요목적 3a의 협상 능력만으로 나오미 오베니언과 새디 셸던을 모두 처치하세요."
+    },
+    "ThoroughSearch": {
+      "name": "철저한 수색",
+      "text": "모든 장소를 공개한 채로 서쪽 장벽을 끝내세요."
+    },
+    "TidalFlipMinigame": {
+      "name": "조수 뒤집기 미니게임",
+      "text": "모든 장소가 공개되고 침수되지 않은 상태로 수몰된 구역을 마치세요."
+    },
+    "NoAcolyteLeftBehind": {
+      "name": "사교도 시종은 한 명도 남기지 않는다",
+      "text": "양봉장에서 광신도 5명을 구출하세요."
+    },
+    "KillTheAdds": {
+      "name": "쫄몹 처리",
+      "text": "양봉장에서 어머니의 강제 효과만으로 어머니를 처치하세요."
+    },
+    "InTheDeepEnd": {
+      "name": "깊은 물속에서",
+      "text": "모든 장소가 완전히 침수된 뒤 조수의 석판을 가지고 대보관소에서 탈출하세요."
+    },
+    "SorryDidntSeeYouThere": {
+      "name": "미안, 거기 있는 줄 몰랐어",
+      "text": "거대한 폭군이 출현한 뒤 대승강기를 한 번도 움직이지 않고 고대인의 궁정을 클리어하세요."
+    },
+    "SkyRider": {
+      "name": "하늘을 나는 자",
+      "text": "흑요석 협곡 한 게임 동안 열린 하늘에서 차례를 5번 이상 끝내세요."
+    },
+    "SkipToTheEnd": {
+      "name": "결말로 건너뛰기",
+      "text": "잠든 자의 무덤에서 크툴루를 처치하세요."
+    },
+    "AlienSchoolDropout": {
+      "name": "외계어 학교 중퇴자",
+      "text": "외계 문자를 하나도 번역하지 않고 캠페인을 마치세요."
+    },
+    "AlienSchoolGraduate": {
+      "name": "외계어 학교 졸업생",
+      "text": "수몰된 도시 캠페인 한 번의 플레이 동안 외계 문자 26개를 모두 번역하세요."
+    },
+    "EmptyHanded": {
+      "name": "빈손",
+      "text": "_유물_ 이야기 자산을 하나도 모으지 않고 르뤼에에서 돌아오세요."
+    },
+    "WhyWontYouStayDead": {
+      "name": "왜. 죽지를. 않는. 거야?!",
+      "text": "한 캠페인 동안 피할 수 없는 자를 승점 더미에 20번 이상 추가하세요."
+    },
+    "DrownedCityLineInTheSand": {
+      "name": "최후의 선",
+      "text": "최후통첩을 셋 이상 활성화한 채 수몰된 도시 캠페인에서 승리하세요."
+    },
+    "RlyehExpertise": {
+      "name": "르뤼에 전문가",
+      "text": "전문가 난이도로 수몰된 도시 캠페인에서 승리하세요."
+    },
+    "WithYourPowersCombined": {
+      "name": "너희의 힘을 합치면…",
+      "text": "다음 유물을 모두 얻은 채 수몰된 도시 캠페인을 마치세요:",
+      "items": {
+        "BarrierNode": "장벽 결절점",
+        "GrislyMask": "섬뜩한 “가면”",
+        "ObsidianClaw": "흑요석 발톱",
+        "TidalTablet": "조수의 석판",
+        "ShardOfYchlecht": "이츠레흐트의 파편",
+        "HorrorInClay": "점토 속의 공포"
+      }
+    },
+    "Obligations": {
+      "name": "의무",
+      "text": "다음 과제를 모두 완료한 채 수몰된 도시 캠페인을 마치세요:",
+      "items": {
+        "WalkInFaith": "믿음으로 걸어라",
+        "DreamsOfDestruction": "파멸의 꿈",
+        "ToeTheLine": "선을 지켜라",
+        "DoNoHarm": "해를 끼치지 마라",
+        "GoodMoney": "좋은 돈",
+        "NoPlaceLikeHome": "집만 한 곳은 없다",
+        "ProveYourWorth": "가치를 증명하라",
+        "PlumbTheDepths": "깊이를 헤아려라"
+      }
+    },
+    "DoYouAlwaysFollowOrders": {
+      "name": "넌 항상 명령만 따르니?",
+      "text": "잠의 관문을 지나서에서 길을 벗어나지 마세요."
+    },
+    "AwwButTheyreSoCute": {
+      "name": "아잉, 너무 귀엽잖아",
+      "text": "잠의 관문을 지나서에서 _주그_ 적을 하나도 처치하지 마세요."
+    },
+    "LosingMyReligion": {
+      "name": "신앙을 잃어 가며",
+      "text": "한 번의 플레이로 카다스를 찾아서에서 신들의 표식 10개를 모두 찾아내 밝혀내세요."
+    },
+    "FantasyFlightGamesDoesNotCondoneAccomplishingThisAchievement": {
+      "name": "Fantasy Flight Games(®)는 이 업적 달성을 용인하지 않습니다",
+      "text": "카다스를 찾아서에서 울타르의 법을 어기세요."
+    },
+    "TacticalEspionageAction": {
+      "name": "전술 첩보 액션",
+      "text": "모든 조사자의 경보 수준이 0인 채로 달의 어두운 면을 마치세요."
+    },
+    "MoonLizardsIDontBelieveTheyExist": {
+      "name": "달 도마뱀? 그런 게 있을 리가",
+      "text": "달의 어두운 면에서 달 도마뱀을 처치하세요."
+    },
+    "BarkhamHorrorEnthusiast": {
+      "name": "바컴 호러 애호가",
+      "text": "고양이 협력자나 개 협력자의 전투 능력으로 토성에서 온 고양이를 1마리 이상 처치하세요."
+    },
+    "OnlyWayToBeSure": {
+      "name": "확실히 하는 유일한 방법",
+      "text": "신들이 기거하는 곳에서 형언할 수 없는 고위 사제의 남은 체력을 1로 만든 뒤, 그래도 우물에 밀어 넣으세요."
+    },
+    "GiveThemSomethingToTalkAbout": {
+      "name": "이야깃거리를 만들어 주자",
+      "text": "신들이 기거하는 곳에서 한 라운드 안에 니알라토텝의 숨겨진 형상을 모두 승점 더미에 추가하세요."
+    },
+    "ThisIsntEvenMyFinalForm": {
+      "name": "이게 내 최종 형태가 아니라고!",
+      "text": "신들이 기거하는 곳에서 니알라토텝의 진정한 모습을 드러낸 뒤 처치하세요."
+    },
+    "DontTellAnyoneBut": {
+      "name": "아무한테도 말하지 마, 근데…",
+      "text": "신들이 기거하는 곳에서 대전당의 능력으로 서로 다른 숨겨진 카드 6장을 다른 조사자에게 주세요."
+    },
+    "DreamQuestLineInTheSand": {
+      "name": "최후의 선",
+      "text": "최후통첩을 셋 이상 활성화한 채 꿈의 탐색 캠페인에서 승리하세요."
+    },
+    "DreamlandsExpertise": {
+      "name": "드림랜드 전문가",
+      "text": "전문가 난이도로 꿈의 탐색 캠페인에서 승리하세요."
+    },
+    "BewareTheBlackCat": {
+      "name": "검은 고양이를 조심하라",
+      "text": "캠페인 기록지에 '알았어, 좋아, 네 맘대로 해'가 기록된 채로 꿈을 먹는 자 캠페인을 마치세요."
+    },
+    "ReunitedAndItFeelsSoGood": {
+      "name": "다시 만나니 정말 좋아",
+      "text": "서로 연결된 8부 캠페인으로 꿈을 먹는 자에서 승리하고, 에필로그에서 두 그룹이 다시 만나게 하세요."
+    },
+    "EveryonesAFeministUntilThereIsASpiderAround": {
+      "name": "거미만 나타나면 다들 페미니스트 소리가 쏙 들어가지",
+      "text": "_거미_ 적을 스무 명 처치하세요. (벌레 떼 카드는 세지 않습니다.)"
+    },
+    "TheCarterMethod": {
+      "name": "카터식 해결법",
+      "text": "깨어난 악몽에서 모든 장소가 감염되게 둔 뒤, 그 장소를 모두 봉인하세요."
+    },
+    "TheDoctorIsIn": {
+      "name": "의사 선생님 계십니다",
+      "text": "깨어난 악몽에서 쉬바니 마헤스와란 박사를 데려가고, 피해나 공포를 하나도 받지 않게 하세요."
+    },
+    "DejaVu": {
+      "name": "데자 뷔",
+      "text": "천 가지 무시무시한 형체에서 모든 장소의 무료 발동 능력을 모두 해결하세요 (주요목적 2의 불가사의한 계단은 제외)."
+    },
+    "TheCasaLomaManeuver": {
+      "name": "카사 로마 작전",
+      "text": "천 가지 무시무시한 형체에서 형언할 수 없는 형체가 맨 위 계단에 있는 채로 끝없는 계단에서 탈출하세요."
+    },
+    "IRememberThisPlace": {
+      "name": "여기 기억나",
+      "text": "돌아갈 수 없는 다리에서 지하 세계를 빠져나갈 길을 찾으세요."
+    },
+    "BadAdvice": {
+      "name": "나쁜 조언",
+      "text": "돌아갈 수 없는 다리에서 모든 장소를 한 번 이상 뒤집으세요."
+    },
+    "MarchOfTheGhouls": {
+      "name": "구울의 행진",
+      "text": "돌아갈 수 없는 다리에서 리처드 업튼 픽맨에게 _구울_ 적 4명을 부착하세요."
+    },
+    "TheIshimuraFlex": {
+      "name": "이시무라 플렉스",
+      "text": "우주의 가닥을 엮는 자에서 한 라운드 안에 아틀락 나차의 다리 4개를 모두 처치하세요."
+    },
+    "YouSpinMeRightRound": {
+      "name": "빙글빙글 돌려 줘",
+      "text": "우주의 가닥을 엮는 자에서 아틀락 나차가 한 단계 안에 360도를 한 바퀴 돌게 하세요."
+    },
+    "MasterOfUnlocking": {
+      "name": "열기의 달인",
+      "text": "한 시나리오 동안 은 열쇠로 공포를 총 10 이상 취소하세요."
+    },
+    "WebOfDreamsLineInTheSand": {
+      "name": "최후의 선",
+      "text": "최후통첩을 셋 이상 활성화한 채 꿈의 그물 캠페인에서 승리하세요."
+    },
+    "UnderworldExpertise": {
+      "name": "지하 세계 전문가",
+      "text": "전문가 난이도로 꿈의 그물 캠페인에서 승리하세요."
+    },
+    "WouldYouJustDieAlready": {
+      "name": "제발 좀 죽어 줄래",
+      "text": "절망의 구렁에서 융합체를 5번 이상 처치하세요."
+    },
+    "ElementaryDearDawson": {
+      "name": "기본이지, 도슨 군",
+      "text": "엘리나 하퍼의 실종에서 용의자와 은신처를 모두 맞히세요."
+    },
+    "AintNothinGonnaBreakMyStride": {
+      "name": "아무도 내 발걸음을 막을 수 없어",
+      "text": "너무나 깊은 수렁에서 모든 장벽을 파괴하세요."
+    },
+    "SpeedingTicket": {
+      "name": "과속 딱지",
+      "text": "공포의 추격전에서 탈것을 자발적으로 세우거나 내리지 않고, 멀고 먼 우회로에도 들어가지 않고 송골매 곶 진입로에 도착하세요."
+    },
+    "YoureLockedInHereWithMe": {
+      "name": "넌 나랑 여기 갇힌 거야",
+      "text": "조사자가 한 명도 붙잡히지 않고 안개 속 한 줄기 빛을 마치세요."
+    },
+    "FishOutOfWater": {
+      "name": "물 밖의 물고기",
+      "text": "모든 조사자가 잠수복을 입은 채로 몰아치는 소용돌이 속으로를 마치세요."
+    },
+    "DontWakeDaddy": {
+      "name": "아빠 깨우지 마",
+      "text": "데이곤이나 하이드라를 깨우지 않고 데이곤의 침소와 몰아치는 소용돌이 속으로를 모두 마치세요."
+    },
+    "GoneFishing": {
+      "name": "낚시하러 갔어요",
+      "text": "_깊은 자_ 적을 20명 처치하세요."
+    },
+    "FullBuild": {
+      "name": "풀세트",
+      "text": "파도에 닳은 우상, 깨어난 망토, 이하 느틀레이의 머리관을 동시에 장비하세요."
+    },
+    "YouWakeUpInARoom": {
+      "name": "“당신은 어느 방에서 깨어납니다...”",
+      "text": "인스머스에 드리운 음모 캠페인 동안 다음 기억을 모두 되찾으세요:",
+      "items": {
+        "AMeetingWithThomasDawson": "토머스 도슨과의 만남.",
+        "ABattleWithAHorrifyingDevil": "끔찍한 악마와의 전투.",
+        "ADecisionToStickTogether": "함께하기로 한 결정.",
+        "AnEncounterWithASecretCult": "비밀 교단과의 조우.",
+        "ADealWithJoeSargent": "조 사전트와의 거래.",
+        "AFollowedLead": "뒤쫓은 단서.",
+        "AnIntervention": "개입.",
+        "AJailbreak": "탈옥.",
+        "DiscoveryOfAStrangeIdol": "기이한 우상의 발견.",
+        "DiscoveryOfAnUnholyMantle": "불경한 망토의 발견.",
+        "DiscoveryOfAMysticalRelic": "신비한 유물의 발견.",
+        "AConversationWithMrMoore": "무어 씨와의 대화.",
+        "TheLifecycleOfADeepOne": "“깊은 자”의 생애.",
+        "AStingingBetrayal": "뼈아픈 배신.",
+        "TheHorribleTruth": "끔찍한 진실."
+      }
+    },
+    "BiggerFishToFry": {
+      "name": "더 큰 물고기가 있다",
+      "text": "_깊은 자_ 적을 하나도 처치하지 않고 인스머스에 드리운 음모 캠페인을 마치세요."
+    },
+    "InnsmouthLineInTheSand": {
+      "name": "최후의 선",
+      "text": "최후통첩을 셋 이상 활성화한 채 인스머스에 드리운 음모 캠페인에서 승리하세요."
+    },
+    "InnsmouthExpertise": {
+      "name": "인스머스 전문가",
+      "text": "전문가 난이도로 인스머스에 드리운 음모 캠페인에서 승리하세요."
+    },
+    "SafeBet": {
+      "name": "안전한 선택",
+      "text": "얼음과 죽음 1부에서 피난처 값이 8인 장소에 야영하세요."
+    },
+    "LookAtAllThisStuff": {
+      "name": "이것 좀 봐!",
+      "text": "얼음과 죽음에서 보급품 일곱 개를 모두 회수하고, 금단의 봉우리를 향해에서 그것을 모두 정상까지 가져가세요."
+    },
+    "InYourHead": {
+      "name": "머릿속에서",
+      "text": "승점 더미에 이야기 카드 아홉 장이 있는 채로 치명적인 신기루를 끝내세요."
+    },
+    "ChaosChaos": {
+      "name": "카오스 카오스",
+      "text": "옛것의 도시에서 열쇠를 총 열 개 이상 모으고 소비하세요."
+    },
+    "KnockKnock": {
+      "name": "똑똑",
+      "text": "광기의 심장부 1부에서 봉인 다섯 개를 모두 모으고, 활성화하고, 놓으세요."
+    },
+    "MadWithPower": {
+      "name": "힘에 미쳐",
+      "text": "광기의 심장부 2부에서 형언치 못할 광기 열다섯 장을 동시에 소진시키세요."
+    },
+    "ConstructAdditionalPylons": {
+      "name": "수정탑을 더 지으세요",
+      "text": "광기의 심장부 2부에서 안개 수정탑 다섯 개를 모두 무너뜨리고 살아서 탈출하세요."
+    },
+    "TheSoundOfMadness": {
+      "name": "광기의 소리",
+      "text": "한 게임 동안 “테켈리 리!”를 열 장 뽑으세요."
+    },
+    "SorryImAllOutOfDogPuns": {
+      "name": "미안, 개 말장난은 다 떨어졌어",
+      "text": "안유와 이름에 “개”가 들어간 자산 네 장 이상을 동시에 플레이에 두세요."
+    },
+    "KindOfAHatOnAHat": {
+      "name": "모자 위에 모자 같은 거지",
+      "text": "배낭에서 나무 썰매를 플레이한 뒤, 즉시 그 능력으로 배낭을 썰매에 부착하세요."
+    },
+    "ThisWasYourIdea": {
+      "name": "이건 네 생각이었잖아",
+      "text": "한 시나리오 동안 윌리엄 다이어 교수의 능력으로 댄포스에게서 공포를 4 이상 회복하세요."
+    },
+    "NoRespectForTheDead": {
+      "name": "망자에 대한 예의라곤 없군",
+      "text": "실종자 추모비 조우 세트의 자산을 다섯 장 이상 동시에 조종하세요."
+    },
+    "WukWukBoom": {
+      "name": "꽥꽥 쾅",
+      "text": "다이너마이트로 거대한 알비노 펭귄 두 마리를 동시에 처치하세요."
+    },
+    "TheColdNeverBotheredMeAnyway": {
+      "name": "추위 따윈 원래 신경 안 써",
+      "text": "캠페인이 끝날 때 혼돈 주머니에 서리 토큰이 여덟 개 있는 채로 지구의 끝자락 캠페인에서 승리하세요."
+    },
+    "HellFrozeOver": {
+      "name": "지옥이 얼어붙었다",
+      "text": "캠페인이 끝날 때 혼돈 주머니에 서리 토큰이 하나도 없는 채로 지구의 끝자락 캠페인에서 승리하세요."
+    },
+    "AbandonedAndAlone": {
+      "name": "홀로 남겨지다",
+      "text": "어느 시나리오에서도 동료 자산을 데려가지 않고 지구의 끝자락 캠페인에서 승리하세요."
+    },
+    "FriendsForever": {
+      "name": "영원한 친구",
+      "text": "모든 시나리오에 같은 동료를 데려가고, 그 동료가 자신의 악마와 맞서게 한 뒤, 살아 있는 채로 지구의 끝자락 캠페인에서 승리하세요."
+    },
+    "ThereAndBackAgain": {
+      "name": "다시 돌아오다",
+      "text": "다음 생존자들이 모두 살아 있는 채로 지구의 끝자락 캠페인에서 승리하세요:",
+      "items": {
+        "DrAmyKensler": "에이미 켄슬러 박사",
+        "ProfWilliamDyer": "윌리엄 다이어 교수",
+        "Danforth": "댄포스",
+        "JamesCookieFredericks": "제임스 “쿠키” 프레데릭스",
+        "EliyahAshevak": "엘리야 애쉬버크",
+        "DrMalaSinha": "말라 신하 박사",
+        "TakadaHiroko": "타카다 히로코",
+        "AveryClaypool": "에이버리 클레이풀",
+        "RoaldEllsworth": "로얼드 엘스워스"
+      }
+    },
+    "SnowLineInTheSand": {
+      "name": "최후의…설선",
+      "text": "최후통첩을 셋 이상 활성화한 채 지구의 끝자락 캠페인에서 승리하세요."
+    },
+    "AntarcticExpertise": {
+      "name": "남극 전문가",
+      "text": "전문가 난이도로 지구의 끝자락 캠페인에서 승리하세요."
+    },
+    "CluedIn": {
+      "name": "단서 챙기기",
+      "text": "비와 수수께끼에서 음모 카드 때문에 단서를 하나도 소비하거나 떨어뜨리지 마세요."
+    },
+    "TakeThatGhulat": {
+      "name": "받아라, 굴라트",
+      "text": "죽음과 혹서에서 민간인이 한 명도 죽지 않게 하세요."
+    },
+    "WhatsInAName": {
+      "name": "이름이 뭐가 중요해?",
+      "text": "죽음과 혹서에서 아마란스에게 그녀의 진짜 이름을 알려 주세요."
+    },
+    "PorqueNoLosDos": {
+      "name": "둘 다 하면 안 돼?",
+      "text": "춤추는 광기에서 데시 두 장을 동시에 처치하세요."
+    },
+    "LostAndFound": {
+      "name": "분실물 센터",
+      "text": "어둠 속의 거래에서 드러난 단서에 단서가 하나도 없는 채로 뒤틀린 안티프리즘의 조종권을 가져오세요."
+    },
+    "ILikeTowerDefenseGames": {
+      "name": "디펜스 게임 좋아해",
+      "text": "전쟁의 사냥개 v. I에서 핵심 거점이 하나도 파괴되지 않게 하면서 암적색 기사를 지키세요."
+    },
+    "PlayWithYourFood": {
+      "name": "음식 갖고 장난치기",
+      "text": "전쟁의 사냥개 v. II 또는 v. III에서 암적색 기사나 선홍색 망토를 두른 야수의 체력이 정확히 1 남았을 때 파로스의 빛을 훔치세요."
+    },
+    "MoreLikeDestroyedChimera": {
+      "name": "공허가 아니라 박살 키메라",
+      "text": "살얼음판 한 번의 플레이에서 공허 키메라의 다섯 형태를 모두 처치하세요."
+    },
+    "WhoWatchesTheWatcher": {
+      "name": "감시자는 누가 감시하나?",
+      "text": "핏빛 그림자에서 숨겨진 마지막 주요목적을 여세요."
+    },
+    "UnderMyUmbrella": {
+      "name": "내 우산 아래로",
+      "text": "비통의 그늘에서 쯔싼냥이 _원령_ 적을 하나도 삼키지 못하게 하세요."
+    },
+    "AllHollow": {
+      "name": "텅 빈 공동",
+      "text": "외부자들이 사는 곳을 알아내고 그곳으로 이동해 흔적도 없이를 여세요."
+    },
+    "RedLooksGoodOnMe": {
+      "name": "빨간색이 잘 어울리네",
+      "text": "열쇠 의회에서 붉은 결사에 합류하세요."
+    },
+    "BloodyRedRevolution": {
+      "name": "피의 붉은 혁명",
+      "text": "열쇠 의회에서 붉은 결사를 무너뜨리세요."
+    },
+    "ScarletWithYourPowersCombined": {
+      "name": "너희의 힘을 합치면…",
+      "text": "한 차례에 열쇠 5개를 옮기세요."
+    },
+    "GiftOfGab": {
+      "name": "말재주",
+      "text": "한 캠페인 동안 테일러 국장이 당신에게 “대화하라”고 3번 명령하게 하세요."
+    },
+    "ImJustHereForTheLocalCuisine": {
+      "name": "“전 그냥 현지 음식 먹으러 왔는데요”",
+      "text": "한 캠페인 동안 마라케시, 아바나, 부에노스 아이레스, 도쿄, 쿠알라룸푸르에서 현지 음식을 맛보거나 술집이나 카페에 들르세요."
+    },
+    "SpeedDemon": {
+      "name": "스피드광",
+      "text": "경과한 시간 17 이하로 진홍색 열쇠 캠페인에서 승리하세요."
+    },
+    "TrustNobody": {
+      "name": "아무도 믿지 마",
+      "text": "혼돈 주머니에 옛것 토큰이 4개 있고, 옛것 토큰을 한 번도 제거하지 않은 채로 진홍색 열쇠 캠페인에서 승리하세요."
+    },
+    "TrustEverybody": {
+      "name": "모두를 믿어",
+      "text": "혼돈 주머니에 석판 토큰이 4개 있고, 석판 토큰을 한 번도 제거하지 않은 채로 진홍색 열쇠 캠페인에서 승리하세요."
+    },
+    "HereIsYourBadge": {
+      "name": "여기 배지 받으세요",
+      "text": "진홍색 열쇠 캠페인에서 승리하고 재단의 정식 자리를 얻으세요."
+    },
+    "KeyToMyHeart": {
+      "name": "내 마음의 열쇠",
+      "text": "진홍색 열쇠 캠페인 동안 다음 열쇠를 모두 모으세요:",
+      "items": {
+        "TheEyeOfRavens": "까마귀 눈",
+        "TheLastBlossom": "마지막 꽃송이",
+        "TheLightOfPharos": "파로스의 빛",
+        "TheSableGlass": "거뭇한 확대경",
+        "TheWeepingLady": "부서진 조각상",
+        "TheTwistedAntiprism": "뒤틀린 안티프리즘",
+        "TheShadeReaper": "그늘 수확자",
+        "TheMirroringBlade": "비추는 칼날",
+        "TheBaleEngine": "다발 엔진",
+        "TheRuinousChime": "파멸의 종",
+        "TheWellspringOfFortune": "행운의 원천"
+      }
+    },
+    "ScarletLineInTheSand": {
+      "name": "최후의 선",
+      "text": "최후통첩을 셋 이상 활성화한 채 진홍색 열쇠 캠페인에서 승리하세요."
+    },
+    "GlobalExpertise": {
+      "name": "세계 전문가",
+      "text": "전문가 난이도로 진홍색 열쇠 캠페인에서 승리하세요."
+    },
+    "Aperitif": {
+      "name": "식전주",
+      "text": "아무 난이도로 햄록 베일의 축일 캠페인을 한 번 마치세요."
+    },
+    "Unshattered": {
+      "name": "부서지지 않은",
+      "text": "이 캠페인의 모든 결말을 보세요.",
+      "items": {
+        "MarquezSacrificedHerself": "마르케스 박사가 베일을 위해 자신을 희생했다",
+        "TheInvestigatorsSacrificedThemselves": "조사자들이 베일을 위해 자신을 희생했다",
+        "TheValeWasSaved": "베일이 구원받았다",
+        "TheValeBurned": "베일이 불탔다",
+        "BarelySurvivedTheFeast": "조사자들이 간신히 축일에서 살아남았다",
+        "BecameTheTrueFeast": "조사자들이 진짜 잔칫상이 되었다"
+      }
+    },
+    "AStrongSilentType": {
+      "name": "과묵한 실력파",
+      "text": "자발적으로 코덱스 항목을 하나도 발동하지 않고 햄록 베일의 축일 캠페인을 마치세요."
+    },
+    "ColourOutsideTheLines": {
+      "name": "선 밖으로 칠하기",
+      "text": "한 번의 플레이에서 뒤틀린 공동과 가장 긴 밤을 모두 건너뛰세요."
+    },
+    "LifeOfTheParty": {
+      "name": "파티의 주인공",
+      "text": "모든 주민과의 관계 수준이 2 이상인 채로 햄록 베일의 축일 캠페인을 마치세요."
+    },
+    "DancingQueen": {
+      "name": "댄싱 퀸",
+      "text": "두 번째 저녁 서막 동안 서로 다른 주민 4명과 춤을 추세요."
+    },
+    "AudreyIII": {
+      "name": "오드리 3세",
+      "text": "무성함이 10 이상 놓인 독성 꽃과 교전한 채로 시나리오를 마치세요."
+    },
+    "HoldOnToYourPotatoes": {
+      "name": "감자 꽉 붙잡아!",
+      "text": "주민과 찬란한 색채를 내뿜는 파편 자산을 모두 조종하는 채로 바위에 새겨져 있나니를 마치세요."
+    },
+    "DreamHomeBreakover": {
+      "name": "꿈의 집 철거",
+      "text": "승점 더미에 장소 10개가 있는 채로 헴록 저택을 마치세요."
+    },
+    "SettlingTheScore": {
+      "name": "결판 내기",
+      "text": "수면 아래 도사린 것에서 수면 아래 도사린 것을 처치하세요."
+    },
+    "HereCrabbyCrabby": {
+      "name": "“이리 와, 꽃게야 꽃게야!”",
+      "text": "실종된 여동생에서 투구게 혼종을 8번 이상 뒤집게 하세요."
+    },
+    "ADifferentKindOfStingOps": {
+      "name": "색다른 함정 수사",
+      "text": "무리 여왕이 출현하지 않게 하면서 쓸쓸한 황야를 마치세요."
+    },
+    "WaitTheresNoShroudedShrine": {
+      "name": "잠깐, 장막에 싸인 사당이 없다고?",
+      "text": "단독 시나리오 모드로 뒤틀린 공동에서 어둠 수준 10 이상에 도달할 때까지 살아남으세요."
+    },
+    "BearNecessities": {
+      "name": "곰돌이 필수품",
+      "text": "가장 긴 밤에서 시나리오 카드 효과만으로 혼종 곰을 처치하세요."
+    },
+    "LetsDoTheTimeWarp": {
+      "name": "시간 왜곡을 추자!",
+      "text": "서막: 마지막 저녁에서 도살장에 들어가는 어린 양이로다 결말을 보세요."
+    },
+    "OblivionShmoblivion": {
+      "name": "망각이고 뭐고",
+      "text": "모든 우주에서 온 특사 적이 승점 더미에 있는 채로 햄록 베일의 운명에서 승리하세요."
+    },
+    "HighDive": {
+      "name": "다이빙",
+      "text": "햄록 베일의 운명에서 베일을 위해 자신을 희생하세요."
+    },
+    "BestFriendsForever": {
+      "name": "영원한 베프!",
+      "text": "다음 주민들과의 관계 수준을 6으로 만드세요:",
+      "items": {
+        "LeahAtwood": "리아 앳우드",
+        "SimeonAtwood": "시미언 앳우드",
+        "RiverHawthorne": "리버 호손",
+        "GideonMizrah": "기디언 미즈라",
+        "WilliamHemlock": "윌리엄 헴록"
+      }
+    },
+    "KnowYourPlace": {
+      "name": "분수를 알아라",
+      "text": "대모 레이첼과의 관계 수준이 3 이상인 채로 햄록 베일의 축일 캠페인에서 승리하세요."
+    },
+    "HeartOfSteel": {
+      "name": "강철의 심장",
+      "text": "주디스 파크와의 관계 수준이 7인 채로 햄록 베일의 축일 캠페인에서 승리하세요."
+    },
+    "HoldingOutForAHimbo": {
+      "name": "착한 근육남을 기다리며",
+      "text": "테오 피터스와의 관계 수준이 7인 채로 햄록 베일의 축일 캠페인에서 승리하세요."
+    },
+    "CaptivatingScream": {
+      "name": "매혹적인 비명",
+      "text": "패트리스 해서웨이로 햄록 베일의 축일 캠페인에서 승리하세요."
+    },
+    "HemlockLineInTheSand": {
+      "name": "최후의 선",
+      "text": "최후통첩을 셋 이상 활성화한 채 햄록 베일의 축일 캠페인에서 승리하세요."
+    },
+    "HemlockExpertise": {
+      "name": "햄록 전문가",
+      "text": "전문가 난이도로 햄록 베일의 축일 캠페인에서 승리하세요."
+    },
+    "HideAndSeek": {
+      "name": "숨바꼭질",
+      "text": "피의 강에서 주요사건 2a가 진행되기 전에 줄리아 스턴을 처치하세요."
+    },
+    "FriendlyNeighborhoodInvestigator": {
+      "name": "친절한 이웃 조사자",
+      "text": "피의 강에서 _민간인_ 적이 한 명도 처치되지 않게 하세요."
+    },
+    "TrophyCollector": {
+      "name": "트로피 수집가",
+      "text": "즈부라모아르테의 송곳니를 아무 조사자의 덱에 추가하세요."
+    },
+    "NoMeatSlabUnhooked": {
+      "name": "고깃덩이 하나도 내리지 않는다",
+      "text": "모든 장소가 공개되고 장소에 단서가 하나도 남지 않은 채로 새로운 지평을 마치세요."
+    },
+    "FilingPaperwork": {
+      "name": "서류 작업",
+      "text": "위조 허가증이나 핏빛 노래를 아무 조사자의 덱에 추가하세요."
+    },
+    "ThatLlLearnHim": {
+      "name": "그래야 정신 차리지",
+      "text": "새로운 지평에서 즈부라모아르테의 은신처 능력으로 즈부라모아르테에게 마지막 일격을 가하세요."
+    },
+    "SafetyInspector": {
+      "name": "안전 감독관",
+      "text": "새로운 지평에서 _민간인_ 적이 한 명도 처치되지 않게 하세요."
+    },
+    "ThanksForYourVote": {
+      "name": "한 표 감사합니다",
+      "text": "찰리 케인을 아무 조사자의 덱에 추가하세요."
+    },
+    "HellHathNoFury": {
+      "name": "여자의 분노만 한 지옥은 없다",
+      "text": "피 묻은 돈에서 줄리아 스턴이 하워드 윌크스에게 마지막 일격을 가하게 하세요."
+    },
+    "LookOutBelow": {
+      "name": "아래 조심",
+      "text": "피 묻은 돈에서 특별석 장소의 능력으로 하워드 윌크스를 처치하세요."
+    },
+    "APartyEveryoneCanEnjoy": {
+      "name": "모두가 즐기는 파티",
+      "text": "피 묻은 돈에서 _민간인_ 적이 한 명도 처치되지 않게 하세요."
+    },
+    "IfYouCantBeatThem": {
+      "name": "이길 수 없다면…",
+      "text": "사용할 수 있는 수상한 손님을 모두 승점 더미에 넣은 채로 피 묻은 돈 시나리오를 마치세요."
+    },
+    "YouGotRedOnYou": {
+      "name": "피 묻었어",
+      "text": "한 라운드에 당신의 조사자에게 {blood} 토큰 3개를 봉인하세요."
+    },
+    "DontForgetYourPPE": {
+      "name": "보호 장비 잊지 마",
+      "text": "혼돈 주머니에 {blood} 토큰이 0개인 채로 피의 자손들을 마치세요."
+    },
+    "BathedInBlood": {
+      "name": "피로 목욕하다",
+      "text": "혼돈 주머니에 {blood} 토큰이 12개인 채로 피의 자손들을 마치세요."
+    },
+    "AndAllIGotWereTheseBloodyFangs": {
+      "name": "그래서 얻은 건 이 피투성이 송곳니뿐",
+      "text": "즈부라모아르테의 선택받은 자 캠페인 보상 카드를 여세요."
+    },
+    "ItsPartOfMyBackstory": {
+      "name": "제 과거사의 일부거든요",
+      "text": "다음 조사자들로 피의 자손들을 마치세요:",
+      "items": {
+        "DanielaReyes": "다니엘라 레예스",
+        "MigueldelaCruz": "미겔 데 라 크루스"
+      }
+    },
+    "WaterfrontWetWork": {
+      "name": "부둣가의 뒷일",
+      "text": "다음 난이도로 각각 피의 자손들 캠페인을 마치세요:",
+      "items": {
+        "Easy": "쉬움",
+        "Standard": "보통",
+        "Hard": "어려움",
+        "Expert": "전문가"
+      }
+    }
+  },
+  "clearCampaign": "캠페인 초기화",
+  "clearOne": "이 업적 초기화",
+  "clearCampaignConfirm": "{campaign}에서 달성한 업적을 모두 초기화하시겠습니까? 되돌릴 수 없습니다.",
+  "clearOneConfirm": "\"{name}\" 업적을 초기화하시겠습니까? 되돌릴 수 없습니다.",
+  "parts": {
+    "theDreamQuest": "꿈의 탐색",
+    "theWebOfDreams": "꿈의 그물"
+  }
+}

@@ -1,66 +1,141 @@
 {
+  "heading": "시나리오 VIII",
+  "setup": {
+    "gatherSets": "다음 조우 세트의 카드를 모두 모읍니다: *몰아치는 소용돌이 속으로*, *하이드라의 하수인*, *심해의 생물*, *물에 잠긴 동굴*, *산산조각 난 기억*, *천체 정렬*, *고대의 악*. 이 세트들은 다음 아이콘으로 표시됩니다:<section class='encounter-sets'><img src='{setImgPath}/into-the-maelstrom.png' /><img src='{setImgPath}/agents-of-hydra.png' /><img src='{setImgPath}/undersea-creatures.png' /><img src='{setImgPath}/flooded-caves.png' /><img src='{setImgPath}/shattered-memories.png' /><img src='{setImgPath}/syzygy.png' /><img src='{setImgPath}/ancient-evils.png' /></section>",
+    "placeKeys": "캠페인 기록지를 확인합니다. 다음 각 열쇠(파란색, 빨간색, 초록색, 노란색)를 다음과 같이 놓습니다:",
+    "blueKey": "_조사자들이 이하 느틀레이의 열쇠를 가지고 있다_라면, 파란색 열쇠를 통제할 조사자를 선택합니다. 그렇지 않다면, 뒷면으로 따로 치워 둡니다.",
+    "redKey": "_조사자들이 이하 느틀레이의 지도를 가지고 있다_라면, 빨간색 열쇠를 통제할 조사자를 선택합니다. 그렇지 않다면, 뒷면으로 따로 치워 둡니다.",
+    "greenKey": "_이하 느틀레이의 수호자가 처치되었다_라면, 초록색 열쇠를 통제할 조사자를 선택합니다. 그렇지 않다면, 뒷면으로 따로 치워 둡니다.",
+    "yellowKey": "_이하 느틀레이의 관문이 당신을 정당한 수호자로 인정한다_라면, 노란색 열쇠를 통제할 조사자를 선택합니다. 그렇지 않다면, 뒷면으로 따로 치워 둡니다.",
+    "fewerThanFour": "따로 치워 둔 열쇠가 4개 미만이라면, 보라색, 흰색, 검은색 열쇠를 뒷면으로 섞습니다. 그런 다음, 따로 치워 둔 열쇠가 4개가 될 때까지 이 열쇠들을 하나씩 따로 치워 둡니다. 따로 치워 둔 열쇠를 초과하는 남은 열쇠는 게임에서 제거합니다. 제거된 열쇠는 이 시나리오에서 사용하지 않습니다.",
+    "shuffleKeys": "따로 치워 둔 각 열쇠를 어느 것이 어느 것인지 모르게 섞습니다.",
+    "placeLocations": "이하 느틀레이의 관문을 플레이 상태로 놓습니다. (부분적으로 침수된 상태로 플레이 상태가 됩니다.) 조수 터널 장소 8장을 각각 그 주위를 둘러싸도록 플레이 상태로 놓습니다.",
+    "startAt": "각 조사자는 이하 느틀레이의 관문에서 게임을 시작합니다.",
+    "setAsideOtherLocations": "다른 각 장소는 비플레이 상태로 치워 둡니다.",
+    "checkCampaignLog": "캠페인 기록지를 확인합니다.",
+    "divingSuits": "_잠수복을 가지고 있는_ 각 조사자는 자신의 플레이 영역에 ‘잠수복’ 이야기 자산을 두고 게임을 시작합니다.",
+    "removeUnusedDivingSuits": "사용하지 않은 각 ‘잠수복’은 게임에서 제거합니다.",
+    "actDeck": "주요목적 덱을 만들 때, 주요목적 2a는 해저 도시 (v. I) 버전만 사용합니다. 해저 도시 (v. II)와 해저 도시 (v. III)는 비플레이 상태로 치워 둡니다.",
+    "setAsideCards": "‘로이거’ 적, ‘흉측한 바다 괴수’ 적, 양면 ‘하이드라’ 적, 양면 ‘데이곤’ 적을 비플레이 상태로 치워 둡니다.",
+    "floodTokens": "침수 토큰을 토큰 풀에 추가합니다."
+  },
+  "specialRules": [
+    {
+      "title": "열쇠",
+      "body": "<div class='red bordered'><p class='basic'>이 시나리오 동안 열쇠는 다음을 나타냅니다:</p><ul><li>빨간색: 이하 느틀레이로 가는 이계의 경로와 그 안에 숨겨진 비밀에 관한 정보.</li><li>파란색: 이하 느틀레이의 관문과 그 밖의 문턱을 지나 들어갈 수 있게 해 주는 열쇠.</li><li>초록색: 이하 느틀레이에 들어가 그곳의 신들과 교감할 자격을 증명하는 전리품.</li><li>노란색: 이하 느틀레이와 그곳의 신들에 대한 충성을 나타내는 휘장.</li><li>보라색: 심해의 보관실을 여는 반짝이는 금 열쇠.</li><li>검은색: 심해 도시 곳곳의 함정을 작동시키는 흑요석 열쇠.</li><li>흰색: 이하 느틀레이의 심연을 누비는 데 쓰이는 여러 열쇠 중 하나인 산호 열쇠.</li></ul></div>"
+    }
+  ],
+  "hydrasBrood": {
+    "label": {
+      "placeDoomOnHydra": "하이드라에 파멸을 1개 놓습니다",
+      "hydraAttacksYou": "하이드라가 당신을 공격합니다"
+    }
+  },
+  "dagonsBrood": {
+    "label": {
+      "placeDoomOnDagon": "데이곤에 파멸을 1개 놓습니다",
+      "dagonAttacksYou": "데이곤이 당신을 공격합니다"
+    }
+  },
+  "dagonDeepInSlumber": {
+    "label": {
+      "exhaustDagon": "데이곤을 소진시킵니다",
+      "removeDoomFromDagon": "데이곤에게서 파멸을 1개 제거합니다"
+    }
+  },
+  "hydraDeepInSlumber": {
+    "label": {
+      "exhaustHydra": "하이드라를 소진시킵니다",
+      "removeDoomFromHydra": "하이드라에게서 파멸을 1개 제거합니다"
+    }
+  },
   "intro": {
-    "title": "Scenario VIII: Into the Maelstrom",
-    "body": "<p>Your plan is simple. Foolish, but simple. The knowledge you’ve gathered leads you to conclude that the Esoteric Order of Dagon is the cause of both the rising tides and the appearance of the horrific “Deep Ones.” Not only that, but over the course of the last few decades, the Order has transformed the townsfolk into more of the horrific creatures, using them to infiltrate Innsmouth from within. But worst of all, the entity the cult worships—Dagon— is just one of two. His mate, Hydra, still slumbers in the depths below Innsmouth, waiting to awaken and stake her claim over an endless ocean.</p><p>These are the conclusions that have led you to your plan: Travel once more to Devil Reef, descend into the city of the Deep Ones that lies hidden at the bottom of the ocean, and put a stop to the Deep Ones’ plans once and for all. Agent Harper helps you prepare, loading your possessions onto the boat you managed to steal from what remained of Innsmouth’s docks. “We only have one shot at this,” Harper says. “I don’t think I need to remind you what might happen if we fail.” She looks pointedly at the flooded ruins of Innsmouth. “Are you ready?”</p> "
+    "title": "시나리오 VIII: 몰아치는 소용돌이 속으로",
+    "body": "<p>계획은 단순하다. 어리석지만, 단순하다. 모은 지식을 바탕으로, 데이곤 밀교회당이 차오르는 조수와 끔찍한 “심해인”의 출현 모두의 원인이라는 결론을 내린다. 그뿐 아니라, 지난 수십 년 동안 밀교회당은 마을 사람들을 그 끔찍한 생물로 바꿔 인스머스를 안에서부터 잠식해 왔다. 하지만 무엇보다 끔찍한 건, 교단이 숭배하는 존재—데이곤—가 둘 중 하나일 뿐이라는 것이다. 그의 짝 하이드라는 아직 인스머스 아래 심연에서 잠들어 있으며, 깨어나 끝없는 바다를 차지할 날을 기다리고 있다.</p><p>이 결론들이 당신을 이 계획으로 이끌었다. 다시 악마의 암초로 가서, 바다 밑바닥에 숨겨진 심해인의 도시로 내려가, 심해인의 계획을 완전히 끝장내는 것. 하퍼 요원이 준비를 돕는다. 인스머스 부두의 잔해에서 간신히 훔쳐 낸 배에 소지품을 싣는다. “기회는 한 번뿐이에요.” 하퍼가 말한다. “실패하면 무슨 일이 벌어질지 굳이 다시 말할 필요는 없겠죠.” 그녀가 물에 잠긴 인스머스의 폐허를 의미심장하게 바라본다. “준비됐어요?”</p> "
   },
   "flashback14": {
-    "title": "Flashback XIV",
-    "body": "<p>You are deep below the Esoteric Order of Dagon’s headquarters once more, emerging from the hall where you had disrupted the Order’s ritual. You follow Agent Dawson through a series of winding, flooded corridors flanked by statues of aquatic monstrosities and malformed beasts. You ask Dawson where exactly you’re headed, but he doesn’t reply. Finally, you enter another chamber, similar to the last. Its walls are covered in otherworldly effigies and a depiction of ocean waves swirling below an alignment of celestial bodies. Another familiar pool dominates the cavern, inside which the dark shape of something massive slumbers. To your surprise, Agent Harper stands in front of the pool, gazing into its dark reflection. She turns with a start when she hears you approach, relaxing only once she sees who you are. “Is it done?” Dawson asks.</p><p>She nods. “This one isn’t waking up anytime soon.”</p><p>“Good. The Order is on to us. We have no time to spare. Let’s get to the vault and take what we came for.”</p><p>You reel. What exactly is going on here? Both of the agents notice your confusion at the same time. A moment of grim understanding dawns as you realize the truth of the situation. The agency didn’t come here to investigate criminal activity in Innsmouth at all. They came here for something else. And the only vaults you’ve seen so far in these depths are the ones filled with archaic riches. The material wealth that has kept the town of Innsmouth afloat all these years—perhaps the very riches that persuaded so many of the townsfolk to follow the Order and forsake their own humanity.</p><p>Stifling your frustration, you ask how much of Dawson’s briefing was a lie. “Not all of it,” he says calmly. “Agent Harper was missing when I contacted you, that much was true. But she was sent here on a different mission. One we must complete this very moment or risk losing everything we’ve worked for. And you’re going to help us.”</p><p>You cross your arms in defiance. It’s one thing to be kept in the dark by the two agents you’ve risked your life for. It’s another to help them smuggle treasure on behalf of the government, especially when so much more is at stake.</p><p>“I don’t think you understand,” Dawson replies, his voice surprisingly level. “You are an asset of the agency and under my authority. You will do as I command.” As the silence between you grows more and more tense, you spot Dawson’s hand twitching toward his holstered weapon. Is he truly willing to go that far…?</p><p>Just then, you hear shouting down the hall. “Shit. They’re here.” Dawson turns to Harper, his orders terse and quiet: “Take the exit through Devil Reef. We’ll head back the way we came. Meet up at the vault.”</p><p>The next minute is a blur. Dawson and Harper split up. Despite your anger, you decide it is best to follow Agent Dawson, since you are familiar with that escape route. A torrent of footsteps and hollers follows close behind. You don’t get far before you are cornered. An elderly man with wide, unblinking eyes and long robes blocks your exit. “Take them,” he says. The rest you recall only in flashes of horror. The interrogation. The dark, flooded pit. Dawson’s fate. Harper discovering you on the beach—</p><p>—You turn on Harper, your vision adjusting back to the present. She seems to understand what you have seen. Her hand hovers dangerously near her handgun. “Dammit,” she says. “I was hoping you wouldn’t remember what happened the last time we were in this room…” She draws in a shaky breath as the two of you silently judge one another. “So, what now?” she asks. “I still have a job to do. Are you going to get in my way?”</p>"
+    "title": "회상 XIV",
+    "body": "<div class='blue'><h1>회상 XIV</h1><p>다시 데이곤 밀교회당 본부 깊은 곳, 밀교회당의 의식을 방해했던 전당에서 나오는 중이다. 수생 괴물과 기형 짐승의 조각상이 양옆에 늘어선 구불구불한 침수 복도를 따라 도슨 요원을 따라간다. 정확히 어디로 가느냐고 묻지만, 도슨은 대답하지 않는다. 마침내 앞의 것과 비슷한 또 다른 방에 들어선다. 벽은 이계의 형상들과, 일렬로 늘어선 천체 아래 소용돌이치는 바다 물결을 그린 그림으로 덮여 있다. 낯익은 웅덩이가 또 하나 동굴의 대부분을 차지하고 있고, 그 안에서 거대한 무언가의 검은 형체가 잠들어 있다. 놀랍게도 하퍼 요원이 웅덩이 앞에 서서 그 검은 수면을 들여다보고 있다. 다가가는 소리에 그녀가 깜짝 놀라 돌아서더니, 당신들인 것을 보고서야 긴장을 푼다. “끝났나?” 도슨이 묻는다.</p><p>그녀가 고개를 끄덕인다. “이건 당분간 깨어나지 않을 거예요.”</p><p>“좋아. 밀교회당이 우릴 눈치챘어. 지체할 시간이 없다. 보관실로 가서 우리가 온 목적을 챙기자.”</p><p>정신이 아찔하다. 대체 무슨 일이 벌어지고 있는 거지? 두 요원이 동시에 당신의 혼란을 알아챈다. 상황의 진실을 깨닫는 순간 암울한 이해가 밀려온다. 이 기관은 인스머스의 범죄 행위를 조사하러 온 게 전혀 아니었다. 그들은 다른 무언가를 위해 왔다. 그리고 지금까지 이 심연에서 본 보관실이라곤 고대의 보물로 가득 찬 곳들뿐이다. 그 오랜 세월 인스머스 마을을 지탱해 온 물질적 부—어쩌면 그토록 많은 마을 사람들이 밀교회당을 따르며 인간성을 버리도록 설득한 바로 그 보물.</p><p>울화를 억누르며, 도슨의 설명 중 얼마나 거짓말이었느냐고 묻는다. “전부는 아닙니다.” 그가 침착하게 말한다. “제가 연락했을 때 하퍼 요원이 실종된 건 사실이었어요. 하지만 그녀는 다른 임무로 여기 보내진 겁니다. 지금 당장 완수하지 않으면 우리가 해 온 모든 게 물거품이 될 임무죠. 그리고 당신은 우리를 도울 겁니다.”</p><p>반항하듯 팔짱을 낀다. 목숨을 걸고 도운 두 요원이 당신에게 사실을 숨긴 것도 그렇지만, 훨씬 더 중대한 것이 걸린 상황에서 정부를 위해 보물을 밀반출하는 걸 돕는 건 또 다른 문제다.</p><p>“이해를 못 하시는군요.” 도슨이 놀랄 만큼 차분한 목소리로 대답한다. “당신은 기관의 자산이고 제 권한 아래 있습니다. 제 명령대로 하게 될 겁니다.” 둘 사이의 침묵이 점점 팽팽해지는 가운데, 도슨의 손이 권총집에 든 무기 쪽으로 움찔하는 것이 보인다. 그가 정말 거기까지 갈 생각일까…?</p><p>바로 그때, 복도 저편에서 고함 소리가 들린다. “젠장. 놈들이 왔다.” 도슨이 하퍼를 돌아보며 짧고 조용하게 명령한다. “악마의 암초 쪽 출구로 가. 우린 온 길로 돌아간다. 보관실에서 만나자.”</p><p>그다음 1분은 흐릿하다. 도슨과 하퍼가 갈라진다. 분노에도 불구하고, 그 탈출로가 익숙하니 도슨 요원을 따라가는 게 최선이라고 판단한다. 수많은 발소리와 고함이 바짝 뒤따른다. 얼마 가지 못하고 궁지에 몰린다. 크고 깜빡이지 않는 눈에 긴 로브를 입은 노인이 출구를 막아선다. “붙잡아라.” 그가 말한다. 나머지는 공포의 섬광처럼만 기억난다. 심문. 어둡고 물에 잠긴 구렁. 도슨의 운명. 해변에서 당신을 발견한 하퍼—</p><p>—시야가 현재로 돌아오며 하퍼를 향해 돌아선다. 그녀는 당신이 무엇을 보았는지 이해하는 듯하다. 그녀의 손이 위험하게 권총 근처를 맴돈다. “젠장.” 그녀가 말한다. “지난번에 이 방에서 무슨 일이 있었는지 기억 못 하길 바랐는데…” 두 사람이 말없이 서로를 가늠하는 동안 그녀가 떨리는 숨을 들이쉰다. “그래서, 이제 어쩔 거예요?” 그녀가 묻는다. “난 아직 할 일이 있어요. 날 막을 거예요?”</p><hr /><p class='basic'>캠페인 기록지의 “되찾은 기억” 아래에 *쓰라린 배신*이라고 기록합니다.</p><p class='basic'>조사자들은 결정해야 합니다(하나를 선택):</p><ul><li>하퍼 요원이 임무를 완수하도록 돕습니다. 따로 치워 둔 <span data-image-id='07317'>해저 도시 (v. II)</span>를 현재 주요목적 옆에 플레이 상태로 놓습니다. 그 카드는 새로운 대체 목표를 제공합니다.</li><li>하퍼 요원에게 맞섭니다. 각 플레이어의 손, 덱, 버린 더미, 모든 플레이 영역에서 <span data-image-id='07083'>엘리나 하퍼</span>를 찾아 게임에서 제거합니다. 따로 치워 둔 <span data-image-id='07318'>해저 도시 (v. III)</span>을 현재 주요목적 옆에 플레이 상태로 놓습니다. 그 카드는 새로운 대체 목표를 제공합니다.</li></ul></div>",
+    "label": {
+      "helpAgentHarper": "하퍼 요원이 임무를 완수하도록 돕습니다. 따로 치워 둔 해저 도시 (v. II)를 현재 주요목적 옆에 플레이 상태로 놓습니다. 그 카드는 새로운 대체 목표를 제공합니다.",
+      "defyAgentHarper": "하퍼 요원에게 맞섭니다. 각 플레이어의 손, 덱, 버린 더미, 모든 플레이 영역에서 엘리나 하퍼를 찾아 게임에서 제거합니다. 따로 치워 둔 해저 도시 (v. III)을 현재 주요목적 옆에 플레이 상태로 놓습니다. 그 카드는 새로운 대체 목표를 제공합니다."
+    }
   },
   "resolutions": {
     "xp": {
-      "bonus": "Bonus"
+      "bonus": "보너스"
     },
     "noResolution": {
-      "title": "결말에 도달하지 못함",
-      "body": "<p><b>모든 조사자가 쓰러져서 아무 결말에도 도달하지 못했다면:</b> The chanting of the Deep Ones rises to a crescendo. The alien walls of Y’ha-nthlei twist and contort before your eyes, like lungs desperately clawing for breath. The air becomes thin. Water seeps through the walls. Nothing can stop the pull of the tide now. Nothing can stop the great flood. A triumphant roar sounds throughout the city, and the citizens of the deep rise to meet the cry in their jubilance. You collapse in exhaustion and resignation. Your part is over, now. The part of humanity will be soon to follow.</p>"
+      "title": "결말 없음",
+      "body": "<p>_모든 조사자가 패배하여 어떤 결말에도 도달하지 못했다면_: 심해인의 영창이 절정에 이른다. 이하 느틀레이의 이질적인 벽이 숨을 쉬려 필사적으로 몸부림치는 폐처럼 눈앞에서 뒤틀리고 일그러진다. 공기가 희박해진다. 벽 사이로 물이 스며든다. 이제 그 무엇도 조수의 끌어당김을 막을 수 없다. 그 무엇도 대홍수를 막을 수 없다. 승리의 포효가 도시 전체에 울려 퍼지고, 심해의 주민들이 환희에 차 그 외침에 화답한다. 탈진과 체념 속에 쓰러진다. 이제 당신의 역할은 끝났다. 인류의 역할도 곧 그 뒤를 따를 것이다.</p>"
     },
     "resolution1": {
       "title": "결말 1",
-      "body": "<p><b>Resolution 1:</b> You frantically make your way back to the entrance to the undersea city, hoping desperately to escape alive. You feel the familiar tugging of the currents all around you as you emerge on the other side of the otherworldly threshold. Your heart does not stop racing until you finally break the surface of the water and collapse on an outcropping of rock.</p>"
-
+      "body": "<p>_결말 1_: 살아서 탈출하기를 간절히 바라며 해저 도시의 입구로 미친 듯이 돌아간다. 이계의 문턱 반대편으로 나서자 익숙한 해류가 사방에서 당신을 잡아당기는 것이 느껴진다. 마침내 수면을 뚫고 나와 튀어나온 바위 위에 쓰러질 때까지 심장이 미친 듯이 뛴다.</p>"
     },
     "resolution2": {
       "title": "결말 2",
-      "body": "<p><b>Resolution 2:</b> As you emerge from the caverns of Devil Reef and look up into the sky, you are relieved to see the sun and moon no longer in alignment. The tide appears to be retreating, as well. The seas seem to have finally calmed.</p>"
+      "body": "<p>_결말 2_: 악마의 암초 동굴에서 나와 하늘을 올려다보니, 해와 달이 더 이상 일렬로 늘어서 있지 않아 안도한다. 조수도 물러나는 것 같다. 바다가 마침내 잠잠해진 듯하다.</p>"
     },
     "resolution3": {
       "title": "결말 3",
-      "body": "<p><b>Resolution 3:</b> As you emerge from the caverns of Devil Reef and look up into the sky, your throat clenches tight. The sun and moon are still locked in unholy alignment, and the sea still swallows most of the coast.</p>"
+      "body": "<p>_결말 3_: 악마의 암초 동굴에서 나와 하늘을 올려다보는 순간, 목이 꽉 메어 온다. 해와 달은 여전히 부정한 정렬 속에 갇혀 있고, 바다는 여전히 해안 대부분을 집어삼키고 있다.</p>"
     },
     "resolution4": {
       "title": "결말 4",
-      "body": "<p><b>Resolution 4:</b> Agent Harper is the first to speak. “We did it. I can’t believe we did it.” You nod. Not only were you able to stop the Deep Ones, but you helped Harper accomplish her mission as well. She digs through her belongings for a bright orange firearm with a large barrel, loads a flare into it, and launches the bright light into the sky with a victorious smirk. “They’ll be coming for us any minute now. I’m sure you’ll be rewarded handsomely for your help. So long as you agree to speak to nobody about any of this, of course,” she says. You nod. It’s not like anyone would believe you, anyway.</p>"
+      "body": "<p>_결말 4_: 하퍼 요원이 먼저 입을 연다. “해냈어요. 우리가 해냈다니 믿을 수가 없네요.” 고개를 끄덕인다. 심해인을 막았을 뿐 아니라, 하퍼의 임무 완수까지 도왔다. 그녀가 소지품을 뒤져 총열이 굵은 밝은 주황색 총을 꺼내 조명탄을 장전하고, 승리의 미소와 함께 하늘로 밝은 빛을 쏘아 올린다. “곧 우릴 데리러 올 거예요. 당신은 도와준 대가로 두둑한 보상을 받을 거예요. 물론 이 일에 대해 아무에게도 말하지 않겠다고 약속한다면요.” 그녀가 말한다. 고개를 끄덕인다. 어차피 누가 믿어 주지도 않을 것이다.</p>"
     },
     "resolution5": {
       "title": "결말 5",
-      "body": "<p><b>Resolution 5:</b> There is no sign of Agent Harper anywhere. Perhaps she never made it out of the city alive. You hold out hope that she is out there, somewhere. Still, you are relieved that at the very least, nobody will ever be able to use the riches of Y’ha-nthlei to manipulate humanity ever again. Not the government, not the Deep Ones—nobody.</p>"
+      "body": "<p>_결말 5_: 하퍼 요원의 흔적은 어디에도 없다. 어쩌면 도시에서 살아 나오지 못했을지도 모른다. 그녀가 어딘가에 살아 있기를 바란다. 그래도 적어도 이제 누구도—정부도, 심해인도, 그 누구도—이하 느틀레이의 보물로 다시는 인류를 조종할 수 없다는 것에 안도한다.</p>"
     },
     "resolution6": {
       "title": "결말 6",
-      "body": "<p><b>Resolution 6:</b> Agent Harper is the first to speak. “Well. Mission accomplished, I suppose.” You bite your lip. She may have accomplished her mission, but the toll of the Deep Ones’ ritual on the world will never fade. She digs through her belongings for a bright orange firearm with a large barrel, loads a flare into it, and launches the bright light into the sky with a victorious smirk. “They’ll be coming for us any minute now. Then we’ll blow that city apart, and hopefully, this will all be over,” she says. You aren’t so sure. Much of the damage has already been done. Will it ever truly end? Or are you just delaying the inevitable?</p>"
+      "body": "<p>_결말 6_: 하퍼 요원이 먼저 입을 연다. “뭐. 임무 완수, 라고 해야겠죠.” 입술을 깨문다. 그녀는 임무를 완수했을지 몰라도, 심해인의 의식이 세상에 남긴 피해는 결코 사라지지 않을 것이다. 그녀가 소지품을 뒤져 총열이 굵은 밝은 주황색 총을 꺼내 조명탄을 장전하고, 승리의 미소와 함께 하늘로 밝은 빛을 쏘아 올린다. “곧 우릴 데리러 올 거예요. 그다음엔 그 도시를 날려 버릴 거고, 바라건대 이 모든 게 끝나겠죠.” 그녀가 말한다. 당신은 그렇게 확신할 수 없다. 이미 많은 피해가 일어났다. 정말 끝나기는 할까? 아니면 그저 피할 수 없는 일을 미루고 있을 뿐일까?</p>"
     },
     "resolution7": {
       "title": "결말 7",
-      "body": "<p><b>Resolution 7:</b> There is no sign of Agent Harper anywhere. Perhaps she never made it out of the city alive. You hold out hope that she is out there, somewhere. Still, you are relieved that at the very least, nobody will ever be able to use the riches of Y’ha-nthlei to manipulate humanity ever again. Not the government, not the Deep Ones—nobody. You peer out once more to the waves thrashing across the horizon. The flood seems to have halted. Perhaps you have harmed the Deep Ones and their masters enough that their ritual has been foiled. Or perhaps they are merely biding their time, waiting until they can emerge once more. Is this truly over? Or did you merely delay the inevitable?</p>"
+      "body": "<p>_결말 7_: 하퍼 요원의 흔적은 어디에도 없다. 어쩌면 도시에서 살아 나오지 못했을지도 모른다. 그녀가 어딘가에 살아 있기를 바란다. 그래도 적어도 이제 누구도—정부도, 심해인도, 그 누구도—이하 느틀레이의 보물로 다시는 인류를 조종할 수 없다는 것에 안도한다. 수평선을 가로지르며 요동치는 파도를 다시 한번 바라본다. 홍수는 멈춘 것 같다. 어쩌면 심해인과 그 주인들에게 충분한 타격을 입혀 의식이 좌절되었을지도 모른다. 아니면 다시 나타날 때를 기다리며 그저 때를 엿보고 있을 뿐일지도. 정말 끝난 걸까? 아니면 피할 수 없는 일을 미뤘을 뿐일까?</p>"
     },
     "resolution8": {
       "title": "결말 8",
-      "body": "<p><b>Resolution 8:</b> As the ritual concludes, the eastern seaboard becomes the first coastline drowned by the rising sea. The rest of the continent is swift to follow. The icecaps melt, consuming the remainder of the Earth. Cities fall. Humanity is no longer. All that is left is the ocean and the ever-static alignment of celestial bodies that looms overhead. And of course, the inheritors of this new Earth: Hydra, Dagon, and their children.</p>"
+      "body": "<p>_결말 8_: 의식이 끝나자, 동부 해안이 차오르는 바다에 잠긴 첫 해안선이 된다. 대륙의 나머지도 금세 뒤따른다. 만년설이 녹아 지구의 나머지를 집어삼킨다. 도시들이 무너진다. 인류는 더 이상 존재하지 않는다. 남은 것은 바다와, 머리 위에 영원히 멈춰 선 천체의 정렬뿐이다. 그리고 물론, 이 새로운 지구의 상속자들도. 하이드라, 데이곤, 그리고 그들의 자식들.</p>"
     }
   },
   "tokens": {
     "easyStandard": {
-      "skull": "-1 (-3 instead if there are 4 or more unflooded _Y'ha-nthlei_ locations in play).",
-      "cultist": "-3. If you fail, place 1 doom on the current agenda (this may cause the current agenda to advance).",
-      "tablet": "-4. If you fail, you must either increase the flood level of your location or take 1 damage.",
-      "elderThing": "-5. If you fail and there is a key on your location, take 1 horror."
+      "skull": "-1(플레이 중인 침수되지 않은 _이하 느틀레이_ 장소가 4곳 이상이라면 대신 -3).",
+      "cultist": "-3. 실패하면, 현재 주요사건에 파멸을 1개 놓습니다(이 효과로 현재 주요사건이 진행될 수 있습니다).",
+      "tablet": "-4. 실패하면, 당신의 장소의 침수 단계를 올리거나 피해를 1 받아야 합니다.",
+      "elderThing": "-5. 실패했고 당신의 장소에 열쇠가 있다면, 공포를 1 받습니다."
     },
     "hardExpert": {
-      "skull": "-2 (-4 instead if there are 4 or more unflooded _Y'ha-nthlei_ locations in play).",
-      "cultist": "-4. If you fail, place 1 doom on the current agenda (this may cause the current agenda to advance).",
-      "tablet": "-5. If you fail, you must either increase the flood level of your location or take 1 damage.",
-      "elderThing": "-6. If you fail and there is a key on your location, take 1 horror."
+      "skull": "-2(플레이 중인 침수되지 않은 _이하 느틀레이_ 장소가 4곳 이상이라면 대신 -4).",
+      "cultist": "-4. 실패하면, 현재 주요사건에 파멸을 1개 놓습니다(이 효과로 현재 주요사건이 진행될 수 있습니다).",
+      "tablet": "-5. 실패하면, 당신의 장소의 침수 단계를 올리거나 피해를 1 받아야 합니다.",
+      "elderThing": "-6. 실패했고 당신의 장소에 열쇠가 있다면, 공포를 1 받습니다."
     }
+  },
+  "treacherousDepths": {
+    "label": {
+      "increaseFloodLevel": "현재 장소의 침수 단계를 올립니다",
+      "discardAssetsToShroud": "자원 비용 합계가 X 이상이 되도록 당신의 플레이 영역에서 자산을 버립니다. X는 당신의 장소의 장막 수치입니다."
+    }
+  },
+  "conspiracyOfDeepOnes": {
+    "label": {
+      "placeDoomCanAdvance": "현재 주요사건에 파멸을 1개 놓습니다(이 효과로 현재 주요사건이 진행될 수 있습니다)",
+      "ancientOneAttacks": "플레이 중인 가장 가까운 _고대의 존재_ 적이 당신을 공격합니다"
+    }
+  },
+  "cityOfTheDeep": {
+    "label": {
+      "continuePlaying": "게임을 계속합니다",
+      "proceedToR1": "즉시 (→결말 1)로 진행합니다"
+    }
+  },
+  "label": {
+    "helpAgentHarper": "하퍼 요원이 임무를 완수하도록 돕습니다. 따로 치워 둔 해저 도시 (v. II)를 현재 주요목적 옆에 플레이 상태로 놓습니다. 그 카드는 새로운 대체 목표를 제공합니다.",
+    "defyAgentHarper": "하퍼 요원에게 맞섭니다. 각 플레이어의 손, 덱, 버린 더미, 모든 플레이 영역에서 엘리나 하퍼를 찾아 게임에서 제거합니다. 따로 치워 둔 해저 도시 (v. III)을 현재 주요목적 옆에 플레이 상태로 놓습니다. 그 카드는 새로운 대체 목표를 제공합니다."
   }
 }

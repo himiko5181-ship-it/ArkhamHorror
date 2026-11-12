@@ -49,6 +49,7 @@
   "invalidEmailOrPassword": "Invalid email or password",
   "language": "Language",
   "logIn": "Log in",
+  "logout": "Log out",
   "newGame": "New Game",
   "newPassword": "New Password",
   "password": "Password",
@@ -294,7 +295,7 @@
     "retry": "Try again",
     "investigatorNotImplemented": "{investigator} is not yet implemented, please use a different deck",
     "placeholderInvestigator": "This deck is built on an arkham.build placeholder investigator, which stands in for one rather than being one. Choose an investigator overlay.",
-    "chooseYourInvestigator": "Choose an investigator\u2026",
+    "chooseYourInvestigator": "Choose an investigator…",
     "noCustomInvestigators": "You have no investigators of your own to lay over this deck. Build one in the card builder first."
   },
   "deckSyncedSuccessfully": "Deck synced successfully",
@@ -305,7 +306,7 @@
     "syncDeck": "Sync deck",
     "syncFailed": "Could not sync this deck",
     "changeUrl": "Change deck url",
-    "changeUrlHelp": "Point this deck at a different ArkhamDB or arkham.build url. The deck is refetched from there, so use this to go back to the deck you built after a campaign upgraded it \u2014 or when the url it is on no longer exists.",
+    "changeUrlHelp": "Point this deck at a different ArkhamDB or arkham.build url. The deck is refetched from there, so use this to go back to the deck you built after a campaign upgraded it — or when the url it is on no longer exists.",
     "changeUrlSave": "Change and refetch",
     "deckUrl": "Deck url",
     "urlChanged": "Deck url changed",
@@ -447,7 +448,7 @@
       "title": "About",
       "credits": "Credits",
       "beta": "Beta",
-      "spoiler": "may spoil the story \u2014 click to read",
+      "spoiler": "may spoil the story — click to read",
       "unofficial": "Fan-made content for Arkham Horror: The Card Game. Unofficial, and not affiliated with or endorsed by Fantasy Flight Games."
     },
     "campaignNotes": "Campaign Notes"
@@ -540,17 +541,17 @@
     "multiplayer": "Multiplayer",
     "soloDescription": "You will control all investigators.",
     "multiplayerDescription": "You will receive an invite link so others can join and claim their investigators.",
-    "chooseFile": "Click to choose export file\u2026",
-    "trimmed": "This export is too large to upload in full, so only the newest {kept} of its {total} saved steps will be imported. The game picks up exactly where it left off \u2014 only undo cannot reach further back than that.",
-    "trimmedAll": "This export is too large to upload in full, so all {total} of its saved steps will be dropped. The game picks up exactly where it left off \u2014 only undo will have nothing to go back to.",
+    "chooseFile": "Click to choose export file…",
+    "trimmed": "This export is too large to upload in full, so only the newest {kept} of its {total} saved steps will be imported. The game picks up exactly where it left off — only undo cannot reach further back than that.",
+    "trimmedAll": "This export is too large to upload in full, so all {total} of its saved steps will be dropped. The game picks up exactly where it left off — only undo will have nothing to go back to.",
     "errors": {
-      "empty": "That file is empty \u2014 the export may not have finished downloading.",
+      "empty": "That file is empty — the export may not have finished downloading.",
       "notJson": "That file could not be read as JSON, so it isn't an Arkham Horror export.",
-      "notAnExport": "That file is valid JSON but isn't an Arkham Horror game export \u2014 it has no campaign data in it.",
+      "notAnExport": "That file is valid JSON but isn't an Arkham Horror game export — it has no campaign data in it.",
       "badGzip": "That compressed file could not be unpacked. Re-download the export and try again.",
       "noDecompression": "This browser can't unpack a compressed export. Upload the uncompressed .json export instead.",
-      "tooLarge": "The server refused the upload: at {size} the file is larger than it will accept. This game has too much saved history to import \u2014 please report it so the limit can be raised.",
-      "unreachable": "The connection dropped while uploading {size}. Check your connection \u2014 if it keeps failing, the file is larger than the server will accept.",
+      "tooLarge": "The server refused the upload: at {size} the file is larger than it will accept. This game has too much saved history to import — please report it so the limit can be raised.",
+      "unreachable": "The connection dropped while uploading {size}. Check your connection — if it keeps failing, the file is larger than the server will accept.",
       "notAuthorized": "You need to be signed in to import a game. Sign in and try again.",
       "maintenance": "The server is down for maintenance. Try again in a few minutes.",
       "rejected": "The server could not import that game: {reason}",
@@ -651,10 +652,10 @@
   },
   "watch": {
     "title": "Games to Watch",
-    "blurb": "Games other people are playing right now and have opened up to spectators. You are watching only \u2014 you cannot take any actions.",
+    "blurb": "Games other people are playing right now and have opened up to spectators. You are watching only — you cannot take any actions.",
     "empty": "Nobody is hosting a game for spectators right now.",
-    "back": "\u2190 Your Games",
-    "loading": "Loading\u2026"
+    "back": "← Your Games",
+    "loading": "Loading…"
   },
   "about": {
     "supportTitle": "Support",
@@ -753,7 +754,7 @@
     "won": "Won",
     "lost": "Lost",
     "wonUncertain": "Won?",
-    "outcomeUncertain": "The Campaign Guide prints this ending as \u201cThe investigators win the campaign\u2026?\u201d and does not say more.",
+    "outcomeUncertain": "The Campaign Guide prints this ending as “The investigators win the campaign…?” and does not say more.",
     "watch": "Watch",
     "inactive": "Inactive",
     "inactiveTooltip": "Nobody has taken an action in this game for at least five minutes."
@@ -1181,10 +1182,18 @@
       "chooseCapability": "Choose a capability…",
       "capabilities": {
         "can": {
-          "search": { "deck": "search your deck" },
-          "manipulate": { "deck": "manipulate your deck" },
-          "shuffle": { "deck": "shuffle your deck" },
-          "draw": { "cards": "draw cards" },
+          "search": {
+            "deck": "search your deck"
+          },
+          "manipulate": {
+            "deck": "manipulate your deck"
+          },
+          "shuffle": {
+            "deck": "shuffle your deck"
+          },
+          "draw": {
+            "cards": "draw cards"
+          },
           "gain": {
             "resources": "gain resources",
             "xp": "gain experience",
@@ -1195,14 +1204,26 @@
             "clues": "spend clues"
           },
           "have": {
-            "cards": { "leaveDiscard": "move cards out of your discard pile" },
-            "assets": { "ready": "ready assets" }
+            "cards": {
+              "leaveDiscard": "move cards out of your discard pile"
+            },
+            "assets": {
+              "ready": "ready assets"
+            }
           },
-          "affect": { "otherPlayers": "affect other investigators" },
+          "affect": {
+            "otherPlayers": "affect other investigators"
+          },
           "move": "move",
-          "deal": { "damage": "deal damage" },
-          "target": { "encounterDeck": "target the encounter deck" },
-          "reveal": { "cards": "reveal cards" },
+          "deal": {
+            "damage": "deal damage"
+          },
+          "target": {
+            "encounterDeck": "target the encounter deck"
+          },
+          "reveal": {
+            "cards": "reveal cards"
+          },
           "heal": {
             "damage": "heal damage",
             "horror": "heal horror",
@@ -1364,7 +1385,7 @@
     "reviewShowAll": "Show all {count}",
     "reviewShowLess": "Show fewer",
     "reviewConfirm": "Import",
-    "reviewElsewhere": "{name} is already in \"{set}\", and a card belongs to one set \u2014 importing it here would take it out of that one. | {count} of these cards are already in other sets, {name} among them. A card belongs to one set, so importing them here would take them out of those.",
+    "reviewElsewhere": "{name} is already in \"{set}\", and a card belongs to one set — importing it here would take it out of that one. | {count} of these cards are already in other sets, {name} among them. A card belongs to one set, so importing them here would take them out of those.",
     "reviewConfirmReplace": "Replace",
     "reviewCancel": "Cancel",
     "types": {
@@ -1474,7 +1495,11 @@
     "myListingsEmpty": "Nothing published yet. Send a set to the marketplace and you can keep an eye on it here.",
     "updatedAt": "Updated {date}",
     "versionLive": "live",
-    "versionStatus": { "pending": "waiting", "approved": "approved", "denied": "not approved" }
+    "versionStatus": {
+      "pending": "waiting",
+      "approved": "approved",
+      "denied": "not approved"
+    }
   },
   "adminSubmissions": {
     "title": "Card Set Submissions",
@@ -1524,11 +1549,11 @@
       "all": "All"
     },
     "searchLabel": "Search card sets",
-    "searchPlaceholder": "Set name, author or email\u2026",
-    "loading": "Loading card sets\u2026",
+    "searchPlaceholder": "Set name, author or email…",
+    "loading": "Loading card sets…",
     "loadFailed": "Could not load the card sets.",
     "empty": "No card sets here.",
-    "emptySearch": "Nothing matching \u201c{query}\u201d.",
+    "emptySearch": "Nothing matching “{query}”.",
     "cardCount": "{n} card | {n} cards",
     "edited": "edited {at}",
     "expansion": "Expansion",
@@ -1542,21 +1567,21 @@
     "imported": "Imported pack",
     "viewCards": "View cards",
     "hideCards": "Hide cards",
-    "loadingCards": "Loading cards\u2026",
+    "loadingCards": "Loading cards…",
     "cardsFailed": "Could not load the cards in that set.",
     "previous": "Previous",
     "next": "Next",
-    "showing": "{first}\u2013{last} of {total}"
+    "showing": "{first}–{last} of {total}"
   },
   "adminUsers": {
     "title": "Users",
-    "note": "Find an account by name or email \u2014 granting a feature here is the only way into it",
-    "loading": "Loading accounts\u2026",
+    "note": "Find an account by name or email — granting a feature here is the only way into it",
+    "loading": "Loading accounts…",
     "loadFailed": "Could not load the accounts.",
     "searchLabel": "Find an account",
-    "searchPlaceholder": "Username or email address\u2026",
+    "searchPlaceholder": "Username or email address…",
     "search": "Look up",
-    "searching": "Looking up\u2026",
+    "searching": "Looking up…",
     "showGranted": "Show granted",
     "noMatches": "No account matches that.",
     "noneGranted": "Nobody has been granted a feature yet.",
@@ -1567,7 +1592,7 @@
     "saveFailed": "Could not change that grant.",
     "showGames": "Games",
     "hideGames": "Hide games",
-    "gamesLoading": "Loading games\u2026",
+    "gamesLoading": "Loading games…",
     "gamesFailed": "Could not load this account's games.",
     "noGames": "This account has no games.",
     "activeGames": "In progress",
@@ -1582,22 +1607,22 @@
   },
   "adminNotifications": {
     "title": "Site Notifications",
-    "liveWarning": "Writing one publishes it \u2014 there is no draft state",
-    "loading": "Loading notifications\u2026",
+    "liveWarning": "Writing one publishes it — there is no draft state",
+    "loading": "Loading notifications…",
     "loadFailed": "Could not load the notifications.",
     "empty": "No notifications. The home page shows no banner.",
     "newLabel": "New notification",
-    "bodyPlaceholder": "What everybody should see on the home page\u2026",
-    "htmlHint": "Rendered as HTML, so <a href=\"\u2026\">links</a> and <strong>emphasis</strong> work.",
+    "bodyPlaceholder": "What everybody should see on the home page…",
+    "htmlHint": "Rendered as HTML, so <a href=\"…\">links</a> and <strong>emphasis</strong> work.",
     "preview": "Preview",
     "dateLabel": "Posted at",
     "dateHint": "Leave the date empty to post it now. It is only there because the list is ordered by it, so it is how you put a notification above one that is already up.",
     "publish": "Publish",
-    "publishing": "Publishing\u2026",
+    "publishing": "Publishing…",
     "published": "Published. It is on the home page now.",
     "createFailed": "Could not publish that notification.",
     "edit": "Edit",
-    "editHint": "An edit reaches anybody still seeing this. It does not bring it back for anybody who dismissed it \u2014 dismissal is per-browser and keyed by the notification's id, so re-announcing something means publishing a new one.",
+    "editHint": "An edit reaches anybody still seeing this. It does not bring it back for anybody who dismissed it — dismissal is per-browser and keyed by the notification's id, so re-announcing something means publishing a new one.",
     "save": "Save",
     "saved": "Saved.",
     "saveFailed": "Could not save that notification.",
@@ -1607,7 +1632,7 @@
     "confirmTakeDownYes": "Delete it",
     "deleted": "Taken down.",
     "deleteFailed": "Could not take that notification down.",
-    "futureDated": "Dated ahead \u2014 already live"
+    "futureDated": "Dated ahead — already live"
   },
   "gameClosed": "That game has been closed.",
   "gameAbandonedTitle": "Everyone has left",
@@ -1615,16 +1640,16 @@
   "maintenance": {
     "title": "Down for maintenance",
     "body": "Arkham Horror is down for scheduled database maintenance.",
-    "reassure": "Your games are saved. Nothing is lost \u2014 when the site comes back, every campaign will be exactly where you left it.",
+    "reassure": "Your games are saved. Nothing is lost — when the site comes back, every campaign will be exactly where you left it.",
     "retry": "Try again"
   },
   "archive": {
     "prompt": "Undoing this far needs history that was archived to save space ({steps} steps), because this game had not been played in a while. Fetch it back?",
     "retryPrompt": "Fetching this game's undo history did not work last time. Try again?",
-    "restoringBanner": "Fetching this game's undo history\u2026",
+    "restoringBanner": "Fetching this game's undo history…",
     "alreadyRestoring": "Someone is already fetching this game's undo history. It will be back shortly.",
     "restored": "Undo history restored. You can undo as far back as you like again.",
-    "restoreFailed": "That game's undo history could not be fetched. Nothing else is affected \u2014 you can keep playing."
+    "restoreFailed": "That game's undo history could not be fetched. Nothing else is affected — you can keep playing."
   },
   "adminStats": {
     "title": "Game Stats",
@@ -1704,17 +1729,17 @@
     "outcomeUnknown": "Outcome unknown",
     "outcomeUnknownSub": "Finished before the engine recorded how a game ended. Press Work out outcomes to reconstruct them from what each campaign left behind.",
     "backfillOutcomes": "Work out outcomes",
-    "backfillingOutcomes": "Working out outcomes\u2026",
+    "backfillingOutcomes": "Working out outcomes…",
     "backfillFailed": "Could not work out outcomes.",
     "backfillResult": "Worked out {computed}; {remaining} still unknown.",
     "backfillUndecided": "{undecided} could not be judged and were left alone.",
     "backfillDone": "Every finished game has an outcome.",
     "endingsHeading": "Campaign endings",
-    "endingsSub": "Which ending each campaign\u2019s runs actually stopped on, most common first. Only runs with a known outcome appear. \u201cNo resolution\u201d is a final scenario lost or resigned out of.",
+    "endingsSub": "Which ending each campaign’s runs actually stopped on, most common first. Only runs with a known outcome appear. “No resolution” is a final scenario lost or resigned out of.",
     "noEndings": "No campaign has recorded an ending yet.",
     "noResolution": "No resolution",
-    "uncertain": "(stated as \u201cwin the campaign\u2026?\u201d)",
-    "ofWhichUncertain": "{n} stated as \u201c\u2026?\u201d",
+    "uncertain": "(stated as “win the campaign…?”)",
+    "ofWhichUncertain": "{n} stated as “…?”",
     "resolutionN": "Resolution {n}",
     "nPlayerPlus": "{n}+ players"
   },

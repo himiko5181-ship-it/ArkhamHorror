@@ -30,6 +30,10 @@ const imgHelper: Map<string, ImageHelper> = new Map<string, ImageHelper>([
   ['zh', { root: 'zh', digests: new Set(), data: new Map(), loaded: ref(false) }]
 ])
 
+const localImageLangs = new Set<string>(
+  String(import.meta.env.VITE_LOCAL_IMAGE_LANGS ?? 'ko').split(',').map((s: string) => s.trim()).filter(Boolean)
+)
+
 const digestLoaders: Record<string, () => Promise<{ default: string[] }>> = {
   it: () => import('@/digests/ita.json'),
   fr: () => import('@/digests/fr.json'),
@@ -47,7 +51,23 @@ export async function checkImageExists(language: string = localStorage.getItem('
   const digest = await digestLoaders[language]?.()
   if (!digest) return
 
-  helper.digests = new Set(digest.default)
+  let entries: string[] = digest.default
+
+  // Locally served languages: the translated card images are installed
+  // separately. If they are not on this server yet, keep only the images that
+  // ship with the repository (tarot) so cards fall back to English instead of
+  // showing broken images.
+  if (localImageLangs.has(helper.root)) {
+    const probe = entries.find((p) => p.startsWith('cards/'))
+    if (probe) {
+      const ok = await fetch(`/img/arkham/${helper.root}/${probe}`, { method: 'HEAD' })
+        .then((r) => r.ok && !(r.headers.get('content-type') || '').includes('text/html'))
+        .catch(() => false)
+      if (!ok) entries = entries.filter((p) => !p.startsWith('cards/'))
+    }
+  }
+
+  helper.digests = new Set(entries)
 
   helper.digests.forEach((originPath) => {
     const path = originPath.replace(/^\//, '')
@@ -88,7 +108,9 @@ export function buildShareableUrl(resolvedHref: string): string {
   return window.location.origin + window.location.pathname + resolvedHref
 }
 
-export const baseUrl = import.meta.env.PROD ? "https://assets.arkhamhorror.app" : ''
+// Encounter-set icons and other static art. In dev this used to be '' (all
+// assets served locally); fall back to the CDN unless VITE_ASSET_HOST says otherwise.
+export const baseUrl = import.meta.env.VITE_ASSET_HOST !== undefined ? import.meta.env.VITE_ASSET_HOST : "https://assets.arkhamhorror.app"
 
 export function isLocalized(src: string) {
   const language = localStorage.getItem('language') || 'en'
@@ -133,7 +155,11 @@ export function imgsrc(src: string, ignoreVariants = false): string {
     const exists = helper.digests.has(path)
 
     if (exists && helper.root && helper.loaded.value) {
-      const i18nFullPath = `${store.assetHost}/img/arkham/${helper.root}/${path}`
+      // Languages listed in VITE_LOCAL_IMAGE_LANGS (default "ko") have their
+      // translated images served by this server (frontend/public), so they
+      // work while every other image still comes from the asset host/CDN.
+      const host = localImageLangs.has(helper.root) ? '' : store.assetHost
+      const i18nFullPath = `${host}/img/arkham/${helper.root}/${path}`
       const canFetch = helper.data.get(path)?.value || false
 
       if (canFetch) return i18nFullPath

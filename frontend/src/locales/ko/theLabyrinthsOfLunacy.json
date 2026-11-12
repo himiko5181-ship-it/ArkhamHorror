@@ -1,0 +1,22 @@
+{
+  "key": {
+    "[groupA]": {
+      "orderKey": "a",
+      "title": "A 그룹",
+      "theGroupEscapedTheLabyrinth": "미궁에서 탈출했다",
+      "theGroupPerished": "미궁에서 죽었다"
+    },
+    "[groupB]": {
+      "orderKey": "b",
+      "title": "B 그룹",
+      "theGroupEscapedTheLabyrinth": "미궁에서 탈출했다",
+      "theGroupPerished": "미궁에서 죽었다"
+    },
+    "[groupC]": {
+      "orderKey": "c",
+      "title": "C 그룹",
+      "theGroupEscapedTheLabyrinth": "미궁에서 탈출했다",
+      "theGroupPerished": "미궁에서 죽었다"
+    }
+  }
+}

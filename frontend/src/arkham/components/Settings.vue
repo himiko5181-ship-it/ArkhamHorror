@@ -13,6 +13,7 @@ import { useSettings, type DrawSpotlightMode } from '@/stores/settings'
 import { keybindingProfile, setKeybindingProfile, type KeybindingProfile } from '@/arkham/keybindings'
 import CardOptionsSettings from '@/arkham/components/CardOptionsSettings.vue'
 import ScopedSetting from '@/arkham/components/ScopedSetting.vue'
+import { CARD_SCALES, getCardScale, setCardScale, type CardScale } from '@/arkham/cardScale'
 
 const props = defineProps<{
   game: Game
@@ -32,6 +33,10 @@ const showOtherHands = computed({
 })
 
 const settings = useSettings()
+
+const cardScale = ref<CardScale>(getCardScale())
+watch(cardScale, (v) => setCardScale(v))
+const cardScaleLabel = (s: CardScale) => t(`gameBar.settings.cardScale.${s.replace('.', '_')}`)
 
 // Global player preference, and a per-scenario override that can defer to it.
 // Both live in the settings store; prefers-reduced-motion is folded in there
@@ -334,6 +339,20 @@ onBeforeUnmount(() => {
               <label for="opt-showHands-on">{{ $t('On') }}</label>
               <input type="radio" id="opt-showHands-off" name="opt-showHands" :checked="!showOtherHands" @change="showOtherHands = false" />
               <label for="opt-showHands-off">{{ $t('Off') }}</label>
+            </div>
+          </div>
+
+          <div class="toggle-row">
+            <div class="toggle-text">
+              <div class="toggle-name">{{$t('gameBar.settings.cardScaleTitle')}}</div>
+              <div class="toggle-desc">{{$t('gameBar.settings.cardScaleDesc')}}</div>
+              <div class="toggle-scope">{{$t('gameBar.settings.scope.browser')}}</div>
+            </div>
+            <div class="segmented toggle-control">
+              <template v-for="s in CARD_SCALES" :key="s">
+                <input type="radio" :id="`opt-cardScale-${s}`" name="opt-cardScale" :checked="cardScale === s" @change="cardScale = s" />
+                <label :for="`opt-cardScale-${s}`">{{ cardScaleLabel(s) }}</label>
+              </template>
             </div>
           </div>
 

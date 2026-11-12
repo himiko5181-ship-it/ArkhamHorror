@@ -1,0 +1,155 @@
+{
+  "tokens": {
+    "easyStandard": {
+      "skull": "당신이 가진 단서 1개당 -1.",
+      "cultist": "-3. 실패하면, 가장 가까운 _돌연변이_ 적에게 자원 1개를 변이로 놓습니다.",
+      "tablet": "-3. 실패하면, 조우 버린 더미에서 가장 위에 있는 _주술_ 카드를 뽑습니다.",
+      "elderThing": "-4. 실패하면, 이 판정에 투입한 카드 1장을 _곤충_ 적 밑에 뒷면으로 놓아 무리 카드로 삼습니다."
+    },
+    "hardExpert": {
+      "skull": "당신이 가진 단서 1개당 -2.",
+      "cultist": "-4. 각 _돌연변이_ 적에게 자원 1개를 변이로 놓습니다.",
+      "tablet": "-4. 조우 버린 더미에서 가장 위에 있는 _주술_ 카드를 뽑습니다.",
+      "elderThing": "-5. 이 판정에 투입한 각 카드를 _곤충_ 적 밑에 뒷면으로 놓아 무리 카드로 삼습니다."
+    }
+  },
+  "label": {
+    "bladeOfArkat": {
+      "resourcesToRemove": "제거할 자원"
+    },
+    "placeDoomOnTheBlueAgenda": "파란색 현재 사건에 파멸 1개 놓기",
+    "placeClueOnYourLocation": "당신의 단서 1개를 당신의 장소에 놓기",
+    "take2Horror": "공포 2 받기",
+    "take3Horror": "공포 3 받기",
+    "removeHandFromGame": "손에 있는 모든 카드를 게임에서 제거",
+    "removeCluesFromAroundHubDimension": "중심 차원 둘레에서 단서 2개 제거",
+    "huneStitchedHeraldAttacksYou": "휸으로 꿰맨 전령이 당신을 공격",
+    "youAndYourAssetsTakeDamage": "당신과 당신이 통제하는 각 자산이 직접 피해 1 받기",
+    "removeItemFromGame": "당신이 통제하는 물품 자산 하나를 선택해 게임에서 제거",
+    "take2Damage": "피해 2 받기",
+    "placeCluesOnYourLocation": "당신의 단서 2개를 당신의 장소에 놓기",
+    "removeCardsInHandFromGame": "손에서 카드 3장을 선택해 게임에서 제거",
+    "removeTopOfDeckFromGame": "당신의 덱 맨 위 카드 6장을 게임에서 제거합니다. 이렇게 제거된 약점은 모두 덱에 섞어 넣습니다",
+    "spendClues": "단서 3개 쓰기",
+    "placeEnemyOnTopOfEncounterDeck": "당신의 장소에 있는 정예가 아닌 적 하나를 조우 덱 맨 위에 놓기",
+    "lookAtTopOfEncounterDeck": "조우 덱 맨 위 카드 5장을 봅니다. 그중 2장을 버리고 나머지를 원하는 순서로 맨 위에 되돌립니다",
+    "skipTest": "판정하지 않기"
+  },
+  "intro": {
+    "title": "외신들의 전쟁",
+    "body": "<p>대전쟁이 끝나고 십여 년이 지난 지금, 또 다른 종류의 전쟁이 지구에 찾아왔다—사회의 그늘에 오래 숨어 있던 세력들이 빚어낸 분쟁이다.</p><p>시작은 아컴의 살인 사건이었다—엿새 남짓한 사이에 시신이 열두 구 넘게 나왔다. 경찰은 처음에 연쇄 살인범의 소행이라 여겼지만, 여섯 번째 희생자의 시신이 씹다가 도로 뱉어 낸 음식처럼 짓이겨진 살과 내장 더미로 발견되면서 생각이 바뀌었다. 인간이라면 그토록 끔찍한 살인을 저지를 수 없다.</p><p>북미의 다른 도시들에서도 비슷한 살인이 잇따르기 시작하자, 당신은 진상을 밝히려 나섰다. 연쇄 살인범 한 명이 아컴, 프로비던스, 몬트리올, 뉴욕에 동시에 있을 수는 없다. 조직의 소행이어야 했다. 하지만 알아낸 것은 그뿐이 아니었다. 많은 희생자 사이에 공통점이 있었고, 그에 따라 희생자들은 뚜렷이 구분되는 세 무리로 나뉘었다.</p><p>프로비던스에서는 희생자 다수가 나이 들고 교육 수준이 높았다. 몬트리올에서는 도시 외곽 숲에 살았거나, 어떤 식으로든 자연이나 생물학을 다루는 직업을 가진 사람들이 살해당했다. 뉴욕에서는 하수도와 지하철 터널 깊은 곳에서 시신들이 발견되었고, 그들의 신원은 수수께끼에 싸여 있었다.</p><p>지난 몇 주 동안 당신은 이 살인들과 그것을 저지르는 여러 세력의 진상을 파헤치려 애썼다. 그사이 분쟁은 기하급수적으로 커졌다. 학살. 폭탄 테러. 거리에서 목격되는 기이한 의식. 밤하늘의 별을 가리는 존재들. 사람을 통째로 먹어 치우는 메뚜기 같은 벌레 떼. 하수도를 배회하는 돌연변이 도마뱀 괴물. 더 나쁜 것은, 아컴이 분쟁의 진원지인 듯하지만 이런 사건들이 전 세계로 퍼지고 있다는 점이다.</p><p>이것은 평범한 전쟁이 아니며, 당국이 감당할 수 있는 전쟁도 아니다. 진실을 의심하는 사람은 당신뿐이다. 어떻게든 이 세력들이 무엇을 두고 싸우는지 알아내고, 분쟁이 온 세상을 광기 속에 집어삼키기 전에 끝내야 한다.</p><p class='basic right'>_준비_로 진행합니다.</p>"
+  },
+  "setup": {
+    "gatherSets": "*외신들의 전쟁* 조우 세트의 모든 카드를 모읍니다. 이 세트는 다음 아이콘으로 표시되어 있습니다:<section class='encounter-sets'><img src='{setImgPath}/war-of-the-outer-gods.png' /></section>",
+    "gatherFactionSets": "나머지 세 조우 세트 *낙원의 아이들*, *동화의 벌레 떼*, *별들의 죽음*에서 각각 9장을 모두 모읍니다. 이 조우 세트들은 플레이 밖에 따로 둡니다. _(참고: 아스라한 존재 1장, 트라일로고그 1장, 낙원을 가져오는 자 1장은_ 외신들의 전쟁 _조우 세트에 들어 있고, 나머지는 이 세 조우 세트에 들어 있습니다.)_ 이 세트들은 다음 아이콘으로 표시되어 있습니다:<section class='encounter-sets'><img src='{setImgPath}/children-of-paradise.png' /><img src='{setImgPath}/assimilating-swarm.png' /><img src='{setImgPath}/death-of-the-stars.png' /></section>",
+    "agendaDecks": "현재 사건 덱을 준비할 때, 세 현재 사건 덱을 모두 다음 순서로 (위에서 아래로) 플레이에 놓습니다: 초록색, 파란색, 빨간색.",
+    "placeLocations": "중심 차원 장소를 따로 두고 나머지 장소 10장을 플레이에 놓습니다.",
+    "beginAtArkham": "각 조사자는 아컴에서 게임을 시작합니다.",
+    "spawnCultists": "*외신들의 전쟁* 조우 세트에서 벌레 떼의 사도 1장, 허무주의 점성가 1장, 낙원의 광신자 1장을 찾습니다. 이 적들을 각각 (“*생성* –” 지시에 따라) 생성합니다.",
+    "setAsideAssets": "다음 이야기 자산 5장을 플레이 밖에 따로 둡니다: 외계의 망토, 휴대용 관문, 두려운 종말, 아르카트의 칼날, 마법 걸린 해골.",
+    "shuffleRemainder": "남은 조우 카드 19장을 섞어 조우 덱을 만듭니다.",
+    "epicMultiplayer": "*대규모 멀티플레이 모드*로 플레이한다면, 행사 진행자가 각 현재 사건의 전체 파멸 한계치를 계산해 발표합니다."
+  },
+  "resolutions": {
+    "noResolution": {
+      "title": "결말 없음",
+      "body": "<p>*결말에 도달하지 못했다면(각 조사자가 패배했다면)*:</p><ul><li>*단일 그룹 모드*로 플레이하거나 *대규모 멀티플레이 모드*에서 모든 그룹이 패배했다면, 선두에 있는 세력을 찾아 그에 따라 진행합니다.<ul><li>빨간색 세력이 선두였다면 _결말 5_로 건너뜁니다.</li><li>파란색 세력이 선두였다면 _결말 6_으로 건너뜁니다.</li><li>초록색 세력이 선두였다면 _결말 7_로 건너뜁니다.</li></ul></li><li>*대규모 멀티플레이 모드*로 플레이한다면, 남은 플레이어들이 도달하는 결말을 함께 따릅니다.</li></ul>"
+    },
+    "resolution1": {
+      "title": "결말 1",
+      "body": "<p>_결말 1_: 중심 차원의 수많은 문은 이제 당신의 엄격한 통제 아래 굳게 봉인되었다. 중심 차원이 봉인되었으니, 그 소유권을 두고 싸우던 교단들은 바라건대 다시 은밀한 활동으로 돌아갈 것이다—어쩌면 중심 차원이 다시 열려 잔혹한 계획을 진척시킬 수 있을 때를 기다리면서. 그때까지 지구는 안전하다… 상대적으로는.</p><ul><li>조사자 한 명이 외계의 망토 이야기 자산을 자신의 덱에 추가할 수 있습니다. 이 카드는 그 조사자의 덱 크기에 포함되지 않습니다.</li><li>조사자 한 명이 휴대용 관문 이야기 자산을 자신의 덱에 추가할 수 있습니다. 이 카드는 그 조사자의 덱 크기에 포함되지 않습니다.</li><li>각 조사자는 승점 더미에 있는 각 카드의 *승점 X* 값을 합한 만큼 경험치를 얻습니다. 모든 외신의 계획이 완성되는 것을 막았으므로 각 조사자는 추가 경험치 2를 얻습니다.</li></ul>"
+    },
+    "resolution2": {
+      "title": "결말 2",
+      "body": "<p>_결말 2_: 에젤의 벌레 떼는 평범한 방법으로 물리치기엔 너무나 수가 많다. 하지만 수가 있다! 이 세상 것이 아니라 해도 벌레는 벌레이고, 많은 벌레 무리에는 여왕이 있다. 온갖 꾀를 짜내어, 여왕을 짓밟아 무리를 흩어 버릴 계획을 세운다.</p><p>놀랍게도 계획이 통한다. 여왕이 처치되자 무리는 갈 곳을 잃고, 굶주림 대신 절박함과 공황에 사로잡힌다. 머지않아 무수한 벌레들은 자신들이 나온 구덩이로 다시 내려간다. 어쩌면 또 다른 여왕이 나타나 그들을 규합할지도 모르지만, 그보다 훨씬 전에 당신이 그 저주받은 구덩이를 봉인할 것이다. 지금으로서는 지구는 안전하다.</p><ul><li>조사자 한 명이 외계의 망토 이야기 자산을 자신의 덱에 추가할 수 있습니다. 이 카드는 그 조사자의 덱 크기에 포함되지 않습니다.</li><li>조사자 한 명이 마법 걸린 해골 이야기 자산을 자신의 덱에 추가할 수 있습니다. 이 카드는 그 조사자의 덱 크기에 포함되지 않습니다.</li><li>각 조사자는 승점 더미에 있는 각 카드의 *승점 X* 값을 합한 만큼 경험치를 얻습니다.</li></ul>"
+    },
+    "resolution3": {
+      "title": "결말 3",
+      "body": "<p>_결말 3_: 실레누스의 형체는 정해진 모양이 없고 어쩌면 물질조차 아닐지 모르지만, 약점이 없는 것은 아니다. 그 교단의 의식을 역이용해, 우주의 공허조차 삼킬 수 없을 만큼 눈부신 열기의 주문을 고안한다. 의식이 발동하자 안개는 괴로워하며 물러나고, 진공 속으로 공기가 빨려 드는 날카로운 쉿 소리 외에는 아무 소리도 내지 않는다.</p><p>의식이 끝나는 순간 안개가 돌아오지 않기를 바라며 두려움 속에 하늘을 지켜본다. 몇 분이 지난다. 그리고 몇 시간이. 낯익은 별들이 다시 밤하늘을 채운다. 어쩌면 그 존재는 영영 사라졌을지도 모른다. 그것을 관찰해 온 수많은 이들의 기록이 사실이라면, 그것은 훗날—어쩌면 수백 년이나 수천 년 뒤에—돌아올 것이다. 오늘 지구를 구했을지는 몰라도, 그 존재의 참된 본질을 알아 버렸다는 사실은 여전히 당신을 괴롭힌다.</p><ul><li>조사자 한 명이 외계의 망토 이야기 자산을 자신의 덱에 추가할 수 있습니다. 이 카드는 그 조사자의 덱 크기에 포함되지 않습니다.</li><li>조사자 한 명이 두려운 종말 이야기 자산을 자신의 덱에 추가할 수 있습니다. 이 카드는 그 조사자의 덱 크기에 포함되지 않습니다.</li><li>각 조사자는 승점 더미에 있는 각 카드의 *승점 X* 값을 합한 만큼 경험치를 얻습니다.</li></ul>"
+    },
+    "resolution4": {
+      "title": "결말 4",
+      "body": "<p>_결말 4_: 괴수가 쓰러지며 등딱지에서 초록색 피와 끈적한 고름이 터져 나오고, 땅이 울릴 만큼 거센 신음을 토한다. 서두른 덕분에, 막을 수 없을 만큼 강해지기 전에 괴수를 쓰러뜨렸다. 갓 태어난 상태에서도 그것은 어마어마한 적이었다.</p><p>그 몸이 누르스름한 체액으로 녹아내리는 모습을 역겨워하며 지켜본다. 이게 그 대단한 “낙원”이라니. 알이 부화했고 그 안의 것이 파괴되었으니 아르카트 교단이 흩어지기를 바라지만, 당신의 참견에 대한 보복이 언젠가 돌아올까 두렵다.</p><ul><li>조사자 한 명이 외계의 망토 이야기 자산을 자신의 덱에 추가할 수 있습니다. 이 카드는 그 조사자의 덱 크기에 포함되지 않습니다.</li><li>조사자 한 명이 아르카트의 칼날 이야기 자산을 자신의 덱에 추가할 수 있습니다. 이 카드는 그 조사자의 덱 크기에 포함되지 않습니다.</li><li>각 조사자는 승점 더미에 있는 각 카드의 *승점 X* 값을 합한 만큼 경험치를 얻습니다.</li></ul>"
+    },
+    "resolution5": {
+      "title": "결말 5",
+      "body": "<p>_결말 5_: 벌레 떼는 지구의 모든 물질을 조금씩 분해해, 분자 하나하나를 자신들과 닮은 모습으로 바꾸어 놓는다. 당신의 의식은 남아, 윙윙거리는 끔찍한 무리 속에 영원히 갇힌다. 하지만 다 괜찮다. 당신은 이제 여왕과 함께 있다. 기이한 허기가 당신을 갉아먹는다. 바라는 것은 오직 동화뿐이다. 무리는 자라나야 한다!</p><ul><li>각 조사자는 *사망*합니다.</li><li>조사자들은 캠페인에서 패배합니다.</li></ul>"
+    },
+    "resolution6": {
+      "title": "결말 6",
+      "body": "<p>_결말 6_: 지구는 텅 빈 하늘의 화신이자 만물의 탐욕스러운 종말인 실레누스에게 삼켜진 첫 번째 행성일 뿐이다. 행성의 핵이 절대 영도로 곤두박질치자 모든 생명이 순식간에 꺼진다. 그 존재는 지구의 연결점이 낸 틈에서부터 태양계 구석구석으로 뻗어 나가며 가는 길의 온기를 모조리 삼킨다. 이제 그 무엇도 그것을 막을 수 없다.</p><ul><li>각 조사자는 *사망*합니다.</li><li>조사자들은 캠페인에서 패배합니다.</li></ul>"
+    },
+    "resolution7": {
+      "title": "결말 7",
+      "body": "<p>_결말 7_: 괴수의 난동은 막을 수 없다. 그것을 물리칠 방법을 아는 이는 당신들뿐이었다. 괴수가 대륙을 가로지르고 대양을 건너는 동안 도시가 하나씩 무너진다. 군대가 전멸한다. 정부가 붕괴한다. 아르카트 교단이 부화시킨 괴물들은 굶주린 사냥을 계속하고, 마침내 다스릴 것이라고는 지구의 광활한 황무지와 무너져 가는 인류 문명의 폐허밖에 남지 않는다. 그들이 기꺼이 살인까지 저지르며 바랐던 “낙원”이 도래했다.</p><ul><li>각 조사자는 *사망*합니다.</li><li>조사자들은 캠페인에서 패배합니다.</li></ul>"
+    },
+    "xp": {
+      "bonus": "모든 외신의 계획이 완성되는 것을 막음"
+    },
+    "label": {
+      "greenFactionInTheLead": "초록색 세력이 선두였다",
+      "blueFactionInTheLead": "파란색 세력이 선두였다",
+      "redFactionInTheLead": "빨간색 세력이 선두였다"
+    }
+  },
+  "rules": {
+    "factions": {
+      "title": "세력",
+      "body": "<p class='basic'>이 시나리오에는 서로 전쟁을 벌이는 세 세력이 등장하며, 세력마다 고유한 적, 대응 카드, 현재 사건이 있습니다. 세력은 색깔—파란색, 초록색, 빨간색—로 구분할 수 있습니다.</p><ul><li>_실레누스 교단_은 _파란색_ 세력입니다. 파란색 카드는 별과 별자리 무늬로도 알아볼 수 있습니다.<div class='card-examples'><div class='top'><div class='ex'><img src='{setImgPath}/../cards/86025.avif' /><img class='arrow' src='{setImgPath}/../extra/war-of-the-outer-gods/arrows/arrow-blue.svg' style='--at:12%' /></div><div class='ex'><img src='{setImgPath}/../cards/86026.avif' /><img class='arrow left' src='{setImgPath}/../extra/war-of-the-outer-gods/arrows/arrow-blue.svg' style='--at:29%' /></div></div><div class='ex'><img class='agenda' src='{setImgPath}/../cards/86003.avif' /><img class='arrow left' src='{setImgPath}/../extra/war-of-the-outer-gods/arrows/arrow-blue.svg' style='--at:13%;--right:-33px;' /></div></div></li><li>_마그안 아르카트 교단_은 _초록색_ 세력입니다. 초록색 카드는 비늘과 덩굴손으로도 알아볼 수 있습니다.<div class='card-examples'><div class='top'><div class='ex'><img src='{setImgPath}/../cards/86027.avif' /><img class='arrow' src='{setImgPath}/../extra/war-of-the-outer-gods/arrows/arrow-green.svg' style='--at:55%; --left:-33px;' /></div><div class='ex'><img src='{setImgPath}/../cards/86028.avif' /><img class='arrow left' src='{setImgPath}/../extra/war-of-the-outer-gods/arrows/arrow-green.svg' style='--at:30%' /></div></div><div class='ex'><img class='agenda' src='{setImgPath}/../cards/86006.avif' /><img class='arrow left' src='{setImgPath}/../extra/war-of-the-outer-gods/arrows/arrow-green.svg' style='--at:13%;--right:-33px;' /></div></div></li><li>_에젤젠레즐 교단_은 _빨간색_ 세력입니다. 빨간색 카드는 벌집 무늬와 곤충 날개로도 알아볼 수 있습니다.<div class='card-examples'><div class='top'><div class='ex'><img src='{setImgPath}/../cards/86029.avif' /><img class='arrow' src='{setImgPath}/../extra/war-of-the-outer-gods/arrows/arrow-red.svg' style='--at:36%;--left:-35px;' /></div><div class='ex'><img src='{setImgPath}/../cards/86030.avif' /><img class='arrow left' src='{setImgPath}/../extra/war-of-the-outer-gods/arrows/arrow-red.svg' style='--at:27.5%' /></div></div><div class='ex'><img class='agenda' src='{setImgPath}/../cards/86009.avif' /><img class='arrow top' src='{setImgPath}/../extra/war-of-the-outer-gods/arrows/arrow-red.svg' style='--left:29%;--angle:-135deg;' /></div></div></li><li>따로 명시되지 않는 한, 각 세력의 카드는 해당 종류(적, 대응 카드, 현재 사건)의 일반 카드처럼 작동합니다.</li><li>조사자들이 어떤 절차를 “세력 순서대로” 수행하라는 지시를 받으면, 먼저 초록색 세력에 대해 그 절차를 해결합니다. 그다음 파란색 세력에 대해 해결합니다. 마지막으로 빨간색 세력에 대해 해결합니다. (*참고: 이는 준비 때 놓은 현재 사건의 위에서 아래 순서와도 같습니다.*)</li></ul>"
+    },
+    "factionAgendas": {
+      "title": "세력 현재 사건",
+      "body": "<p class='basic'>준비 중에 세력마다 하나씩(초록색, 파란색, 빨간색) 서로 다른 현재 사건 덱 세 개를 구성합니다. 이 현재 사건 덱들은 각 세력이 목표를 향해 나아간 정도를 나타냅니다.</p><ul><li>신화 단계의 “현재 사건에 파멸 놓기” 단계에서, 세력 순서대로 각 현재 사건에 파멸 1개를 놓습니다.</li><li>신화 단계의 “파멸 한계치 확인” 단계에서, 세력 순서대로 (대규모 멀티플레이 모드라면 행사 진행자가 발표한 순서대로) 각 현재 사건의 파멸 한계치를 하나씩 확인합니다.</li><li>현재 사건 세 장이 플레이 중인 동안, 플레이어 카드 위의 파멸은 어느 현재 사건의 파멸 한계치에도 포함되지 않습니다.</li><li>카드 효과가 조사자에게 “현재 사건”에 파멸을 놓으라고 지시하면, 플레이어들이 어느 현재 사건에 놓을지 선택할 수 있습니다.</li><li>현재 사건 하나가 진행될 때, 다른 현재 사건 위의 파멸은 모두 그대로 남습니다. 플레이 중인 다른 카드(플레이어 카드, 적, 장소) 위의 파멸은 평소대로 모두 제거합니다.</li></ul>"
+    },
+    "inTheLead": {
+      "title": "“선두”",
+      "body": "<p class='basic'>“선두”에 있는 세력은 자신의 현재 사건 덱을 가장 멀리 진행시킨 세력입니다. 둘 이상의 세력이 동률이라면, 동률인 세력 중 현재 사건에 파멸이 가장 많은 세력이 선두입니다. 그래도 동률이라면, 플레이 중인 적이 가장 많은 세력이 선두입니다.</p>"
+    },
+    "warring": {
+      "title": "전쟁",
+      "body": "<p class='basic'>전쟁은 적 단계 동안 전쟁 중인 세력들이 서로를 향해 이동하고 공격하게 하는 키워드 능력입니다.</p><p class='basic'>적 단계의 “사냥꾼 적 이동” 단계에서, 전쟁 키워드가 있는 준비 상태의 교전하지 않은 적은 각각 가장 가까운 다른 세력의 전쟁 적을 향해 한 번 이동합니다.</p><ul><li>전쟁 적은 세력 순서대로 이동합니다.</li><li>다른 세력의 적이 하나 이상 있는 장소에 이미 있는 전쟁 적은 이동하지 않습니다.</li><li>이 이동의 대상이 될 수 있는 적이 같은 거리에 여럿 있다면, 선두 조사자가 그 적이 향할 대상을 선택합니다.</li><li>이 이동의 대상이 될 수 있는 적이 없다면, 그 적은 이동하지 않습니다.</li><li>전쟁 적이 카드 능력으로 이동이 막힌 장소로 이동해야 한다면, 그 적은 이동하지 않습니다.</li></ul><p class='basic'>적 단계의 “적 공격 해결” 단계에서, 전쟁 키워드가 있는 교전하지 않은 적은 각각 자신의 장소에 있는 다른 세력의 전쟁 적 하나를 공격합니다.</p><ul><li>전쟁 적은 세력 순서대로 공격합니다.</li><li>이 공격의 대상이 될 수 있는 적이 여럿이라면, 전쟁 적은 남은 체력이 가장 적은 (다른 세력의) 적을 공격합니다. 동률이라면 선두 조사자가 공격 대상을 선택할 수 있습니다.</li><li>이렇게 하는 공격은 공격하는 적의 피해 수치와 공포 수치를 합한 만큼 피해를 줍니다.</li><li>_적이 다른 적(무리 카드 제외)을 공격해 처치하면, 공격한 적의 세력에 해당하는 현재 사건에 파멸 1개를 놓습니다._</li></ul><div class='warring-example'><p class='we-title'>전쟁 예시:</p><p class='we-cap'>*벌레 떼의 사도가 뉴욕 거리에, 휸으로 꿰맨 전령이 아컴에, 낙원의 광신자가 몬트리올 거리에 있습니다. 셋 다 전쟁 키워드가 있고, 준비 상태이며 교전하지 않고 있습니다.*</p><div class='we-panel we-setup'><div class='we-spot'><img class='loc' src='{setImgPath}/../cards/86021.avif' /><img class='enemy' src='{setImgPath}/../cards/86029.avif' /></div><div class='we-spot'><img class='loc' src='{setImgPath}/../cards/86014.avif' /><img class='enemy' src='{setImgPath}/../cards/86037.avif' /></div><div class='we-spot'><img class='loc' src='{setImgPath}/../cards/86018.avif' /><img class='enemy' src='{setImgPath}/../cards/86027.avif' /></div></div><p class='we-cap'>*적 단계의 “사냥꾼 적 이동” 단계에서, 이 적들은 각각 가장 가까운 다른 세력의 전쟁 적을 향해 한 번 이동합니다. 이 경우 초록색 적이 먼저 아컴으로 이동합니다. 휸으로 꿰맨 전령은 자신의 장소에 이미 적이 있으므로 이동하지 않습니다. 마지막으로 벌레 떼의 사도도 아컴으로 이동합니다.*</p><div class='we-panel we-move'><div class='we-spot'><img class='loc' src='{setImgPath}/../cards/86021.avif' /><img class='enemy red-faction faded' src='{setImgPath}/../cards/86029.avif' /></div><div class='we-spot gathered'><img class='loc' src='{setImgPath}/../cards/86014.avif' /><img class='enemy blue-faction' src='{setImgPath}/../cards/86037.avif' /><img class='enemy red-faction' src='{setImgPath}/../cards/86029.avif' /><img class='enemy green-faction' src='{setImgPath}/../cards/86027.avif' /></div><div class='we-spot'><img class='loc' src='{setImgPath}/../cards/86018.avif' /><img class='enemy green-faction faded' src='{setImgPath}/../cards/86027.avif' /></div><img class='we-arrow we-mv-left' src='{setImgPath}/../extra/war-of-the-outer-gods/arrows/warring-move-arrow.svg' /><img class='we-arrow we-mv-right' src='{setImgPath}/../extra/war-of-the-outer-gods/arrows/warring-move-arrow-right.svg' /></div><p class='we-cap'>*적 단계의 “적 공격 해결” 단계에서, 이 적들은 각각 다른 세력의 전쟁 적 하나를 공격합니다. 먼저 낙원의 광신자가 벌레 떼의 사도를 공격해 피해 1을 줍니다. 사도의 남은 체력이 휸으로 꿰맨 전령보다 적기 때문입니다. 다음으로 휸으로 꿰맨 전령도 벌레 떼의 사도를 공격해 피해 3을 줍니다. 벌레 떼의 사도는 공격할 기회를 얻기 전에 처치되고, 파란색 현재 사건에 파멸 1개가 놓입니다.*</p><div class='we-panel we-attack'><div class='enemy'><img src='{setImgPath}/../cards/86029.avif' /><img class='dmg d1' src='{setImgPath}/../tokens/damage-token.png' /><img class='dmg d2' src='{setImgPath}/../tokens/damage-token.png' /><img class='dmg d3' src='{setImgPath}/../tokens/damage-token.png' /><img class='dmg d4' src='{setImgPath}/../tokens/damage-token.png' /></div><div class='enemy'><img src='{setImgPath}/../cards/86037.avif' /></div><div class='enemy'><img src='{setImgPath}/../cards/86027.avif' /></div><img class='we-arrow we-atk-top' src='{setImgPath}/../extra/war-of-the-outer-gods/arrows/warring-attack-arrow-top.svg' /><img class='we-arrow we-atk-bot' src='{setImgPath}/../extra/war-of-the-outer-gods/arrows/warring-attack-arrow-bottom.svg' /></div></div>"
+    },
+    "wards": {
+      "title": "결계",
+      "body": "결계는 조사자들이 현재 사건에 놓이는 파멸의 양을 줄일 수 있게 해 줍니다. 현재 사건에 파멸이 놓이게 될 때, 그 현재 사건에 있는 결계 1개당 파멸 1개가 놓이는 것을 막습니다. 그런 다음 막은 파멸의 수만큼 그 현재 사건에서 결계를 제거합니다."
+    },
+    "placeAroundThisLocation": {
+      "title": "“이 장소 둘레에 놓기”",
+      "body": "조사자들이 장소 “둘레에” 단서를 1개 이상 놓으라는 지시를 받으면, 그 단서는 장소 카드에 물리적으로 맞닿게 놓되 장소 카드 위에 올려놓지는 않습니다. 장소 “둘레에” 있는 단서는 그 장소 “위에” 있는 것으로 간주하지 않으며, 어떤 수단으로도 발견할 수 없습니다.<div class='place-around'><img src='{setImgPath}/../cards/86024b.avif' /><div class='clues left'><img src='{setImgPath}/../tokens/clue.png' /><img src='{setImgPath}/../tokens/clue.png' /></div><div class='clues right'><img src='{setImgPath}/../tokens/clue.png' /><img src='{setImgPath}/../tokens/clue.png' /><img src='{setImgPath}/../tokens/clue.png' /><img src='{setImgPath}/../tokens/clue.png' /><img src='{setImgPath}/../tokens/clue.png' /><img src='{setImgPath}/../tokens/clue.png' /><img src='{setImgPath}/../tokens/clue.png' /><img src='{setImgPath}/../tokens/clue.png' /></div><div class='clues top'><img src='{setImgPath}/../tokens/clue.png' /><img src='{setImgPath}/../tokens/clue.png' /></div><div class='clues bottom'><img src='{setImgPath}/../tokens/clue.png' /><img src='{setImgPath}/../tokens/clue.png' /><img src='{setImgPath}/../tokens/clue.png' /><img src='{setImgPath}/../tokens/clue.png' /></div></div>"
+    },
+    "swarmingX": {
+      "title": "무리 X",
+      "body": "무리 X 키워드는 한 몸처럼 움직이는 적의 무리를 나타냅니다. 무리 X 키워드가 있는 적이 플레이에 들어온 뒤, 당신의 덱 맨 위 카드 X장을 보지 않고 그 적 밑에 뒷면으로 놓아 무리 카드로 삼습니다. 무리 카드가 밑에 놓인 적을 “숙주 적”이라 부릅니다. 일부 시나리오 카드 효과도 플레이어에게 적에게 무리 카드를 추가하라고 지시할 수 있습니다. 이때도 같은 절차를 따릅니다.<ul><li>어느 조사자가 무리 카드를 추가해야 하는지 불분명하다면, 선두 조사자가 추가합니다.</li><li>숙주 적 밑의 각 무리 카드는 그 적의 별개 개체로 작동합니다. 각 무리 카드는 숙주 카드와 같은 수치와 본문을 가집니다. *(예를 들어, 조사자가 무리 카드 2장이 밑에 있는 숙주 적과 교전 중이라면, 그 조사자는 모두 3마리의 적과 교전 중인 것입니다.)*</li><li>적 단계에 적이 공격할 때 각 무리 카드는 따로 공격합니다. 이 단계에서 숙주 적과 그 무리 카드가 모두 공격하고 나면, 전부 소진시킵니다.</li><li>각 무리 카드는 따로 공격받거나 피해를 받을 수 있지만, 숙주 적은 밑에 무리 카드가 남아 있는 동안 처치될 수 없습니다. 무리 카드가 처치될 때, 남는 피해는 같은 숙주 적 밑의 다른 무리 카드에게 줄 수 있고, 무리 카드가 모두 사라졌다면 숙주 적 자체에게 줄 수 있습니다. *(예를 들어, 로랜드 뱅크스가 45구경 자동 권총으로 무리 카드 2장이 있는 트라일로고그를 공격합니다. 이 공격은 피해 2를 줍니다. 첫 번째 피해가 무리 카드 2장 중 1장을 처치하므로, 남는 피해 1을 다른 무리 카드에게 주어 그것도 처치할 수 있습니다.)*</li><li>무리 카드가 플레이를 떠날 때마다, 그 카드를 소유자의 덱 맨 밑에 놓습니다. 무리 카드의 소유자가 누구인지 확실하지 않다면, 카드를 보고 소유자를 확인할 수 있습니다.</li><li>숙주 적과 그 무리 카드 전부는 하나의 개체로서 이동하고, 교전하고, 소진됩니다. *(예를 들어, 숙주 적이나 그 무리 카드 중 하나가 회피당하면, 전부 소진되고 교전이 해제됩니다.)*</li><li>무리 X 키워드가 있는 적에게 승점 X가 있다면, 이 문구는 숙주 카드에만 적용됩니다. 무리 카드는 승점 더미에 들어갈 수 없으며 승점으로 계산되지 않습니다.</li></ul>"
+    }
+  },
+  "specialRules": [
+    {
+      "title": "@:standalone.warOfTheOuterGods.rules.factions.title",
+      "body": "@:standalone.warOfTheOuterGods.rules.factions.body"
+    },
+    {
+      "title": "@:standalone.warOfTheOuterGods.rules.factionAgendas.title",
+      "body": "@:standalone.warOfTheOuterGods.rules.factionAgendas.body"
+    },
+    {
+      "title": "@:standalone.warOfTheOuterGods.rules.inTheLead.title",
+      "body": "@:standalone.warOfTheOuterGods.rules.inTheLead.body"
+    },
+    {
+      "title": "@:standalone.warOfTheOuterGods.rules.warring.title",
+      "body": "@:standalone.warOfTheOuterGods.rules.warring.body"
+    },
+    {
+      "title": "@:standalone.warOfTheOuterGods.rules.wards.title",
+      "body": "@:standalone.warOfTheOuterGods.rules.wards.body"
+    },
+    {
+      "title": "@:standalone.warOfTheOuterGods.rules.placeAroundThisLocation.title",
+      "body": "@:standalone.warOfTheOuterGods.rules.placeAroundThisLocation.body"
+    },
+    {
+      "title": "@:standalone.warOfTheOuterGods.rules.swarmingX.title",
+      "body": "@:standalone.warOfTheOuterGods.rules.swarmingX.body"
+    }
+  ]
+}

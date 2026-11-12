@@ -1,30 +1,87 @@
 {
+  "heading": "시나리오 V",
+  "setup": {
+    "gatherSets": "다음 조우 세트의 카드를 모두 모읍니다: *공포의 추격전*, *인스머스에 드리운 안개*, *고장*, *산산조각 난 기억*, *고대의 악*. 이 세트들은 다음 아이콘으로 표시됩니다:<section class='encounter-sets'><img src='{setImgPath}/horror-in-high-gear.png' /><img src='{setImgPath}/fog-over-innsmouth.png' /><img src='{setImgPath}/malfunction.png' /><img src='{setImgPath}/shattered-memories.png' /><img src='{setImgPath}/ancient-evils.png' /></section>",
+    "roadDeck": "도로 덱을 만듭니다. 다음 단계를 수행합니다:",
+    "findRoadLocations": "송골매 곶 진입로와 ‘멀고 먼 우회로’ 6장을 모두 찾습니다. 각각 옛 인스머스 도로 장소의 공개된 면입니다. 각각 비플레이 상태로 치워 둡니다.",
+    "bottomThree": "따로 치워 둔 송골매 곶 진입로와 옛 인스머스 도로 장소 2장을 함께 섞어 도로 덱의 맨 아래 3장으로 만듭니다.",
+    "remainingOnTop": "남은 옛 인스머스 도로 장소를 모두 무작위 순서로 그 위에 놓습니다.",
+    "unrevealedSide": "도로 덱의 모든 카드는 옛 인스머스 도로 면만 보이도록 하여, 플레이어들이 어느 것이 어느 것인지 모르게 해야 합니다.",
+    "putRoadIntoPlay": "도로 덱 맨 위 카드 3장을 왼쪽에서 오른쪽으로 일렬로 플레이 상태로 놓습니다. 왼쪽이 “후방”, 오른쪽이 “전방”입니다.",
+    "chooseVehicles": "탈것을 선택합니다. 이 시나리오에서 조사자들이 사용할 수 있는 탈것은 토머스 도슨의 차와 엘리나 하퍼의 차 두 대입니다. 각 조사자는 탈 탈것을 골라야 합니다. 한 탈것에 조사자가 2명을 넘게 탈 수 없습니다.",
+    "vehiclesBeginAtFront": "조사자가 1명 이상 탄 각 탈것은 맨 앞쪽 옛 인스머스 도로 장소에서 게임을 시작합니다. 다른 탈것은 게임에서 제거합니다.",
+    "runningSide": "각 탈것은 주행 중 면이 위로 오게 하여 게임을 시작합니다.",
+    "beginInVehicle": "각 조사자는 자신이 고른 탈것에 탄 상태로 게임을 시작합니다.",
+    "triggerRoad": "그 장소가 공개될 때 그 장소의 도로 X 키워드를 유발합니다.",
+    "chooseDrivers": "운전자를 정합니다. 각 탈것에 탄 조사자 중 1명을 그 탈것의 운전자로 지정해야 합니다.",
+    "driverNote": "조사자가 1명 이상 탄 각 탈것에는 항상 운전자가 있어야 합니다. 운전자가 탈것에서 내리거나 탈락하면, 그 탈것에 탄 다른 조사자 1명을 새 운전자로 정합니다.",
+    "playerCount": "게임에 참여한 플레이어 수에 따라:",
+    "onePlayer": "플레이어가 정확히 1명이라면, 변경 사항이 없습니다.",
+    "twoOrThreePlayers": "플레이어가 2~3명이라면, 모은 조우 세트에서 무작위 _탈것_ 적 1장을 찾습니다. 그 적을 가장 후방 장소에 출현시킵니다.",
+    "fourPlayers": "플레이어가 정확히 4명이라면, 모은 조우 세트에서 무작위 _탈것_ 적 2장을 찾습니다. 그 적들을 각각 가장 후방 장소에 출현시킵니다.",
+    "checkCampaignLog": "캠페인 기록지를 확인합니다. 다음 상황에 따라 이 시나리오에서 다른 버전의 주요사건 1을 사용합니다. 주요사건 1의 다른 버전은 게임에서 제거합니다.",
+    "theChaseIsOnV2": "_악마의 암초에 도사린 공포가 죽었다_라면, 주요사건 1a—놈들이 따라붙었어! (v. II)를 사용합니다.",
+    "theChaseIsOnV1": "그렇지 않다면, 주요사건 1a—놈들이 따라붙었어! (v. I)을 사용합니다."
+  },
+  "specialRules": [
+    {
+      "title": "탈것",
+      "body": "<p class='basic'>탈것 키워드가 있는 자산은 조사자가 타거나 내릴 수 있는 탈것을 나타냅니다. 이 키워드가 있는 자산을 탈것이라고 부르며, 다음 규칙을 따릅니다:</p><ul><li>조사자의 미니 카드가 탈것에 겹쳐 놓여 있는 동안, 그 조사자는 그 탈것 안에 있습니다. 조사자의 미니 카드가 자신의 장소에 겹쳐 놓여 있는 동안, 그 조사자는 (탈것과 같은 장소에 있더라도) 탈것 안에 있지 않습니다.<ul><li>{'{'}action{'}'} 능력으로, 조사자는 자신의 장소에 있는 탈것에 타거나 내릴 수 있습니다. 그 조사자의 미니 카드를 탈것 위로, 또는 탈것에서 내려 자신의 장소 위로 옮겨 새 위치를 표시합니다. 각 조사자는 라운드마다 이 능력을 한 번만 수행할 수 있습니다.</li><li>탈것 안에 있는 조사자는 그 탈것의 장소에도 있습니다.</li><li>조사자가 탈것 안에 있는 동안에는 탈것과 별개로 이동할 수 없습니다.</li></ul></li><li>탈것은 대개 연결된 장소로 이동할 수 있게 해 주는 능력을 하나 이상 가지고 있습니다. 탈것이 한 장소에서 다른 장소로 이동하면, 탈것 안의 모든 조사자도 함께 이동합니다.</li><li>달리 명시되지 않는 한, 탈것은 적의 이동이나 교전에 어떤 영향도 주지 않습니다.</li></ul>"
+    },
+    {
+      "title": "주행 중 / 정차 중",
+      "body": "<p class='basic'>이 시나리오의 탈것은 양면으로 표시된 것처럼 “주행 중”이거나 “정차 중”일 수 있습니다. 주행 중인 탈것과 정차 중인 탈것의 차이는 각 면의 게임 문구에 나와 있습니다. 탈것의 엔진은 그 탈것의 능력을 사용해 시동을 걸거나 끌 수 있으며, 그러면 탈것을 다른 면으로 뒤집습니다.</p><ul><li>일반적으로 조사자는 주행 중인 탈것에서만 빠르게 나아갈 수 있습니다. 하지만 절벽 도로나 급커브 구간처럼 위험한 장소에 다가갈 때는 잠깐 탈것을 세우는 것이 좋을 때도 있습니다. 조심하십시오!</li></ul>"
+    },
+    {
+      "title": "도로 X",
+      "body": "<p class='basic'>이 시나리오 동안 조사자들은 인스머스에서 송골매 곶까지 옛 인스머스 도로를 달립니다. 이 도로는 대체로 왼쪽에서 오른쪽으로 이어진 직선이지만, 가끔 갈림길이 있습니다.</p><p class='basic'>도로 X 키워드가 있는 장소가 공개될 때마다, 방금 공개된 장소 앞쪽에 장소가 없다면, 그 앞에 새 열을 만들어 옛 인스머스 도로 면이 위로 오게 새 장소 X장을 플레이 상태로 놓습니다. 그중 첫 번째 장소는 도로 덱 맨 위 장소여야 합니다. 나머지 장소들은 따로 치워 둔 ‘멀고 먼 우회로’ 장소 중에서 가져옵니다(‘멀고 먼 우회로’ 장소가 부족하다면, 가능한 만큼만 사용합니다). 플레이어들이 어느 것이 어느 것인지 모르도록 그 장소들을 섞습니다.</p><p>*예시: 트리시는 엘리나 하퍼의 차 운전자이며, 방금 그 차를 공개되지 않은 장소로 전진시켰습니다. 그곳은 “도로 2” 키워드가 있는 갈림길입니다. 현재 갈림길 앞쪽에 장소가 없으므로, 갈림길 앞에 옛 인스머스 도로 장소 2장을 놓아야 합니다. 트리시는 도로 덱 맨 위 카드와 따로 치워 둔 ‘멀고 먼 우회로’ 장소 1장을 가져와 갈림길 앞 새 열에 둘 다 플레이 상태로 놓고, 플레이어들이 어느 것이 어느 것인지 모르게 섞습니다.*</p><ul><li>일반적으로 ‘멀고 먼 우회로’는 피하는 것이 현명합니다. 속도가 느려져 송골매 곶에 도착할 시간이 줄어들기 때문입니다.</li><li>이 시나리오 동안 각 장소는 바로 뒤나 앞에 있는 각 장소와 연결되지만, 같은 열에 있는 다른 장소와는 연결되지 않습니다.</li></ul>"
+    }
+  ],
+  "label": {
+    "discardAsset": "당신이 통제하는 자산 1장을 버립니다",
+    "whichVehicle": "어느 탈것에서 시작하겠습니까?",
+    "whereWillEnemySpawn": "적이 어디에 출현합니까?"
+  },
   "intro": {
-   "title": "Scenario V: Horror in High Gear",
-   "body": "<p>Trees whizz by as you rumble along the old dirt road just outside of Innsmouth. The sun has set over the western horizon, leaving only the full moon to bathe the dusty roads in its brilliant, eerie glow. “Here,” Agent Harper shouts from the passenger seat over the rumbling of the automobile engine. She points to a spot on the map she has spread across her lap, tapping it repeatedly. “Falcon Point Lighthouse. That’s where Oceiros should be.” A shudder courses up your spine. If your memories are to be believed, Oceiros is the man who left you to die in those tidal tunnels. You ask Harper how far Falcon Point is from Innsmouth, hoping to arrive before the Order realizes you’ve escaped. She sighs. “It’s not that far, but these roads are meandering. They could be difficult to navigate. One wrong turn and—” both you and Harper see the lights in your rearview mirror at the same time. Headlights. And they’re growing larger and brighter by the second. Harper curses under her breath. “I don’t suppose those are friends of yours?” You shake your head and tighten your grip on the wheel. It seems the Order has already caught wind of your flight from Innsmouth. You tell Agent Harper to hold on and slam your foot on the accelerator.</p>"
+    "title": "시나리오 V: 공포의 추격전",
+    "body": "<p>인스머스 바로 외곽의 오래된 흙길을 덜컹거리며 달리는 동안 나무들이 휙휙 지나간다. 해는 서쪽 수평선 너머로 졌고, 보름달만이 먼지 날리는 길을 눈부시고 섬뜩한 빛으로 물들인다. “여기요.” 하퍼 요원이 조수석에서 엔진 소리 너머로 외친다. 그녀가 무릎에 펼친 지도의 한 지점을 가리키며 계속 두드린다. “송골매 곶 등대. 오세이로스는 거기 있을 거예요.” 등줄기에 전율이 흐른다. 기억이 맞다면, 오세이로스는 그 조수 터널에 당신을 버려 죽게 한 남자다. 밀교회당이 당신의 탈출을 알아채기 전에 도착하길 바라며, 송골매 곶이 인스머스에서 얼마나 머냐고 하퍼에게 묻는다. 그녀가 한숨을 쉰다. “그렇게 멀진 않은데, 길이 꼬불꼬불해요. 길 찾기가 어려울 수도 있어요. 한 번만 잘못 꺾으면—” 당신과 하퍼가 동시에 백미러 속 불빛을 본다. 전조등이다. 그리고 매 순간 점점 더 커지고 밝아진다. 하퍼가 나지막이 욕을 한다. “당신 친구들은 아니겠죠?” 고개를 저으며 핸들을 꽉 쥔다. 밀교회당이 이미 당신이 인스머스를 빠져나간 걸 눈치챈 모양이다. 하퍼 요원에게 꽉 잡으라고 말하고 가속 페달을 힘껏 밟는다.</p>"
   },
   "resolutions": {
     "noResolution": {
-      "title": "결말에 도달하지 못함",
-      "body": "<p><b>아무 결말에도 도달하지 못했다면(모든 조사자가 쓰러졌다면):</b> Your drive to Falcon Point is no joyride. Between the cultists on your tail and the creatures that dwell in the woods outside Innsmouth, your vehicle is harried at every turn. With no way to escape unharmed, you are forced to abandon your vehicle and sneak through the woods on foot. By the time you see the distant lighthouse beacon, dawn already bathes the sky in orange radiance. “Finally,” Agent Harper groans. With no time to rest, you continue the trek to the Falcon Point lighthouse, exhausted but resolute.</p>"
+      "title": "결말 없음",
+      "body": "<p>_어떤 결말에도 도달하지 못했다면(모든 조사자가 패배)_: 송골매 곶으로 가는 길은 즐거운 드라이브가 아니다. 뒤를 쫓는 광신도들과 인스머스 외곽 숲에 사는 생물들 사이에서, 당신의 차는 굽이마다 시달린다. 무사히 빠져나갈 방법이 없어, 차를 버리고 걸어서 숲을 몰래 지나야 한다. 멀리 등대 불빛이 보일 무렵, 새벽이 이미 하늘을 주황빛으로 물들이고 있다. “드디어.” 하퍼 요원이 신음한다. 쉴 틈도 없이, 지쳤지만 단호하게 송골매 곶 등대를 향한 여정을 계속한다.</p>"
     },
     "resolution1": {
       "title": "결말 1",
-      "body": "<p><b>Resolution 1:</b> You breathe a sigh of relief as you see the distant lighthouse beacon pierce the fog. “Let’s pull over here and make the rest of the trip on foot,” Harper suggests. “If there’s anybody still in that lighthouse, it would be best if they didn’t hear us approach.” Her advice is sound. You’re not sure what to expect once you reach Falcon Point, but all signs point to it being another outpost for the Order. You double‑check to make sure you aren’t being followed, then pull over by the side of the road. Gathering your belongings from the car’s trunk, you begin the trek to the Falcon Point lighthouse…</p>"
+      "body": "<p>_결말 1_: 멀리 등대 불빛이 안개를 꿰뚫는 것을 보고 안도의 한숨을 내쉰다. “여기 차를 세우고 나머지는 걸어가요.” 하퍼가 제안한다. “등대에 아직 누가 있다면, 우리가 다가가는 소리를 못 듣게 하는 게 좋겠어요.” 옳은 조언이다. 송골매 곶에 도착하면 무엇이 기다릴지 모르지만, 모든 징후가 그곳이 밀교회당의 또 다른 거점이라고 가리킨다. 미행당하지 않는지 다시 한번 확인한 뒤 길가에 차를 세운다. 트렁크에서 소지품을 챙겨, 송골매 곶 등대를 향한 여정을 시작한다…</p>"
     }
   },
   "tokens": {
     "easyStandard": {
-      "skull": "-1 (-3 instead if there are 6 or fewer locations remaining in the Road deck).",
-      "cultist": "-1. For each point you fail by, an investigator in your vehicle places 1 of their clues on your location.",
-      "tablet": "-2. For each point you fail by, an investigator in your vehicle loses 1 resource.",
-      "elderThing": "-4. If you fail, resolve the hunter keyword on each enemy in play."
+      "skull": "-1(도로 덱에 남은 장소가 6장 이하라면 대신 -3).",
+      "cultist": "-1. 실패한 수치 1점마다, 당신의 탈것에 탄 조사자 1명이 자신의 단서 1개를 당신의 장소에 놓습니다.",
+      "tablet": "-2. 실패한 수치 1점마다, 당신의 탈것에 탄 조사자 1명이 자원 1개를 잃습니다.",
+      "elderThing": "-4. 실패하면, 플레이 중인 각 적의 사냥꾼 키워드를 해결합니다."
     },
     "hardExpert": {
-      "skull": "-2 (-4 instead if there are 6 or fewer locations remaining in the Road deck).",
-      "cultist": "-2. For each point you fail by, an investigator in your vehicle places 1 of their clues on your location.",
-      "tablet": "-3. For each point you fail by, an investigator in your vehicle loses 1 resource.",
-      "elderThing": "-4. Resolve the hunter keyword on each enemy in play."
+      "skull": "-2(도로 덱에 남은 장소가 6장 이하라면 대신 -4).",
+      "cultist": "-2. 실패한 수치 1점마다, 당신의 탈것에 탄 조사자 1명이 자신의 단서 1개를 당신의 장소에 놓습니다.",
+      "tablet": "-3. 실패한 수치 1점마다, 당신의 탈것에 탄 조사자 1명이 자원 1개를 잃습니다.",
+      "elderThing": "-4. 플레이 중인 각 적의 사냥꾼 키워드를 해결합니다."
+    }
+  },
+  "tooltips": {
+    "elinaHarpersCarRunning": {
+      "drawAndMoveRoad": "당신이 이 탈것의 운전자라면: 조우 덱 맨 위 카드를 뽑습니다. 그런 다음, 이 탈것을 연결된 _도로_ 장소로 이동시킵니다. (라운드당 최대 한 번.)",
+      "stopCar": "당신이 이 탈것의 운전자라면: 차를 세웁니다. 이 탈것을 뒤집습니다.",
+      "drive": "당신이 이 탈것의 운전자라면: 조우 덱 맨 위 카드를 뽑습니다. 그런 다음, 이 탈것을 연결된 _도로_ 장소로 이동시킵니다. (라운드당 최대 한 번.)",
+      "stop": "당신이 이 탈것의 운전자라면: 차를 세웁니다. 이 탈것을 뒤집습니다."
+    },
+    "thomasDawsonsCarRunning": {
+      "drawAndMoveRoad": "당신이 이 탈것의 운전자라면: 조우 덱 맨 위 카드를 뽑습니다. 그런 다음, 이 탈것을 연결된 _도로_ 장소로 이동시킵니다. (라운드당 최대 한 번.)",
+      "stopCar": "당신이 이 탈것의 운전자라면: 차를 세웁니다. 이 탈것을 뒤집습니다.",
+      "drive": "당신이 이 탈것의 운전자라면: 조우 덱 맨 위 카드를 뽑습니다. 그런 다음, 이 탈것을 연결된 _도로_ 장소로 이동시킵니다. (라운드당 최대 한 번.)",
+      "stop": "당신이 이 탈것의 운전자라면: 차를 세웁니다. 이 탈것을 뒤집습니다."
     }
   }
 }

@@ -18,6 +18,7 @@ import { preferredLanguage } from '@/locales/language'
 import mitt from 'mitt';
 import { installChunkRecovery, reloadIfStaleChunk } from '@/chunkRecovery'
 import { hideAppLoading } from '@/appLoading'
+import { applyCardScale } from '@/arkham/cardScale'
 
 library.add(faCode, faFilter, faBan, faLocationDot, faCircleExclamation, faGhost, faSearch, faList, faImage, faAngleDown, faExpeditedssl, faUndo, faTrash, faEye, faCopy, faExternalLink, faRefresh, faBook, faChevronLeft, faChevronRight, faBars, faTimes, faShieldHeart, faWrench, faPaperclip, faArrowLeft, faArrowUp, faStore, faTriangleExclamation, faShuffle, faTrophy, faGear, faLayerGroup, faDownload, faUpload, faCheckDouble, faFlask, faBug, faPen, faThumbsUp, faHourglassHalf, faCircleXmark, faCircleCheck, faClipboardCheck, faChartSimple, faRectangleList, faCircleQuestion, faBullhorn, faBoxArchive, faUserGear, faPlus, faLink, faLinkSlash, faUsers, faLock, faUnlock)
 
@@ -103,6 +104,7 @@ async function bootstrap() {
     return Promise.reject(error)
   })
 
+  applyCardScale()
   app.mount('#app')
 }
 

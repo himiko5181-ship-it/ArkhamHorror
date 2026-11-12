@@ -1,3 +1,31 @@
+# 아컴 호러 카드게임 — 한국어판
+
+이 저장소는 [halogenandtoast/ArkhamHorror](https://github.com/halogenandtoast/ArkhamHorror)(arkhamhorror.app)를 포크해 **한국어 번역**을 더한 버전입니다.
+게임 엔진과 사이트는 원작자 halogenandtoast와 기여자들이 만든 것이며, 이 포크는 한국어 번역과 친구끼리 쓰기 위한 몇 가지 설정만 추가했습니다.
+
+### 추가된 것
+- 캠페인·단독 시나리오 이야기, 결말, 캠페인 기록, 화면 문구 한국어 번역
+- 한국어 타로 카드 이미지
+- 한국어 카드 이미지 표시 지원 (이미지 파일은 따로 설치)
+- 메뉴에서 정보·후원 탭 숨김 (원작자 후원은 원본 사이트에서 해 주세요: https://arkhamhorror.app )
+
+### 설치 (Docker Desktop 필요)
+Windows PowerShell:
+```powershell
+irm https://raw.githubusercontent.com/himiko5181-ship-it/ArkhamHorror/main/install-ko.ps1 | iex
+```
+macOS / Linux:
+```bash
+curl -fsSL https://raw.githubusercontent.com/himiko5181-ship-it/ArkhamHorror/main/install-ko.sh | bash
+```
+원본 서버 이미지를 받은 뒤 한국어 프런트엔드만 내 컴퓨터에서 빌드합니다. 같은 명령을 다시 실행하면 업데이트됩니다.
+설치 후 http://localhost:3000 에 접속해 설정에서 언어를 한국어로 바꾸세요.
+
+### 저작권
+원작 프로젝트의 저작권 고지가 그대로 적용됩니다(아래 *Copyright Disclaimer* 참고). 이 앱은 팬 프로젝트이며 Fantasy Flight Games와 관련이 없습니다. 카드 텍스트와 이미지의 권리는 Fantasy Flight Games와 각 작가에게 있습니다.
+
+---
+
 # Arkham Horror LCG
 
 ![Screenshot](./docs/img/screenshot.png)

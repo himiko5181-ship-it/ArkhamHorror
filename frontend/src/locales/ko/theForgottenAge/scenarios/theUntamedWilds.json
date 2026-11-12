@@ -33,7 +33,12 @@
     "gatherSets": "다음 조우 세트의 모든 카드를 모읍니다: *길들지 않은 야생*, *우림*, *뱀*, *탐사*, *시간의 수호자*, *이그의 권속*, *독*, *고대의 악*. 이 세트에는 다음 아이콘이 그려져 있습니다:<section class='encounter-sets'><img src='{setImgPath}/the-untamed-wilds.png' /><img src='{setImgPath}/rainforest.png' /><img src='{setImgPath}/serpents.png' /><img src='{setImgPath}/expedition.png' /><img src='{setImgPath}/guardians-of-time.png' /><img src='{setImgPath}/agents-of-yig.png' /><img src='{setImgPath}/poison.png' /><img src='{setImgPath}/ancient-evils.png' /></section>",
     "placeLocations": "‘탐사대 야영지’를 플레이 영역에 둡니다. 모든 조사자는 ‘탐사대 야영지’에서 시작합니다.",
     "explorationDeck": "다음과 같이 탐사 덱을 만듭니다. 단면 _밀림_ 장소 5장과 다음 음모 카드 사본을 1장씩 함께 섞어 한 더미로 만듭니다: ‘야생에서 길을 잃다’, ‘우거진 수풀’, ‘뱀에 물리다’, ‘물자 부족’, ‘나무 사이로 날아온 화살’.",
-    "setAside": "다음 카드들을 비플레이 상태로 치워 둡니다: 단면 _유적_ 장소 3장, *이그의 권속* 조우 세트, ‘중독’ 약점 4장, ‘알레한드로 벨라’ 자산, ‘이츠타카’ 적. *이그의 권속* 세트에는 다음 아이콘이 그려져 있습니다:<section class='encounter-sets'><img src='{setImgPath}/agents-of-yig.png' /></section>"
+    "setAside": "다음 카드들을 비플레이 상태로 치워 둡니다: 단면 _유적_ 장소 3장, *이그의 권속* 조우 세트, ‘중독’ 약점 4장, ‘알레한드로 벨라’ 자산, ‘이츠타카’ 적. *이그의 권속* 세트에는 다음 아이콘이 그려져 있습니다:<section class='encounter-sets'><img src='{setImgPath}/agents-of-yig.png' /></section>",
+    "returnTo": {
+      "gatherSets": "다음 조우 세트의 모든 카드도 모읍니다: *돌아온 우림*, *비운의 탐사대*. 이 세트들은 다음 아이콘으로 표시됩니다:<section class='encounter-sets'><img src='{setImgPath}/return-to-the-rainforest.png' /><img src='{setImgPath}/doomed-expedition.png' /></section>*비운의 탐사대*는 *탐사대*를 대체합니다. 대체된 세트는 게임에서 제거합니다.",
+      "explorationDeck": "탐사 덱을 만들 때, 다음 각 연결 기호가 있는 장소 2장 중 무작위로 고른 1장만 포함합니다: 보라색 달, 파란 삼각형, 빨간 사각형, 주황색 하트. 나머지 _정글_ 장소 4장은 보지 않고 게임에서 제거합니다. 원래 준비 지시에 나열된 다른 조우 카드는 포함하지 않습니다. (총 5장이어야 합니다.)",
+      "additionalRule": "이 시나리오 동안 다음 추가 규칙이 적용됩니다: 탐사대 야영지의 “탐험 물자 확인” 능력은 아무 장소에서나 사용할 수 있습니다. 그리고 _강제_ – 성공한 탐사가 끝난 후: 조우 덱의 맨 위 카드를 탐사 덱에 섞어 넣습니다."
+    }
   },
   "resolutions": {
     "noResolution": {

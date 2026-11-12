@@ -45,6 +45,34 @@ const setText = (card: Arkham.CardDef) => {
   return cardSetText(card, match?.pack_name)
 }
 
+// Name, class, type and traits are localized from the ArkhamDB card data too,
+// when the current language has it; otherwise the English CardDef is shown.
+const localCard = (card: Arkham.CardDef): ArkhamDBCard | null => {
+  const language = localStorage.getItem('language') || 'en'
+  if (language === 'en' || isCustomCardCode(card.art)) return null
+  return store.getDbCard(card.art)
+}
+
+const localName = (card: Arkham.CardDef) => {
+  const db = localCard(card)
+  if (!db?.name) return cardName(card)
+  return db.subname ? `${db.name}: ${db.subname}` : db.name
+}
+
+const localType = (card: Arkham.CardDef) => localCard(card)?.type_name || cardType(card)
+
+const localTraits = (card: Arkham.CardDef) => localCard(card)?.traits || cardTraits(card)
+
+const localClass = (card: Arkham.CardDef, sym: string) => {
+  const db = localCard(card) as (ArkhamDBCard & Record<string, string | undefined>) | null
+  if (!db) return sym
+  const key = sym.toLowerCase()
+  for (const n of ['', '2', '3']) {
+    if (db[`faction${n}_code`] === key && db[`faction${n}_name`]) return db[`faction${n}_name`] as string
+  }
+  return sym
+}
+
 const groupedCards = computed(() => props.selectable ? props.cards.map(card => ({ card, count: 1 })) : groupCards(props.cards))
 
 const attachedCards = (card: Arkham.CardDef) => props.attachments[card.art] ?? []
@@ -129,9 +157,9 @@ const attachmentHeading = (card: Arkham.CardDef) => {
                   >+</button>
                 </span>
                 <span v-if="showCounts" class="deck-card-count">x {{ shownCount(card, count) }}</span>
-                <button v-if="selectable" type="button" class="card-choice-name" :data-image="cardImage(card.cardCode)" @click.stop="emit('choose', index)">{{ cardName(card) }}{{ levelText(card) }}</button>
+                <button v-if="selectable" type="button" class="card-choice-name" :data-image="cardImage(card.cardCode)" @click.stop="emit('choose', index)">{{ localName(card) }}{{ levelText(card) }}</button>
                 <span v-else-if="isCustomCardCode(card.art)" class="card-name">{{ cardName(card) }}{{ levelText(card) }}</span>
-                <a v-else target="_blank" :href="`${localizeArkhamDBBaseUrl()}/card/${card.art}`">{{ cardName(card) }}{{ levelText(card) }}</a>
+                <a v-else target="_blank" :href="`${localizeArkhamDBBaseUrl()}/card/${card.art}`">{{ localName(card) }}{{ levelText(card) }}</a>
                 <span v-if="isUnderworldMarketCard(card)" class="market-badge" v-tooltip="marketTooltip(card)" :aria-label="marketTooltip(card)">
                   <font-awesome-icon icon="store" />
                   <span>x {{ marketCardCount(card) }}</span>
@@ -160,18 +188,18 @@ const attachmentHeading = (card: Arkham.CardDef) => {
             </td>
             <td>
               <span class="class-text">
-                <span v-for="(sym, i) in card.classSymbols" :key="sym" :class="`class-sym ${sym.toLowerCase()}-sym`">{{ sym }}{{ i < card.classSymbols.length - 1 ? ', ' : '' }}</span>
+                <span v-for="(sym, i) in card.classSymbols" :key="sym" :class="`class-sym ${sym.toLowerCase()}-sym`">{{ localClass(card, sym) }}{{ i < card.classSymbols.length - 1 ? ', ' : '' }}</span>
               </span>
               <span class="class-icons">
                 <span v-for="sym in card.classSymbols" :key="sym" :class="[`${sym.toLowerCase()}-icon`, `${sym.toLowerCase()}-sym`]"></span>
               </span>
             </td>
             <td>{{ cardCost(card) }}</td>
-            <td>{{ cardType(card) }}</td>
+            <td>{{ localType(card) }}</td>
             <td>
               <i v-for="(icon, index) in cardIcons(card)" :key="index" :class="[icon, `${icon}-icon`]"></i>
             </td>
-            <td class="traits-col">{{ cardTraits(card) }}</td>
+            <td class="traits-col">{{ localTraits(card) }}</td>
             <td class="set-col">{{ setText(card) }}</td>
           </tr>
           <tr v-if="attachedCards(card).length > 0" class="attachments-row">
